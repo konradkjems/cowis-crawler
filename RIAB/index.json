@@ -1,0 +1,21 @@
+{
+  "riab_articles_total": 53,
+  "categories": [
+    "RVE - RFA - POSFLOW etc.  Customer Help",
+    "How to use this portal and what to expect from Support",
+    "DdD Customer Help",
+    "MStore Customer FAQs",
+    "ViJi Track Documentation",
+    "INTERNAL Support Articles",
+    "Imagine Documentation"
+  ],
+  "category_counts": {
+    "RVE - RFA - POSFLOW etc.  Customer Help": 4,
+    "How to use this portal and what to expect from Support": 2,
+    "DdD Customer Help": 6,
+    "MStore Customer FAQs": 1,
+    "ViJi Track Documentation": 1,
+    "INTERNAL Support Articles": 28,
+    "Imagine Documentation": 11
+  }
+}

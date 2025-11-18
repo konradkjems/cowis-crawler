@@ -1,0 +1,17 @@
+[
+  {
+    "id": 103000310074,
+    "title": "Send Email with KMaster",
+    "text": "set up e-mail account parameters of connection to the e-mail server are configurated in this file. parameters of connection are entered into the e-mail settings part. already set parameters can be tested by use of the following button . fields description: mail server (smtp) mail server. ip address or server name. for example 192.168.1.1 or mail.xdomcz.cz. server port number mail server port number. my smtp server requires authentication here is determined, whether mail server requires authentication. please, use fileds user name and password for authentication. user name user name for authentication. password password for authentication. choose the job to send email send e-mail this function will send e-mail. parameters besides default parameters, for more see the „no function“ description, also the following parameters can be set. parameters description: from user address. this field is read noly. please, use edit message for editing. to list of recipients. this field is read noly. please, use edit message for editing. cc if you add a recipient's name to this box in a message, a copy of the message is sent to that recipient, and the recipient's name is visible to other recipients of the message. this field is read noly. please, use edit message for editing. bcc if you add a recipient's name to this box in a message, a copy of the message is sent to that recipient, and the recipient's name is not visible to other recipients of the message. this field is read noly. please, use edit message for editing. subject mail subject. this field is read noly. please, use edit message for editing. attachements list of attachements. this field is read noly. please, use edit message for editing. message message body. this field is read noly. please, use edit message for editing. edit message enables adit message. the function/environment variables (%xxx%) can be used. mail message editing window for mail message editing is opened when we click on edit message button. it is possible to enter the following parameters for mail message. parameters description: from user address. to list of recipients. cc if you add a recipient's name to this box in a message, a copy of the message is sent to that recipient, and the recipient's name is visible to other recipients of the message. bcc if you add a recipient's name to this box in a message, a copy of the message is sent to that recipient, and the recipient's name is not visible to other recipients of the message. subject mail subject. attachements list of attachements. new attachement is added. current attachement is deleted. enables to edit a current attachement. use file as message determines, whether a file will be used as mail message body. message file name file which will be used as mail message body. enables to edit message file. enables to find message file.",
+    "category": "RVE - RFA - POSFLOW etc.  Customer Help",
+    "folder": "RVE",
+    "created_at": "2024-08-30T08:33:00+01:00",
+    "updated_at": "2025-04-11T14:03:55+01:00",
+    "status": 2,
+    "tags": [
+      {
+        "name": "KMaster mail"
+      }
+    ]
+  }
+]

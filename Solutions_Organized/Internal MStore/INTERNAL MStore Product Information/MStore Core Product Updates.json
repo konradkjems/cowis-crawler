@@ -1,0 +1,40 @@
+[
+  {
+    "id": 103000315352,
+    "title": "Product Development SharePoint Site",
+    "text": "The MStore product development team store their core documents in the SharePoint library below. Freshdesk will contain new documentation and additional short articles to supplement this as the product is updated. MStore DevelopmentSoftware Management - Documentation Library",
+    "category": "INTERNAL MStore Product Information",
+    "folder": "MStore Core Product Updates",
+    "created_at": "2024-10-01T15:51:54+01:00",
+    "updated_at": "2024-10-01T16:07:05+01:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p dir=\"ltr\">The MStore product development team store their core documents in the SharePoint library below. Freshdesk will contain new documentation and additional short articles to supplement this as the product is updated.&nbsp;</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><a href=\"https://axk3btg.sharepoint.com/sites/MStoreDevelopmentSoftwareManagement/Shared%20Documents/Forms/AllItems.aspx?FolderCTID=0x0120002BD564B4A4049F45AC95F056011167A8&amp;id=%2Fsites%2FMStoreDevelopmentSoftwareManagement%2FShared%20Documents%2FDocumentation%20Library\" rel=\"noopener noreferrer\" target=\"_blank\">MStore DevelopmentSoftware Management - Documentation Library</a> </p>",
+    "user_id": 103023352668,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 2,
+    "seo_data": {},
+    "modified_at": "2024-10-01T15:51:54+01:00",
+    "modified_by": 103023352668
+  },
+  {
+    "id": 103000316830,
+    "title": "Website CSS",
+    "text": "Historically, when we have developed customer ticketing sites to be inline with their \"main\" site, we have hotlinked/referenced to their own CSS files, hosted on their own servers. This has previously brought benefits - in that they can control their stylesheets, which will downstream to our ticketing site be reflected to us with no change required by us, so it is simple and cost effective. However this is a double edged sword. Our site and some javascript depends on certain CSS classes and properties being certain ways. This means that customers can, inadvertently, break their ticketing site. This causes a huge amount of pain for all inolved. The end customer cannot book tickets which causes a revenue effect. The client/attraction questions us as to why we made changes without them asking (which we didn't) and it costs us time supporting/fixing things. Recently these issues have become more frequent to the point the drawbacks heavily outweigh the pros. As such the policy now is that we will host a copy of the CSS ourselves. This means that, if they want to make changes to the styling, they have to do so through a change request with us. We will not be proactively changing these as the cost to do so would be too significant, however if it meets the following criteria we will implement the change Website Reskin Mini website reskin where navigation and or simple styling changes are done. Normally for jobs 3 hours and above. Upgrading from version 1.0 to 1.5. We won’t be looking for any convoluted over engineered solution. We are simply going to take them, host them and use them in future. This is the only way to ensure that Customers will no longer be able to impact the quality and stability of our web offering and cause us reputational damage. Customer version of this article which you can refer any customer queries to is How does styling work for the Ticketing pages?",
+    "category": "INTERNAL MStore Product Information",
+    "folder": "MStore Core Product Updates",
+    "created_at": "2024-10-15T09:15:51+01:00",
+    "updated_at": "2024-10-22T17:54:13+01:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p dir=\"ltr\">Historically, when we have developed customer ticketing sites to be inline with their \"main\" site, we have hotlinked/referenced to their own CSS files, hosted on their own servers. This has previously brought benefits - in that they can control their stylesheets, which will downstream to our ticketing site be reflected to us with no change required by us, so it is simple and cost effective.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\">However this is a double edged sword. Our site and some javascript depends on certain CSS classes and properties being certain ways. This means that customers can, inadvertently, break their ticketing site.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\">This causes a huge amount of pain for all inolved. The end customer cannot book tickets which causes a revenue effect. The client/attraction questions us as to why we made changes without them asking (which we didn't) and it costs us time supporting/fixing things.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\">Recently these issues have become more frequent to the point the drawbacks heavily outweigh the pros. As such <strong>the policy now is that we will host a copy of the CSS ourselves</strong>.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\">This means that, if they want to make changes to the styling, they have to do so through a change request with us.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\">We will not be proactively changing these as the cost to do so would be too significant, however if it meets the following criteria we will implement the change</p><p dir=\"ltr\">&nbsp;</p><ol start=\"1\" type=\"1\"><li>Website Reskin</li><li>Mini website reskin where navigation and or simple styling changes are done. Normally for jobs 3 hours and above.</li><li>Upgrading from version 1.0 to 1.5.</li></ol><p>&nbsp;</p><p>We won’t be looking for any convoluted over engineered solution. We are simply going to take them, host them and use them in future.</p><p><br></p><p dir=\"ltr\">This is the only way to ensure that Customers will no longer be able to impact the quality and stability of our web offering and cause us reputational damage.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"></p><pre class=\"fd-callout fd-callout--idea\" dir=\"ltr\">Customer version of this article which you can refer any customer queries to is <a href=\"https://k3support.freshdesk.com/a/solutions/articles/103000318015?lang=en\" rel=\"noopener noreferrer\" target=\"_blank\">How does styling work for the Ticketing pages?</a>\n</pre><br><p></p>",
+    "user_id": 103099892397,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 1,
+    "seo_data": {},
+    "modified_at": "2024-10-22T17:54:13+01:00",
+    "modified_by": 103023352668
+  }
+]

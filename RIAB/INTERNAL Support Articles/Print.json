@@ -1,0 +1,24 @@
+[
+  {
+    "id": 103000130962,
+    "title": "Print – Order Transaction Report",
+    "text": "order transaction reports give access to sales lines (what was sold on the chosen date(s)) item purchase (what was bought on the chosen date(s)) this includes returns. item transfers (what was transfered to another shop on the chosen date(s)). old reports can be found in the following folders on the pc: riab – c:/pos/reports pos – c:/downloads/saclient/download order transaction report",
+    "category": "INTERNAL Support Articles",
+    "folder": "Print",
+    "created_at": "2023-06-14T13:39:20+01:00",
+    "updated_at": "2023-06-14T13:39:20+01:00",
+    "status": 2,
+    "tags": []
+  },
+  {
+    "id": 103000267630,
+    "title": "RIAB POS can not create Print outs",
+    "text": "if the customer wants to create print outs and they do not appear here: it might be related to the settings in back office: client info->miscellaneous->client is \"user report recipients\" if the box is ticked, print outs only can be created in the pos. if the box is not ticked, print outs only can be created in back office. !!!attention: this only applies to riab cash registers!!!",
+    "category": "INTERNAL Support Articles",
+    "folder": "Print",
+    "created_at": "2024-01-09T13:31:39+00:00",
+    "updated_at": "2024-05-23T10:05:14+01:00",
+    "status": 2,
+    "tags": []
+  }
+]

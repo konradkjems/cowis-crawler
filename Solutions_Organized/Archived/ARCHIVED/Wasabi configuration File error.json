@@ -1,0 +1,21 @@
+[
+  {
+    "id": 103000168414,
+    "title": "Wasabi User Configuration file Error",
+    "text": "Attached error message appers when Till not logging into Nav - The below instructions should be the first thing to try to get the till back into the Nav login status - Go to the following directory appearing in the error This will take you to the ClientUserSettings as above Rename the ClientUserSettings as below - Once the ClientUserSettings have been renamed, reboot the till and launch Nav this should create a new config file and start Nav",
+    "category": "ARCHIVED",
+    "folder": "Wasabi configuration File error",
+    "created_at": "2023-07-24T20:10:47+01:00",
+    "updated_at": "2023-07-24T20:11:09+01:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p><span dir=\"ltr\" style=\"color: rgb(25, 25, 25); font-family: &quot;Market Sans&quot;, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal;  text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">Attached error message appers when Till not logging into Nav -&nbsp;</span></p><p><br></p><p><span dir=\"ltr\" style=\"color: rgb(25, 25, 25); font-family: &quot;Market Sans&quot;, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal;  text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103038406162/original/tesORLg1YH-YbyidzlV92vy70pRgh3KcCw.png?1690218459\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103038406162\"></span></p><p dir=\"ltr\">The below instructions should be the first thing to try to get the till back into the Nav login status -&nbsp;</p><p dir=\"ltr\"><br></p><p dir=\"ltr\">Go to the following directory appearing in the error &nbsp;&nbsp;</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103038414250/original/Y-YBuvENoukmpH69KqkXNw4cYAX_Cl4hgA.png?1690224942\" style=\"width: 636px;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103038414250\"></p><p dir=\"ltr\">This will take you to the ClientUserSettings as above&nbsp;</p><p dir=\"ltr\"><br></p><p dir=\"ltr\">Rename the ClientUserSettings as below -&nbsp;</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103038415135/original/VSsfzpvy-R2qzssyp0Rpvp4NeUKFX73qog.png?1690225555\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103038415135\"></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">Once the ClientUserSettings have been renamed, reboot the till and launch Nav this should create a new config file and start Nav</p><p><br></p><p><br></p><p><br></p>",
+    "user_id": 103081814137,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2023-07-24T20:11:09+01:00",
+    "modified_by": 103081814137
+  }
+]

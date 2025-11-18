@@ -1,0 +1,14 @@
+{
+  "main_category": "Sigma",
+  "sub_category": "Sigma Customer Help",
+  "total_articles": 30,
+  "folders": {
+    "General Ledger": 8,
+    "Cash Book": 2,
+    "Sales Ledger": 2,
+    "Administration": 4,
+    "VAT System": 1,
+    "Sigma Documentation": 8,
+    "Purchase Ledger": 5
+  }
+}

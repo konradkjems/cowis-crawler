@@ -1,0 +1,78 @@
+[
+  {
+    "id": 103000344920,
+    "title": "Reporting the Cowiskasse to the tax office (preparation) TSE",
+    "text": "Please find out what legal form your company has and have this information ready. Here is a list of the available legal forms. We cannot help you here. We (you) also need your 13-digit tax number. You can calculate this using this link. Calculating a 13-digit tax number If you wish, you can enter both the legal form and the 13-digit tax number in the Cowis.Net back office master data. You can find out how and where to do this in this help article. Enter the legal form and the 13-digit tax number",
+    "category": "Cowis Customer Help",
+    "folder": "TSE  - Reporting the Cowiskasse to the tax office (preparation)",
+    "created_at": "2025-04-10T06:45:56+01:00",
+    "updated_at": "2025-04-10T07:47:26+01:00",
+    "status": 2,
+    "tags": [
+      {
+        "name": "TSE"
+      },
+      {
+        "name": "cowis.net"
+      },
+      {
+        "name": "backoffice"
+      },
+      {
+        "name": "Parameter"
+      },
+      {
+        "name": "Finanzamt"
+      },
+      {
+        "name": "Kasse melden"
+      },
+      {
+        "name": "Kasse beim Finanazamt melden"
+      }
+    ],
+    "description": "<p>Please find out what legal form your company has and have this information ready.</p><p><br></p><p dir=\"ltr\">Here is a list of the available legal forms.<br><br><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103205978453/original/Q22xTDdlnJyeg0W-EtDTvSuatroXlOH2ew.png?1744263473\" style=\"width: 706px; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103205978453\"></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103205978587/original/bpvKL0l5yoJuQ3iMwQr1YB_psMmn1jGtuA.png?1744263536\" style=\"width: 703px; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103205978587\"></p><p><br></p><p><br></p><p dir=\"ltr\">We cannot help you here.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p><br></p><p>We (you) also need your 13-digit tax number.</p><p dir=\"ltr\">You can calculate this using this link.</p><p dir=\"ltr\"><a href=\"https://ebilanzplus.de/13-stellige-elster-steuernummer\" rel=\"noreferrer\" target=\"_blank\">Calculating a 13-digit tax number</a></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p>If you wish, you can enter both the legal form and the 13-digit tax number in the Cowis.Net back office master data.</p><p dir=\"ltr\">You can find out how and where to do this in this help article.</p><p dir=\"ltr\"><a href=\"https://support.k3btg.com/en/support/solutions/articles/103000344925\" rel=\"noreferrer\" target=\"_blank\">Enter the legal form and the 13-digit tax number</a></p><p><br></p><p><br></p>",
+    "user_id": 103081814775,
+    "thumbs_up": 1,
+    "thumbs_down": 0,
+    "hits": 1,
+    "seo_data": {},
+    "modified_at": "2025-04-10T07:15:38+01:00",
+    "modified_by": 103081814775
+  },
+  {
+    "id": 103000344925,
+    "title": "Enter the legal form and the 13-digit tax number",
+    "text": "If you have installed the necessary update (at least version 6.4.60 [250303] dated April 8, 2025) of the Cowis.Net Back Office ERP system, you can prepare the registration of your cash registers with the tax office yourself. To do this, go to the Cash Register Closings section. Then go to Settings and select the lowest option: All You are now in the Cowis Settings Enter the letters \"tse\" (upper or lower case) in the search field. You will see two parameters. The relevant parameter is the one named \"KaTseFiskaly.\" Click on it once, and the parameter will be highlighted in blue. Now click on the three dots in the right-hand area of the window. The parameter set for the TSE settings will open. Now, in the Legal Form drop-down menu, select the appropriate legal form for your company (e.g., a civil law partnership). Next, enter your 13-digit tax number in the corresponding field. A tax number will already be included here; the format was unimportant at the time the TSE was set up, i.e. the format of the tax number that is now entered can vary and look like \"123/00125/4565\" or \"123 00125 4565\". Since the tax office report requires a specific format, you can calculate the existing tax number using the link displayed above the field. Clicking this link will open a page in your internet browser: tax number Select your federal state and enter your tax number, which is stored in Cowis. Then click \"Calculate.\" You will receive a 13-digit tax number, which you then enter in the Tax Number field in Cowis.Net. Then click OK to save it in the Cowis database. As always: IF YOU ARE UNSURE, ask support!!",
+    "category": "Cowis Customer Help",
+    "folder": "TSE  - Reporting the Cowiskasse to the tax office (preparation)",
+    "created_at": "2025-04-10T07:14:10+01:00",
+    "updated_at": "2025-04-10T07:38:19+01:00",
+    "status": 2,
+    "tags": [
+      {
+        "name": "TSE"
+      },
+      {
+        "name": "kasse"
+      },
+      {
+        "name": "Kasse anmelden"
+      },
+      {
+        "name": "Finanzamt"
+      },
+      {
+        "name": "Kasse beim Finanazamt melden"
+      }
+    ],
+    "description": "<p>If you have installed the necessary update (at least version 6.4.60 [250303] dated April 8, 2025) of the Cowis.Net Back Office ERP system, you can prepare the registration of your cash registers with the tax office yourself.</p><p><br></p><p dir=\"ltr\">To do this, go to the Cash Register Closings section.</p><p><br></p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103205980168/original/TrUciOxbvJXktS6hSW6JhxwPtsRa6d0e4A.png?1744264308\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103205980168\"></p><p><br></p><p><br></p><p dir=\"ltr\">Then go to Settings</p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103205980294/original/sAbRkrsKIi__hN-m8W-e8X4AqrNbPwyeZQ.png?1744264361\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103205980294\"></p><p><br></p><p><br></p><p><br></p><p dir=\"ltr\">and select the lowest option: All</p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103205980421/original/bqXnr4RddWqrsDXCcU3UoSxOxkU_A34dmQ.png?1744264404\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103205980421\"></p><p><br></p><p dir=\"ltr\">You are now in the Cowis Settings</p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103205980586/original/FHfAu7ZoeCqXkH3tyD_2ImbSP-qSE7rgHQ.png?1744264459\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103205980586\"></p><p><br></p><p><br></p><p dir=\"ltr\">Enter the letters \"tse\" (upper or lower case) in the search field.</p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103205980741/original/4OxM2o5ZV1HS1Nto6w9gIeH2w9698vu7kA.png?1744264529\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103205980741\"></p><p><br></p><p><br></p><p dir=\"ltr\">You will see two parameters. The relevant parameter is the one named \"KaTseFiskaly.\"</p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103205980909/original/9X7zzXWhYN6GPMjRGjPtwm2vL6dAzaRtAA.png?1744264601\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103205980909\"></p><p><br></p><p><br></p><p dir=\"ltr\">Click on it once, and the parameter will be highlighted in blue.</p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103205981192/original/e3uvbCthgdTC-5IQRamtNiXEqDqanJW3Uw.png?1744264676\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103205981192\"></p><p><br></p><p><br></p><p dir=\"ltr\">Now click on the three dots in the right-hand area of the window.</p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103205981383/original/6S8uScueRYMT7pfJSpL8q5y1vne8_v3i5A.png?1744264744\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103205981383\"></p><p><br></p><p><br></p><p><br></p><p dir=\"ltr\">The parameter set for the TSE settings will open.</p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103205981517/original/YtoPUKVk9es6r-SFxUoXbt51Rb0jN4PUeA.png?1744264798\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103205981517\"></p><p><br></p><p><br></p><p dir=\"ltr\">Now, in the Legal Form drop-down menu, select the appropriate legal form for your company (e.g., a civil law partnership).</p><p><br></p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103205981923/original/gl1heYFmKqjPOCwW0GoT7agRN-ncs-NNCw.png?1744264935\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103205981923\"></p><p><br></p><p><br></p><p>Next, enter your 13-digit tax number in the corresponding field.</p><p dir=\"ltr\">A tax number will already be included here; the format was unimportant at the time the TSE was set up, i.e. the format of the tax number that is now entered can vary and look like \"123/00125/4565\" or \"123 00125 4565\".</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">Since the tax office report requires a specific format, you can calculate the existing tax number using the link displayed above the field.</p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103205982935/original/SU9qMVa06cQ4ArBLDdHyPDCO0KimFU_qLw.png?1744265187\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103205982935\"></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">Clicking this link will open a page in your internet browser:<br><a href=\"https://ebilanzplus.de/13-stellige-elster-steuernummer\" rel=\"noreferrer\" target=\"_blank\">tax number</a></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103205983426/original/HguYQHbnF01x4cphWyFeczNvpF6SJIyWYw.png?1744265290\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103205983426\"></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">Select your federal state and enter your tax number, which is stored in Cowis.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103205983601/original/yrofWcfRUnP_B8-Pvfnrdp-gukrRnRc7AQ.png?1744265329\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103205983601\"></p><p dir=\"ltr\">Then click \"Calculate.\"</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">You will receive a 13-digit tax number, which you then enter in the Tax Number field in Cowis.Net.</p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103205984379/original/6sWpw43i42xUmYfERn_1YWubuDoURjlmZQ.png?1744265525\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103205984379\"></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">Then click OK to save it in the Cowis database.</p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103205984618/original/ZFfRie0IJvo41mn6sfDLUNd8YmT5Lfgxpg.png?1744265579\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103205984618\"></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p>As always:</p><p>IF YOU ARE UNSURE, ask support!!</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p>",
+    "user_id": 103081814775,
+    "thumbs_up": 1,
+    "thumbs_down": 0,
+    "hits": 3,
+    "seo_data": {},
+    "modified_at": "2025-04-10T07:14:10+01:00",
+    "modified_by": 103081814775
+  }
+]

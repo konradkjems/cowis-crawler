@@ -1,0 +1,40 @@
+[
+  {
+    "id": 103000156733,
+    "title": "DdD Help Language",
+    "text": "The DdD help is in English which is a common first or second language for our multi-country customer base.",
+    "category": "DdD Customer Help",
+    "folder": "Introduction",
+    "created_at": "2023-07-10T11:54:47+01:00",
+    "updated_at": "2023-08-09T16:13:19+01:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p dir=\"ltr\" style=\"box-sizing: border-box; margin: 0px; font-size: 13px; line-height: 18px; word-break: normal; overflow-wrap: break-word; color: rgb(0, 0, 0); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal;  text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\">The DdD help is in English which is a common first or second language for our multi-country customer base.</p><p dir=\"ltr\" style=\"box-sizing: border-box; margin: 0px; font-size: 13px; line-height: 18px; word-break: normal; overflow-wrap: break-word; color: rgb(0, 0, 0); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal;  text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103035304734/original/tRyuMHflEnvi3FWVTU-9d9m6W_hE-ZSyXg.png?1688986437\" class=\"fr-fic fr-fil fr-dib\" style=\"box-sizing: border-box; border: 0px; vertical-align: top; max-width: 100%; position: relative; cursor: pointer; padding: 0px 1px; margin: 5px auto 5px 0px; display: block; float: none; text-align: left; width: auto;\" data-attachment=\"[object Object]\" data-id=\"103035304734\"></p>",
+    "user_id": 103023352668,
+    "thumbs_up": 1,
+    "thumbs_down": 0,
+    "hits": 4,
+    "seo_data": {},
+    "modified_at": "2023-07-10T12:31:48+01:00",
+    "modified_by": 103023352668
+  },
+  {
+    "id": 103000156760,
+    "title": "Welcome to the K3 DdD Customer Help",
+    "text": "The Help articles are written by the Support team and are here to help you, so please browse or search the articles (from the home page or the box highlighted below, and send us feedback if you think something could be improved or added (or if you like something!)",
+    "category": "DdD Customer Help",
+    "folder": "Introduction",
+    "created_at": "2023-07-10T12:31:21+01:00",
+    "updated_at": "2023-07-10T12:41:24+01:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p data-identifyelement=\"514\" dir=\"ltr\">The Help articles are written by the Support team and are here to help you, so please <a data-identifyelement=\"515\" href=\"https://k3support.freshdesk.com/en/support/solutions\">browse</a> or search the articles (from the <a data-identifyelement=\"516\" href=\"https://k3support.freshdesk.com/en/support/home\">home page</a> or the box highlighted below, and send us feedback if you think something could be improved or added (or if you like something!)</p><p data-identifyelement=\"517\" dir=\"ltr\" style=\"text-align: center;\"><br data-identifyelement=\"518\"></p><p data-identifyelement=\"519\" dir=\"ltr\" style=\"text-align: center;\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103035301654/original/g6qr7owV-uC4H46hJwg8q6UxOl3fQ_sm0A.png?1688985903\" style=\"width: 691px;\" class=\"fr-fic fr-fil fr-dib\" data-id=\"103035301654\" data-identifyelement=\"520\"></p><p data-identifyelement=\"521\" dir=\"ltr\" style=\"text-align: center;\"><br data-identifyelement=\"522\"></p><p data-identifyelement=\"523\" dir=\"ltr\" style=\"text-align: center;\"><br data-identifyelement=\"524\"></p>",
+    "user_id": 103023352668,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 3,
+    "seo_data": {},
+    "modified_at": "2023-08-14T14:08:10+01:00",
+    "modified_by": 103093471382
+  }
+]

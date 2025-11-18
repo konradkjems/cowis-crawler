@@ -1,0 +1,40 @@
+[
+  {
+    "id": 103000264375,
+    "title": "Cash Book Imbalance",
+    "text": "Problem Solution",
+    "category": "Sigma Customer Help",
+    "folder": "Cash Book",
+    "created_at": "2023-12-27T10:34:20+00:00",
+    "updated_at": "2023-12-27T10:34:20+00:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p></p><p dir=\"ltr\"><strong>Problem</strong></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103075627155/original/WnkDTVL-NpNW5tU4yyz9xbCMZlRV_p3h5g.png?1703673015\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103075627155\"></p><p><br></p><p dir=\"ltr\"><strong>Solution</strong></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103075627224/original/evyVh5rVyGVADwyWBmaBTe9gQRvrBst-9A.png?1703673035\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103075627224\"></p>",
+    "user_id": 103093502676,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 1,
+    "seo_data": {},
+    "modified_at": "2023-12-27T10:34:20+00:00",
+    "modified_by": 103093502676
+  },
+  {
+    "id": 103000264382,
+    "title": "Cash Book Awaiting unlocked record",
+    "text": "All users need to exit the Cash Book. Run Cash Book>Support>Reset Cash Book.",
+    "category": "Sigma Customer Help",
+    "folder": "Cash Book",
+    "created_at": "2023-12-27T10:48:40+00:00",
+    "updated_at": "2023-12-27T10:48:50+00:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103075629336/original/_YMpOaHTcffF2uIDqGdoeAyJ16DAi3UxoQ.png?1703673435\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103075629336\"></p><p><br></p><p dir=\"ltr\">All users need to exit the Cash Book.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\">Run Cash Book&gt;Support&gt;Reset Cash Book.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103075633051/original/psDmuNP4aWE2tgSO1urdX9OxKK_AZHsZxg.png?1703674108\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103075633051\"></p>",
+    "user_id": 103093502676,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 1,
+    "seo_data": {},
+    "modified_at": "2023-12-27T10:48:50+00:00",
+    "modified_by": 103093502676
+  }
+]

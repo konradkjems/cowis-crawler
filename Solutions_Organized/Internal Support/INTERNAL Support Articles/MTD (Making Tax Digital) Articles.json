@@ -1,0 +1,40 @@
+[
+  {
+    "id": 103000135055,
+    "title": "MTD - MTD Event Log",
+    "text": "MTD Event Log 20 July 2022 15:14 The MTD error/event logs can be found in the Tenant Database in the table [mtd].[EventLogs]",
+    "category": "INTERNAL Support Articles",
+    "folder": "MTD (Making Tax Digital) Articles",
+    "created_at": "2023-06-21T14:29:59+01:00",
+    "updated_at": "2023-06-22T09:48:43+01:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p>MTD Event Log</p><p>20 July 2022</p><p>15:14</p><p>&nbsp;</p><p>The MTD error/event logs can be found in the Tenant Database in the table [mtd].[EventLogs]</p>",
+    "user_id": 103082582022,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2023-06-22T09:48:43+01:00",
+    "modified_by": 103082582022
+  },
+  {
+    "id": 103000135056,
+    "title": "MTD - No Data For Selected Dates",
+    "text": "No Data For Selected Dates 20 July 2022 14:38 There seems to be an issue in MTD where submission dates appear to attempt to submit for 1 year in the future. In the below example a user has tried to complete a submission for 1st April 2022 – 30th June 2022: The dates were correct when creating the submission however when they went to fetch the data for this submission period the dates were set a year in advance: This was remedied by attempting the submission in a different browser. You could also try clearing the cache or attempting the submission in incognito/private mode. N.B. clearing the cache should be done at the users discretion as this can clear useful information such as memorised logins, history, cookie preferences etc.",
+    "category": "INTERNAL Support Articles",
+    "folder": "MTD (Making Tax Digital) Articles",
+    "created_at": "2023-06-21T14:30:44+01:00",
+    "updated_at": "2023-06-22T09:48:49+01:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p>No Data For Selected Dates</p><p>20 July 2022</p><p>14:38</p><p>&nbsp;</p><p>There seems to be an issue in MTD where submission dates appear to attempt to submit for 1 year in the future.</p><p>&nbsp;</p><p>In the below example a user has tried to complete a submission for 1<sup>st</sup> April 2022 – 30<sup>th</sup> June 2022:</p><p>&nbsp;</p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103031453036/original/l_tsLVRPqOR-1Li7NuMI7Wi-OTpPQ2Q-kA.png?1687354236\" alt=\"Create new submission? \nWould you like to start a new submission for the following date range? \nOl-Apr-2022 - 30-Jun-2022 \nConfirm \nCancel \" class=\"fr-fic fr-dii\" data-attachment=\"[object Object]\" data-id=\"103031453036\" width=\"480\"></p><p>&nbsp;</p><p>The dates were correct when creating the submission however when they went to fetch the data for this submission period the dates were set a year in advance:</p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103031453037/original/SK9Qr3T9Je8LmFkR70jmsg0DzpIQnbJX5Q.png?1687354236\" alt=\"VAT Calculation \nThere is no data available within selected date range 2023-04-01 \nBACK \nVIEW TRANSACTIONS \nSUBMIT \n- 2023-06-30 \" class=\"fr-fic fr-dii\" data-attachment=\"[object Object]\" data-id=\"103031453037\" width=\"1102\"></p><p>&nbsp;</p><p>This was remedied by attempting the submission in a different browser. You could also try clearing the cache or attempting the submission in incognito/private mode.</p><p>&nbsp;</p><p><strong>N.B.&nbsp;</strong>clearing the cache should be done at the users discretion as this can clear useful information such as memorised logins, history, cookie preferences etc.</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>",
+    "user_id": 103082582022,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2023-06-22T09:48:48+01:00",
+    "modified_by": 103082582022
+  }
+]

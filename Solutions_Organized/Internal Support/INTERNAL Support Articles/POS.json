@@ -1,0 +1,247 @@
+[
+  {
+    "id": 103000286564,
+    "title": "Change to Swiss valuta on POS",
+    "text": "Set Region in Windows to Switzerland and currency to swiss frank. dbo.currency ValutaID 4 Name CHF ExchangeRate 1 Created NULL Modified NULL SmallestUnit 5 CODE CHF Visible False dbo.Store ISOCODE CHF",
+    "category": "INTERNAL Support Articles",
+    "folder": "POS",
+    "created_at": "2024-04-10T11:52:25+01:00",
+    "updated_at": "2024-06-19T13:41:47+01:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p dir=\"ltr\">Set Region in Windows to Switzerland and currency to swiss frank.&nbsp;</p><p><br></p><p><br></p><p>dbo.currency</p><p><br></p><p>ValutaID<span dir=\"ltr\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>4</p><p>Name<span dir=\"ltr\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>CHF</p><p>ExchangeRate<span>&nbsp; &nbsp;&nbsp;</span>1</p><p>Created<span dir=\"ltr\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>NULL</p><p>Modified<span dir=\"ltr\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>NULL</p><p>SmallestUnit<span dir=\"ltr\">&nbsp; &nbsp; &nbsp;&nbsp;</span>5</p><p>CODE<span dir=\"ltr\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>CHF</p><p>Visible<span dir=\"ltr\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>False</p><p><br></p><p>dbo.Store<span>&nbsp; &nbsp;&nbsp;</span></p><p dir=\"ltr\">ISOCODE<span dir=\"ltr\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>CHF</p>",
+    "user_id": 103081815037,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2024-06-19T13:41:47+01:00",
+    "modified_by": 103081815037
+  },
+  {
+    "id": 103000294005,
+    "title": "DDDadmin Log",
+    "text": "In DdDAdmin, you have access to several useful tools. These tools are described in this document. http://log.dddadmin.com/ In all logs, you can sort the column by clicking on the header (ascending or descending). You can also make a search by entering information in the search field and click on “Search”. There are 6 different logs you can access: Article update: This will show you, when the POS last time received article information from the backoffice. The POS must run Article service to be logged (see http://wiki.dddretail.com/Support.Setup-DdD-POS-to-use-ArticleService.ashx ). DdDPOs: Not in use Delivery notes: This will show the details of all delivery notes that have been updated in the backoffice for the last month. Price changes: Not in use Sales/Orders: This will show all transactions from the POS for the last month. Transaction types description can be found here: Helpdesk : K3 Support (freshdesk.com) Sale saves error: This will show all sale transactions that has not bee saved in the database and the error message.",
+    "category": "INTERNAL Support Articles",
+    "folder": "POS",
+    "created_at": "2024-05-28T12:33:08+01:00",
+    "updated_at": "2024-05-28T12:33:08+01:00",
+    "status": 2,
+    "tags": [
+      {
+        "name": "dddadmin"
+      },
+      {
+        "name": "DdDPOS"
+      },
+      {
+        "name": "log"
+      }
+    ],
+    "description": "<p dir=\"ltr\">In DdDAdmin, you have access to several useful tools. These tools are described in this document.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><a href=\"http://log.dddadmin.com/\">http://log.dddadmin.com/</a>&nbsp;</p><p dir=\"ltr\"><br></p><p dir=\"ltr\">In all logs, you can sort the column by clicking on the header (ascending or descending). You can also make a search by entering information in the search field and click on “Search”.&nbsp;</p><p dir=\"ltr\"><br></p><p dir=\"ltr\">&nbsp;There are 6 different logs you can access:&nbsp;</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><strong>Article update:</strong></p><p dir=\"ltr\"><strong dir=\"ltr\">&nbsp;</strong></p><p dir=\"ltr\">This will show you, when the POS last time received article information from the backoffice.&nbsp;</p><p dir=\"ltr\">The POS must run Article service to be logged (see <a href=\"http://wiki.dddretail.com/Support.Setup-DdD-POS-to-use-ArticleService.ashx\">http://wiki.dddretail.com/Support.Setup-DdD-POS-to-use-ArticleService.ashx</a> ).</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><strong>DdDPOs:&nbsp;</strong></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">Not in use&nbsp;</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><strong>Delivery notes:&nbsp;</strong></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">This will show the details of all delivery notes that have been updated in the backoffice for the last month.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><strong>Price changes:</strong></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><strong dir=\"ltr\">&nbsp;</strong>Not in use</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><strong>Sales/Orders:</strong></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"> This will show all transactions from the POS for the last month.</p><p dir=\"ltr\">Transaction types description can be found here:<br><a href=\"https://k3support.freshdesk.com/a/solutions/articles/103000293976?lang=en\">Helpdesk : K3 Support (freshdesk.com)</a>&nbsp;</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><strong>Sale saves error:&nbsp;</strong></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">This will show all sale transactions that has not bee saved in the database and the error message.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p>",
+    "user_id": 103089414264,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {
+      "meta_title": "DDDadmin Log",
+      "meta_description": "DDDadmin Log"
+    },
+    "modified_at": "2024-05-28T12:33:08+01:00",
+    "modified_by": 103089414264
+  },
+  {
+    "id": 103000301980,
+    "title": "DdD New POS-Guide on cables connection Interface.",
+    "text": "There are 30 POS in stock for Brøndby office that needs to delivered to the customer while they purchase new POS. The connection setup is different from the current POS and how to connect the cables to POS are highlighted in the below screenshot. Moreover,on old POS, the receipt printer is configured on COM 3 port but please note that these POS´es dont have COM3 port and must be attached to COM1 port. The script needs to be changed from COM3 to COM1 port. 1-COM1 Receipt printer 2-Internet cable-Ethernet 3-Customer Screen Cable 4-COM2 Label printer 5-Card terminal via usb 6-Power Cable An extra picture is also shared which shows the basic interface for power supply,receipt printer and internet cable being connected to the POS.",
+    "category": "INTERNAL Support Articles",
+    "folder": "POS",
+    "created_at": "2024-07-11T10:15:26+01:00",
+    "updated_at": "2024-09-03T13:16:57+01:00",
+    "status": 2,
+    "tags": [
+      {
+        "name": "POS"
+      },
+      {
+        "name": "assemble"
+      },
+      {
+        "name": "new pos"
+      },
+      {
+        "name": "connection"
+      }
+    ],
+    "description": "<p dir=\"ltr\">There are 30 POS in stock for Brøndby office that needs to delivered to the customer while they purchase new POS.<br>The connection setup is different from the current POS and how to connect the cables to POS are highlighted in the below screenshot.<br><br>Moreover,on old POS, the receipt printer is configured on COM 3 port but please note that these POS´es dont have COM3 port and must be attached to COM1 port.<br><br>The script needs to be changed from COM3 to COM1 port.<br><br>1-COM1 Receipt printer<br>2-Internet cable-Ethernet<br>3-Customer Screen Cable</p><p dir=\"ltr\">4-<span style=\"color: rgb(0, 0, 0); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal;  text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">COM2 Label printer</span>&nbsp;</p><p dir=\"ltr\">5-Card terminal via usb</p><p dir=\"ltr\">6-Power Cable<br><br><br><br><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103132906382/original/ZVIwEXyAgH4VbdHTolgceMUdJ2LQw03d-w.png?1721898723\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-id=\"103132906382\"></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">An extra picture is also shared which shows the basic interface for power supply,receipt printer and internet cable being connected to the POS.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103143287675/original/BoyOLWNWq3Q4aFb8_YjZWNigvi_VjCWzLg.png?1725365331\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-id=\"103143287675\"></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br><br></p><p dir=\"ltr\"><br></p>",
+    "user_id": 103081812637,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 9,
+    "seo_data": {},
+    "modified_at": "2024-09-03T13:09:26+01:00",
+    "modified_by": 103081812637
+  },
+  {
+    "id": 103000308172,
+    "title": "Gift certificats / credit notes redeemed in wrong shop",
+    "text": "If a customer calls and says that another shop has been able to redeem their gift certificates / credit notes, this is most likely because CheckClientIDonGiftCertificats is set to 0. On the POS, open the Adv. Configration and change it to 1 with both customers to prevent this issue from happening again. Adv. Configuration explanations",
+    "category": "INTERNAL Support Articles",
+    "folder": "POS",
+    "created_at": "2024-08-15T12:05:35+01:00",
+    "updated_at": "2024-08-15T12:15:43+01:00",
+    "status": 2,
+    "tags": [
+      {
+        "name": "gift card"
+      },
+      {
+        "name": "Voucher"
+      },
+      {
+        "name": "Credit note"
+      },
+      {
+        "name": "redeem"
+      },
+      {
+        "name": "ddd pos"
+      },
+      {
+        "name": "DdDPOS"
+      },
+      {
+        "name": "dddadmin"
+      }
+    ],
+    "description": "<p dir=\"ltr\">If a customer calls and says that another shop has been able to redeem their gift certificates / credit notes, this is most likely because CheckClientIDonGiftCertificats is set to 0.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103138376598/original/H7bwCullHUW0bHie2Xb9LuvuPl3psGGW2Q.png?1723719177\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103138376598\"></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">On the POS, open the Adv. Configration and change it to 1 with both customers to prevent this issue from happening again.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><a href=\"https://support.k3btg.com/en/support/solutions/articles/103000293625\">Adv. Configuration explanations</a></p>",
+    "user_id": 103081813278,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2024-08-15T12:13:47+01:00",
+    "modified_by": 103081813278
+  },
+  {
+    "id": 103000308480,
+    "title": "Deactivate button in Extra Information?",
+    "text": "If a customer asks if it is possible to deactivate a button under Extra Information on the POS, then the answer is no. This is not possible.",
+    "category": "INTERNAL Support Articles",
+    "folder": "POS",
+    "created_at": "2024-08-19T13:05:23+01:00",
+    "updated_at": "2024-08-19T13:06:17+01:00",
+    "status": 2,
+    "tags": [
+      {
+        "name": "Sales assistant"
+      },
+      {
+        "name": "extra information"
+      },
+      {
+        "name": "deactivate"
+      },
+      {
+        "name": "delete"
+      },
+      {
+        "name": "turn off"
+      },
+      {
+        "name": "button"
+      }
+    ],
+    "description": "<p dir=\"ltr\">If a customer asks if it is possible to deactivate a button under Extra Information on the POS, then the answer is no. This is not possible.&nbsp;</p>",
+    "user_id": 103081813278,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2024-08-19T13:06:17+01:00",
+    "modified_by": 103081813278
+  },
+  {
+    "id": 103000310357,
+    "title": "INTERNET OFFLINE",
+    "text": "When it says INTERNET OFFLINE on the POS It is most likely that the PING URL in DdDAdmin - Configuration is wrong, the right PING URL is www.dddadmin.com",
+    "category": "INTERNAL Support Articles",
+    "folder": "POS",
+    "created_at": "2024-09-02T07:45:58+01:00",
+    "updated_at": "2024-09-02T07:45:58+01:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p dir=\"ltr\">When it says INTERNET OFFLINE on the POS&nbsp;</p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103142684978/original/7GUPMEvO-8PAyWNYiYHhk90cBlQ-b3zHqw.png?1725259461\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103142684978\"></p><p><br></p><p dir=\"ltr\">It is most likely that the PING URL in DdDAdmin - Configuration is wrong, the right PING URL is <a href=\"//www.dddadmin.com\">www.dddadmin.com</a>&nbsp;</p>",
+    "user_id": 103081815037,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2024-09-02T07:45:58+01:00",
+    "modified_by": 103081815037
+  },
+  {
+    "id": 103000329284,
+    "title": "Cost price - displayed on POS",
+    "text": "If a customer chooses to display the cost price of items in the POS, they should be aware that the displayed price is calculated as the average cost price. This is the total value of the items in stock divided by the total quantity in stock. In other words: The displayed cost price will typically not match the current cost price of newly added items if items with a different cost price have been added to the stock. Example The customer has 4 pairs of trousers in stock with a cost price of 123.00 each and a sales price of 300.00 each. The total cost price value of these items is 492.00. Divided by 4, this results in an average cost price of 123.00 per item. The customer then adds 2 more pairs of trousers to the stock with a cost price of 61.50 each and the same sales price. The total stock value is now: Previous value: 492.00 New items: 2 x 61.50 = 123.00 Total value: 492.00 + 123.00 = 615.00 The total quantity in stock is now 6 items, and the average cost price is 615,00 / 6 = 102.50 This is the cost price displayed on the screen.",
+    "category": "INTERNAL Support Articles",
+    "folder": "POS",
+    "created_at": "2025-01-15T15:51:22+00:00",
+    "updated_at": "2025-01-15T16:20:53+00:00",
+    "status": 2,
+    "tags": [
+      {
+        "name": "Costprice"
+      },
+      {
+        "name": "DdDPOS"
+      }
+    ],
+    "description": "<p>If a customer chooses to display the cost price of items in the POS, they should be aware that the displayed price is calculated as the average cost price. This is the total value of the items in stock divided by the total quantity in stock.<br><br></p><p>In other words: The displayed cost price will typically not match the current cost price of newly added items if items with a different cost price have been added to the stock.<br><br></p><h3>Example</h3><ul><li><p dir=\"ltr\">The customer has 4 pairs of trousers in stock with a cost price of 123.00 each and a sales price of 300.00 each. The total cost price value of these items is 492.00. Divided by 4, this results in an average cost price of 123.00 per item.<br><br></p></li><li><p>The customer then adds 2 more pairs of trousers to the stock with a cost price of 61.50 each and the same sales price. The total stock value is now:</p><ul><li>Previous value: 492.00</li><li>New items: <span class=\"katex\"><span class=\"katex-mathml\" dir=\"ltr\">2 x 61.50 = 123.00</span></span></li><li>Total value: <span class=\"katex\"><span class=\"katex-mathml\" dir=\"ltr\">492.00 + 123.00 = 615.00</span></span></li></ul></li><li><p dir=\"ltr\">The total quantity in stock is now 6 items, and the average cost price is 615,00 / 6 = <span class=\"katex\"><span class=\"katex-html\"><span class=\"base\"><span class=\"mord\" dir=\"ltr\">102.50</span></span></span></span></p></li></ul><p><br></p><p dir=\"ltr\"><span class=\"katex\"><span class=\"katex-html\"><span class=\"base\"><span class=\"mord\" dir=\"ltr\">This is the cost price displayed on the screen. <br></span></span></span></span></p><p><br></p>",
+    "user_id": 103081813278,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2025-01-15T16:20:52+00:00",
+    "modified_by": 103081813278
+  },
+  {
+    "id": 103000341880,
+    "title": "Debtors – File Layout",
+    "text": "The file name is optional but must consist of a file name of up to 30 characters and a 3-character extension. The file name must remain the same for each transfer. Fields are separated by commas. Please note that only text fields should be enclosed in quotation marks (\"text\"), while numeric fields must not be enclosed in quotation marks. File Structure: FieldType & LengthDescription Account Number Numeric (10) Customer’s account number (without quotation marks) Name Alpha (30) Customer’s name (enclosed in quotation marks) Att. Alpha (30) Attention of (enclosed in quotation marks) Address 1 Alpha (30) Customer’s address 1 (enclosed in quotation marks) Address 2 Alpha (30) Customer’s address 2 (enclosed in quotation marks) Postal Code/City Alpha (30) Postal code and city (enclosed in quotation marks) Credit Limit Numeric (N7.2) Credit limit. Decimal separator: period (without quotation marks) Balance Numeric Customer’s balance. Decimal separator: period (without quotation marks). See section on balance Balance: Positive balance = \"debit entry\" – The customer owes money to the store. Negative balance = \"credit entry\" – The customer has a credit balance with the store.",
+    "category": "INTERNAL Support Articles",
+    "folder": "POS",
+    "created_at": "2025-03-26T14:31:15+00:00",
+    "updated_at": "2025-03-26T14:33:50+00:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p data-end=\"27\" data-start=\"0\"><br></p><p data-end=\"148\" data-start=\"29\">The file name is optional but must consist of a file name of up to <strong data-end=\"113\" data-start=\"96\">30 characters</strong> and a <strong data-end=\"145\" data-start=\"120\">3-character extension</strong>.</p><p data-end=\"205\" data-start=\"150\">The file name must remain the same for each transfer.</p><p data-end=\"404\" data-start=\"207\">Fields are separated by <strong data-end=\"241\" data-start=\"231\">commas</strong>. Please note that only <strong data-end=\"280\" data-start=\"265\">text fields</strong> should be enclosed in quotation marks (<strong data-end=\"330\" data-start=\"320\">\"text\"</strong>), while <strong data-end=\"357\" data-start=\"339\">numeric fields</strong> must <strong data-end=\"370\" data-start=\"363\">not</strong> be enclosed in quotation marks.</p><h3 data-end=\"431\" data-start=\"406\"><strong data-end=\"429\" data-start=\"410\">File Structure:</strong></h3><div class=\"overflow-x-auto contain-inline-size\"><table data-end=\"1392\" data-start=\"433\"><thead data-end=\"498\" data-start=\"433\"><tr data-end=\"498\" data-start=\"433\"><th data-end=\"457\" data-start=\"433\"><strong data-end=\"444\" data-start=\"435\">Field</strong></th><th data-end=\"477\" data-start=\"457\"><strong data-end=\"476\" data-start=\"459\">Type &amp; Length</strong></th><th data-end=\"498\" data-start=\"477\"><strong data-end=\"494\" data-start=\"479\">Description</strong></th></tr></thead><tbody data-end=\"1392\" data-start=\"561\"><tr data-end=\"659\" data-start=\"561\"><td><strong data-end=\"581\" data-start=\"563\">Account Number</strong></td><td>Numeric (10)</td><td>Customer’s account number (without quotation marks)</td></tr><tr data-end=\"752\" data-start=\"660\"><td><strong data-end=\"670\" data-start=\"662\">Name</strong></td><td>Alpha (30)</td><td>Customer’s name (enclosed in quotation marks)</td></tr><tr data-end=\"842\" data-start=\"753\"><td><strong data-end=\"763\" data-start=\"755\">Att.</strong></td><td>Alpha (30)</td><td>Attention of (enclosed in quotation marks)</td></tr><tr data-end=\"940\" data-start=\"843\"><td><strong data-end=\"858\" data-start=\"845\">Address 1</strong></td><td>Alpha (30)</td><td>Customer’s address 1 (enclosed in quotation marks)</td></tr><tr data-end=\"1038\" data-start=\"941\"><td><strong data-end=\"956\" data-start=\"943\">Address 2</strong></td><td>Alpha (30)</td><td>Customer’s address 2 (enclosed in quotation marks)</td></tr><tr data-end=\"1136\" data-start=\"1039\"><td><strong data-end=\"1061\" data-start=\"1041\">Postal Code/City</strong></td><td>Alpha (30)</td><td>Postal code and city (enclosed in quotation marks)</td></tr><tr data-end=\"1249\" data-start=\"1137\"><td><strong data-end=\"1155\" data-start=\"1139\">Credit Limit</strong></td><td>Numeric (N7.2)</td><td>Credit limit. Decimal separator: period (without quotation marks)</td></tr><tr data-end=\"1392\" data-start=\"1250\"><td><strong data-end=\"1263\" data-start=\"1252\">Balance</strong></td><td>Numeric</td><td>Customer’s balance. Decimal separator: period (without quotation marks). See section on balance</td></tr></tbody></table></div><h3 data-end=\"1412\" data-start=\"1394\"><strong data-end=\"1410\" data-start=\"1398\">Balance:</strong></h3><ul data-end=\"1591\" data-start=\"1413\"><li data-end=\"1495\" data-start=\"1413\"><p data-end=\"1495\" data-start=\"1415\"><strong data-end=\"1435\" data-start=\"1415\">Positive balance</strong> = <em data-end=\"1453\" data-start=\"1438\">\"debit entry\"</em> – The customer owes money to the store.</p></li><li data-end=\"1591\" data-start=\"1496\"><p data-end=\"1591\" data-start=\"1498\" dir=\"ltr\"><strong data-end=\"1518\" data-start=\"1498\">Negative balance</strong> = <em data-end=\"1537\" data-start=\"1521\">\"credit entry\"</em> – The customer has a credit balance with the store.</p></li></ul>",
+    "user_id": 103081815037,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2025-03-26T14:31:15+00:00",
+    "modified_by": 103081815037
+  },
+  {
+    "id": 103000354136,
+    "title": "Logo-Oxhoo Receipt printer DdD POS.",
+    "text": "The k3 printers are being replaced by new oxhoo TP85 printers. In order to change the logo on oxhoo printer,Oxhoo TP85 tool needs to be used on the pc. Please note that in the future,after installation of DdD POS program on all PC's for new customers,the driver for the receipt printer will be available in C drive-->folder Temp and can be installed on the pc before we need to update logo. In K3,The receipt printers on DdD POS is mainly configured on COM 3 port.But the POS pc's we have received in the last batch(F84U) does not have a COM 3 port(these are the pos models with seperate customer screen),So we have to check which com port the printer can be added. If the PC is a F84U model, it means the receipt printer is connected via the COM1 port. Therefore, when adding the printer in the Printer Utility program, you should select COM1, as shown in the screenshot below. If it is not an F84U model (e.g., one of the older models), then you should select COM3 in the “Add Printer” menu. In the example/screenshot below, the receipt printer is configured to use COM1 (F84U model ) with a baud rate of 9600, which is why COM1 is selected during setup. Moreover,I have also attached the tool (tp85_tp90-toolsetup) for the receipt printer below in this article which needs to be installed on customer pc for logo change. For Cowis registers, the driver attached (OXHOO POS Printer Driver) needs to be installed. In order to select the logo,choose the download Image in compatiable mode as shown in above screenshot. A new window will appear where you can add the image and please select alignment as Center and then press Download. Now the logo should work and you can test it with a receipt.",
+    "category": "INTERNAL Support Articles",
+    "folder": "POS",
+    "created_at": "2025-05-20T11:41:41+01:00",
+    "updated_at": "2025-06-12T13:24:52+01:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p dir=\"ltr\"><span dir=\"ltr\" style=\"color: rgb(24, 50, 71); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal;  text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">The k3 printers are being replaced by new oxhoo TP85 printers.</span><br><br><span dir=\"ltr\" style=\"color: rgb(24, 50, 71); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal;  text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">In order to change the logo on oxhoo printer,Oxhoo TP85 tool needs to be used on the pc.</span><br><br><span dir=\"ltr\" style=\"color: rgb(24, 50, 71); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal;  text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">Please note that in the future,after installation of DdD POS program on all PC's for new customers,the driver for the receipt printer will be available in C drive--&gt;folder Temp and can be installed on the pc before we need to update logo.</span><br><br><br>In K3,The receipt printers on DdD POS is mainly configured on COM 3 port.But the POS pc's we have received in the last batch(F84U) does not have a COM 3 port(these are the pos models with seperate customer screen),So we have to check which com port the printer can be added.<br><br></p><p dir=\"ltr\">If the PC is a F84U model, it means the receipt printer is connected via the COM1 port. Therefore, when adding the printer in the Printer Utility program, you should select COM1, as shown in the screenshot below.</p><p><br></p><p>If it is not an F84U model (e.g., one of the older models), then you should select COM3 in the “Add Printer” menu.</p><p><br></p><p dir=\"ltr\">In the example/screenshot below, the receipt printer is configured to use COM1 (<span style=\"color: rgb(0, 0, 0); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal;  text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">F84U model</span> ) with a baud rate of 9600, which is why COM1 is selected during setup.</p><p dir=\"ltr\"><br><span dir=\"ltr\" style=\"color: rgb(24, 50, 71); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal;  text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">Moreover,I have also attached the tool (tp85_tp90-toolsetup) for the receipt printer below in this article which needs to be installed on customer pc for logo change.</span><br><br><span dir=\"ltr\" style=\"color: rgb(24, 50, 71); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal;  text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">For Cowis registers, the driver attached (OXHOO POS Printer Driver) needs to be installed.</span></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br><span dir=\"ltr\" style=\"color: rgb(24, 50, 71); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal;  text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103216255472/original/zj_e62ph8q3jXEJ6Gge_M6sJFP575_Etyg.png?1747737178\" style=\"width: 605px; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-id=\"103216255472\"></span><br><span dir=\"ltr\" style=\"color: rgb(24, 50, 71); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal;  text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">In order to select the logo,choose the download Image in compatiable mode as shown in above screenshot.</span><br><br><span dir=\"ltr\" style=\"color: rgb(24, 50, 71); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal;  text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">A new window will appear where you can add the image and please select alignment as Center and then press Download.</span><br><br><span dir=\"ltr\" style=\"color: rgb(24, 50, 71); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal;  text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">Now the logo should work and you can test it with a receipt.</span><br><br></p>",
+    "user_id": 103081812637,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 1,
+    "seo_data": {},
+    "modified_at": "2025-06-12T13:24:52+01:00",
+    "modified_by": 103093471382
+  }
+]

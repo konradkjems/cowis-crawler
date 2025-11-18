@@ -1,0 +1,195 @@
+[
+  {
+    "id": 103000296189,
+    "title": "Basics",
+    "text": "This folder explains parameters and their function. You need to know that there are parameters for the Cowis.Net back office and that there are parameters for the Cowis cash register. Some parameters for the Cowis cash register are set up in the Cowis.Net back office, these are so-called \"central parameters\". These can be set up \"centrally\" in the Cowis.Net back office for all cash registers. Other parameters for the Cowis cash register are set up locally at the cash register (these are then local parameters) and must then be set up separately at each cash register. The respective parameters for the Cowis cash register explicitly indicate whether they are central or local parameters.",
+    "category": "INTERNAL Support Articles",
+    "folder": "Parameter",
+    "created_at": "2024-06-10T10:51:19+01:00",
+    "updated_at": "2024-06-10T10:53:05+01:00",
+    "status": 2,
+    "tags": [
+      {
+        "name": "cowis.net"
+      },
+      {
+        "name": "backoffice"
+      },
+      {
+        "name": "Cowiskasse"
+      },
+      {
+        "name": "Parameter"
+      }
+    ],
+    "description": "<p>This folder explains parameters and their function.</p><p><br></p><p>You need to know that there are parameters for the Cowis.Net back office and that there are parameters for the Cowis cash register.</p><p><br></p><p>Some parameters for the Cowis cash register are set up in the Cowis.Net back office, these are so-called \"central parameters\". These can be set up \"centrally\" in the Cowis.Net back office for all cash registers.</p><p><br></p><p>Other parameters for the Cowis cash register are set up locally at the cash register (these are then local parameters) and must then be set up separately at each cash register.</p><p><br></p><p>The respective parameters for the Cowis cash register explicitly indicate whether they are central or local parameters.</p>",
+    "user_id": 103081814775,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 1,
+    "seo_data": {},
+    "modified_at": "2024-06-10T10:51:19+01:00",
+    "modified_by": 103081814775
+  },
+  {
+    "id": 103000296842,
+    "title": "Pay multiple times with voucher (parameter: MitGSMehrmalsZahlen) [central parameter]",
+    "text": "WHERE: Cowis.Net Backoffice WHAT FOR: CowisKasse Under cash register closings in Cowis.Net Backoffice under File -> Cash register parameters (or Settings -> All -> Cash register tab) there is the parameter \"MitGSMehrmalsZahlen\", this can be set to YES or NO (default) for each cash register. After a change, data must be exchanged with the cash registers. Effect: NO (default): If a voucher is used to pay at the Cowis cash register and the voucher value exceeds the purchase value, either a new voucher with a new voucher number must be created for the remaining amount of the voucher or the remaining amount is paid out. The voucher is redeemed in full and is listed in the Cowis.Net Backoffice inventory management system as a redeemed voucher. (In this example, a new voucher was created) List of redeemed vouchers in Cowis.Net back office List of sold vouchers in Cowis.Net back office The voucher is redeemed in full and is listed in the Cowis.Net Backoffice inventory management system as a redeemed voucher. (In this example, a new voucher was created) YES: If a voucher is used to pay at the Cowis checkout and the voucher value exceeds the purchase value, the purchase value is deducted from the voucher value, the original voucher number remains with the now reduced voucher value and can be used until the voucher value has been used up to zero. The parameter is usually used when the user works with voucher cards. See extra help article. Parameter has been changed to YES. List of redeemed vouchers in Cowis.Net back office Display of voucher management at the Cowis checkout Display in Cowis.Net back office \"all vouchers\"",
+    "category": "INTERNAL Support Articles",
+    "folder": "Parameter",
+    "created_at": "2024-06-13T06:30:16+01:00",
+    "updated_at": "2024-06-13T06:35:50+01:00",
+    "status": 2,
+    "tags": [
+      {
+        "name": "Gutschein"
+      },
+      {
+        "name": "mit Gutschein mehrmals zahlen"
+      },
+      {
+        "name": "Cowiskasse"
+      },
+      {
+        "name": "cowis.net"
+      },
+      {
+        "name": "Cowis Backoffice"
+      },
+      {
+        "name": "Parameter"
+      }
+    ],
+    "description": "<p>WHERE: Cowis.Net Backoffice</p><p>WHAT FOR: CowisKasse</p><p><br></p><p>Under cash register closings in Cowis.Net Backoffice under File -&gt; Cash register parameters (or Settings -&gt; All -&gt; Cash register tab)</p><p><br></p><p dir=\"ltr\">there is the parameter \"MitGSMehrmalsZahlen\", this can be set to YES or NO (default) for each cash register. After a change, data must be exchanged with the cash registers.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103121390673/original/K24eAV97lcs_E02MOYa9FDkpnpOI2Bk4fg.png?1718254791\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103121390673\"></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">Effect:</p><p>NO (default):</p><p>If a voucher is used to pay at the Cowis cash register and the voucher value exceeds the purchase value, either a new voucher with a new voucher number must be created for the remaining amount of the voucher or the remaining amount is paid out.</p><p><br></p><p>The voucher is redeemed in full and is listed in the Cowis.Net Backoffice inventory management system as a redeemed voucher.</p><p dir=\"ltr\">(In this example, a new voucher was created)</p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103121391351/original/pdDQO5ZmUqOqDJoEeoy4JBsl0WS7lwqWoQ.png?1718255088\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103121391351\"></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103121391237/original/ruY_A-komMLnrlh-uKOPvBJ6wZwoyBN_tA.png?1718255011\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103121391237\"></p><p><br></p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103121391628/original/CQJ1J0aQi69zlsnmiq2rvSXwmrlzZaGi0Q.png?1718255264\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103121391628\"></p><p><br></p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103121391807/original/hgNCtTDoh9jkwrM26p1LfKoRgMMky6JajA.png?1718255363\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103121391807\"></p><p><br></p><p dir=\"ltr\">List of redeemed vouchers in Cowis.Net back office</p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103121391905/original/0BHltIXWDQ3OZhZIq7vJ7CO4sOI-gVoyIQ.png?1718255408\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103121391905\"></p><p><br></p><p dir=\"ltr\">List of sold vouchers in Cowis.Net back office</p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103121392037/original/sK3CF22vAz2hKjG7NlKudek-g0AQZscaeA.png?1718255490\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103121392037\"></p><p><br></p><p>The voucher is redeemed in full and is listed in the Cowis.Net Backoffice inventory management system as a redeemed voucher.</p><p dir=\"ltr\">(In this example, a new voucher was created)</p><p><br></p><p><br></p><p>YES:</p><p>If a voucher is used to pay at the Cowis checkout and the voucher value exceeds the purchase value, the purchase value is deducted from the voucher value, the original voucher number remains with the now reduced voucher value and can be used until the voucher value has been used up to zero.</p><p><br></p><p dir=\"ltr\">The parameter is usually used when the user works with voucher cards. See extra help article.</p><p><br></p><p><br></p><p dir=\"ltr\">Parameter has been changed to YES.</p><p><br></p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103121392398/original/TK0r-spK-LvrF7OFX7AhFg3r_v0pPjxvyQ.png?1718255772\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103121392398\"></p><p><br></p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103121392418/original/o_cmTqWS4_w5GYHkzcW0yXThVQZqrBZ8Fw.png?1718255790\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103121392418\"></p><p><br></p><p><br></p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103121392531/original/cbkRBaYfjZ3-wDLFATy8iNYxqKzUUgLyMg.png?1718255849\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103121392531\"></p><p><br></p><p><br></p><p>List of redeemed vouchers in Cowis.Net back office</p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103121392766/original/krQpvG-LiyDWnESBoUlkhv1_3We82Ubl6g.png?1718256007\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103121392766\"></p><p><br></p><p dir=\"ltr\">Display of voucher management at the Cowis checkout</p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103121392941/original/kszpaCVNpTiRo-hMEeim_mvPhADYgqtEwg.png?1718256090\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103121392941\"></p><p><br></p><p dir=\"ltr\">Display in Cowis.Net back office \"all vouchers\"</p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103121393076/original/ALKM4V4kQnCHdFiIlaO-WFUxTmxEEaQbGw.png?1718256199\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103121393076\"></p><p><br></p><p><br></p>",
+    "user_id": 103081814775,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 1,
+    "seo_data": {},
+    "modified_at": "2024-06-13T06:30:16+01:00",
+    "modified_by": 103081814775
+  },
+  {
+    "id": 103000296845,
+    "title": "Color layout of the Cowiskasse (parameter: SKIN)",
+    "text": "WHERE: Cowis.Net Backoffice What: Cowiskasse File -> Cash register parameters -> SKIN or Settings -> All -> Cash register tab -> SKIN Inactive (default) \"A\" = Classic (intern) \"B\" = Skin B (intern) \"C\" = Skin C (intern) \"D\" = Skin D (intern) Other skins do not appear to be implemented at the moment and serve as placeholders. The most commonly used skins among users are D or inactive.",
+    "category": "INTERNAL Support Articles",
+    "folder": "Parameter",
+    "created_at": "2024-06-13T07:12:13+01:00",
+    "updated_at": "2024-06-13T07:15:31+01:00",
+    "status": 2,
+    "tags": [
+      {
+        "name": "cowis.net"
+      },
+      {
+        "name": "Cowiskasse"
+      },
+      {
+        "name": "Parameter"
+      },
+      {
+        "name": "Aussehen"
+      },
+      {
+        "name": "Skin"
+      },
+      {
+        "name": "Layout"
+      },
+      {
+        "name": "backoffice"
+      }
+    ],
+    "description": "<p>WHERE: Cowis.Net Backoffice</p><p dir=\"ltr\">What: Cowiskasse</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">File -&gt; Cash register parameters -&gt; SKIN</p><p dir=\"ltr\">or Settings -&gt; All -&gt; Cash register tab -&gt; SKIN</p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103121397962/original/oqUPGoiuxf7FFD5DhmDb6Keu4pNTZIjM9Q.png?1718258533\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103121397962\"></p><p><br></p><p><br></p><p dir=\"ltr\">Inactive (default)</p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103121398615/original/Zi1lPIG7ZPlKNKp9HIAmPJAUsfUmcY8J8A.png?1718258694\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103121398615\"></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">\"A\" = Classic (intern)</p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103121398427/original/JaY-0I8ZZsYW86bwwAmKpLjXV2Wsn7k1dw.png?1718258654\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103121398427\"></p><p><br></p><p dir=\"ltr\">\"B\" = Skin B (intern)</p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103121398913/original/RSzrjXNgzIx04a1jBm9wgmh5nNVQ1GTNig.png?1718258780\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103121398913\"></p><p><br></p><p dir=\"ltr\">\"C\" = Skin C (intern)</p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103121399221/original/HtTKqhECYAtDvPapE2rXxWHeEaCfg9V_EQ.png?1718258850\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103121399221\"></p><p><br></p><p dir=\"ltr\">\"D\" = Skin D (intern)</p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103121399510/original/_Ecl_TtU1hp6OQKu4pFesN-lNEKzLJEsQw.png?1718258922\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103121399510\"></p><p><br></p><p>Other skins do not appear to be implemented at the moment and serve as placeholders.</p><p><br></p><p>The most commonly used skins among users are D or inactive.</p>",
+    "user_id": 103081814775,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 1,
+    "seo_data": {},
+    "modified_at": "2024-06-13T07:12:13+01:00",
+    "modified_by": 103081814775
+  },
+  {
+    "id": 103000297897,
+    "title": "Parameter \"AusnProtPosGeloescht\"",
+    "text": "Where: Cash register closings The parameter has the values Display or Do not display. If Display is selected, the exception log also shows positions that have been deleted. If Do not display is selected, only the \"standard exceptions\" are shown in the exception log.",
+    "category": "INTERNAL Support Articles",
+    "folder": "Parameter",
+    "created_at": "2024-06-19T07:36:23+01:00",
+    "updated_at": "2024-06-19T07:37:57+01:00",
+    "status": 2,
+    "tags": [
+      {
+        "name": "Parameter"
+      },
+      {
+        "name": "cowis.net"
+      },
+      {
+        "name": "backoffice"
+      },
+      {
+        "name": "Cowis BO"
+      },
+      {
+        "name": "Cowis.NEt BO"
+      },
+      {
+        "name": "Kassenabschlüsse"
+      }
+    ],
+    "description": "<p></p><p>Where: Cash register closings</p><p><br></p><p dir=\"ltr\">The parameter has the values Display or Do not display.</p><p><br></p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103122980420/original/NbOpP-X6q95_jFPIot2tcv4TafV3PkBRPA.png?1718778701\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103122980420\"></p><p><br></p><p dir=\"ltr\">If Display is selected, the exception log also shows positions that have been deleted.</p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103122981585/original/-tohrBZS-CdGllnfctCQoiwF3Xdjp0Z-iA.png?1718778890\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103122981585\"></p><p><br></p><p><br></p><p><br></p><p dir=\"ltr\">If Do not display is selected, only the \"standard exceptions\" are shown in the exception log.</p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103122981823/original/beVIGPC0zo4w0Kzn8xQL_VB9_2KUjXFCqA.png?1718778930\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103122981823\"></p>",
+    "user_id": 103081814775,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 1,
+    "seo_data": {},
+    "modified_at": "2024-06-19T07:36:23+01:00",
+    "modified_by": 103081814775
+  },
+  {
+    "id": 103000298397,
+    "title": "Create items with reduced VAT",
+    "text": "By default, Cowis.Net is set up for items with the standard VAT rate. However, if a user also has items with a reduced tax rate, you must check whether the necessary setting has been made. At first glance, this can be checked in the item master data: If this field is visible in the item master data, then everything is correct and the user can select the VAT rate when creating the item. If this feature is missing in the item master data, you must activate the display. In the Cowis.Net back office, go to System Parameters General settings There you activate the check box for \"Display VAT rate field\" Save this by clicking OK, leave the system area and can now select the desired VAT rate when creating the item. (It is important that you do not enter 19 and 7 as numbers, but 1 and 2)",
+    "category": "INTERNAL Support Articles",
+    "folder": "Parameter",
+    "created_at": "2024-06-20T13:20:52+01:00",
+    "updated_at": "2024-06-20T13:29:17+01:00",
+    "status": 2,
+    "tags": [
+      {
+        "name": "reduced VAT "
+      },
+      {
+        "name": "reduzierte Mehrwertsteuer"
+      },
+      {
+        "name": "Steuer"
+      },
+      {
+        "name": "Artikel"
+      },
+      {
+        "name": "cowis.net"
+      },
+      {
+        "name": "Zeitschriften"
+      },
+      {
+        "name": "Blumen"
+      },
+      {
+        "name": "Lebensmittel"
+      }
+    ],
+    "description": "<p></p><p>By default, Cowis.Net is set up for items with the standard VAT rate.</p><p><br></p><p>However, if a user also has items with a reduced tax rate, you must check whether the necessary setting has been made.</p><p><br></p><p>At first glance, this can be checked in the item master data:</p><p dir=\"ltr\">If this field is visible in the item master data, then everything is correct and the user can select the VAT rate when creating the item.</p><p><br></p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103123534899/original/wB0cFadizqn_bO3--rIg8hwQkJaIdVBLoA.png?1718885590\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103123534899\"></p><p><br></p><p>If this feature is missing in the item master data, you must activate the display.</p><p dir=\"ltr\">In the Cowis.Net back office, go to System</p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103123536162/original/iJ9fUbMyG1t0TUy9PbWZeflSlKwzf_OOfQ.png?1718885741\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103123536162\"></p><p><br></p><p><br></p><p>Parameters</p><p dir=\"ltr\">General settings</p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103123536585/original/16P9ojC9C7zgyipDBUfAPQ9ZLpZFk--acQ.png?1718885783\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103123536585\"></p><p><br></p><p><br></p><p dir=\"ltr\">There you activate the check box for \"Display VAT rate field\"</p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103123537089/original/Bfcu_0dJsnCu9P0-ChgRqn65J3MsrCmCog.png?1718885858\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103123537089\"></p><p><br></p><p dir=\"ltr\">Save this by clicking OK, leave the system area and can now select the desired VAT rate when creating the item.</p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103123537878/original/5C8I7ZPt-kSr_7TLPXdLtfRJuHfN0gljNg.png?1718885961\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103123537878\"></p><p>(It is important that you do not enter 19 and 7 as numbers, but 1 and 2)</p><p><br></p>",
+    "user_id": 103081814775,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 1,
+    "seo_data": {},
+    "modified_at": "2024-06-20T13:20:52+01:00",
+    "modified_by": 103081814775
+  }
+]

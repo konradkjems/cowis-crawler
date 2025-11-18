@@ -1,0 +1,40 @@
+[
+  {
+    "id": 103000273809,
+    "title": "Omnis is updating the interface file",
+    "text": "Running Sales Ledger>Maintenance>Import Customer Detail and the following error occurs:- This error is a result of a locking file being left behind from last time the function was run. Open Windows Explorer and navigate to the Sales Ledger directory and locate SLOCK.NNN and delete. The SLOCK.NNN = Sales Ledger number. In this example it is Sales Ledger 001.",
+    "category": "Sigma Customer Help",
+    "folder": "Sales Ledger",
+    "created_at": "2024-02-07T09:56:23+00:00",
+    "updated_at": "2024-02-07T09:57:07+00:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p dir=\"ltr\"></p><p dir=\"ltr\">Running Sales Ledger&gt;Maintenance&gt;Import Customer Detail and the following error occurs:-</p><p><br></p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103085963641/original/UrWG_5ZNYWPdG2H2ouQ3RX_5TrpJDGcaRA.png?1707299675\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103085963641\"></p><p>This error is a result of a locking file being left behind from last time the function was run.</p><p><br></p><p dir=\"ltr\">Open Windows Explorer and navigate to the Sales Ledger directory and locate SLOCK.NNN and delete.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103085963802/original/gLdSnYcSQLaYeVU4m_aZYxwhTXnCvo1uXw.png?1707299690\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103085963802\"></p><p><br></p><p><br></p><p dir=\"ltr\">The SLOCK.NNN = Sales Ledger number. In this example it is Sales Ledger 001.</p>",
+    "user_id": 103093502676,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2024-02-07T09:57:07+00:00",
+    "modified_by": 103093502676
+  },
+  {
+    "id": 103000320725,
+    "title": "Correcting a duplicate batch import of transactions into Sales Ledger",
+    "text": "If a batch has been imported twice in error and an End of Day File Update has not been run, it will be possible to delete the duplicate transactions. If an End of Day File Update has been run it will not be possible to delete the duplicate transactions. To correct this, manual transactions will need to be entered to reverse duplicate transactions i.e. credits or import the same batch again and choose the opposite type of transaction. I.e. if the duplicate batch is Invoices, import again and select Credit Notes.",
+    "category": "Sigma Customer Help",
+    "folder": "Sales Ledger",
+    "created_at": "2024-11-15T16:26:24+00:00",
+    "updated_at": "2024-11-15T16:35:42+00:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p dir=\"ltr\">If a batch has been imported twice in error and an End of Day File Update has not been run, it will be possible to delete the duplicate transactions.</p><p><br></p><p dir=\"ltr\">If an End of Day File Update has been run it will not be possible to delete the duplicate transactions.</p><p><br></p><p dir=\"ltr\">To correct this, manual transactions will need to be entered to reverse duplicate transactions i.e. credits or import the same batch again and choose the opposite type of transaction. I.e. if the duplicate batch is Invoices, import again and select Credit Notes.</p>",
+    "user_id": 103093502676,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2024-11-15T16:35:41+00:00",
+    "modified_by": 103093502676
+  }
+]

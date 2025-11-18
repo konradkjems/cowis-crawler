@@ -1,0 +1,21 @@
+[
+  {
+    "id": 103000334233,
+    "title": "Oaktron EDI",
+    "text": "Oaktron I believe are the only customer on RMS using EDI via Clarks and software called LexiCom. The EDI files are sent through LexiCom between Oaktron and Clarks, the process is very similar to CFI with RMS as it handles the creation of new Clarks styles, stock takes and sales. EDI process runs on scheduled tasks on the back office machines at each location. The main machine being in Barcelona. The process on LexiCom require secure updated certificate files every 2 years. We are responsible for generating these certificates and there is a guide on doing so in the site files teams channel location. Clarks have to pay for these certificates before we generate them and upload them to LexiCom so make sure to speak with Emma Smith about the billing process. Recently Lexicom is no longer working for Oaktron as the certificates I generated no longer are supported security wise by Lexicom and to be able to generate the new version the latest version of Lexicom is required. However the new version no longer works on older Windows versions which Oaktron are running Windows 7. Sandra said they were going to work out on upgrading their machines and come back to us.",
+    "category": "RMS Customer Help",
+    "folder": "Oaktron",
+    "created_at": "2025-02-07T15:00:10+00:00",
+    "updated_at": "2025-02-07T15:00:10+00:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p>Oaktron I believe are the only customer on RMS using EDI via Clarks and software called LexiCom.&nbsp;</p><p><br></p><p>The EDI files are sent through LexiCom between Oaktron and Clarks, the process is very similar to CFI with RMS as it handles the creation of new Clarks styles, stock takes and sales.</p><p><br></p><p>EDI process runs on scheduled tasks on the back office machines at each location. The main machine being in Barcelona.&nbsp;</p><p><br></p><p>The process on LexiCom require secure updated certificate files every 2 years. We are responsible for generating these certificates and there is a guide on doing so in the site files teams channel location. Clarks have to pay for these certificates before we generate them and upload them to LexiCom so make sure to speak with Emma Smith about the billing process.</p><p><br></p><p>Recently Lexicom is no longer working for Oaktron as the certificates I generated no longer are supported security wise by Lexicom and to be able to generate the new version the latest version of Lexicom is required. However the new version no longer works on older Windows versions which Oaktron are running Windows 7. Sandra said they were going to work out on upgrading their machines and come back to us.&nbsp;</p><p><br></p>",
+    "user_id": 103081806982,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2025-02-07T15:00:10+00:00",
+    "modified_by": 103081806982
+  }
+]

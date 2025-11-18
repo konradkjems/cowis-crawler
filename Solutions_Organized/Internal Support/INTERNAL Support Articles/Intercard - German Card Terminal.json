@@ -1,0 +1,40 @@
+[
+  {
+    "id": 103000295873,
+    "title": "Intercard - COM Port setup",
+    "text": "By default, the port setup for the German card terminal is set to COM 4. This needs to be changed to COM 1 in the ESC Koder.ini file, which can be found at: C:\\POS\\Program\\bin\\Debug\\Printer\\Configuration [GermanBankingConfig] Port=COM1",
+    "category": "INTERNAL Support Articles",
+    "folder": "Intercard - German Card Terminal",
+    "created_at": "2024-06-07T09:29:42+01:00",
+    "updated_at": "2024-06-07T09:30:01+01:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p dir=\"ltr\">By default, the port setup for the German card terminal is set to COM 4. This needs to be changed to COM 1 in the ESC Koder.ini file, which can be found at:</p><p dir=\"ltr\"><br></p><p dir=\"ltr\">C:\\POS\\Program\\bin\\Debug\\Printer\\Configuration</p><p dir=\"ltr\"><br></p><p>[GermanBankingConfig]</p><p dir=\"ltr\">Port=COM1</p><p dir=\"ltr\"><br></p>",
+    "user_id": 103081815037,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2024-06-07T09:30:01+01:00",
+    "modified_by": 103081815037
+  },
+  {
+    "id": 103000295874,
+    "title": "Intercard - StopBit Setup",
+    "text": "By default, the port setup for the German card terminal is set to `StopBit=1`. If necessary, this can be changed to `StopBit=2` in the `ESC Koder.ini` file, which can be found at: C:\\POS\\Program\\bin\\Debug\\Printer\\Configuration [GermanBankingConfig] Port=COM1 StopBit=2",
+    "category": "INTERNAL Support Articles",
+    "folder": "Intercard - German Card Terminal",
+    "created_at": "2024-06-07T09:32:26+01:00",
+    "updated_at": "2024-06-07T09:32:26+01:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p>By default, the port setup for the German card terminal is set to `StopBit=1`. If necessary, this can be changed to `StopBit=2` in the `ESC Koder.ini` file, which can be found at:</p><p><br></p><p dir=\"ltr\">C:\\POS\\Program\\bin\\Debug\\Printer\\Configuration</p><p dir=\"ltr\"><br></p><p>[GermanBankingConfig]</p><p dir=\"ltr\">Port=COM1</p><p dir=\"ltr\"><strong>StopBit=2</strong></p>",
+    "user_id": 103081815037,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2024-06-07T09:32:48+01:00",
+    "modified_by": 103081815037
+  }
+]

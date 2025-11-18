@@ -1,0 +1,21 @@
+[
+  {
+    "id": 103000320404,
+    "title": "DSW On-Prem Log Location",
+    "text": "The DSW On-Prem file processor logs can be found in the following locations: C:\\SYSPRO\\K3\\Dataswitch\\prolific\\DSWFileProcessor or C:\\programdata\\k3btg\\DSWFileProcessor The log file will be called \"DSWFileProcessor.log\"",
+    "category": "INTERNAL Support Articles",
+    "folder": "INTERNAL: DSW On-Prem",
+    "created_at": "2024-11-12T17:07:09+00:00",
+    "updated_at": "2024-11-12T17:07:09+00:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p dir=\"ltr\">The DSW On-Prem file processor logs can be found in the following locations:</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><span data-teams=\"true\"><span class=\"ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak\" dir=\"ltr\"><span style=\"font-size: inherit;\">C:\\SYSPRO\\K3\\Dataswitch\\prolific\\DSWFileProcessor&nbsp;</span><br><span style=\"font-size: inherit;\">or</span><br><span style=\"font-size: inherit;\">C:\\programdata\\k3btg\\DSWFileProcessor&nbsp;</span></span></span></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><span data-teams=\"true\"><span class=\"ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak\" dir=\"ltr\"><span dir=\"ltr\" style=\"font-size: inherit;\"><span data-teams=\"true\"><span class=\"ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak\" dir=\"ltr\">The log file will be called \"DSWFileProcessor.log</span></span>\"</span></span></span></p>",
+    "user_id": 103081817699,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2024-11-12T17:07:09+00:00",
+    "modified_by": 103081817699
+  }
+]

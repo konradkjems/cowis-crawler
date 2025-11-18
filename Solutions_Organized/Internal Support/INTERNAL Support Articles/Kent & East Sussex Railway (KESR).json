@@ -1,0 +1,21 @@
+[
+  {
+    "id": 103000315809,
+    "title": "KESR Bespoke WEB_SessionAvailability & WEB_SessionCalendar",
+    "text": "This is KESR's bespoke WEB_SessionAvailability & WEB_SessionCalendar that allows customers to view available sessions up to 550 days in advance. In both scripts; Replace this: DECLARE @FDateTime AS DATETIME = CONVERT(DATETIME, @FromDateTime, 113) ,@TDateTime AS DATETIME = CONVERT(DATETIME, @ToDateTime, 113) ,@filterType int If @FDateTime = @TDateTime With this: DECLARE @FDateTime AS DATETIME = CONVERT(DATETIME, @FromDateTime, 113) ,@TDateTime AS DATETIME = CONVERT(DATETIME, DATEADD(DAY,550,@FromDateTime), 113) ,@filterType int If @FDateTime = @TDateTime",
+    "category": "INTERNAL Support Articles",
+    "folder": "Kent & East Sussex Railway (KESR)",
+    "created_at": "2024-10-07T09:50:51+01:00",
+    "updated_at": "2025-05-20T12:39:49+01:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p data-identifyelement=\"488\" dir=\"ltr\">This is KESR's bespoke WEB_SessionAvailability &amp; WEB_SessionCalendar that allows customers to view available sessions up to 550 days in advance.</p><p data-identifyelement=\"488\" dir=\"ltr\"><br></p><p data-identifyelement=\"488\" dir=\"ltr\"><br></p><p data-identifyelement=\"488\" dir=\"ltr\"><strong>In both scripts;</strong></p><p data-identifyelement=\"488\" dir=\"ltr\"><br></p><p data-identifyelement=\"488\" dir=\"ltr\">Replace this:</p><div><pre contenteditable=\"false\" data-code-brush=\"SQL\" rel=\"highlighter\">DECLARE @FDateTime AS DATETIME = CONVERT(DATETIME, @FromDateTime, 113)\n       ,@TDateTime AS DATETIME = CONVERT(DATETIME, @ToDateTime, 113)\n       ,@filterType int \nIf @FDateTime =  @TDateTime</pre><p style=\"margin-left: 0px; text-align: left;\"><span dir=\"ltr\" style=\"font-size: 13px; background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;\">With this:</span></p><div><pre contenteditable=\"false\" data-code-brush=\"SQL\" rel=\"highlighter\">DECLARE @FDateTime AS DATETIME = CONVERT(DATETIME, @FromDateTime, 113)\n       ,@TDateTime AS DATETIME = CONVERT(DATETIME, DATEADD(DAY,550,@FromDateTime), 113)\n       ,@filterType int \nIf @FDateTime =  @TDateTime</pre></div></div>",
+    "user_id": 103082581554,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2025-05-20T12:39:49+01:00",
+    "modified_by": 103146801833
+  }
+]

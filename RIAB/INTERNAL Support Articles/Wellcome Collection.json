@@ -1,0 +1,13 @@
+[
+  {
+    "id": 103000160897,
+    "title": "Actioning Wellcome DSW Email Errors",
+    "text": "important: before actioning any errors for wellcome we need to first ensure the error is valid. sometimes we may receive an automated error from dsw but in fact the file has uploaded correctly. in this scenario if the error is actioned this will result in the sales being duplicated. since we don’t have access to the unit4 system, reach out to the following people at wellcome to check first: r.syed@wellcome.org t.appleby@wellcome.org brief overview of the flow the ‘sales transaction scheduled [imagine -- unit4]’ flow exports a days’ worth of sales from imagine, converts it to an xml file and uploads this file to the unit4 system where the sales get imported. the flow uses a variable to know what days sales to pull from imagine. the logic behind the date setting is (currentdate + *dayselection*) where the dayselection variable is typically ‘-1’. there is currently no logic on the flow to avoid uploading duplicate data. care must be taken when running the flow manually to ensure the dayselection variable is set correctly. updating the dayselection variable when running the flow manually you may specify a date to run by updating the date variable. the date variable is calculated against the current date. for example, if you were trying to run the flow on the 10th july and want to resend sales from the 5th july you’d need to update the variable to ‘-5’ and execute the flow. to update the variable click on the ‘manage’ tab against the flow and click on the variables button: find the ‘dayselection’ variable and update the value to what you need: important: remember to change this back to ‘-1’ after executing the flow. actioning the errors typically, most errors will likely be resolved by clicking ‘retry from step’ on the specific datastep that failed. if this doesn’t work, then further investigation will need to be done. you may wish to try running the flow manually, but you must ensure the dayselection variable is updated to avoid posting duplicate transactions. when attempting to ‘retry from step’ the dayselection variable doesn’t need to be updated provided the flow failed after the ‘set dates for cash api’ step.",
+    "category": "INTERNAL Support Articles",
+    "folder": "Wellcome Collection",
+    "created_at": "2023-07-14T15:04:55+01:00",
+    "updated_at": "2023-07-14T16:43:30+01:00",
+    "status": 2,
+    "tags": []
+  }
+]

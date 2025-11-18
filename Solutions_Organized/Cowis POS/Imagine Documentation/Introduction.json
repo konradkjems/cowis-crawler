@@ -1,0 +1,146 @@
+[
+  {
+    "id": 103000156724,
+    "title": "Welcome to the K3 Imagine Documentation",
+    "text": "The Imagine documentation is here to help you, so please browse or search the articles (from the home page or the box highlighted below, and send us feedback if you think something could be improved or added (or if you like something).",
+    "category": "Imagine Documentation",
+    "folder": "Introduction",
+    "created_at": "2023-07-10T11:37:31+01:00",
+    "updated_at": "2025-02-21T08:46:56+00:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p dir=\"ltr\">The Imagine documentation is here to help you, so please <a href=\"https://k3support.freshdesk.com/en/support/solutions/103000065872\">browse</a> or search the articles (from the <a href=\"https://k3support.freshdesk.com/en/support/home\">home page</a> or the box highlighted below, and send us feedback if you think something could be improved or added (or if you like something).</p><p dir=\"ltr\" style=\"text-align: center;\"><br></p><p dir=\"ltr\" style=\"text-align: center;\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103035301654/original/g6qr7owV-uC4H46hJwg8q6UxOl3fQ_sm0A.png?1688985903\" style=\"width: 691px;\" class=\"fr-fic fr-fil fr-dib\" data-id=\"103035301654\"></p><p dir=\"ltr\" style=\"text-align: center;\"><br></p><p dir=\"ltr\" style=\"text-align: center;\"><br></p><p dir=\"ltr\" style=\"text-align: center;\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103035298868/original/ZQbWQYC7hWlyTuOA1xyVQ0tbAsTagT63fA.JPG?1688985438\" style=\"width: auto;\" class=\"fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103035298868\"></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p><br></p>",
+    "user_id": 103023352668,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 19,
+    "seo_data": {},
+    "modified_at": "2023-09-11T12:13:45+01:00",
+    "modified_by": 103099894505
+  },
+  {
+    "id": 103000019570,
+    "title": "Glossary",
+    "text": "This is a non-exhaustive list of acronyms and words used throughout the documentation, along with their meanings. Tenant: Refers to a customer, a system, or a unique instance of an application known as a \"tenant.\" User: A login used by an individual associated with a specific tenant. Module: An application or set of functionalities within Imagine. Modules must be enabled for a tenant, and users can be granted permission to access specific modules. Clerk: A user with access only to the Point of Sale (POS) system. Front Of Store: TOP (Table Order and Pay): An application that allows customers to arrive at a location, scan a QR code/NFC tag, place an order for goods to be delivered to their table, and pay for it on their device using their credit/debit cards. POP (Popup, Order and Pay): An application for stores that offer pop-up remote ordering of goods for collection or home delivery. Customers can pay for their orders with their own credit/debit cards on their own devices. Kiosk: An application designed for stand-up shared points in a location, enabling customers to select and order goods for later collection. Payments are made using a traditional retail Pin Entry Device. SCO (Self Checkout): An application designed for pre-packaged retail products. Customers can scan or look up items, similar to a convenience store, and pay using a credit/debit card on a traditional Pin Entry Device. Simple POS: An application for clerks to serve customers using a lightweight POS system with discount and refund functions. Simple POS accepts cash and card payments, and items can be scanned into the system through button-driven menus. ORB (Order Ready Board): Orders placed through POP, TOP, or Kiosk can be processed using the Order Status Display (OSD). The ORB displays orders in progress and moves them to the relevant column when ready for collection. Back Of Store: OSD (Order Status Display): Used for order processing, allowing orders to be moved from \"Pending\" to \"In Progress\" and \"Ready.\" These status changes are reflected in the ORB. SCO Companion: A companion app to SCO, allowing for remote monitoring and approval of restricted items, eliminating the need for colleagues to physically approach the unit for approvals, among other functions. Back Office: Product Configurator: A tool to configure items, bundles, bundle groups, and modifier groups. These elements play different roles in various SelfServe applications within Imagine. Understanding their purpose and usage is essential for SelfServe apps. Visual Composer: An application for configuring Composer Groups, which are tiles used for navigation and selection in SelfServe apps. It also allows control over the theming of front-end applications. These configurations can be applied on a per-app, per-location basis. Self-Serve Admin: A configuration interface for Self-Serve apps, including TOP and POP URLs, Time Slots, Shop Policies, and Payment Providers. These options are set based on a per-location, per-app basis. PPE (Price and Promotion Engine): A unique tool for retailers that accumulates real-time market data. It helps retailers instantly adjust prices for each shopper based on customer behaviour, purchasing power, and the actions of competitors. UOM (Units of Measure): Used to quantify inventory items and enable tracking. It represents a physical unit of measurement, such as kg, dozen, meter, etc.",
+    "category": "Imagine Documentation",
+    "folder": "Introduction",
+    "created_at": "2022-10-24T15:44:00+01:00",
+    "updated_at": "2023-05-24T17:23:02+01:00",
+    "status": 2,
+    "tags": [
+      {
+        "name": "Tenant"
+      },
+      {
+        "name": "User"
+      },
+      {
+        "name": "Module"
+      },
+      {
+        "name": "Clerk"
+      },
+      {
+        "name": "TOP"
+      },
+      {
+        "name": "POP"
+      },
+      {
+        "name": "Kiosk"
+      },
+      {
+        "name": "SCO"
+      },
+      {
+        "name": "Simple POS"
+      },
+      {
+        "name": "ORB"
+      },
+      {
+        "name": "OSD"
+      },
+      {
+        "name": "Product Configuartor"
+      },
+      {
+        "name": "Visual Composer"
+      },
+      {
+        "name": "Self-Serve Admin"
+      },
+      {
+        "name": "PPE"
+      },
+      {
+        "name": "UOM"
+      }
+    ],
+    "description": "<h2 dir=\"ltr\" style=\"text-align: center;\"><strong><u dir=\"ltr\"><span style=\"color: rgb(147, 101, 184);\">This is a non-exhaustive list of acronyms and words used throughout the documentation, along with their meanings.</span></u></strong></h2><p style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><br></span></p><p style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><strong><u>Tenant:</u></strong><u>&nbsp;</u>Refers to a customer, a system, or a unique instance of an application known as a \"tenant.\"</span></p><p style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><br></span></p><p style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><strong><u>User:</u>&nbsp;</strong>A login used by an individual associated with a specific tenant.</span></p><p style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><br></span></p><p dir=\"ltr\" style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><strong><u>Module:</u></strong> An application or set of functionalities within Imagine. Modules must be enabled for a tenant, and users can be granted permission to access specific modules.</span></p><p style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><br></span></p><p style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><strong><u>Clerk: </u></strong>A user with access only to the Point of Sale (POS) system.</span></p><p style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><br></span></p><p style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><strong><u>Front Of Store:</u></strong></span></p><p dir=\"ltr\" style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\">TOP (Table Order and Pay): An application that allows customers to arrive at a location, scan a QR code/NFC tag, place an order for goods to be delivered to their table, and pay for it on their device using their credit/debit cards.</span></p><p style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><br></span></p><p style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><strong><u>POP (Popup, Order and Pay):</u></strong> An application for stores that offer pop-up remote ordering of goods for collection or home delivery. Customers can pay for their orders with their own credit/debit cards on their own devices.</span></p><p style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><br></span></p><p style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><strong><u>Kiosk: </u></strong>An application designed for stand-up shared points in a location, enabling customers to select and order goods for later collection. Payments are made using a traditional retail Pin Entry Device.</span></p><p style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><br></span></p><p style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><strong><u>SCO (Self Checkout): </u></strong>An application designed for pre-packaged retail products. Customers can scan or look up items, similar to a convenience store, and pay using a credit/debit card on a traditional Pin Entry Device.</span></p><p style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><br></span></p><p style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><strong><u>Simple POS:</u></strong> An application for clerks to serve customers using a lightweight POS system with discount and refund functions. Simple POS accepts cash and card payments, and items can be scanned into the system through button-driven menus.</span></p><p style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><br></span></p><p style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><strong><u>ORB (Order Ready Board):</u></strong> Orders placed through POP, TOP, or Kiosk can be processed using the Order Status Display (OSD). The ORB displays orders in progress and moves them to the relevant column when ready for collection.</span></p><p style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><br></span></p><h3 style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><strong>Back Of Store:</strong></span></h3><p style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><strong><u>OSD (Order Status Display): </u></strong>Used for order processing, allowing orders to be moved from \"Pending\" to \"In Progress\" and \"Ready.\" These status changes are reflected in the ORB.</span></p><p style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><br></span></p><p style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><strong><u>SCO Companion:</u></strong> A companion app to SCO, allowing for remote monitoring and approval of restricted items, eliminating the need for colleagues to physically approach the unit for approvals, among other functions.</span></p><p style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><br></span></p><h3 style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><strong dir=\"ltr\">Back Office:</strong></span></h3><p style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><strong><u>Product Configurator:</u></strong> A tool to configure items, bundles, bundle groups, and modifier groups. These elements play different roles in various SelfServe applications within Imagine. Understanding their purpose and usage is essential for SelfServe apps.</span></p><p style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><br></span></p><p style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><strong><u>Visual Composer: </u></strong>An application for configuring Composer Groups, which are tiles used for navigation and selection in SelfServe apps. It also allows control over the theming of front-end applications. These configurations can be applied on a per-app, per-location basis.</span></p><p style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><br></span></p><p style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><strong><u>Self-Serve Admin: </u></strong>A configuration interface for Self-Serve apps, including TOP and POP URLs, Time Slots, Shop Policies, and Payment Providers. These options are set based on a per-location, per-app basis.</span></p><p style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><br></span></p><p dir=\"ltr\" style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><strong><u>PPE (Price and Promotion Engine):</u></strong> A unique tool for retailers that accumulates real-time market data. It helps retailers instantly adjust prices for each shopper based on customer behaviour, purchasing power, and the actions of competitors.</span></p><p style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><br></span></p><p dir=\"ltr\"><span style=\"color: rgb(147, 101, 184);\"><strong><u>UOM (Units of Measure): </u></strong>Used to quantify inventory items and enable tracking. It represents a physical unit of measurement, such as kg, dozen, meter, etc.</span></p>",
+    "user_id": 103027878347,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 3,
+    "seo_data": {},
+    "modified_at": "2023-05-24T17:23:01+01:00",
+    "modified_by": 103027878347
+  },
+  {
+    "id": 103000156721,
+    "title": "Imagine Documentation Language",
+    "text": "The Imagine documentation is in English which is a common first or second language for our global customer base.",
+    "category": "Imagine Documentation",
+    "folder": "Introduction",
+    "created_at": "2023-07-10T11:29:45+01:00",
+    "updated_at": "2023-08-09T15:42:43+01:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p dir=\"ltr\">The Imagine documentation is in English which is a common first or second language for our global customer base.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103035317569/original/O8n8syhuVIS7o9ExHWvcVlr67gbrKCvXmw.png?1688988530\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103035317569\"></p>",
+    "user_id": 103023352668,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 6,
+    "seo_data": {},
+    "modified_at": "2023-07-10T12:28:56+01:00",
+    "modified_by": 103023352668
+  },
+  {
+    "id": 103000019573,
+    "title": "Release Notes",
+    "text": "K3 Imagine Release Notes (including pre-release details) can be found on the K3 Imagine Release Notes page.",
+    "category": "Imagine Documentation",
+    "folder": "Introduction",
+    "created_at": "2022-10-24T16:06:40+01:00",
+    "updated_at": "2023-02-14T17:20:58+00:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p dir=\"ltr\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: rgb(145, 129, 185);\">K3 Imagine Release Notes (including pre-release details) can be found on the <strong><a href=\"https://k3imagine.github.io/PublicDocumentation/Release%20Notes\" style=\"box-sizing: border-box; color: rgb(44, 92, 197); user-select: auto; font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-weight: 400; text-align: left; text-indent: 0px;\"><strong style=\"box-sizing: border-box; font-weight: 700;\"><span style=\"box-sizing: border-box;\">K3 Imagine Release Notes</span></strong></a></strong> page.</span></p>",
+    "user_id": 103027878347,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 1,
+    "seo_data": {},
+    "modified_at": "2023-02-14T17:20:58+00:00",
+    "modified_by": 103027878347
+  },
+  {
+    "id": 103000019577,
+    "title": "Status Page",
+    "text": "From this page you can view the current status of the Imagine Platform and its services @status.k3imagine.com Get updates will have options for you to subscribe to Email, Webhook or RSS feed updates. The status can also be checked within the portal and from the 3-dot menu in the Retail POS.",
+    "category": "Imagine Documentation",
+    "folder": "Introduction",
+    "created_at": "2022-10-24T16:11:30+01:00",
+    "updated_at": "2023-02-14T17:21:20+00:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p dir=\"ltr\"><span dir=\"ltr\" style=\"font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: rgb(145, 129, 185);\">From this page you can view the current status of the Imagine Platform and its services <strong><a href=\"https://status.k3imagine.com/\">@status.k3imagine.com</a></strong></span></p><p style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: rgb(145, 129, 185);\"><span style=\"font-size: 13px;\"><span style=\"font-family: Arial,Helvetica,sans-serif;\"><br></span></span></span></p><p style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: rgb(145, 129, 185);\"><span style=\"font-size: 13px;\"><span style=\"font-family: Arial,Helvetica,sans-serif;\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103002295604/original/2BVO2iQD8hxBtlgfvf_gY27uRnjlXvKTmQ.png?1666624072\" alt=\"\" class=\"fr-fic fr-dii fr-bordered fr-fil\" data-attachment=\"[object Object]\" data-id=\"103002295604\"></span></span></span></p><p style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: rgb(145, 129, 185);\"><span style=\"font-size: 13px;\"><span style=\"font-family: Arial,Helvetica,sans-serif;\"><br></span></span></span></p><p dir=\"ltr\" style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: rgb(145, 129, 185);\"><span style=\"font-size: 13px;\"><span dir=\"ltr\" style=\"font-family: Arial,Helvetica,sans-serif;\">Get updates will have options for you to subscribe to Email, Webhook or RSS feed updates.</span></span></span></p><p dir=\"ltr\" style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: rgb(145, 129, 185);\"><span style=\"font-size: 13px;\"><br></span></span></p><p dir=\"ltr\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: rgb(145, 129, 185);\">The status can also be checked within the portal and from the 3-dot menu in the Retail POS.</span><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: rgb(120, 119, 177);\"><br class=\"Apple-interchange-newline\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103002295779/original/r634ADc47R6klLPtU0lXSBtMuJGaq1L4ug.png?1666624230\" alt=\"\" class=\"fr-fic fr-dii fr-bordered fr-fil\" data-id=\"103002295779\" style=\"box-sizing: content-box; border: 1px solid rgb(204, 204, 204); vertical-align: bottom; max-width: calc(100% - 5px); position: relative; cursor: pointer; padding: 0px 1px; display: inline-block; float: left; margin: 5px 5px 5px 0px; color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\" data-attachment=\"[object Object]\"></span></p>",
+    "user_id": 103027878347,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 2,
+    "seo_data": {},
+    "modified_at": "2023-02-14T17:21:20+00:00",
+    "modified_by": 103027878347
+  }
+]

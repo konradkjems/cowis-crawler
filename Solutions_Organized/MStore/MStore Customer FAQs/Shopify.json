@@ -1,0 +1,21 @@
+[
+  {
+    "id": 103000308078,
+    "title": "Shopify Items Not Setup Through MStore Getting Set To Draft",
+    "text": "If you have setup Shopify items, but not via the MStore Back Office, and these items keep getting set to Draft. This will be because your integration has Allow deactivating of inactive products ticked. This means that any item in Shopify that is not ticked as a Shopify Item in the PLU Maintenance within the MStore Back Office (see screenshot below) or the item is not derived from MStore will be set to Draft. If you would like Allow deactivating of inactive products setting changed, please contact support via the portal to get this changed for you. However, this will mean you will need to manually set PLU's that were previously set as a Shopify Item in the MStore Back Office but now this has been unticked, to Draft.",
+    "category": "MStore Customer FAQs",
+    "folder": "Shopify",
+    "created_at": "2024-08-14T15:29:31+01:00",
+    "updated_at": "2024-08-14T15:52:12+01:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p dir=\"ltr\">If you have setup Shopify items, but not via the MStore Back Office, and these items keep getting set to <strong>Draft</strong>. This will be because your integration has <strong dir=\"ltr\">Allow deactivating of inactive products</strong> ticked.</p><p><br></p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103138177016/original/YbwCXERVrL7qChFLnXPoyQMBYSSIwRqfoA.png?1723644614\" style=\"width: 334px; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103138177016\"></p><p><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">This means that any item in Shopify that is not ticked as a <strong>Shopify Item</strong> in the PLU Maintenance within the MStore Back Office (see screenshot below) or the item is not derived from MStore will be set to <strong dir=\"ltr\">Draft</strong>.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><strong dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103138180728/original/QnLuvdppMlJ_gLuCcxKGdoa0N4BYT69fVA.png?1723645115\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103138180728\"></strong></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">If you would like <strong dir=\"ltr\">Allow deactivating of inactive products</strong> setting changed, please contact support via the portal to get this changed for you.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\">However, this will mean you will need to manually set PLU's that were previously set as a Shopify Item in the MStore Back Office but now this has been unticked, to <strong dir=\"ltr\">Draft</strong>.</p>",
+    "user_id": 103082581554,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 12,
+    "seo_data": {},
+    "modified_at": "2024-08-14T15:52:12+01:00",
+    "modified_by": 103082581554
+  }
+]

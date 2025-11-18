@@ -1,0 +1,13 @@
+[
+  {
+    "id": 103000263798,
+    "title": "Questionnaire (Items)",
+    "text": "table of contents create a new questionnaire deleting a questionnaire duplicating a supplier questionnaire viji track utilizes corporate social responsibility (csr) questionnaires to assess suppliers' dedication to sustainable and ethical business practices. these questionnaire forms are designed for items that assist entities in obtaining more information by allowing them to assign specific questionnaires directly at the purchase order line level. there are various reasons to employ these questionnaires, including ensuring compliance with legal or regulatory requirements, identifying potential risks associated with suppliers' business practices, enhancing reputation, and gaining increased visibility into the supply chain. by completing the questionnaire, suppliers can demonstrate their commitment to sustainability and ethical business practices, which, in turn, helps them maintain their relationship with viji track and improve their business practices. create a new questionnaire 1. to begin creating a new questionnaire click the \"create questionnaire (items)\". 2. give the questionnaire a suitable name and click \"select commitments\" to move on. 4. here, you can construct your \"questionnaires\". simply drag the desired questions from the right-hand section and drop them into the left-hand section to add them to the questionnaire. 5. after creating the questionnaire, you now have multiple options of where to assign it. all purchase order lines: q: which status po> custom selection: all purchase order lines this action will link your questionnaire to all your \"new\" or \"in progress\" purchase orders, excluding those that have been archived. custom selection tbd deleting a questionnaire you have the option to delete a questionnaire by selecting the 3 dots and selecting \"delete\". an option will appear asking to confirm the deletion. yes will remove the questionnaire cancel will stop the deletion action.",
+    "category": "ViJi Track Documentation",
+    "folder": "My Items/Orders",
+    "created_at": "2023-12-21T17:24:21+00:00",
+    "updated_at": "2024-07-19T17:56:12+01:00",
+    "status": 2,
+    "tags": []
+  }
+]

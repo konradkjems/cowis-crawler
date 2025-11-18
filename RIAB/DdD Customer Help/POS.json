@@ -1,0 +1,46 @@
+[
+  {
+    "id": 103000281008,
+    "title": "Accessing earlier printouts from POS (RIAB)",
+    "text": "in case you have already opened a printout in pos(making it not being shown in the ddd pos printouts anymore) and need to see it again, in case of a reprint etc. it can be found following this path in file explorer: c:/pos/reports sort after newest to see what has been printed out most recently",
+    "category": "DdD Customer Help",
+    "folder": "POS",
+    "created_at": "2024-03-08T12:57:14+00:00",
+    "updated_at": "2024-04-19T12:19:36+01:00",
+    "status": 2,
+    "tags": []
+  },
+  {
+    "id": 103000262087,
+    "title": "Delete RIAB item transfer on POS",
+    "text": "if you have created an item transfer on the pos and want to delete it, do this: log into the pos, click the ddd button and choose item transfer click in from this store and, if the item transfer is still present, select it and click go to item transfer. tick the delete box and click accept",
+    "category": "DdD Customer Help",
+    "folder": "POS",
+    "created_at": "2023-12-13T12:37:17+00:00",
+    "updated_at": "2024-04-19T12:08:40+01:00",
+    "status": 2,
+    "tags": []
+  },
+  {
+    "id": 103000256311,
+    "title": "Exchange note setup",
+    "text": "log into pos with a user with administrator rights. change fixed date: fixed date on the receipt, that shows the last date for exchange option. (usually used around christmas) change note type: 1 = label 2 = receipt change note variable date: how many days after purchase the customer can exchange the item",
+    "category": "DdD Customer Help",
+    "folder": "POS",
+    "created_at": "2023-11-16T11:55:27+00:00",
+    "updated_at": "2023-12-13T14:06:00+00:00",
+    "status": 2,
+    "tags": []
+  },
+  {
+    "id": 103000285029,
+    "title": "POS - not communicating with DdD API/Server.",
+    "text": "on the main interface of ddd pos, as shown in the below screenshot, you can see different information regarding a store. it can tell us if the pos is a riab pos and to which ddd server it is connected. moreover, it also shows us the client id including terminal number for that store and which version of the pos program is currently running on the pos. sometimes, due to internet instability in the store, the pos is not active in communication with ddd api and all data from the pos is not sent to backoffice in that case. it is important to notice all the times, that the pos is in fact communicating with ddd server. an example is shown below where no dddweb with a specific number can be seen. in that case, the solution is to restart the pos programme and it can be done by simply writing restart in the clerk field. after restart, you will observe that the pos is now connected to the ddd webserver again.",
+    "category": "DdD Customer Help",
+    "folder": "POS",
+    "created_at": "2024-03-30T15:42:12+00:00",
+    "updated_at": "2024-04-23T14:19:40+01:00",
+    "status": 2,
+    "tags": []
+  }
+]

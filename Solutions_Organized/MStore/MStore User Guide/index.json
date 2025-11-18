@@ -1,0 +1,16 @@
+{
+  "main_category": "MStore",
+  "sub_category": "MStore User Guide",
+  "total_articles": 53,
+  "folders": {
+    "Introduction": 2,
+    "Point of Sale (POS)": 2,
+    "Customers & Memberships": 4,
+    "Bookings": 5,
+    "Stock": 8,
+    "Pricing": 6,
+    "E-Commerce": 7,
+    "Other": 6,
+    "Webinar Recordings": 13
+  }
+}

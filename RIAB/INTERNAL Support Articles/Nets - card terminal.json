@@ -1,0 +1,20 @@
+[
+  {
+    "id": 103000291854,
+    "title": "Card terminal is not responding",
+    "text": "if you are uncertain about which com-port the card terminal is connected to, use the below method: copy zvt-comm (program) to the customer's pc (desktop). close the pos program and test all com ports through zvt-comm in riab it's always com1 or com4.",
+    "category": "INTERNAL Support Articles",
+    "folder": "Nets - card terminal",
+    "created_at": "2024-05-14T09:18:28+01:00",
+    "updated_at": "2024-05-14T09:18:31+01:00",
+    "status": 2,
+    "tags": [
+      {
+        "name": "card terminal"
+      },
+      {
+        "name": "ddd pos"
+      }
+    ]
+  }
+]

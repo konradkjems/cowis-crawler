@@ -1,0 +1,62 @@
+[
+  {
+    "id": 103000304788,
+    "title": "NEW POS - Attaching customer screen",
+    "text": "On the newest POS models, the customer facing screen will have to be attached after having been unboxed. Luckily this is a simple task. On the back of the POS you can see a grey metal plate with 2 dents, this is were you will attach the customer facing screen. shown below is the backside of the customer screen, you can see the 2 metal studs. Simply lower the studs onto the 2 dents on the backside of the POS, it will slide in place. Note that it is fairly secure once in place, but you should still carry the device carefully if you need to move it. The customer screen has a single cable that it needs to be plugged into, cable is shown below: As shown below, the customer screen only has 1 port, this is where the cable goes. On the POS itself, the cable goes to the port thats similar to the one on the customer screen, it is highlighted below: Once the cable is plugged in, and the customer screen attached, the POS and customer screen are assembled and ready for use.",
+    "category": "DdD Customer Help",
+    "folder": "2024 Model Knowhow",
+    "created_at": "2024-07-23T13:57:17+01:00",
+    "updated_at": "2024-12-13T10:51:40+00:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p dir=\"ltr\">On the newest POS models, the customer facing screen will have to be attached after having been unboxed.</p><p dir=\"ltr\">Luckily this is a simple task.&nbsp;</p><p dir=\"ltr\"><br></p><p dir=\"ltr\">On the back of the POS you can see a grey metal plate with 2 dents, this is were you will attach the customer facing screen.&nbsp;</p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103132836046/original/nSZ_KX8SVRtieZ5raYRG7PGYpPnzAbOBzA.png?1721890627\" class=\"fr-fic fr-fil fr-dib\" title=\"\" style=\"box-sizing: border-box; border: 0px; vertical-align: top; max-width: 100%; position: relative; cursor: pointer; padding: 0px 1px; margin: 5px auto 5px 0px; display: block; float: none; text-align: left; color: rgb(0, 0, 0); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; width: auto;\" data-id=\"103132836046\">shown below is the backside of the customer screen, you can see the 2 metal studs. Simply lower the studs onto the 2 dents on the backside of the POS, it will slide in place. &nbsp;Note that it is fairly secure once in place, but you should still carry the device carefully if you need to move it. </p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103132842314/original/86T7ICE5lVeEhkSXLcbEJhxGrV_tPRJm8A.png?1721891512\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-id=\"103132842314\"></p><p><br></p><p dir=\"ltr\">The customer screen has a single cable that it needs to be plugged into, cable is shown below:&nbsp;</p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103132318121/original/54Y-c2YRwaKxi0zinrXWvGLSByw--ZnoVQ.png?1721739308\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" title=\"\" data-attachment=\"[object Object]\" data-id=\"103132318121\"></p><p><br></p><p dir=\"ltr\">As shown below, the customer screen only has 1 port, this is where the cable goes. </p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103132842541/original/5c0srI1BFvqUQpapLYoSe19JiF5P6ro_KQ.png?1721891541\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" title=\"\" data-id=\"103132842541\"><p><br></p><p dir=\"ltr\">On the POS itself, the cable goes to the port thats similar to the one on the customer screen, it is highlighted below:&nbsp;</p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103132841622/original/ob0Tlilt5kzeeZ47vg5NkXcTkRO8984k-g.png?1721891427\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" title=\"\" data-id=\"103132841622\"><p><br></p><p><br></p><p dir=\"ltr\">Once the cable is plugged in, and the customer screen attached, the POS and customer screen are assembled and ready for use.</p><p><br></p>",
+    "user_id": 103094119936,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 8,
+    "seo_data": {},
+    "modified_at": "2024-07-25T08:13:48+01:00",
+    "modified_by": 103094119936
+  },
+  {
+    "id": 103000305940,
+    "title": "Correcting COM port for the receipt printer (DDD POS only)",
+    "text": "DDD POS only go to: C:\\POS\\Program\\bin\\Debug\\Printer\\Configuration In this ini file you can change COM port in the lines highlighted below. When changed, save file and restart DDD POS",
+    "category": "DdD Customer Help",
+    "folder": "2024 Model Knowhow",
+    "created_at": "2024-07-31T13:28:35+01:00",
+    "updated_at": "2024-08-14T12:51:02+01:00",
+    "status": 2,
+    "tags": [
+      {
+        "name": "receipt printer"
+      },
+      {
+        "name": "com port"
+      },
+      {
+        "name": "Comport"
+      },
+      {
+        "name": "COM-POrt"
+      },
+      {
+        "name": "pos ddd"
+      },
+      {
+        "name": "POS"
+      },
+      {
+        "name": "ddd"
+      }
+    ],
+    "description": "<p dir=\"ltr\">DDD POS only&nbsp;</p><p dir=\"ltr\"><br></p><p dir=\"ltr\">go to:&nbsp;</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><span class=\"ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak\" dir=\"ltr\">C:\\POS\\Program\\bin\\Debug\\Printer\\Configuration</span></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><span class=\"ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak\" dir=\"ltr\">In this ini file you can change COM port in the lines highlighted below.&nbsp;</span></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><span class=\"ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak\" dir=\"ltr\">When changed, save file and restart DDD POS</span></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><span class=\"ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak\" dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103138107501/original/FCwM77d99Kj9XQealfMpPw1vYXb6A9SWBA.png?1723636247\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-id=\"103138107501\" title=\"\"></span></p><p><br></p><p><br></p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103138107583/original/jMO-E8axzelCgjizJ2JkopASP9POitoYFA.png?1723636256\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-id=\"103138107583\"></p><br>",
+    "user_id": 103094119936,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2024-08-14T12:51:02+01:00",
+    "modified_by": 103094119936
+  }
+]

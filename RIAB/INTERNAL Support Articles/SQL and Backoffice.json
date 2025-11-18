@@ -1,0 +1,24 @@
+[
+  {
+    "id": 103000138098,
+    "title": "Running Stored Procedures from SQL",
+    "text": "running a stored procedure in sql: define the variables that need setting after the stored procedure name as below:",
+    "category": "INTERNAL Support Articles",
+    "folder": "SQL and Backoffice",
+    "created_at": "2023-06-27T10:00:48+01:00",
+    "updated_at": "2023-06-27T10:00:52+01:00",
+    "status": 2,
+    "tags": []
+  },
+  {
+    "id": 103000138235,
+    "title": "Object Variable or With block variable not set - CCDocHeader",
+    "text": "when printing occasionally sites will get the below error: this means the till cannot find the logo set on the receipt (or additional picture in some cases). check which receipt design the till is using: click on the glasses icon to check the receipt design: on the till browse to c:\\programdata\\merac\\graphics ensure that the picture file exists, in this case k3logo.jpg: sometimes the picture is not able to be opened (will generally just show a white icon). in this instance delete it and restart merac updater. it should then pull the file down correctly from the server. may be named incorrectly. ensure that within receipt designer the name is specified correctly. occasionally the copy of the picture on the server has got corrupt. get a working copy of the image, place it into the graphics folder and re-create till data from that till. it will then save that copy of the picture to the database.",
+    "category": "INTERNAL Support Articles",
+    "folder": "SQL and Backoffice",
+    "created_at": "2023-06-27T11:04:40+01:00",
+    "updated_at": "2023-06-27T11:04:41+01:00",
+    "status": 2,
+    "tags": []
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": 103000135206,
+    "title": "Delivery notices in the system",
+    "text": "Delivery notices in the system? 27 May 2022 15:00 If the customer can't see if a delivery notice has arrived, you can check it here: http://editoolbox.dddretail.com/ OBS!!!! Works in Chrome, but not in Edge.",
+    "category": "INTERNAL Support Articles",
+    "folder": "EDI Tools",
+    "created_at": "2023-06-21T15:18:15+01:00",
+    "updated_at": "2023-06-22T13:20:42+01:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p>Delivery notices in the system?</p><p>27 May 2022</p><p>15:00</p><p>&nbsp;</p><p>If the customer can't see if a delivery notice has arrived, you can check it here:</p><p>&nbsp;</p><p><a href=\"http://editoolbox.dddretail.com/\">http://editoolbox.dddretail.com/</a></p><p>&nbsp;</p><p>OBS!!!! Works in Chrome, but not in Edge.</p><p>&nbsp;</p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103031468983/original/3Lp22uLSC80jGJ3ZQJsVW_cVmZu82JSBuA.png?1687357092\" alt=\"Editoolbox \nTools \nCurrent Shop Id \nEdi overview \n358010 \nSelect client \nShoplnlcymation \nkx*up \nHelp \nBackoffice errors O \neBiss New \nSearch form \nSelect client Shop id \nfr,r arvxnR7K_Q5 \" class=\"fr-fic fr-dii\" data-attachment=\"[object Object]\" data-id=\"103031468983\" width=\"690\"></p><p>&nbsp;</p>",
+    "user_id": 103082582022,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2023-06-22T13:20:42+01:00",
+    "modified_by": 103082582022
+  },
+  {
+    "id": 103000135207,
+    "title": "EDI – Missing delivery notices from CBR",
+    "text": "EDI – Missing delivery notices from CBR 27 May 2022 15:03 editoobox @ root.login (dddretail.com) USER: Support PW: dddsupp In Tools you can find the Client ID which reports the delivery notice error and search through Backoffice Errors EDI Overview are alle EDI customers as a group Here you can search for CBR and will find 262, 358,359,320,929,939,042,935, CBR Group 357, Street One CBR Group 356, Cecil CBR Group These are the stores owned by the CBR Group Through Backoffice Errors, when you click on a group, you can send the EDI errors by mail to yourself [Copy_error_files.bat] [Desadv.csv] [Fehlermeldung_EDI.xlsx] [Fehlermeldung_EDI_NEW.xlsx] [Ordrsp.csv] Jacob can explain how, or you can simply send them to CBR and ask them to please resend order response and pricat data That is usually what is missing",
+    "category": "INTERNAL Support Articles",
+    "folder": "EDI Tools",
+    "created_at": "2023-06-21T15:19:09+01:00",
+    "updated_at": "2023-06-22T13:20:47+01:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p>EDI – Missing delivery notices from CBR</p><p>27 May 2022</p><p>15:03</p><p>&nbsp;</p><p><a href=\"http://editoolbox.dddretail.com/#/login\">editoobox @ root.login (dddretail.com)</a></p><p>USER: Support PW: dddsupp</p><p>In Tools you can find the Client ID which reports the delivery notice error and search through Backoffice Errors</p><p>EDI Overview are alle EDI customers as a group</p><p>Here you can search for CBR and will find&nbsp;</p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103031469128/original/YnPzRDrA6o_StuEUzunTpG4Z3BDqq88__g.png?1687357136\" class=\"fr-fic fr-dii\" data-attachment=\"[object Object]\" data-id=\"103031469128\" width=\"877\"></p><p>&nbsp;</p><p>262,&nbsp;</p><p>358,359,320,929,939,042,935, CBR Group</p><p>357, Street One CBR Group</p><p>356, Cecil CBR Group&nbsp;</p><p>These are the stores owned by the CBR Group</p><p>Through Backoffice Errors, when you click on a group, you can send the EDI errors by mail to yourself</p><p>&nbsp;</p><p>[Copy_error_files.bat]</p><p>[Desadv.csv]</p><p>[Fehlermeldung_EDI.xlsx]</p><p>[Fehlermeldung_EDI_NEW.xlsx]</p><p>[Ordrsp.csv]</p><p>&nbsp;</p><p>Jacob can explain how, or you can simply send them to CBR and ask them to please resend order response and pricat data</p><p>That is usually what is missing</p>",
+    "user_id": 103082582022,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2023-06-22T13:20:47+01:00",
+    "modified_by": 103082582022
+  }
+]

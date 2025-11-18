@@ -1,0 +1,24 @@
+[
+  {
+    "id": 103000177127,
+    "title": "POS-How to convert POS into RIAB",
+    "text": "when we receive an order to setup a new pos for a butik,the frist thing is to install a dddpos programme on the new pos. the installation process is done by selecting a normal/general pos programme. the setup for a general pos normally look like this when we click on ddd in the pos. we have a lot of customers that have subscription for ddd riab and the settings on the pos must be changed to riab for that particular customer. the procedure to do it is as follows. go to customers ddd admin and advanced configuration.in this example i am considering customer number/klient id 819059. go to edi tools editoobox @ root.login (dddretail.com) login with your details username support and password dddsupp search for customer advanced configuration menu from ddd admin enter the password ddd+2016 in order to make changes in configuration search for 2 paramenters show item management and large accounts and change its value to 1 as shown below. save the settings by selecting save button at the end of the page run a reload command on the kasse in the clerk menu and restart the computer in order to make the changes happen. after reloading pos program the customer can now see all the setttings/menus for a riab in pos.",
+    "category": "INTERNAL Support Articles",
+    "folder": "POS Program",
+    "created_at": "2023-08-02T10:04:32+01:00",
+    "updated_at": "2023-08-02T10:05:32+01:00",
+    "status": 2,
+    "tags": []
+  },
+  {
+    "id": 103000285401,
+    "title": "Exchange label with variable date pop-up window on POS",
+    "text": "during the sales process, if a store wants to print exchange labels on pos with a pop up window where the clerk can choose and set up a variable date regarding that sale. in such case,settings needs to be updated in ddd admin for the following parametre and the value should be updated to 2. after changing the value,click on save button in ddd admin and make a reload on pos. now when the clerk clicks on byttebon button,a pop window should appear as shown in the screenshot where a variable date can be selected as desired by the store.",
+    "category": "INTERNAL Support Articles",
+    "folder": "POS Program",
+    "created_at": "2024-04-03T13:00:32+01:00",
+    "updated_at": "2024-04-03T13:01:17+01:00",
+    "status": 2,
+    "tags": []
+  }
+]

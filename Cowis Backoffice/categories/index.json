@@ -1,0 +1,25 @@
+{
+  "main_category": "backoffice",
+  "total_articles": 113,
+  "categories": {
+    "basiswissen": 8,
+    "1&period-einf&uumlhrung": 5,
+    "2&period-adressen": 9,
+    "3&period-artikel": 10,
+    "4&period-wareneingang": 10,
+    "5&period-retoure": 5,
+    "6&period-order": 2,
+    "7&period-auftragsbearbeitung": 10,
+    "8&period-zahlungen": 4,
+    "9&period-auswertungen": 10,
+    "10&period-inventur": 10,
+    "11&period-edi": 4,
+    "12&period-kassenabschl&uumlsse": 8,
+    "13&period-etikettendruck": 7,
+    "14&period-einstellungen": 7,
+    "e_commerce": 1,
+    "edi": 1,
+    "fibu": 1,
+    "stammdatenimport_export": 1
+  }
+}

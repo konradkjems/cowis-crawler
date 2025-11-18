@@ -1,0 +1,139 @@
+[
+  {
+    "id": 103000131938,
+    "title": "Logo upload for Receipt Printer (Epson TM-T20, TM-T88, DdD Printer)",
+    "text": "If the customer does not know which printer they have, have them check the label on the bottom or back of the printer. DdD / K3 Printer uses RongtaPrinterTool.exe, which is found in C:/DdDPrinter TM-T88 uses TMFLogo.exe, which is found in C:/POS/Logo TM-T20 (Epson) has its own utility program. If it is not installed, transfer it to the customer's computer, install it and then follow the below guideline. Utility Program for TM-T20 If it is not installed already, transfer the TM-T20Utility110.zip file below to the customer's PC, unpack, install and follow the guide for uploading the logo. If the printer is not connected to COM3 or you get a communication error when trying to set it up, check the printer setup here: It will tell you which com-port the printer is connected to and what baudrate to use. Connection on PC: The printer generally has to be connected to COM3 for it to work. Logo details: All logo files HAVE to be bmp and monochrome. Use Paint to edit and save as a monochrome bitmap file. Width: max 400 dpi Height: max 250 dpi If the receipt shows a zero or gibberish instead of a logo, then type one of the following commands, depending on which printer is installed: Sett20 (for TM-T20) Sett88 (forTM-T88) SetDDD (for DdD Printer) in the Shop Assistant number field and click the green button.",
+    "category": "INTERNAL Support Articles",
+    "folder": "Printers (Label/Receipt)",
+    "created_at": "2023-06-15T12:50:34+01:00",
+    "updated_at": "2025-01-20T09:33:36+00:00",
+    "status": 2,
+    "tags": [
+      {
+        "name": "TM-T20"
+      },
+      {
+        "name": "TM-T88"
+      },
+      {
+        "name": "DDD Printer"
+      },
+      {
+        "name": "Logo"
+      },
+      {
+        "name": "upload"
+      },
+      {
+        "name": "receipt printer"
+      }
+    ],
+    "description": "<div class=\"OutlineElement Ltr SCXW145231669 BCX8\"><p dir=\"ltr\"><span dir=\"ltr\" style=\"font-size: 16px;\">If the customer does not know which printer they have, have them check the label on the bottom or back of the printer.</span></p><p dir=\"ltr\" style=\"font-size: 16px;\"><span style=\"font-size: 16px;\"><br></span></p><p dir=\"ltr\" style=\"font-size: 16px;\"><span dir=\"ltr\" style=\"font-size: 16px;\"><strong dir=\"ltr\">DdD / K3 Printer</strong> <span style=\"color: rgb(0, 0, 0); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal;  text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">uses RongtaPrinterTool.exe, which is found in C:/DdDPrinter</span>&nbsp;</span></p><p style=\"font-size: 16px;\"><span style=\"font-size: 16px;\"><br style=\"box-sizing: border-box;\"></span></p><p dir=\"ltr\" style=\"font-size: 16px;\"><span dir=\"ltr\" style=\"font-size: 16px;\"><strong>TM-T88</strong> <span style=\"color: rgb(0, 0, 0); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal;  text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">uses TMFLogo.exe, which is found in C:/POS/Logo</span>&nbsp;</span></p><p dir=\"ltr\" style=\"font-size: 16px;\"><span style=\"font-size: 16px;\"><br></span></p><p dir=\"ltr\" style=\"font-size: 16px;\"><span style=\"font-size: 16px;\"><strong>TM-T20</strong> (Epson) has its own utility program. If it is not installed, transfer it to the customer's computer, install it and then follow the below guideline.</span></p><p dir=\"ltr\" style=\"font-size: 16px;\"><span style=\"font-size: 16px;\"><br></span></p><div class=\"OutlineElement Ltr SCXW145231669 BCX8\" style=\"font-size: 16px;\"><p style=\"font-size: 16px;\"><span style=\"font-size: 16px;\"><strong>Utility Program for TM-T20&nbsp;</strong></span></p></div><div class=\"OutlineElement Ltr SCXW145231669 BCX8\" style=\"font-size: 16px;\"><p style=\"font-size: 16px;\"><span style=\"font-size: 16px;\"> &nbsp;</span></p></div><div class=\"OutlineElement Ltr SCXW145231669 BCX8\" style=\"font-size: 16px;\"><p style=\"font-size: 16px;\"><span style=\"font-size: 16px;\">If it is not installed already, transfer the TM-T20Utility110.zip file below to the customer's PC, unpack, install and follow the guide for uploading the logo.&nbsp;</span></p></div><p style=\"font-size: 16px;\"><span style=\"font-size: 16px;\"><br style=\"box-sizing: border-box;\"></span></p><p style=\"font-size: 16px;\"><span dir=\"ltr\" style=\"font-size: 16px;\">If the printer is not connected to COM3 or you get a communication error when trying to set it up, check the printer setup here:</span></p><p style=\"font-size: 16px;\"><br></p><p style=\"font-size: 16px;\"><span dir=\"ltr\" style=\"font-size: 16px;\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103170299599/original/pT89K0cwRGDXXC6MAxaJYpUGLGDs5ucqMQ.png?1733325493\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103170299599\"></span><br></p><p style=\"font-size: 16px;\"><span dir=\"ltr\" style=\"font-size: 16px;\">It will tell you which com-port the printer is connected to and what baudrate to use.</span></p><p style=\"font-size: 16px;\"><br></p><p style=\"font-size: 16px;\"><span dir=\"ltr\" style=\"font-size: 16px;\"><strong>Connection on PC:</strong> The printer generally has to be connected to COM3 for it to work.</span></p><p style=\"font-size: 16px;\"><span style=\"font-size: 16px;\"><br style=\"box-sizing: border-box;\"></span></p><p style=\"font-size: 16px;\"><span dir=\"ltr\" style=\"font-size: 16px;\"><strong>Logo details:</strong> All logo files <strong><u>HAVE</u></strong> to be bmp and monochrome. Use Paint to edit and save as a monochrome bitmap file.</span></p><p style=\"font-size: 16px;\"><br></p><p style=\"font-size: 16px;\"><span dir=\"ltr\" style=\"font-size: 16px;\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103170306352/original/YqKfhKJP66Ryb2NWSPuy0-z_V3-izIMB3g.png?1733326251\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103170306352\"></span><br></p><p style=\"font-size: 16px;\"><span style=\"font-size: 16px;\"><br></span></p><p dir=\"ltr\" style=\"font-size: 16px;\"><span style=\"font-size: 16px;\"><strong>Width:</strong> max 400 dpi</span><br><span dir=\"ltr\" style=\"font-size: 16px;\"><strong>Height</strong>: max 250 dpi</span></p></div><div class=\"OutlineElement Ltr SCXW145231669 BCX8\" style=\"margin-bottom: 0px; margin-left: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; direction: ltr; color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: 400; text-align: start; text-indent: 0px;\"><p style=\"font-size: 16px;\"><span style=\"font-size: 16px;\"> &nbsp;</span></p></div><div class=\"OutlineElement Ltr SCXW145231669 BCX8\"><p class=\"Paragraph SCXW145231669 BCX8\" style=\"font-size: 16px;\"><span dir=\"ltr\" style=\"font-size: 16px;\">If the receipt shows a zero or gibberish instead of a logo, then type one of the following commands, depending on which printer is installed:</span></p><p class=\"Paragraph SCXW145231669 BCX8\" style=\"font-size: 16px;\"><span style=\"font-size: 16px;\"><br></span></p><p class=\"Paragraph SCXW145231669 BCX8\" style=\"font-size: 16px;\"><span style=\"font-size: 16px;\"><strong>Sett20 &nbsp;&nbsp;</strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (for TM-T20)&nbsp;</span></p><p class=\"Paragraph SCXW145231669 BCX8\" style=\"font-size: 16px;\"><span style=\"font-size: 16px;\"><br></span></p><p class=\"Paragraph SCXW145231669 BCX8\" style=\"font-size: 16px;\"><span style=\"font-size: 16px;\"><strong>Sett88&nbsp;</strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (forTM-T88)</span></p><p class=\"Paragraph SCXW145231669 BCX8\" style=\"font-size: 16px;\"><span style=\"font-size: 16px;\"><br></span></p><p class=\"Paragraph SCXW145231669 BCX8\" style=\"font-size: 16px;\"><span dir=\"ltr\" style=\"font-size: 16px;\"><strong>SetDDD &nbsp;&nbsp;</strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(for DdD Printer)&nbsp;</span></p><p class=\"Paragraph SCXW145231669 BCX8\" style=\"font-size: 16px;\"><span style=\"font-size: 16px;\"><br></span></p><p class=\"Paragraph SCXW145231669 BCX8\" dir=\"ltr\"><span style=\"font-size: 16px;\">in the Shop Assistant number field and click the green button.</span></p></div>",
+    "user_id": 103093471382,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2025-01-20T09:33:35+00:00",
+    "modified_by": 103081813278
+  },
+  {
+    "id": 103000260811,
+    "title": "Print is faint on label printer - citizen",
+    "text": "If the labelprinter is printing faint you can adjust the paper with and height. When you open the lid on the label printer you will see 2 blue cogwheels on the right side. On the side of these cogwheels you wil see a number, the big gear should be on 8 or 9 the small gear should be on 0 or 1",
+    "category": "INTERNAL Support Articles",
+    "folder": "Printers (Label/Receipt)",
+    "created_at": "2023-12-07T07:34:39+00:00",
+    "updated_at": "2023-12-07T07:34:40+00:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p dir=\"ltr\">If the labelprinter is printing faint you can adjust the paper with and height.<br><br>When you open the lid on the label printer you will see 2 blue cogwheels on the right side.<br><br>On the side of these cogwheels you wil see a number, <br>the big gear should be on 8 or 9 <br>the small gear should be on 0 or 1</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103071181620/original/yBhhR35WKPMS_zjfoer3TfEdl-3wN5tAVQ.png?1701934411\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103071181620\"></p>",
+    "user_id": 103089414264,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2023-12-07T07:34:39+00:00",
+    "modified_by": 103089414264
+  },
+  {
+    "id": 103000312753,
+    "title": "Label printer via USB",
+    "text": "Installing Citizen printer via USB: First transfer the “clp-cls-v720m4.exe” file to the customers computer and connect the printer via USB. Double click on the installation file “clp-cls-v720m4.exe” Set a mark in “I accept the terms..” and press “next”. “Press next” Unmark “read installation instr…” and press done Accept the installation to make changes by pressing “yes”. Set the mark in “install printer driver” and press “next” The picture should look like below and just press “next” Set a mark in “sharingname”, call It label and press “next” Press “done” Press “install” Press “close” Open windows Explorer and go to C:\\saclient\\temp and right click on “initport.bat” and select “edit” Enter the following 2 lines in the top: net use lpt3 /del net use lpt3 \\\\%computername%\\label /yes And “pause” on the last line – this is to see if everything runs correctly. Save and close !! Double click the initport.bat and you will get the following message – then press any key Then double click initport.bat again and then following screen should appear – if you get “lpt3 deleted” and “The command completed successfully” everything is done correctly ? Then right click on “initport.bat” and select “edit” again and delete the line “pause” Change the port in Satellite to lpt3 and then print your labels?",
+    "category": "INTERNAL Support Articles",
+    "folder": "Printers (Label/Receipt)",
+    "created_at": "2024-09-17T11:54:27+01:00",
+    "updated_at": "2024-09-17T12:48:58+01:00",
+    "status": 2,
+    "tags": [
+      {
+        "name": "Label Printer"
+      },
+      {
+        "name": "Citizen"
+      },
+      {
+        "name": "USB"
+      }
+    ],
+    "description": "<p dir=\"ltr\">Installing Citizen printer via USB:</p><p dir=\"ltr\"><br></p><ul><li dir=\"ltr\">First transfer the “clp-cls-v720m4.exe” file to the customers computer and connect the printer via USB.<br><br></li><li dir=\"ltr\">Double click on the installation file “clp-cls-v720m4.exe”</li></ul><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103147338735/original/bAjRJ-hxrh9Sel9_mGpkXGhRchdJ0nQkfA.png?1726570513\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103147338735\"></p><p dir=\"ltr\"><br></p><ul><li dir=\"ltr\"> Set a mark in “I accept the terms..” and press “next”.</li></ul><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103147339048/original/9aDnKbT8ago7k8Udr3VxBq5EcaeUBtbqaA.png?1726570548\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103147339048\"></p><p dir=\"ltr\"><br></p><ul><li dir=\"ltr\">“Press next”</li></ul><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103147339282/original/lPw3qAqHzQwEpN77LvR2KTdeCAJmq20RHg.png?1726570570\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103147339282\"></p><p dir=\"ltr\"><br></p><ul><li dir=\"ltr\">Unmark “read installation instr…” and press done</li></ul><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103147339562/original/5ZLPZuZ3DdFpDikEkhMah5I0Rn-2b3JNXg.png?1726570598\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103147339562\"></p><p dir=\"ltr\"><br></p><ul><li dir=\"ltr\">Accept the installation to make changes by pressing “yes”.</li></ul><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103147339986/original/909S-RIKC1amdwKIwRh-YHsPfqfhRYuRew.png?1726570629\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103147339986\"></p><p dir=\"ltr\"><br></p><ul><li dir=\"ltr\">Set the mark in “install printer driver” and press “next”</li></ul><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103147340182/original/B6q7PNHEIhEK0Y6bRVBNG0D6GwMUlLX7nQ.png?1726570652\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103147340182\"></p><p dir=\"ltr\"><br></p><ul><li dir=\"ltr\">The picture should look like below and just press “next”</li></ul><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103147340397/original/Jk8rebiv_kdnOL-ps_8YPJiv4AbMOKE0aw.png?1726570675\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103147340397\"></p><p dir=\"ltr\"><br></p><ul><li dir=\"ltr\">Set a mark in “sharingname”, call It label and press “next”</li></ul><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103147340584/original/YRqyHXHwydNbj_BGW9wL_2IZsBqoxs-eag.png?1726570699\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103147340584\"></p><p dir=\"ltr\"><br></p><ul><li dir=\"ltr\">Press “done”</li></ul><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103147340796/original/p3x_jlCC7gQ_0mapDUrp4kx26e4jLwfghw.png?1726570721\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103147340796\"></p><p dir=\"ltr\"><br></p><ul><li dir=\"ltr\">Press “install”</li></ul><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103147340935/original/AOGpQJYjyAdbdCn_ntVta4390G_8XXn-Ew.png?1726570740\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103147340935\"></p><p dir=\"ltr\"><br></p><ul><li dir=\"ltr\">Press “close”</li></ul><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103147341092/original/-jsmd7aNvaqRB-yAfU-hx6avfzeDY5rzpA.png?1726570761\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103147341092\"></p><p dir=\"ltr\"><br></p><ul><li dir=\"ltr\">Open windows Explorer and go to C:\\saclient\\temp and right click on “initport.bat” and select “edit”</li></ul><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103147341239/original/EzytmG1jloZ9oUFkEQf8gQHbTyiU1LWriQ.png?1726570779\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103147341239\"></p><p dir=\"ltr\"><br></p><ul><li>Enter the following 2 lines in the top:</li></ul><p style=\"margin-left: 80px;\">net use lpt3 /del</p><p dir=\"ltr\" style=\"margin-left: 80px;\">net use lpt3 \\\\%computername%\\label /yes</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103147341584/original/I7S8Kub-n99YqlqT9DIiBtGiABbi7dKjlA.png?1726570816\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103147341584\"></p><p dir=\"ltr\"><br></p><ul><li>And “pause” on the last line – this is to see if everything runs correctly.</li></ul><p><br></p><ul><li dir=\"ltr\">Save and close !!</li></ul><p dir=\"ltr\"><br></p><ul><li dir=\"ltr\">Double click the initport.bat and you will get the following message – then press any key</li></ul><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103147341971/original/8o2qQkME4_s78e71NT6YdONOfaEi5WoIKg.png?1726570849\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103147341971\"></p><p dir=\"ltr\"><br></p><ul><li dir=\"ltr\">Then double click initport.bat again and then following screen should appear – if you get “lpt3 deleted” and “The command completed successfully” everything is done correctly ?</li></ul><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103147342269/original/vF8EnEcoDXg4xfxpMYxmzksY-W-ZsL4TxQ.png?1726570878\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103147342269\"></p><p dir=\"ltr\"><br></p><ul><li dir=\"ltr\">Then right click on “initport.bat” and select “edit” again and delete the line “pause”</li></ul><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103147342512/original/pUoOaGeWOQYQxNfO4GlWVZPbzsTe9A7E0A.png?1726570905\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103147342512\"></p><p dir=\"ltr\"><br></p><ul><li dir=\"ltr\">Change the port in Satellite to lpt3 and then print your labels?</li></ul>",
+    "user_id": 103081813278,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2024-09-17T12:48:58+01:00",
+    "modified_by": 103081813278
+  },
+  {
+    "id": 103000322187,
+    "title": "Reset Label Printer",
+    "text": "When the customer starts a huge print job by accident, it might be necessary to reset the receipt printer in order to stop it (additional to stopping the printer spooler on the PC). This can be done like this: from https://www.citizen-systems.com/resource/support/Label/Manuals/User_Manuals/CL-S5XXII_UM_EN.pdf",
+    "category": "INTERNAL Support Articles",
+    "folder": "Printers (Label/Receipt)",
+    "created_at": "2024-11-28T13:10:40+00:00",
+    "updated_at": "2024-11-28T13:11:16+00:00",
+    "status": 2,
+    "tags": [
+      {
+        "name": "resetting label printer"
+      },
+      {
+        "name": "Citizen"
+      },
+      {
+        "name": "CL-S521"
+      },
+      {
+        "name": "CL-S531"
+      }
+    ],
+    "description": "<p dir=\"ltr\">When the customer starts a huge print job by accident, it might be necessary to reset the receipt printer in order to stop it (additional to stopping the printer spooler on the PC).<br><br>This can be done like this:</p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103168490727/original/BUpmdaGRHDLlLHsNs9E-3QHVzaR4431qew.png?1732799473\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103168490727\"><br><br>from&nbsp;<a href=\"https://www.citizen-systems.com/resource/support/Label/Manuals/User_Manuals/CL-S5XXII_UM_EN.pdf\">https://www.citizen-systems.com/resource/support/Label/Manuals/User_Manuals/CL-S5XXII_UM_EN.pdf</a></p><p><br></p><p><br></p>",
+    "user_id": 103093471382,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2024-11-28T13:11:15+00:00",
+    "modified_by": 103093471382
+  },
+  {
+    "id": 103000340874,
+    "title": "Change logo on receipt printer using USB 2.0 cable",
+    "text": "Unplug the receipt printer from the connector and connect the receipt printer to your computer with a USB 2.0 cable. On your PC you need to have the logo ready and to add the RongtaPrinterTool.exe, no installation needed. When opening the program the following Popup is shown, choose “USB” and “Download”: Choose “Logo” and “Add”. Find logo on your PC and download. The program will confirm the download. Close the program. Connect the receipt printer back to the connector and restart the connector.",
+    "category": "INTERNAL Support Articles",
+    "folder": "Printers (Label/Receipt)",
+    "created_at": "2025-03-21T09:33:44+00:00",
+    "updated_at": "2025-03-21T09:33:44+00:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p dir=\"ltr\">Unplug the receipt printer from the connector and connect the receipt printer to your computer with a USB 2.0 cable.</p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103200298833/original/tgrj1Uf4dHRYK9FeH7Mue8RIC36EiUzTIQ.png?1742549468\" style=\"width: 288px; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103200298833\"> <img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103200299035/original/pO3lZma6gl5KkAhjOkQ91baQvt4OZ6yxdA.png?1742549478\" style=\"width: 290px; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103200299035\"></p><p><br></p><p>&nbsp;<img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103200299288/original/mJffvC1zUV7wQZ8PZnEmuofDNhgkic4-bg.png?1742549500\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103200299288\"></p><p><br></p><p dir=\"ltr\"><br></p><p>On your PC you need to have the logo ready and to add the RongtaPrinterTool.exe, no installation needed.</p><p dir=\"ltr\">When opening the program the following Popup is shown, choose “USB” and “Download”:</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103200299632/original/7FHBPS7gb4iXgYEE1K-ZTKc8gFrfGM015A.png?1742549528\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103200299632\"></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">Choose “Logo” and “Add”.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103200299870/original/9KvC8Od0x3e4oDxAqnqpcv4eiBIu_9aEZw.png?1742549547\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103200299870\"></p><p dir=\"ltr\">Find logo on your PC and download.</p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103200300154/original/vXJOJKPirQjojSJYXWQPjy8KMk5hEGl9eQ.png?1742549576\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103200300154\"></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">The program will confirm the download.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103200300402/original/sibAdMYtUZaIUicLHlS-gbvKlHpyGP85Bg.png?1742549597\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103200300402\"></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">Close the program. Connect the receipt printer back to the connector and restart the connector.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p>",
+    "user_id": 103081815037,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2025-03-21T09:33:44+00:00",
+    "modified_by": 103081815037
+  }
+]

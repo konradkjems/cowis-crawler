@@ -1,0 +1,13 @@
+[
+  {
+    "id": 103000050182,
+    "title": "Grouping Catagories",
+    "text": "to group data in the item data performance table, follow these steps: click and hold the header you want to group by (e.g., \"shop\"), and drag it into place. if you want to remove a column header from the grouping, perform the reverse action by dragging it from its position and dropping it back into the table where you want the header to be placed. notes the table will automatically update as you add, remove and alter positions of the headers. headers placed furthest to the left will automatically be the major grouping, whilst headers further to the right will be subsequently more minor groupings. the example below explains this in more detail. columns that display variable digital denominations, large blocks of text and other limitations cannot be grouped. you will not be able to drop these headers in the 'drag and drop' area. in items, examples of the headers that cannot be grouped are: qty on-hand value on-hand qty on-order sales price example of grouping with a single column: once you group the data, the item data performance table will display the information in a different format, showing the groups. in this case, it will be grouped by \"shops.\" you can use the arrow next to each shop's name to expand and view more detailed information. example of grouping with multiple columns: if you choose multiple headers to group by, you will have a stack of groups. for example, you may have \"shops\" as the major header, and within each shop, you can further group by \"date\". to change the hierarchy of the data, arrange the groups in the desired order. the data will stack based on the order of the groups you arrange with major priority to the left, moving to minor priority as you move to the right.",
+    "category": "Imagine Documentation",
+    "folder": "Items",
+    "created_at": "2023-01-26T10:11:21+00:00",
+    "updated_at": "2023-07-28T16:01:15+01:00",
+    "status": 2,
+    "tags": []
+  }
+]

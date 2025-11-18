@@ -1,0 +1,11 @@
+{
+  "main_category": "RMS",
+  "sub_category": "RMS Customer Help",
+  "total_articles": 9,
+  "folders": {
+    "Store Ops Manager": 5,
+    "HQ manager": 2,
+    "Store Ops POS": 1,
+    "Oaktron": 1
+  }
+}

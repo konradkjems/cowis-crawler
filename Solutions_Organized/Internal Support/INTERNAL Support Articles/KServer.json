@@ -1,0 +1,21 @@
+[
+  {
+    "id": 103000321062,
+    "title": "Cannot find file OLOK.OMS",
+    "text": "This message indicates a drive mapping issue on the KServer. Connect onto the KServer and check the mapped drives on the PC using Windows Explorer. Open the KServer.LOG in C:\\K3btg\\Omnis and check if there is an error with the drive mappings. Mapped the drives and restart the KServer service. Ask the user on the 64-bit pc and run a 16-bit program.",
+    "category": "INTERNAL Support Articles",
+    "folder": "KServer",
+    "created_at": "2024-11-19T12:01:19+00:00",
+    "updated_at": "2024-11-19T12:01:24+00:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103165597753/original/0gqs0EcJ8RBE3-NpuH1EmC9O2mA4my-6tg.png?1732017546\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103165597753\"></p><p><br></p><p dir=\"ltr\">This message indicates a drive mapping issue on the KServer.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\">Connect onto the KServer and check the mapped drives on the PC using Windows Explorer.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\">Open the KServer.LOG in C:\\K3btg\\Omnis and check if there is an error with the drive mappings.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\">Mapped the drives and restart the KServer service.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\">Ask the user on the 64-bit pc and run a 16-bit program.</p>",
+    "user_id": 103093502676,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2024-11-19T12:01:24+00:00",
+    "modified_by": 103093502676
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "id": 103000120916,
+    "title": "Custom Email Receipts",
+    "text": "note: this functionality is no longer supported. custom email receipts are supported when a retailer has their own sendgrid account. within sendgrid they must create an api key through settings > api keys and record/copy the key to be used. within sendgrid a dynamic template can then be created.this is done using templates > transactional you can then create and format a template but it must be a dynamic template. it can be formatted and structured however you like, but you should use the following variables in triplicate {{{curlybraces}}} and imagine will replace these with the content from the transaction. {{{header}}} {{{items}}} {{{total}}} {{{vats}}} {{{payments}}} {{{customernumber}}} {{{footer}}} {{{barcode}}} {{{cardreceipt}}} the template id is then required to configure imagine to use your custom template. the custom receipt template can then be implemented by k3 as a shop feature through the support platform. please contact your local support team for more details. feature name: receiptemail feature values: name: sendgridreceiptemailtemplateid, type: string, value: templateid taken from sendgrid name: sendgridreceiptemailapikey, type: string, value: apikey taken from sendgrid a sample/getting started template is shown below. - custom!!!!!! custom!!!!!! thanks for your purchase! please find attached your receipt and below an overview of your purchased items. {{{header}}} {{{items}}} {{{total}}} {{{vats}}} {{{payments}}} {{{customernumber}}} {{{footer}}} {{{barcode}}} {{{cardreceipt}}}",
+    "category": "Imagine Documentation",
+    "folder": "POS",
+    "created_at": "2023-05-22T16:13:08+01:00",
+    "updated_at": "2024-06-19T17:13:54+01:00",
+    "status": 2,
+    "tags": [
+      {
+        "name": "ARCHIVE"
+      }
+    ]
+  }
+]

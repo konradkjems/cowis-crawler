@@ -1,0 +1,21 @@
+[
+  {
+    "id": 103000315848,
+    "title": "MeracLocalCRMService",
+    "text": "New setting has been created in the latest release that allows control over the heartbeat monitor for the service. Rather than checking every second if it is time to run, it can be configured to only check every X number of seconds. This setting is to prevent setups that cause strain on customers servers. Checking every hour seems more reasonable and also prevents silly configuration such as run every 5 minutes. It will only run when this heart beat checks.",
+    "category": "INTERNAL MStore Product Information",
+    "folder": "Integrations",
+    "created_at": "2024-10-07T13:28:57+01:00",
+    "updated_at": "2024-10-07T13:28:58+01:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p dir=\"ltr\">New setting has been created in the latest release that allows control over the heartbeat monitor for the service.<br><br>Rather than checking every second if it is time to run, it can be configured to only check every X number of seconds.<br><br></p><p dir=\"ltr\">This setting is to prevent setups that cause strain on customers servers. Checking every hour seems more reasonable and also prevents silly configuration such as run every 5 minutes. It will only run when this heart beat checks.&nbsp;</p><p dir=\"ltr\"><br><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103153085554/original/y1D0hJC-Gs9mbo3Tl-raTDBjSwfsQljrKA.png?1728304048\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103153085554\"></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p>",
+    "user_id": 103099809303,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2024-10-07T13:28:57+01:00",
+    "modified_by": 103099809303
+  }
+]

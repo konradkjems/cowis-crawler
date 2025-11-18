@@ -1,0 +1,164 @@
+[
+  {
+    "id": 103000144769,
+    "title": "Lables - printing replacements",
+    "text": "In BO (Warenwirtschaft) Drucken -> Spezielles -> Ersatzetikett eingeben",
+    "category": "INTERNAL Support Articles",
+    "folder": "Printer",
+    "created_at": "2023-07-03T11:34:03+01:00",
+    "updated_at": "2023-07-03T11:34:06+01:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p>In BO (Warenwirtschaft)</p><p>Drucken -&gt; Spezielles -&gt; Ersatzetikett eingeben</p>",
+    "user_id": 103082582022,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 1,
+    "seo_data": {},
+    "modified_at": "2023-07-03T11:34:05+01:00",
+    "modified_by": 103082582022
+  },
+  {
+    "id": 103000144770,
+    "title": "Logo - remove",
+    "text": "System -> Service -> Logische Drucker -> Choose printer, then click Ändern (change) Remove the string: Seq. vor Blatt: p",
+    "category": "INTERNAL Support Articles",
+    "folder": "Printer",
+    "created_at": "2023-07-03T11:35:04+01:00",
+    "updated_at": "2023-07-03T11:35:06+01:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p>System -&gt; Service -&gt; Logische Drucker -&gt;&nbsp;</p><p>&nbsp;</p><p>Choose printer, then click Ändern (change)</p><p>&nbsp;</p><p>Remove the string:&nbsp;Seq. vor Blatt: &lt;@28&gt;p&lt;@1&gt;&lt;@0&gt;</p><p>&nbsp;</p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103033596935/original/jBS8wttYj7xP2Q4yBoe4_VkpQQkrTd9dOA.png?1688380499\" class=\"fr-fic fr-dii\" data-attachment=\"[object Object]\" data-id=\"103033596935\" width=\"602\"></p><p>&nbsp;</p>",
+    "user_id": 103082582022,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 1,
+    "seo_data": {},
+    "modified_at": "2023-07-03T11:35:06+01:00",
+    "modified_by": 103082582022
+  },
+  {
+    "id": 103000144771,
+    "title": "Printout is too weak or too small",
+    "text": "A4-Printer: If it is not about the toner, there's nothing we can do about that Receipt printer: Epson: Calibrate the printer. If that does not work, then they need a new one. Label printer: Citizen: Adjust on the blue gears",
+    "category": "INTERNAL Support Articles",
+    "folder": "Printer",
+    "created_at": "2023-07-03T11:36:07+01:00",
+    "updated_at": "2023-07-03T11:36:09+01:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p><strong>A4-Printer:</strong></p><p>&nbsp;</p><p>If it is not about the toner, there's nothing we can do about that</p><p>&nbsp;</p><p><strong>Receipt printer:</strong></p><p>&nbsp;</p><p>Epson: Calibrate the printer. If that does not work, then they need a new one.</p><p>&nbsp;</p><p><strong>Label printer</strong><strong>:</strong></p><p>&nbsp;</p><p>Citizen:&nbsp;Adjust on the blue gears</p><p>&nbsp;</p>",
+    "user_id": 103082582022,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 1,
+    "seo_data": {},
+    "modified_at": "2023-07-03T11:36:08+01:00",
+    "modified_by": 103082582022
+  },
+  {
+    "id": 103000144772,
+    "title": "Zebra Printer ZD 410 calibration",
+    "text": "",
+    "category": "INTERNAL Support Articles",
+    "folder": "Printer",
+    "created_at": "2023-07-03T11:37:01+01:00",
+    "updated_at": "2023-07-03T11:37:05+01:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103033597728/original/QXjkzy-t7oXfqB_B1uZKEN92TVXluEbKWw.png?1688380615\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103033597728\"></p>",
+    "user_id": 103082582022,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 1,
+    "seo_data": {},
+    "modified_at": "2023-07-03T11:37:05+01:00",
+    "modified_by": 103082582022
+  },
+  {
+    "id": 103000205438,
+    "title": "Receipt printer does not work",
+    "text": "Printer Settings -> Delete Print Jobs Windows Services -> Restart print queue",
+    "category": "INTERNAL Support Articles",
+    "folder": "Printer",
+    "created_at": "2023-08-28T12:18:47+01:00",
+    "updated_at": "2023-08-28T12:19:09+01:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p dir=\"ltr\">Printer Settings -&gt; Delete Print Jobs</p><p dir=\"ltr\">Windows Services -&gt; Restart print queue</p>",
+    "user_id": 103093471382,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 1,
+    "seo_data": {},
+    "modified_at": "2023-08-28T12:18:47+01:00",
+    "modified_by": 103093471382
+  },
+  {
+    "id": 103000310411,
+    "title": "Label Printout not correct",
+    "text": "Especially after changing a label roll, it can happen that the printer can no longer find the beginning of the label correctly. The result can then be a printout like the one shown in the picture. First, check the form size settings in the printer driver. Use the Windows Start button to open the Windows menu structure and select \"Control Panel\". Then go to the menu item \"Devices and Printers\" Then look for the label printer that is assigned in Cowis.Net To check the paper sizes, go to Settings on the \"General\" tab The appropriate label size must be set here There is also the same parameter on the \"Advanced\" \"Default values\" page If the dimensions are correct, you can calibrate the medium on the \"Maintenance\" tab. This window can look slightly different depending on the printer driver used, the support employee has to think and look independently here. The label printout should then work correctly again",
+    "category": "INTERNAL Support Articles",
+    "folder": "Printer",
+    "created_at": "2024-09-02T12:05:43+01:00",
+    "updated_at": "2024-09-02T12:10:15+01:00",
+    "status": 2,
+    "tags": [
+      {
+        "name": "kalibrieren"
+      },
+      {
+        "name": "cowis.net"
+      },
+      {
+        "name": "Ausdruck"
+      },
+      {
+        "name": "Etikett"
+      },
+      {
+        "name": "Etiketten"
+      }
+    ],
+    "description": "<p>Especially after changing a label roll, it can happen that the printer can no longer find the beginning of the label correctly.</p><p dir=\"ltr\">The result can then be a printout like the one shown in the picture.</p><p><br></p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103142841044/original/X4s0PkyELjLQGw7mEFAiOa885R1cyyRAWQ.png?1725274176\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103142841044\"></p><p><br></p><p><br></p><p>First, check the form size settings in the printer driver.</p><p><br></p><p dir=\"ltr\">Use the Windows Start button</p><p><br></p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103142844119/original/lkkDMgiWTvlv6x6cpWoPdQfYNZ9AG1M_Ew.png?1725274470\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103142844119\"></p><p><br></p><p dir=\"ltr\">to open the Windows menu structure and select \"Control Panel\".</p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103142845342/original/PgejZ5JpA0Hslu-L6TfyvS97CbxhqM6T-Q.png?1725274593\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103142845342\"></p><p><br></p><p dir=\"ltr\">Then go to the menu item \"Devices and Printers\"</p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103142845568/original/7KS1OQrMPA5LuMSnbqZHSqR6ImJbX14XkQ.png?1725274616\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103142845568\"></p><p><br></p><p dir=\"ltr\">Then look for the label printer that is assigned in Cowis.Net</p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103142846703/original/fJ_YcQ_ozRUjN-0F6lmM9W-BtPxeNCjo0g.png?1725274729\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103142846703\"></p><p><br></p><p><br></p><p dir=\"ltr\">To check the paper sizes, go to Settings on the \"General\" tab<br><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103142847447/original/wYwMnpE0FR-1vP5jXVioz3UMPMKMPOwCsQ.png?1725274812\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103142847447\"></p><p><br></p><p><br></p><p dir=\"ltr\">The appropriate label size must be set here</p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103142848056/original/e5Ewx8Omm-53gIUWHMRIgWnDrSUeJqXBSQ.png?1725274869\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103142848056\"></p><p><br></p><p><br></p><p dir=\"ltr\">There is also the same parameter on the \"Advanced\" \"Default values\" page<br><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103142848976/original/NLbokv3h70c_cswHKSc3bmpE6WAc5Wci8A.png?1725274947\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103142848976\"></p><p><br></p><p><br></p><p dir=\"ltr\">If the dimensions are correct, you can calibrate the medium on the \"Maintenance\" tab.<br><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103142849700/original/Q_hrNsrIkg_FoQpNN85IcP2nObccM7Dw1Q.png?1725275020\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103142849700\"></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">This window can look slightly different depending on the printer driver used, the support employee has to think and look independently here.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\">The label printout should then work correctly again</p><p dir=\"ltr\"><br></p><p><br></p>",
+    "user_id": 103081814775,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 1,
+    "seo_data": {},
+    "modified_at": "2024-09-02T12:05:43+01:00",
+    "modified_by": 103081814775
+  },
+  {
+    "id": 103000320072,
+    "title": "Cowiskasse: Printer setup for Cowiskasse",
+    "text": "The Cowiskasse is very undemanding when it comes to the POS printer. Any printer that understands the Windows printer language \"Generic / Text only\" can be connected. As a rule, a thermal printer such as Epson TMT, Metapace or Oxhoo will be used at a POS. The printer must be installed in Windows; the Cowiskasse does not care whether the connection is a USB connection, a serial connection or a parallel connection. Sometimes it can happen that USB printers are not recognized as such (Windows-specific). In such a case, we recommend installing the serial software emulator provided by the printer manufacturer. For Epson, for example, this is \"TMVirtualPortDriver\". This emulates a serial connection from a USB connection. The Windows printer should then be called \"Cowis-Bon\" most simply, and this is then stored in the Cowiskasse as a logical printer.",
+    "category": "INTERNAL Support Articles",
+    "folder": "Printer",
+    "created_at": "2024-11-11T09:01:18+00:00",
+    "updated_at": "2024-11-27T15:10:27+00:00",
+    "status": 2,
+    "tags": [
+      {
+        "name": "Cowiskasse"
+      },
+      {
+        "name": "Bondrucker"
+      },
+      {
+        "name": "Printer"
+      },
+      {
+        "name": "POS-Printer"
+      }
+    ],
+    "description": "<p>The Cowiskasse is very undemanding when it comes to the POS printer.</p><p><br></p><p>Any printer that understands the Windows printer language \"Generic / Text only\" can be connected.</p><p><br></p><p>As a rule, a thermal printer such as Epson TMT, Metapace or Oxhoo will be used at a POS.</p><p><br></p><p>The printer must be installed in Windows; the Cowiskasse does not care whether the connection is a USB connection, a serial connection or a parallel connection.</p><p><br></p><p>Sometimes it can happen that USB printers are not recognized as such (Windows-specific).</p><p><br></p><p>In such a case, we recommend installing the serial software emulator provided by the printer manufacturer.</p><p><br></p><p>For Epson, for example, this is \"TMVirtualPortDriver\". This emulates a serial connection from a USB connection.</p><p><br></p><p>The Windows printer should then be called \"Cowis-Bon\" most simply, and this is then stored in the Cowiskasse as a logical printer.</p>",
+    "user_id": 103081814775,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 3,
+    "seo_data": {},
+    "modified_at": "2024-11-11T09:01:18+00:00",
+    "modified_by": 103081814775
+  }
+]

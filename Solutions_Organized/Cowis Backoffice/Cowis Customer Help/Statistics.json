@@ -1,0 +1,151 @@
+[
+  {
+    "id": 103000294154,
+    "title": "Evaluations by inventory with sizes and colors (detailed item properties)",
+    "text": "The easiest way to do this is to create a list in the Articles section. You mark the article or articles that you would like to have displayed. Then go to Print -> List Here you can then define what you want to have printed by activating the respective checkbox. the result then looks like this.",
+    "category": "Cowis Customer Help",
+    "folder": "Statistics",
+    "created_at": "2024-05-29T09:10:21+01:00",
+    "updated_at": "2024-05-29T09:19:36+01:00",
+    "status": 2,
+    "tags": [
+      {
+        "name": "Analysis"
+      },
+      {
+        "name": "cowis.net"
+      },
+      {
+        "name": "Cowis Backoffice"
+      },
+      {
+        "name": "Auswertungen"
+      },
+      {
+        "name": "Statistics"
+      }
+    ],
+    "description": "<p style=\"margin-left: 0cm; margin-bottom: 0.0001pt; font-size: 13px; font-family: &quot;Courier New&quot;; line-height: 27pt;\"><span style=\"font-size: 16px; font-family: &quot;Helvetica Neue&quot;; color: rgb(32, 33, 36);\">The easiest way to do this is to create a list in the Articles section.</span></p><p style=\"margin-left: 0cm; margin-bottom: 0.0001pt; font-size: 13px; font-family: &quot;Helvetica Neue&quot;; line-height: 27pt;\"><span style=\"font-size: 16px; font-family: &quot;Helvetica Neue&quot;; color: rgb(32, 33, 36);\">You mark the article or articles that you would like to have displayed.</span></p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103117065942/original/FVv5NJEM5Ey2JTn-ElbOPeJd-Inv1Ozhqg.png?1716969893\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103117065942\"></p><p><br></p><p style=\"margin-left: 0cm; margin-bottom: 0.0001pt; font-size: 13px; font-family: &quot;Courier New&quot;; line-height: 27pt;\"><span style=\"font-size: 18px; font-family: Helvetica, sans-serif; color: rgb(32, 33, 36);\">Then go to Print -&gt; List</span></p><p><br></p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103117066986/original/Ko_mO_yL45aW_sld3qgmscRqTawouuk_jw.png?1716970003\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103117066986\"></p><p><br></p><p>Here you can then define what you want to have printed by activating the respective checkbox.</p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103117067942/original/bydfrfJErUBzmoHkwqNj8mDU0yl5YjP4WA.png?1716970103\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103117067942\"></p><p><br></p><p><br></p><p>the result then looks like this.</p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103117068065/original/07TPaCnmO1ONJ3iIberLrg3ofl5sVv1-KQ.png?1716970122\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103117068065\"></p><p><br></p>",
+    "user_id": 103081814775,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 1,
+    "seo_data": {},
+    "modified_at": "2024-05-29T09:15:50+01:00",
+    "modified_by": 103081814775
+  },
+  {
+    "id": 103000263237,
+    "title": "How to export a report to Excel",
+    "text": "Cowis.Net does not export directly to Excel, but always creates a TXT file which you have to import into Excel. If you create an evaluation, tick the “Excel Export” checkbox. After the evaluation has been calculated, Cowis.Net must open a storage dialog (see image) If you do NOT see this save dialog, support must first activate the function. Function is activated: If the function is activated and you see the save dialog, enter a meaningful name for the file, leave the ending .TXT and save the export file. The file is available to you in the selected directory and you can import it into Excel",
+    "category": "Cowis Customer Help",
+    "folder": "Statistics",
+    "created_at": "2023-12-19T12:58:12+00:00",
+    "updated_at": "2024-09-05T11:53:08+01:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p>Cowis.Net does not export directly to Excel, but always creates a TXT file which you have to import into Excel.</p><p><br></p><p dir=\"ltr\">If you create an evaluation, tick the “Excel Export” checkbox.<br><br><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103074308425/original/MzXiU1YE8fFFYoHCIXtfv6dlKaZFpWWpBw.png?1702990367\" style=\"width: 718px;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103074308425\"></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">After the evaluation has been calculated, Cowis.Net must open a storage dialog (see image)</p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103074309672/original/OZElVAB4Dm4pkRlaVi0IO8Oh5Pc1q2MdCw.png?1702990517\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103074309672\"></p><p dir=\"ltr\">If you do NOT see this save dialog, support must first activate the function.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p>Function is activated:</p><p dir=\"ltr\">If the function is activated and you see the save dialog, enter a meaningful name for the file, leave the ending .TXT and save the export file.</p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103074310816/original/MQXWaw14LIwM3OBElAKIJSFQvPsoSLbJGw.png?1702990655\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103074310816\"></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">The file is available to you in the selected directory and you can import it into Excel</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p>",
+    "user_id": 103081814775,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 1,
+    "seo_data": {},
+    "modified_at": "2023-12-19T12:58:12+00:00",
+    "modified_by": 103081814775
+  },
+  {
+    "id": 103000209693,
+    "title": "Printer for lists and evaluations",
+    "text": "When printing lists or evlauations doesn't leed to anything, it might be that the wrong printer is choosen. Set the right printer in COWIS as follows: Artikel -> Einstellungen > Druckeinstellungen -> Druckparameter -> Choose \"Standard\"",
+    "category": "Cowis Customer Help",
+    "folder": "Statistics",
+    "created_at": "2023-09-01T10:50:07+01:00",
+    "updated_at": "2024-09-05T11:53:31+01:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p dir=\"ltr\">When printing lists or evlauations doesn't leed to anything, it might be that the wrong printer is choosen. Set the right printer in COWIS as follows:<br><br><span dir=\"ltr\" style=\"color: rgb(24, 50, 71); font-family: arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal;  text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">Artikel -&gt; Einstellungen &gt; Druckeinstellungen -&gt; Druckparameter -&gt; Choose \"Standard\"</span></p>",
+    "user_id": 103093471382,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 1,
+    "seo_data": {},
+    "modified_at": "2023-09-01T10:50:07+01:00",
+    "modified_by": 103093471382
+  },
+  {
+    "id": 103000273775,
+    "title": "What is the fastest way to evaluate the inventory?",
+    "text": "The quickest way is the classic “warehouse, goods receipt and issue” evaluation. Once you have reached the classic evaluations, click on “New” or use “F5”. Then select the “warehouse, goods receipt and issue” report. If you only care about inventory as of today, fill in the date range from to with today's date. The top evaluation level is always “branch” (i.e. your company). You set this by using the drop-down menu in the breakdown and selecting the branch item. That's all you need to enter as basic information, all other fields are optional and are explained in a separate help area. Now click on OK or use F2 and the evaluation will be calculated. The result is an evaluation that shows you your current inventory in units, purchases and sales in the last three columns, broken down into your individual branches (if you have them) and the total. You can also put this on paper using the menu item Print -> Dataset.",
+    "category": "Cowis Customer Help",
+    "folder": "Statistics",
+    "created_at": "2024-02-07T07:35:36+00:00",
+    "updated_at": "2024-09-05T11:53:51+01:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p>The quickest way is the classic “warehouse, goods receipt and issue” evaluation.</p><p><br></p><p dir=\"ltr\">Once you have reached the classic evaluations, click on “New” or use “F5”.</p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103085887522/original/t4SY7Bx1lu3FgE4-AktAx7x8jM-POpw5rA.png?1707290387\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103085887522\"></p><p><br></p><p><br></p><p dir=\"ltr\">Then select the “warehouse, goods receipt and issue” report.</p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103085887896/original/oPiJ9q3IBxBcwNhqe59WVxR2oK3fJ-s51A.png?1707290449\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103085887896\"></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">If you only care about inventory as of today, fill in the date range from to with today's date.</p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103085888206/original/QumRywiUxD3UzgXWFzoFvjg5ShWUfikLKA.png?1707290529\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103085888206\"></p><p><br></p><p dir=\"ltr\">The top evaluation level is always “branch” (i.e. your company). You set this by using the drop-down menu in the breakdown and selecting the branch item.</p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103085888932/original/P6WB1NbAg4pS1V24PDOwBHKovrBsO38NAQ.png?1707290704\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103085888932\"></p><p><br></p><p>That's all you need to enter as basic information, all other fields are optional and are explained in a separate help area.</p><p><br></p><p dir=\"ltr\">Now click on OK or use F2 and the evaluation will be calculated.</p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103085889434/original/MJbLlvh4bV6eN2wrhN8O6XuUcY5W-Lkegw.png?1707290825\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103085889434\"></p><p><br></p><p><br></p><p dir=\"ltr\">The result is an evaluation that shows you your current inventory in units, purchases and sales in the last three columns, broken down into your individual branches (if you have them) and the total.</p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103085891223/original/b1yZzkIuuJIsah_MDBW8Ie8OGLXoNty8Cg.png?1707291257\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103085891223\"></p><p><br></p><p dir=\"ltr\">You can also put this on paper using the menu item Print -&gt; Dataset.</p>",
+    "user_id": 103081814775,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 1,
+    "seo_data": {},
+    "modified_at": "2024-02-07T07:35:36+00:00",
+    "modified_by": 103081814775
+  },
+  {
+    "id": 103000304617,
+    "title": "Print preview of reports (A4) shows an incorrect size",
+    "text": "If you are suddenly confronted with an unusual print preview in Cowis.Net Backoffice (see example) don't despair. You don't have to change anything in Cowis.Net!! Go to the Windows printer settings (usually it is enough to click on the Windows start area and search for printer Look for the check mark for standard printer Change the standard printer to your regular standard printer Start printing again and enjoy an evaluation",
+    "category": "Cowis Customer Help",
+    "folder": "Statistics",
+    "created_at": "2024-07-22T14:08:49+01:00",
+    "updated_at": "2024-09-05T11:54:16+01:00",
+    "status": 2,
+    "tags": [
+      {
+        "name": "Printer"
+      },
+      {
+        "name": "Drucker"
+      },
+      {
+        "name": "cowis.net"
+      },
+      {
+        "name": "Auswertung"
+      },
+      {
+        "name": "Etikett"
+      },
+      {
+        "name": "Format"
+      }
+    ],
+    "description": "<p>If you are suddenly confronted with an unusual print preview in Cowis.Net Backoffice (see example)</p><p><br></p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103131963806/original/E1BMUtc4npNxR4FJqpkjNtTAYf6NFSCSHw.png?1721653782\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103131963806\"></p><p><br></p><p>don't despair.</p><p><br></p><p>You don't have to change anything in Cowis.Net!!</p><p><br></p><p>Go to the Windows printer settings</p><p><br></p><p>(usually it is enough to click on the Windows start area and search for printer</p><p><br></p><p>Look for the check mark for standard printer<br><br><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103131963943/original/jPelCQurXCgrh_mRRs5OniDUUGX2BSu36Q.png?1721653797\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103131963943\"></p><p><br></p><p>Change the standard printer to your regular standard printer<br><br><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103131964050/original/WBBGJ2KNCcwqyVRBAHnOddmthsb1VgLD7g.png?1721653807\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103131964050\"></p><p><br></p><p>Start printing again and enjoy an evaluation<br><br><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103131964136/original/-8ZG-bciCuV6uK6GI-SKVNrFOYhJ5guQDg.png?1721653816\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103131964136\"></p>",
+    "user_id": 103081814775,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 1,
+    "seo_data": {},
+    "modified_at": "2024-07-22T14:10:24+01:00",
+    "modified_by": 103081814775
+  },
+  {
+    "id": 103000262964,
+    "title": "How to create a best of customer list by turnover",
+    "text": "Open the merchandise management and click on \"Analyses\". Then follow the following click path: 1. Klassische Auswertungen 2. Neu 3. Verkäufe und Rohertrag 4. Gewünschten Zeitraum auswählen 5. Aufschlüsselung nach Kundennummer 6. Sortierung nach VK eff. 7. Haken bei Sortierung absteigend setzen 8. Haken bei Breite Liste setzen 9. OK klicken The top line in the evaluation that you then receive contains all customers without names (i.e. walk-in customers).",
+    "category": "Cowis Customer Help",
+    "folder": "Statistics",
+    "created_at": "2023-12-18T14:55:41+00:00",
+    "updated_at": "2024-09-05T13:28:26+01:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p>Open the merchandise management and click on \"Analyses\".</p><p><br></p><p>Then follow the following click path:</p><p><br><br></p><div data-identifyelement=\"414\" dir=\"ltr\" style=\"box-sizing: border-box; word-break: break-word; overflow-wrap: break-word; font-size: 14px; line-height: 18px; color: rgb(24, 50, 71); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal;  text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-family: arial, sans-serif, arial, sans-serif;\">1. Klassische Auswertungen<br data-identifyelement=\"418\" style=\"box-sizing: border-box;\">2. Neu<br data-identifyelement=\"419\" style=\"box-sizing: border-box;\">3. Verkäufe und Rohertrag<br data-identifyelement=\"420\" style=\"box-sizing: border-box;\">4. Gewünschten Zeitraum auswählen<br data-identifyelement=\"421\" style=\"box-sizing: border-box;\">5. Aufschlüsselung nach Kundennummer<br data-identifyelement=\"422\" style=\"box-sizing: border-box;\">6. Sortierung nach VK eff.<br data-identifyelement=\"423\" style=\"box-sizing: border-box;\">7. Haken bei Sortierung absteigend setzen<br data-identifyelement=\"424\" style=\"box-sizing: border-box;\">8. Haken bei Breite Liste setzen<br data-identifyelement=\"425\" style=\"box-sizing: border-box;\">9. OK klicken<br data-identifyelement=\"426\" style=\"box-sizing: border-box;\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103104227243/original/yhWa2iN0XrazUmfpAho9kHFZbImWv8QRIA.png?1712840616\" class=\"fr-fic fr-fil fr-dib inline-image\" data-attachment=\"[object Object]\" style=\"box-sizing: border-box; border: 0px; vertical-align: middle; max-width: 100%; position: relative; cursor: pointer; margin: 5px auto 5px 0px; display: block; float: none; text-align: left; width: auto;\" data-id=\"103104227243\"><br><br>The top line in the evaluation that you then receive contains all customers without names (i.e. walk-in customers).</div><p><br></p><p><br><br><br></p>",
+    "user_id": 103093471382,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 1,
+    "seo_data": {},
+    "modified_at": "2024-04-11T14:03:57+01:00",
+    "modified_by": 103093471382
+  }
+]

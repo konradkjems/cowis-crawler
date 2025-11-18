@@ -1,0 +1,13 @@
+[
+  {
+    "id": 103000129690,
+    "title": "Card terminal - won't connect to POS (German RIAB customers)",
+    "text": "when a german customer gets a new card terminal, the following change has to be made to get the pos to communicate with the new terminal: 1. open pos/program/bin/debug/printer/configuration/esc koder.txt 2. scroll down to [germanbankingconfig] 3. change port to com1 (if different) 4. change stopbit to 2 (if different) 5. restart pos if it still doesn't work, repeat above steps and set stopbit to 1.",
+    "category": "INTERNAL Support Articles",
+    "folder": "Card terminal",
+    "created_at": "2023-06-12T12:53:43+01:00",
+    "updated_at": "2023-06-12T12:53:43+01:00",
+    "status": 2,
+    "tags": []
+  }
+]

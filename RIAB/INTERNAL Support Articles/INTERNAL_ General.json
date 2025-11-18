@@ -1,0 +1,13 @@
+[
+  {
+    "id": 103000135185,
+    "title": "Internal Glossary & Acronyms",
+    "text": "general internal glossary & acronyms table of contents general business / product terms customer names general business / product terms acronym / phrase meaning ad active directory api application programming interface ber beyond economic repair bo back office cds catalogue delivery service cnp chip and pin coe customers own equipment crm customer relationship management csm customer success manager (like an account manager) csr corporate social responsibility dd direct debit ddd detail data denmark dm duty manager dmz demilitarised zone (networking/routers) edi electronic data interchange. also see esg below. esg environmental, social, and governance. (also see csr above) refers to set of standards measuring a business's impact on society, the environment, and how transparent and accountable it is. commonly used when discussing viji and sustainability. foc free of charge ftp file transfer protocol kb knowledge base mgf managed goods flow moi mstore online interface (i.e. the api) okr objectives and key results opos operating procedures outline sheet (drivers for pos devices) orb order ready board (imagine - seen by customers) osd order status display (imagine - used by kitchen) ou organisational unit ped pin entry device (i..e a standalone card payment terminal) plu price lookup (mstore term) pop popup order and pay (imagine feature) . can also mean pickup order & pay. similar to top except can pre-order for collection/delivery pos point of sale pwa progressive web app rdp remote desktop riab retail in a box rma return merchandise authorisation rms retail management system (microsoft dynamics) rtb return to base sco self check out sftp secure file transfer protocol sku stock keeping unit sla service level agreement top table order and pay (imagine feature) vm virtual machine x-read or x-report x reports are an anytime snapshot of sales totals and till activities z-read or z-report z report is the end-of-day report run when you are closing the trading day customer names acronym customer name eh english heritage he historic england",
+    "category": "INTERNAL Support Articles",
+    "folder": "INTERNAL: General",
+    "created_at": "2023-06-21T15:08:28+01:00",
+    "updated_at": "2024-04-08T17:52:02+01:00",
+    "status": 2,
+    "tags": []
+  }
+]

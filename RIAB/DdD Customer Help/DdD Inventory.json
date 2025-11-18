@@ -1,0 +1,29 @@
+[
+  {
+    "id": 103000268026,
+    "title": "Inventory on a RIAB POS",
+    "text": "first make sure you have new batteries in your scanner (aaa) if you have not received them from us. if there is still an open inventory (you cannot start a new inventory if the previous one has not been completed), it must either be updated or, if the inventory is older than 1 year, deleted. attention! to delete, you need to be logged in with a user with a password. otherwise you cannot delete the inventory data. (to setup a password for a user, please click here.) update: delete: start inventory sign into the pos and click on the ddd button under inventory, click start inventory set date for update as at and inventory as at, choose inventory type total and click start. scan the articles with the inventory scanner. click empty scanner and then press 9 on the scanner to start the transfer of data. attention! if the scanner won't transfer the data to the pc, this can mean that the scanner cradle is not connected to the right com-port. this is not a question of which physical usb port it is connected to, but rather which com-port windows has given the scanner cradle. the cradle must always be connected to com7. if you don't know how to change this, please call our support hot line or read more here. usually, it takes about ½-1 hour for the data to be transferred to backoffice. it can take longer if other shops are running inventory at the same time. click order inventory list. if the list is empty, the data is still in transit. add corrections if you have any. you can order as many inventory lists as you wish as long as the inventory is still active. as soon as it has been updated, you can no longer order these lists. once you are satisfied with your inventory, you need to order the closing print before you can update and thereby complete your inventory. click order inventory list again and tick closing print, then click order attention! it is advisable to wait until the closing print has turned up and you have either saved or printed it before you update and thereby close your inventory, as you will not be able to order another printout once the inventory has been closed. now you can update your inventory by clicking update and entering the code \"status\" in the inventory code field and thereby close it.",
+    "category": "DdD Customer Help",
+    "folder": "DdD Inventory",
+    "created_at": "2024-01-11T10:03:34+00:00",
+    "updated_at": "2025-06-10T11:41:33+01:00",
+    "status": 2,
+    "tags": [
+      {
+        "name": "inventory"
+      },
+      {
+        "name": "status"
+      },
+      {
+        "name": "riab"
+      },
+      {
+        "name": "POS"
+      },
+      {
+        "name": "how to"
+      }
+    ]
+  }
+]

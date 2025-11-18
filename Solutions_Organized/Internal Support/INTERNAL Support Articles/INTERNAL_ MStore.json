@@ -1,0 +1,196 @@
+[
+  {
+    "id": 103000283566,
+    "title": "Adding new files into Merac Updater",
+    "text": "It's possible to add in additional files such as the Line Display video file The files are stored within the below table: Select * from MstorePublishedFiles Can manually insert new files such as below: insert into MstorePublishedFiles values ('cache','LineDisplay.wmv','X',GETDATE(),null,'C:\\Meracdata\\updatenewver\\cache\\LineDisplay.wmv',null) Ensure the file you require is in the updatenewver location specified: C:\\Meracdata\\updatenewver\\cache\\LineDisplay.wmv Re-update the MStore files and ensure it updates:",
+    "category": "INTERNAL Support Articles",
+    "folder": "INTERNAL: MStore",
+    "created_at": "2024-03-22T15:14:54+00:00",
+    "updated_at": "2024-03-22T16:55:45+00:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p dir=\"ltr\">It's possible to add in additional files such as the Line Display video file</p><p dir=\"ltr\"><br></p><p dir=\"ltr\">The files are stored within the below table:</p><p><br></p><p>Select * from MstorePublishedFiles&nbsp;</p><p><br></p><p dir=\"ltr\">Can manually insert new files such as below:</p><p><br></p><p>insert into MstorePublishedFiles values</p><p dir=\"ltr\">('cache','LineDisplay.wmv','X',GETDATE(),null,'C:\\Meracdata\\updatenewver\\cache\\LineDisplay.wmv',null)</p><p><br></p><p dir=\"ltr\">Ensure the file you require is in the updatenewver location specified:&nbsp;</p><p dir=\"ltr\"><span style=\"color: rgb(0, 0, 0); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal;  text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">C:\\Meracdata\\updatenewver\\cache\\LineDisplay.wmv</span></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103099256138/original/XcMLeFrg8Iqmu-XOy892Pqhb_LhiX9Iwtw.png?1711120226\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103099256138\"></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">Re-update the MStore files and ensure it updates:</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103099258039/original/LP9s1_JNaagtjoURaGcyfZsCQ1E3LcwPGw.png?1711120423\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103099258039\"><br></p><p><br></p><p><br></p>",
+    "user_id": 103082581838,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2024-03-22T16:55:45+00:00",
+    "modified_by": 103082581838
+  },
+  {
+    "id": 103000138178,
+    "title": "What MStore Version is a customer on",
+    "text": "The version which each MStore instance is on is stored against the relevant customer contract in Freshdesk. You can see a full list on this report Contracts with Software Versions. After every upgrade, the version on the Contract should be updated by the person doing the upgrade. Every time an upgrade is performed at a site, it writes to the DBHistory and DBUpdateLog tables within the customers database. If you want to be sure of the version (in case the Contract in Freshdesk hasn't been updated), then look in this table or jump onto their server and open the Back Office, which will say the version on the login screen.",
+    "category": "INTERNAL Support Articles",
+    "folder": "INTERNAL: MStore",
+    "created_at": "2023-06-27T10:55:58+01:00",
+    "updated_at": "2024-06-06T11:58:27+01:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p dir=\"ltr\"><span dir=\"ltr\" style=\"font-size: 14px;\">The version which each MStore instance is on is stored against the relevant customer contract in Freshdesk. You can see a full list on this report <a href=\"https://k3support.freshdesk.com/a/analytics/reports/MzIwMDk2/page/1\" rel=\"noreferrer\" target=\"_blank\">Contracts with Software Versions</a>. After every upgrade, the version on the Contract should be updated by the person doing the upgrade.</span></p><p dir=\"ltr\" style=\"font-size: 14px;\"><span style=\"font-size: 14px;\"><br></span></p><p dir=\"ltr\"><span style=\"font-size: 14px;\">Every time an upgrade is performed at a site, it writes to the <strong>DBHistory&nbsp;</strong>and <strong>DBUpdateLog&nbsp;</strong>tables within the customers database. If you want to be sure of the version (in case the Contract in Freshdesk hasn't been updated), then look in this table or jump onto their server and open the Back Office, which will say the version on the login screen.</span></p>",
+    "user_id": 103081812271,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 1,
+    "seo_data": {},
+    "modified_at": "2024-03-28T10:29:37+00:00",
+    "modified_by": 103023352668
+  },
+  {
+    "id": 103000321115,
+    "title": "Error on Windows 11 after removing Opos and installing WINRECEIPT",
+    "text": "The following error was experienced on Windows 11. The customer wanted to change the printer from Opos to Windows (WINRECEIPT). Windows printer driver would not install until Opos had been completely removed from the till. Despite a successful install and test print of WINRECEIPT when starting POS the following error was experienced. Uninstalling and reinstalling Mstore on the till resolved the issue.",
+    "category": "INTERNAL Support Articles",
+    "folder": "INTERNAL: MStore",
+    "created_at": "2024-11-19T14:51:51+00:00",
+    "updated_at": "2024-11-19T14:51:53+00:00",
+    "status": 2,
+    "tags": [
+      {
+        "name": "OPOS"
+      },
+      {
+        "name": "winreceipt"
+      },
+      {
+        "name": "FUserID"
+      }
+    ],
+    "description": "<p data-identifyelement=\"496\" dir=\"ltr\">The following error was experienced on Windows 11.</p><p data-identifyelement=\"496\" dir=\"ltr\">The customer wanted to change the printer from Opos to Windows (WINRECEIPT).</p><p data-identifyelement=\"496\" dir=\"ltr\">Windows printer driver would not install until Opos had been completely removed from the till.</p><p data-identifyelement=\"496\" dir=\"ltr\"><br></p><p data-identifyelement=\"496\" dir=\"ltr\">Despite a successful install and test print of WINRECEIPT when starting POS the following error was experienced.</p><p data-identifyelement=\"496\"><br></p><p data-identifyelement=\"496\"><br></p><p data-identifyelement=\"496\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103165698049/original/hnnWVGqT85n94Y7qWr9zINplgU5p8GN0kA.png?1732027623\" style=\"width: auto; max-width: 100%; display: block; float: none; vertical-align: top; margin: 5px auto; text-align: center;\" class=\"fr-fic fr-dib fr-bordered\" data-attachment=\"[object Object]\" data-id=\"103165698049\"></p><p data-identifyelement=\"496\"><br></p><p data-identifyelement=\"496\" dir=\"ltr\">Uninstalling and reinstalling Mstore on the till resolved the issue.</p>",
+    "user_id": 103081816648,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 1,
+    "seo_data": {},
+    "modified_at": "2024-11-19T14:51:53+00:00",
+    "modified_by": 103081816648
+  },
+  {
+    "id": 103000326247,
+    "title": "Website config version 1.5",
+    "text": "Sites that have been updated to website version 1.5 will have this login displayed: (Sandcastle is the first live site) https://shop2.myonlinebooking.co.uk/Sandcastle/admin/ Default login details: k3admin B@rbican1 Any site specific logins will be added to LastPass",
+    "category": "INTERNAL Support Articles",
+    "folder": "INTERNAL: MStore",
+    "created_at": "2024-12-20T13:36:25+00:00",
+    "updated_at": "2024-12-20T13:38:42+00:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p dir=\"ltr\">Sites that have been updated to website version 1.5 will have this login displayed:</p><p dir=\"ltr\"><br></p><p dir=\"ltr\">(Sandcastle is the first live site)</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><a href=\"https://shop2.myonlinebooking.co.uk/Sandcastle/admin/\">https://shop2.myonlinebooking.co.uk/Sandcastle/admin/</a></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103175060832/original/ofMPu22zslOtXAI8XLs6Dl5nOI5pPj1E8Q.png?1734701687\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103175060832\"></p><p><br></p><p dir=\"ltr\">Default login details:</p><p dir=\"ltr\"><br></p><p>k3admin</p><p><a class=\"fui-Link ___1q1shib f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1s184ao f1mk8lai fnbmjn9 f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn\" href=\"mailto:B@rbican1\" rel=\"noreferrer noopener\" target=\"_blank\" title=\"mailto:b@rbican1\">B@rbican1</a></p><p><br></p><p dir=\"ltr\">Any site specific logins will be added to LastPass</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103175062622/original/Cdbr5dn04WIrVe6Eq3AXES97GHS8Mq5WJA.png?1734701907\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103175062622\"><br></p>",
+    "user_id": 103082581838,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 1,
+    "seo_data": {},
+    "modified_at": "2024-12-20T13:38:42+00:00",
+    "modified_by": 103082581838
+  },
+  {
+    "id": 103000329594,
+    "title": "Recovering a missing drawer",
+    "text": "Sometimes, a till will lose a drawer and prevent the customer from opening a new drawer with the same number. A warning message will indicate that the drawer number is already in use. To resolve this issue, follow these simple steps: Navigate to the TILLTXNS file on the affected till or PC. Locate the TXN file for the drawer within this folder and open the NewTXNs file. In the NewTXNs file, check for the drawer number, which should be listed in the format \"Drawer=001|1\". If it is not present, add it manually. Save and close the file. Close the POS system currently in use and then reopen it. After reopening, the drawer should reappear in the drawer bar section. Typically, the customer will have already opened a new drawer. In this case, close the old drawer and inform the customer that the drawer number can be used again the following day.",
+    "category": "INTERNAL Support Articles",
+    "folder": "INTERNAL: MStore",
+    "created_at": "2025-01-16T15:02:42+00:00",
+    "updated_at": "2025-01-16T15:02:43+00:00",
+    "status": 2,
+    "tags": [
+      {
+        "name": "POS"
+      },
+      {
+        "name": "cashdrawer"
+      },
+      {
+        "name": "Cash Drawer"
+      },
+      {
+        "name": "Stuck"
+      }
+    ],
+    "description": "<p><br></p><p><br></p><p>Sometimes, a till will lose a drawer and prevent the customer from opening a new drawer with the same number. A warning message will indicate that the drawer number is already in use.</p><p>To resolve this issue, follow these simple steps:</p><ol><li>Navigate to the <strong>TILLTXNS</strong> file on the affected till or PC.</li><li>Locate the <strong>TXN</strong> file for the drawer within this folder and open the <strong>NewTXNs</strong> file.</li><li>In the <strong>NewTXNs</strong> file, check for the drawer number, which should be listed in the format <code>\"Drawer=001|1\"</code>. If it is not present, add it manually.</li><li>Save and close the file.</li><li>Close the POS system currently in use and then reopen it.</li><li>After reopening, the drawer should reappear in the drawer bar section.</li></ol><p dir=\"ltr\">Typically, the customer will have already opened a new drawer. In this case, close the old drawer and inform the customer that the drawer number can be used again the following day.</p>",
+    "user_id": 103081812271,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2025-01-16T15:02:42+00:00",
+    "modified_by": 103081812271
+  },
+  {
+    "id": 103000329603,
+    "title": "Reinstalling Printer driver",
+    "text": "The main printer used for tills is the WINRECEIPT printer. Occasionally, it may encounter connection issues with the till and require reinstallation. This process is generally quick and straightforward. Open Printers and Devices and rename the existing WINRECEIPT printer. Simply add a number or another identifier to the current name. Navigate to C:\\THERMAL Receipt Printer 4.X and install the driver. During the installation, you will be prompted to name the printer. Ensure that it is named WINRECEIPT for proper functionality. Once the installation is complete, run the POS system. The connection issues should be resolved, and no errors should appear. If the problem persists, you may need to contact second-line support for further assistance.",
+    "category": "INTERNAL Support Articles",
+    "folder": "INTERNAL: MStore",
+    "created_at": "2025-01-16T15:17:03+00:00",
+    "updated_at": "2025-01-16T15:17:03+00:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p>The main printer used for tills is the <strong>WINRECEIPT</strong> printer. Occasionally, it may encounter connection issues with the till and require reinstallation. This process is generally quick and straightforward.</p><ol><li>Open <strong>Printers and Devices</strong> and rename the existing <strong>WINRECEIPT</strong> printer. Simply add a number or another identifier to the current name.</li><li>Navigate to <code>C:\\THERMAL Receipt Printer 4.X</code> and install the driver.</li><li><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103180896913/original/S00Swial-iD_jQHD2kwjWvwd9uBHszU32A.png?1737040620\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103180896913\"></li><li>During the installation, you will be prompted to name the printer. Ensure that it is named <strong>WINRECEIPT</strong> for proper functionality.</li><li>Once the installation is complete, run the POS system. The connection issues should be resolved, and no errors should appear.</li></ol><p dir=\"ltr\">If the problem persists, you may need to contact second-line support for further assistance.</p>",
+    "user_id": 103081812271,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2025-01-16T15:17:03+00:00",
+    "modified_by": 103081812271
+  },
+  {
+    "id": 103000339339,
+    "title": "Love to Visit integration",
+    "text": "Documentation on the integration is K3 MStore - LoveToVisit Integration",
+    "category": "INTERNAL Support Articles",
+    "folder": "INTERNAL: MStore",
+    "created_at": "2025-03-12T10:31:06+00:00",
+    "updated_at": "2025-03-12T10:31:06+00:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p dir=\"ltr\">Documentation on the integration is &nbsp;<a dir=\"ltr\" href=\"https://axk3btg.sharepoint.com/:w:/s/MStoreDevelopmentSoftwareManagement/EQZJdZtMVJRGj3ApG-TxJW4BW5kV243rK478u9ngprZzng?e=6GgD9e\" rel=\"noopener noreferrer\" target=\"_blank\">K3 MStore - LoveToVisit Integration</a>&nbsp;</p>",
+    "user_id": 103023352668,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2025-03-12T10:31:06+00:00",
+    "modified_by": 103023352668
+  },
+  {
+    "id": 103000354513,
+    "title": "Script to Search All SQL Tables for a Keyword",
+    "text": "Searches all character-based columns across all tables and views for a specific keyword. ---------------------------------------------------------------------- --------------------- Define the search term-------------------------- DECLARE @searchTerm NVARCHAR(100) = 'Gift Aid'; --This is the only part of the script you need to change. ---------------------------------------------------------------------- --Searches all text-based columns in all tables/views for a keyword --Skips invalid or inaccessible objects --Shows matching table name, column name, and data ---------------------------------------------------------------------- DECLARE @schema NVARCHAR(128); DECLARE @table NVARCHAR(128); DECLARE @column NVARCHAR(128); DECLARE @fullTable NVARCHAR(256); DECLARE @sql NVARCHAR(MAX); -- Cursor for text-based columns DECLARE column_cursor CURSOR FOR SELECT TABLE_SCHEMA, TABLE_NAME, COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE DATA_TYPE IN ('varchar', 'nvarchar', 'char', 'nchar', 'text', 'ntext'); OPEN column_cursor; FETCH NEXT FROM column_cursor INTO @schema, @table, @column; WHILE @@FETCH_STATUS = 0 BEGIN SET @fullTable = QUOTENAME(@schema) + '.' + QUOTENAME(@table); -- Only proceed if the table exists IF EXISTS ( SELECT 1 FROM sys.objects o JOIN sys.schemas s ON o.schema_id = s.schema_id WHERE o.name = @table AND s.name = @schema AND o.type IN ('U', 'V') -- U = table, V = view ) BEGIN SET @sql = ' BEGIN TRY IF EXISTS ( SELECT 1 FROM ' + @fullTable + ' WHERE ' + QUOTENAME(@column) + ' LIKE ''%' + @searchTerm + '%'' ) BEGIN PRINT ''Match in ' + @fullTable + '.' + @column + '''; SELECT ''' + @fullTable + ''' AS TableName, ''' + @column + ''' AS ColumnName, * FROM ' + @fullTable + ' WHERE ' + QUOTENAME(@column) + ' LIKE ''%' + @searchTerm + '%''; END END TRY BEGIN CATCH PRINT ''Skipped ' + @fullTable + '.' + @column + ' - '' + ERROR_MESSAGE(); END CATCH; '; EXEC sp_executesql @sql; END FETCH NEXT FROM column_cursor INTO @schema, @table, @column; END; CLOSE column_cursor; DEALLOCATE column_cursor;",
+    "category": "INTERNAL Support Articles",
+    "folder": "INTERNAL: MStore",
+    "created_at": "2025-05-23T13:58:23+01:00",
+    "updated_at": "2025-05-28T20:53:38+01:00",
+    "status": 2,
+    "tags": [
+      {
+        "name": "SQL"
+      },
+      {
+        "name": "SQL-Server"
+      },
+      {
+        "name": "Search"
+      },
+      {
+        "name": "Keyword"
+      },
+      {
+        "name": "Query"
+      },
+      {
+        "name": "Script"
+      }
+    ],
+    "description": "<p dir=\"ltr\">Searches all character-based columns across all tables and views for a specific keyword.</p><div><pre contenteditable=\"false\" data-code-brush=\"SQL\" id=\"copyText\" rel=\"highlighter\">----------------------------------------------------------------------\n\n--------------------- Define the search term--------------------------\nDECLARE @searchTerm NVARCHAR(100) = 'Gift Aid';\n\n\n--This is the only part of the script you need to change.\n----------------------------------------------------------------------\n--Searches all text-based columns in all tables/views for a keyword\n--Skips invalid or inaccessible objects\n--Shows matching table name, column name, and data\n----------------------------------------------------------------------\n\nDECLARE @schema NVARCHAR(128);\nDECLARE @table NVARCHAR(128);\nDECLARE @column NVARCHAR(128);\nDECLARE @fullTable NVARCHAR(256);\nDECLARE @sql NVARCHAR(MAX);\n\n-- Cursor for text-based columns\nDECLARE column_cursor CURSOR FOR\nSELECT \n    TABLE_SCHEMA,\n    TABLE_NAME,\n    COLUMN_NAME\nFROM INFORMATION_SCHEMA.COLUMNS\nWHERE \n    DATA_TYPE IN ('varchar', 'nvarchar', 'char', 'nchar', 'text', 'ntext');\n\nOPEN column_cursor;\nFETCH NEXT FROM column_cursor INTO @schema, @table, @column;\n\nWHILE @@FETCH_STATUS = 0\nBEGIN\n    SET @fullTable = QUOTENAME(@schema) + '.' + QUOTENAME(@table);\n\n    -- Only proceed if the table exists\n    IF EXISTS (\n        SELECT 1 \n        FROM sys.objects o\n        JOIN sys.schemas s ON o.schema_id = s.schema_id\n        WHERE o.name = @table AND s.name = @schema AND o.type IN ('U', 'V')  -- U = table, V = view\n    )\n    BEGIN\n        SET @sql = '\nBEGIN TRY\n    IF EXISTS (\n        SELECT 1 FROM ' + @fullTable + '\n        WHERE ' + QUOTENAME(@column) + ' LIKE ''%' + @searchTerm + '%''\n    )\n    BEGIN\n        PRINT ''Match in ' + @fullTable + '.' + @column + ''';\n        SELECT \n            ''' + @fullTable + ''' AS TableName,\n            ''' + @column + ''' AS ColumnName,\n            * \n        FROM ' + @fullTable + '\n        WHERE ' + QUOTENAME(@column) + ' LIKE ''%' + @searchTerm + '%'';\n    END\nEND TRY\nBEGIN CATCH\n    PRINT ''Skipped ' + @fullTable + '.' + @column + ' - '' + ERROR_MESSAGE();\nEND CATCH;\n';\n\n        EXEC sp_executesql @sql;\n    END\n\n    FETCH NEXT FROM column_cursor INTO @schema, @table, @column;\nEND;\n\nCLOSE column_cursor;\nDEALLOCATE column_cursor;</pre></div><p dir=\"ltr\"></p>",
+    "user_id": 103146801833,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 2,
+    "seo_data": {},
+    "modified_at": "2025-05-28T20:53:38+01:00",
+    "modified_by": 103146801833
+  }
+]

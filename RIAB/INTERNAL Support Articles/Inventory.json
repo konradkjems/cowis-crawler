@@ -1,0 +1,35 @@
+[
+  {
+    "id": 103000130804,
+    "title": "Delete RIAB Inventory",
+    "text": "riab inventory is slightly different from ddd inventory, since it is started and finished on the pos and not through backoffice. if the client has entered a wrong date as a start date, this can be corrected until the inventory is completed. after that, it is no longer possible. to delete the date (or, in some cases, the entire inventory if something has gone wrong and they need to start over), they have to delete either the start date or the entire inventory. 1. click on the ddd button 2. choose delete under inventory 3. select delete inventory (attention!!! do not choose inventory files if it is only to change the dates) if they want to delete everything, including transfered data, they should choose delete inventory data (slet optællingsdata) instead. they just need to be very sure that they want to delete everthing they have counted and start over again. 4. enter the password for the logged in user (attention: this can only be done if the user has a password. inventory cannot be deleted without one. if the user does not have a password, either log in with a user with a password or log into backoffice and delete the inventory data from there. if this is not possible, add a password to a shop assistant, that then can be used.) 5. click delete if only the date has been deleted, follow the below steps to start a new status with the same data already uploaded. 6. return to the ddd section and click start inventory 7. enter the correct dates, choose full inventory and click start 8. and then continue as usual.",
+    "category": "INTERNAL Support Articles",
+    "folder": "Inventory",
+    "created_at": "2023-06-14T10:56:39+01:00",
+    "updated_at": "2024-01-15T08:57:03+00:00",
+    "status": 2,
+    "tags": []
+  },
+  {
+    "id": 103000271416,
+    "title": "Termdata.asc (DdD) and/or the ???????????_input.DAT (RIAB) explanation",
+    "text": "when you open either of these datafiles, the setup will be the same: inventory: item transfer: shop no. location no. ean no. number of items status (s) item transfer (o) date time 111 001 a2999002240324 398 s 141123 114146 01 02 a4054168842701 1 o 250124 121117",
+    "category": "INTERNAL Support Articles",
+    "folder": "Inventory",
+    "created_at": "2024-01-25T11:25:14+00:00",
+    "updated_at": "2024-01-25T11:27:43+00:00",
+    "status": 2,
+    "tags": []
+  },
+  {
+    "id": 103000281369,
+    "title": "Inventory files on a RIAB POS: Where to find them?",
+    "text": "inventory files that have been emptied on a riab pos can be found here: c:/pos/inventory",
+    "category": "INTERNAL Support Articles",
+    "folder": "Inventory",
+    "created_at": "2024-03-11T15:19:02+00:00",
+    "updated_at": "2024-03-19T14:52:15+00:00",
+    "status": 2,
+    "tags": []
+  }
+]

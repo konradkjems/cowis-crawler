@@ -1,0 +1,40 @@
+[
+  {
+    "id": 103000295878,
+    "title": "Peoplecounter - setup",
+    "text": "Log in to: https://peoplecounter.dddadmin.com/Login.aspx Choose 1 \"New people counter\" Put in the credential you have receive from the customer. If you do not have the Serial, Just login to the peoplecounter and find it there. Update the setup.",
+    "category": "INTERNAL Support Articles",
+    "folder": "Peoplecounter",
+    "created_at": "2024-06-07T09:55:42+01:00",
+    "updated_at": "2024-06-07T09:59:22+01:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p dir=\"ltr\">Log in to:</p><p dir=\"ltr\"><a href=\"https://peoplecounter.dddadmin.com/Login.aspx\" dir=\"ltr\"></a><a href=\"https://peoplecounter.dddadmin.com/Login.aspx\">https://peoplecounter.dddadmin.com/Login.aspx</a></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">Choose 1 \"New people counter\"</p><p dir=\"ltr\"><br></p><p dir=\"ltr\">Put in the credential you have receive from the customer. If you do not have the Serial, Just login to the peoplecounter and find it there. Update the setup.&nbsp;</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103119879165/original/7u-RbIvvjylhNTOvB4I4r5hpjfVfcmjyAQ.png?1717750529\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103119879165\"></p>",
+    "user_id": 103081815037,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2024-06-07T09:55:42+01:00",
+    "modified_by": 103081815037
+  },
+  {
+    "id": 103000295882,
+    "title": "Importing Customer Numbers into DdD Backoffice.",
+    "text": "File names must be the same for each download and consist of the actual file name (up to 30 characters) and an extension (up to 3 characters). Normally, the name is \"idXXXXXX.csv\", where \"XXXXXX\" is the client number in BackOffice (for example, the file with the customer number from client 36001 is normally named \"id036001.csv\"). Each line in the file consists of a series of fields separated by a comma. The fields are as follows: - Record number (AlphaNumeric 13) - Record date (YYYY-MM-DD) - Record time (HH:MM:SS) - Record time period (Alpha 20) - Counter total (Numeric 10) - Counter per hour (Numeric N6) **Record number** The field is not used but must contain at least one character that is neither a space nor '0'. **Record date** (YYYY-MM-DD) **Record time** Only the hour value is transmitted here, so it is sufficient to transmit a two-digit value. **Record time period** The field is not used, but it must be present in every line of the file. **Counter total** The field is not used, but it must be present in every line of the file. **Counter per hour** This field contains the number of visitors in that hour. If data is transmitted more frequently than every hour, the number must always indicate the total value for the current hour (the last line for a given hour must contain the total number of visitors for that hour). The number can be negative. **General** Data is not added. We expect that data received in the \"Counter per hour\" field will show the \"actual\" number of visitors. For example, if you divide by 2 because both \"in-out\" are counted, you must do this before we receive the numbers.",
+    "category": "INTERNAL Support Articles",
+    "folder": "Peoplecounter",
+    "created_at": "2024-06-07T10:01:43+01:00",
+    "updated_at": "2024-06-07T10:01:43+01:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p>File names must be the same for each download and consist of the actual file name (up to 30 characters) and an extension (up to 3 characters). Normally, the name is \"idXXXXXX.csv\", where \"XXXXXX\" is the client number in BackOffice (for example, the file with the customer number from client 36001 is normally named \"id036001.csv\").</p><p><br></p><p>Each line in the file consists of a series of fields separated by a comma.</p><p><br></p><p>The fields are as follows:</p><p><br></p><p>- Record number (AlphaNumeric 13)</p><p>- Record date (YYYY-MM-DD)</p><p>- Record time (HH:MM:SS)</p><p>- Record time period (Alpha 20)</p><p>- Counter total (Numeric 10)</p><p>- Counter per hour (Numeric N6)</p><p><br></p><p>**Record number**</p><p>The field is not used but must contain at least one character that is neither a space nor '0'.</p><p><br></p><p>**Record date**</p><p>(YYYY-MM-DD)</p><p><br></p><p>**Record time**</p><p>Only the hour value is transmitted here, so it is sufficient to transmit a two-digit value.</p><p><br></p><p>**Record time period**</p><p>The field is not used, but it must be present in every line of the file.</p><p><br></p><p>**Counter total**</p><p>The field is not used, but it must be present in every line of the file.</p><p><br></p><p>**Counter per hour**</p><p>This field contains the number of visitors in that hour. If data is transmitted more frequently than every hour, the number must always indicate the total value for the current hour (the last line for a given hour must contain the total number of visitors for that hour). The number can be negative.</p><p><br></p><p>**General**</p><p>Data is not added.</p><p><br></p><p>We expect that data received in the \"Counter per hour\" field will show the \"actual\" number of visitors. For example, if you divide by 2 because both \"in-out\" are counted, you must do this before we receive the numbers.</p>",
+    "user_id": 103081815037,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2024-06-07T10:01:43+01:00",
+    "modified_by": 103081815037
+  }
+]

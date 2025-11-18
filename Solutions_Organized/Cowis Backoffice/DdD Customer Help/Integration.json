@@ -1,0 +1,21 @@
+[
+  {
+    "id": 103000319266,
+    "title": "Add networks location",
+    "text": "Open File Explorer: Click the File Explorer icon on the taskbar, or press Windows + E to open it. Select 'This PC': On the left side, click on This PC. Click on 'Add a network location': At the top of the window, click on the Computer tab and then on Add a network location in the toolbar. The 'Add Network Location' wizard starts: Click Next to start the wizard. Select Choose a custom network location and click Next. Enter the network location: Internet or network address: (ftp://ftp01.dddretail.com/) for the folder you want to add as a network location. Click Next. Name the location: You can give the network location a name for easy recognition. Then click Next. Complete the setup: Click Finish to complete the setup. The network location will now be visible under This PC. When you log in for the first time, you can ask Windows to save the password for direct access to the folder.",
+    "category": "DdD Customer Help",
+    "folder": "Integration",
+    "created_at": "2024-11-01T11:32:06+00:00",
+    "updated_at": "2024-11-01T11:48:30+00:00",
+    "status": 2,
+    "tags": [],
+    "description": "<ul><li><strong>Open File Explorer:</strong></li><li>Click the File Explorer icon on the taskbar, or press Windows + E to open it.</li><li><strong>Select 'This PC':</strong></li><li>On the left side, click on This PC.</li><li><strong>Click on 'Add a network location':</strong></li><li>At the top of the window, click on the Computer tab and then on Add a network location in the toolbar.</li><li><strong>The 'Add Network Location' wizard starts:</strong></li><li>Click Next to start the wizard.</li><li>Select Choose a custom network location and click Next.</li><li><strong>Enter the network location:</strong><br>Internet or network address: (ftp://ftp01.dddretail.com/) for the folder you want to add as a network location.</li><li>Click Next.</li><li><strong>Name the location:</strong><br>You can give the network location a name for easy recognition. Then click Next.</li><li><strong>Complete the setup:</strong></li><li>Click Finish to complete the setup. The network location will now be visible under This PC.</li><li>When you log in for the first time, you can ask Windows to save the password for direct access to the folder.</li></ul>",
+    "user_id": 103081815037,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2024-11-01T11:32:11+00:00",
+    "modified_by": 103081815037
+  }
+]

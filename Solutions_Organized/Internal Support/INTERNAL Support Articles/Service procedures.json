@@ -1,0 +1,91 @@
+[
+  {
+    "id": 103000300719,
+    "title": "Overview: This folder will cover some service procedures",
+    "text": "The service procedures are best carried out as a COWSYS user The most common procedures can be found in the SYSTEM Service Service procedures",
+    "category": "INTERNAL Support Articles",
+    "folder": "Service procedures",
+    "created_at": "2024-07-02T08:30:45+01:00",
+    "updated_at": "2024-07-02T08:32:25+01:00",
+    "status": 2,
+    "tags": [
+      {
+        "name": "Prozedur"
+      },
+      {
+        "name": "Service Prozedur"
+      },
+      {
+        "name": "cowis.net"
+      },
+      {
+        "name": "Fehler"
+      },
+      {
+        "name": "Inkonsistenten"
+      }
+    ],
+    "description": "<p>The service procedures are best carried out as a COWSYS user</p><p><br></p><p>The most common procedures can be found in the</p><p>SYSTEM</p><p>Service</p><p>Service procedures</p>",
+    "user_id": 103081814775,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2024-07-02T08:30:45+01:00",
+    "modified_by": 103081814775
+  },
+  {
+    "id": 103000300731,
+    "title": "Article Consistency Check",
+    "text": "Due to a number of bookings or other (not really explainable) things, so-called inconsistencies in items can occur. This can manifest itself in various phenomena, most often (as in the example) that in the overview list of items an inventory is displayed that appears differently when you go to the item detail view. In the example, you can see 5 items in the inventory and 15 in the detail. You mark the article in the Articles area and then go to System -> Service Procedure There you select \"_AtArtKOnsMachen\" and click on \"Execute\" The article(s) are marked in the window that opens You click on OK After successful execution, this is displayed in the window Now the display should show the same thing everywhere again",
+    "category": "INTERNAL Support Articles",
+    "folder": "Service procedures",
+    "created_at": "2024-07-02T08:48:05+01:00",
+    "updated_at": "2024-07-02T09:42:11+01:00",
+    "status": 2,
+    "tags": [
+      {
+        "name": "cowis.net"
+      },
+      {
+        "name": "Konsistenz"
+      },
+      {
+        "name": "System"
+      },
+      {
+        "name": "Service"
+      },
+      {
+        "name": "backoffice"
+      }
+    ],
+    "description": "<p>Due to a number of bookings or other (not really explainable) things, so-called inconsistencies in items can occur.</p><p><br></p><p>This can manifest itself in various phenomena, most often (as in the example) that in the overview list of items an inventory is displayed that appears differently when you go to the item detail view.</p><p><br></p><p dir=\"ltr\">In the example, you can see 5 items in the inventory and 15 in the detail.</p><p><br></p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103126410290/original/9m8KcKSBsB3rHgriF7_zFGWWNttAtISCxQ.png?1719906073\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103126410290\"></p><p><br></p><p>You mark the article in the Articles area and then go to System -&gt; Service Procedure</p><p dir=\"ltr\">There you select \"_AtArtKOnsMachen\" and click on \"Execute\"</p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103126411760/original/OTn51FZsyDFet97KHTeakMYQCOA4QXsIjg.png?1719906237\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103126411760\"></p><p><br></p><p>The article(s) are marked in the window that opens</p><p>You click on OK</p><p>After successful execution, this is displayed in the window</p><p><br></p><p>Now the display should show the same thing everywhere again</p><p><br></p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103126413240/original/qpeoeEkmXZJPoV-whW3MlkrdDyZrBFBU9Q.png?1719906389\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103126413240\"></p>",
+    "user_id": 103081814775,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2024-07-02T08:48:05+01:00",
+    "modified_by": 103081814775
+  },
+  {
+    "id": 103000309548,
+    "title": "Transfer adresses",
+    "text": "Cowsys->System->Service->Service Prozeduren->Adressen übertragen->Ausführen->links unten sieht man dann dass Cowis arbeitet->Datenaustausch in Warenwirtschaft ausführen Could take some hours if the customer has a lot of adresses",
+    "category": "INTERNAL Support Articles",
+    "folder": "Service procedures",
+    "created_at": "2024-08-26T13:58:40+01:00",
+    "updated_at": "2024-08-26T13:59:02+01:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p dir=\"ltr\"><span style=\"color: rgb(24, 50, 71); font-family: arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal;  text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">Cowsys-&gt;System-&gt;Service-&gt;Service Prozeduren-&gt;Adressen übertragen-&gt;Ausführen-&gt;links unten sieht man dann dass Cowis arbeitet-&gt;Datenaustausch in Warenwirtschaft ausführen</span><br style=\"box-sizing: border-box; color: rgb(24, 50, 71); font-family: arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal;  text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\"><br style=\"box-sizing: border-box; color: rgb(24, 50, 71); font-family: arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal;  text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\"><span dir=\"ltr\" style=\"color: rgb(24, 50, 71); font-family: arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal;  text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">Could take some hours if the customer has a lot of adresses</span></p>",
+    "user_id": 103093471382,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2024-08-26T13:58:40+01:00",
+    "modified_by": 103093471382
+  }
+]

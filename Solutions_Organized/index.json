@@ -1,0 +1,43 @@
+{
+  "total_articles": 2698,
+  "main_categories": [
+    "Omnis",
+    "Other",
+    "Internal MStore",
+    "MStore",
+    "RMS",
+    "Archived",
+    "Alert Manager",
+    "SmartVision",
+    "JobBOSS",
+    "Sigma",
+    "Default",
+    "Cowis POS",
+    "Support Portal",
+    "Cowis Backoffice",
+    "Imagine",
+    "ViJi Track",
+    "Internal Support"
+  ],
+  "category_counts": {
+    "Omnis": 25,
+    "Other": 9,
+    "Internal MStore": 54,
+    "MStore": 212,
+    "RMS": 26,
+    "Archived": 7,
+    "Alert Manager": 1,
+    "SmartVision": 42,
+    "JobBOSS": 21,
+    "Sigma": 30,
+    "Default": 2,
+    "Cowis POS": 615,
+    "Support Portal": 25,
+    "Cowis Backoffice": 240,
+    "Imagine": 16,
+    "ViJi Track": 32,
+    "Internal Support": 1341
+  },
+  "source_file": "Solutions.json",
+  "processed_at": "2025-11-18"
+}

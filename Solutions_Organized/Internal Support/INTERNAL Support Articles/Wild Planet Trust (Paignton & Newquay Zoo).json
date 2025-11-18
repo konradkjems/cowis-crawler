@@ -1,0 +1,21 @@
+[
+  {
+    "id": 103000331896,
+    "title": "Notes For Paignton/Newquay Zoo MeracCopyMembersAcrossDBs",
+    "text": "While troubleshooting sync issues for the MeracCopyMembersAcrossDBs MeracCopyMembersAcrossDBsPZOO service - This pulls records from Newquay Zoo to Paignton Zoo. MeracCopyMembersAcrossDBsNZOO service - This pulls records from Paignton Zoo to Newquay Zoo. accChanged Account field flag 0 - Received updated account. 1 - To send updated account record. 5 - Sent updated account record. SELECT * INTO BAKAccountToSyncPZOODB29Jan2025 FROM MStoreNZ.dbo.AccountToSyncPZOODB BEGIN TRANSACTION DELETE a FROM MStoreNZ.dbo.AccountToSyncPZOODB a JOIN MStorePZ.dbo.Account b ON a.accRecNo=b.accRecNo WHERE a.accAccNum=b.accAccNum AND a.accName=b.accName AND a.accPrimeContact=b.accPrimeContact AND a.accDateChanged=b.accDateChanged --COMMIT SELECT * FROM MStorePZ.dbo.Account a JOIN MStoreNZ.dbo.BAKAccountToSyncPZOODB29Jan2025 b ON a.accRecNo=b.accRecNo BEGIN TRANSACTION UPDATE a SET a.accChanged=1, a.accDateChanged=GETDATE() FROM MStorePZ.dbo.Account a JOIN MStoreNZ.dbo.BAKAccountToSyncPZOODB29Jan2025 b ON a.accRecNo=b.accRecNo WHERE a.accAccNum=b.accAccNum AND a.accName=b.accName AND a.accPrimeContact=b.accPrimeContact AND a.accDateChanged=b.accDateChanged COMMIT SELECT * FROM MStoreNZ.dbo.Account a JOIN MStoreNZ.dbo.BAKAccountToSyncPZOODB29Jan2025 b ON a.accRecNo=b.accRecNo SELECT * FROM MStoreNZ.dbo.AccountToSyncPZOODB SELECT * FROM MStoreNZ.dbo.Account a JOIN MStoreNZ.dbo.AccountToSyncPZOODB b ON a.accRecNo=b.accRecNo SELECT * FROM MStoreNZ.dbo.BAKAccountToSyncPZOODB29Jan2025 a JOIN MStoreNZ.dbo.AccountToSyncPZOODB b ON a.accRecNo=b.accRecNo",
+    "category": "INTERNAL Support Articles",
+    "folder": "Wild Planet Trust (Paignton & Newquay Zoo)",
+    "created_at": "2025-01-29T10:50:23+00:00",
+    "updated_at": "2025-02-04T09:31:49+00:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p data-identifyelement=\"496\" dir=\"ltr\">While troubleshooting sync issues for the MeracCopyMembersAcrossDBs&nbsp;</p><p data-identifyelement=\"496\" dir=\"ltr\"><br></p><p data-identifyelement=\"496\" dir=\"ltr\"><strong>MeracCopyMembersAcrossDBsPZOO&nbsp;</strong>service - This pulls records from Newquay Zoo to Paignton Zoo.</p><p data-identifyelement=\"496\" dir=\"ltr\"><strong>MeracCopyMembersAcrossDBsNZOO&nbsp;</strong>service - This pulls records from Paignton Zoo to Newquay Zoo.</p><p data-identifyelement=\"496\" dir=\"ltr\"><br></p><p data-identifyelement=\"496\" dir=\"ltr\">accChanged Account field flag</p><p data-identifyelement=\"496\" dir=\"ltr\">0 - Received updated account.</p><p data-identifyelement=\"496\" dir=\"ltr\">1 - To send updated account record.</p><p data-identifyelement=\"496\" dir=\"ltr\">5 - Sent updated account record.</p><p data-identifyelement=\"496\" dir=\"ltr\"><br></p><div><pre contenteditable=\"false\" data-code-brush=\"SQL\" rel=\"highlighter\">SELECT * INTO BAKAccountToSyncPZOODB29Jan2025 FROM MStoreNZ.dbo.AccountToSyncPZOODB\n\nBEGIN TRANSACTION \nDELETE a\nFROM MStoreNZ.dbo.AccountToSyncPZOODB a\nJOIN MStorePZ.dbo.Account b ON a.accRecNo=b.accRecNo\nWHERE a.accAccNum=b.accAccNum AND a.accName=b.accName AND a.accPrimeContact=b.accPrimeContact AND a.accDateChanged=b.accDateChanged\n--COMMIT \n\nSELECT * FROM MStorePZ.dbo.Account a\nJOIN MStoreNZ.dbo.BAKAccountToSyncPZOODB29Jan2025 b ON a.accRecNo=b.accRecNo\n\nBEGIN TRANSACTION \nUPDATE a\nSET a.accChanged=1, a.accDateChanged=GETDATE()\nFROM MStorePZ.dbo.Account a\nJOIN MStoreNZ.dbo.BAKAccountToSyncPZOODB29Jan2025 b ON a.accRecNo=b.accRecNo\nWHERE a.accAccNum=b.accAccNum AND a.accName=b.accName AND a.accPrimeContact=b.accPrimeContact AND a.accDateChanged=b.accDateChanged\nCOMMIT\n\nSELECT * FROM MStoreNZ.dbo.Account a\nJOIN MStoreNZ.dbo.BAKAccountToSyncPZOODB29Jan2025 b ON a.accRecNo=b.accRecNo\n\nSELECT * FROM MStoreNZ.dbo.AccountToSyncPZOODB\n\nSELECT * FROM MStoreNZ.dbo.Account a\nJOIN MStoreNZ.dbo.AccountToSyncPZOODB b ON a.accRecNo=b.accRecNo\n\nSELECT * FROM MStoreNZ.dbo.BAKAccountToSyncPZOODB29Jan2025 a\nJOIN MStoreNZ.dbo.AccountToSyncPZOODB b ON a.accRecNo=b.accRecNo</pre></div>",
+    "user_id": 103082581554,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2025-02-04T09:31:49+00:00",
+    "modified_by": 103082581554
+  }
+]

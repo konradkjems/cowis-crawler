@@ -1,0 +1,119 @@
+[
+  {
+    "id": 103000251345,
+    "title": "Citizen: Cleaning of the Label Printer",
+    "text": "If the print from your label printer is unclear, it often helps to clean the label printer. To ensure good print quality and to extend the lifetime of the printer, it is very important to clean the printer regularly (ideally at each roll change). The manufacturer recommends using the \"Head Cleaner\" supplied with the printer and a cotton swab. If you no longer have this, you can also use a dry cloth.",
+    "category": "DdD Customer Help",
+    "folder": "Label Printer",
+    "created_at": "2023-11-02T08:26:37+00:00",
+    "updated_at": "2023-12-12T11:47:03+00:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p dir=\"ltr\"><br><br>If the print from your label printer is unclear, it often helps to clean the label printer.<br>&nbsp;</p><p>To ensure good print quality and to extend the lifetime of the printer, it is very important to clean the printer regularly (ideally at each roll change).</p><p><br></p><p dir=\"ltr\">The manufacturer recommends using the \"Head Cleaner\" supplied with the printer and a cotton swab. If you no longer have this, you can also use a dry cloth.</p><p dir=\"ltr\"><br><br><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103061489651/original/tRbqsLY62_-BXcAuoPuKKsXUQxHGQSeH_g.png?1698914304\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103061489651\"><br><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103061489915/original/5ZhMWr6Ct9we65I-uZLzdSHj7ngtVKfjzA.png?1698914340\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103061489915\"></p><p><br></p><p><br></p><p><br></p>",
+    "user_id": 103093471382,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2023-12-12T11:47:03+00:00",
+    "modified_by": 103081813278
+  },
+  {
+    "id": 103000251364,
+    "title": "Citizen: Print is too faint / wrong adjustment",
+    "text": "If the printer does not print correctly (for example, it keeps printing empty labels in between), please check the following 2 things: 1. Is the printer clean? You can read how to clean the printer in the article Cleaning of the label printer. 2. Are the blue wheels in the printer set correctly? Open the printer and set the small blue wheel (media thickness) to 0 and the bigger blue wheel (media width) to 9. If that does not help, please disconnect the printer from the power supply for 30 seconds and then reconnect it.",
+    "category": "DdD Customer Help",
+    "folder": "Label Printer",
+    "created_at": "2023-11-02T09:10:52+00:00",
+    "updated_at": "2024-05-24T14:37:15+01:00",
+    "status": 2,
+    "tags": [
+      {
+        "name": "Citizen"
+      },
+      {
+        "name": "Printer"
+      },
+      {
+        "name": "Label"
+      },
+      {
+        "name": "faint"
+      },
+      {
+        "name": "unclear"
+      },
+      {
+        "name": "wrong adjustment"
+      },
+      {
+        "name": "adjustment"
+      }
+    ],
+    "description": "<p dir=\"ltr\"><br>If the printer does not print correctly (for example, it keeps printing empty labels in between), please check the following 2 things:<br><br>1. Is the printer clean? You can read how to clean the printer in the article <a href=\"https://k3support.freshdesk.com/a/solutions/articles/103000251345?lang=en\">Cleaning of the label printer.</a></p><p dir=\"ltr\"><br>2. Are the blue wheels in the printer set correctly? Open the printer and set the small blue wheel (media thickness) to 0 and the bigger blue wheel (media width) to 9.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103072443578/original/3dmZk7V1dddDU6HkajAtleLG6cwwIOCiow.png?1702383305\" style=\"width: auto;\" class=\"fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103072443578\"></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103072443809/original/_j9teJX3JAOE7OSaPd6PwbsLLA_0tCCiWg.png?1702383317\" style=\"width: auto;\" class=\"fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103072443809\"></p><p dir=\"ltr\"><br>If that does not help, please disconnect the printer from the power supply for 30 seconds and then reconnect it.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p>",
+    "user_id": 103093471382,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2024-05-24T14:36:50+01:00",
+    "modified_by": 103081813278
+  },
+  {
+    "id": 103000251377,
+    "title": "Label printer is not working at all",
+    "text": "If the light on the label printer isn't turning on, and nothing happens when you press the FEED button, try these steps: 1. Disconnect the printer from the power for 30 seconds. 2. Check if the power cord is plugged into the wall outlet correctly. 3. Make sure the power cord is properly connected to the printer. 4. Test the wall outlet by plugging in another working appliance. 5. Is the power cord damaged? Try using a new power cord.",
+    "category": "DdD Customer Help",
+    "folder": "Label Printer",
+    "created_at": "2023-11-02T10:04:53+00:00",
+    "updated_at": "2024-01-16T14:16:32+00:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p>If the light on the label printer isn't turning on, and nothing happens when you press the FEED button, try these steps:</p><p dir=\"ltr\"><br></p><p dir=\"ltr\">1. Disconnect the printer from the power for 30 seconds.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\">2. Check if the power cord is plugged into the wall outlet correctly.</p><p><br></p><p dir=\"ltr\">3. Make sure the power cord is properly connected to the printer.</p><p><br></p><p dir=\"ltr\">4. Test the wall outlet by plugging in another working appliance.</p><p><br></p><p dir=\"ltr\">5. Is the power cord damaged? Try using a new power cord.</p>",
+    "user_id": 103093471382,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 2,
+    "seo_data": {},
+    "modified_at": "2023-11-15T15:10:05+00:00",
+    "modified_by": 103093471382
+  },
+  {
+    "id": 103000253234,
+    "title": "Label printer error lights",
+    "text": "In this table you can see what the various error light messages mean:",
+    "category": "DdD Customer Help",
+    "folder": "Label Printer",
+    "created_at": "2023-11-08T08:30:21+00:00",
+    "updated_at": "2024-01-15T15:17:42+00:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p dir=\"ltr\"><br></p><p dir=\"ltr\"><span dir=\"ltr\" style=\"font-size: 18px;\"><br>In this table you can see what the various error light messages mean:</span><br><br><br><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103063211326/original/y1fDVOZfRvZ3dbhMCB-erGzlLfwlIkFWFQ.png?1699521963\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103063211326\"><br></p>",
+    "user_id": 103093471382,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 1,
+    "seo_data": {},
+    "modified_at": "2023-11-15T14:42:22+00:00",
+    "modified_by": 103093471382
+  },
+  {
+    "id": 103000292926,
+    "title": "Blank labels in between actual labels",
+    "text": "If a label printer is regularly printing blank labels in between actual labels, it is most likely related to the label sensor found as shown in the picture below: Clean the sensor, and also make sure that the triangle and line as aligned as shown below:",
+    "category": "DdD Customer Help",
+    "folder": "Label Printer",
+    "created_at": "2024-05-21T13:27:06+01:00",
+    "updated_at": "2024-07-11T14:45:52+01:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p dir=\"ltr\">If a label printer is regularly printing blank labels in between actual labels, it is most likely related to the label sensor found as shown in the picture below:&nbsp;</p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103114989388/original/1pbEKVL7oEST4fj9WyIXeQMc_E1L6f5eiQ.png?1716295779\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" title=\"\" data-id=\"103114989388\"></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">Clean the sensor, and also make sure that the triangle and line as aligned as shown below:&nbsp;</p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103114989662/original/Cnl_GaLoCyBKspklRHBGkVrd8o54DXR-aA.png?1716295804\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" title=\"\" data-id=\"103114989662\"></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p>",
+    "user_id": 103094119936,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 1,
+    "seo_data": {},
+    "modified_at": "2024-05-21T13:50:27+01:00",
+    "modified_by": 103094119936
+  }
+]

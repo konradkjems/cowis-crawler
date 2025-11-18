@@ -1,0 +1,13 @@
+[
+  {
+    "id": 103000321663,
+    "title": "No Results Were Returned When Running Online Voucher Usage Report",
+    "text": "if a customer is running the voucher usage report in their online back office portal, then their rep_voucherusage stored procedure on their website database needs to be updated to have the below variables to be varchar(30). @strfromdate varchar(20), @strtodate varchar(20) this is because the website sends the dates in this format, which is longer than 20 characters. exec rep_voucherusage @strvouchercode='night10',@strfromdate='1/november/2024',@strtodate='9/november/2024 23:59:59' this is the full stored procedure below. use [wwwdatabasename] go /****** object: storedprocedure [dbo].[rep_voucherusage] script date: 23/11/2024 13:10:41 ******/ set ansi_nulls on go set quoted_identifier on go alter procedure [dbo].[rep_voucherusage] -- add the parameters for the stored procedure here @strvouchercode varchar(20), @strfromdate varchar(30), @strtodate varchar(30) as begin -- set nocount on added to prevent extra result sets from -- interfering with select statements. set nocount on; -- insert statements for procedure here select localbkgdet._bookingref as [booking ref], localbkghdr.bkgcomplete as [complete], localbkghdr.bkgemailsent as [emailed], localbkghdr.bkgpaid as [paid], localbkghdr.bkgrecstatus as [status], convert(varchar(5), localsb.sbqty) + ' x ' + localsb.sbitemdesc as [desc], (select pricelookups.plufootfall from bkgresources inner join barcodes on bkgresources.bkrcode = barcodes.bcdcode inner join pricelookups on barcodes.bcdplurecno = pricelookups.plurecno where (bkgresources.bkrresno = localsb.sbpid)) * localsb.sbqty as footfall, internetvouchers.ivovouchercode as [voucher code], internetvouchers.ivoname as [voucher promo], localsb.sbtotalamount as revenue from localbkghdr inner join internetvouchers on localbkghdr.bkgvoucherid = internetvouchers.ivoid inner join localbkgdet on localbkghdr.bkgid = localbkgdet.bkgid inner join localsb on localbkgdet.detid = localsb.sbbkgid where (localsb.sbshopitem = 0 and localbkghdr.bkgrecstatus = 'b') and (internetvouchers.ivovouchercode like @strvouchercode) and bkginitdate between convert(datetime,@strfromdate) and convert(datetime,@strtodate) end",
+    "category": "INTERNAL Support Articles",
+    "folder": "Hosted Servers - Websites and Database",
+    "created_at": "2024-11-23T14:04:12+00:00",
+    "updated_at": "2024-11-23T14:05:30+00:00",
+    "status": 2,
+    "tags": []
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "id": 103000121414,
+    "title": "Functionality",
+    "text": "The Order Ready board is designed for customer-facing displays It shows the current status of an order and is designed to work in conjunction with the OSD Order Status Display. The ORB displays 2 columns: In Progress - This is an order that is currently being processed, once it is \"bumped\" to that status in the OSD Ready - This is an order which is ready to collect, once it has been \"bumped\" to that status in the OSD, If this application does not fit the screen correctly you can use the browser magnification to zoom in and out until it fits.",
+    "category": "Imagine Documentation",
+    "folder": "ORB Order Ready and Pay",
+    "created_at": "2023-05-23T11:31:54+01:00",
+    "updated_at": "2023-05-23T11:31:54+01:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p dir=\"ltr\"><span style=\"color: rgb(147, 101, 184);\">The Order Ready board is designed for customer-facing displays It shows the current status of an order and is designed to work in conjunction with the OSD Order Status Display.</span></p><p style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><br></span></p><p style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><strong><u dir=\"ltr\">The ORB displays 2 columns:</u></strong></span></p><p style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><strong>In Progress </strong>- This is an order that is currently being processed, once it is \"bumped\" to that status in the OSD</span></p><p style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><strong>Ready</strong> - This is an order which is ready to collect, once it has been \"bumped\" to that status in the OSD,</span></p><p style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><br></span></p><p style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103025477852/original/ILr_C1OB7-Oj2n7x1mFu02Tpsw2V7Q1N5g.png?1684837830\" alt=\"\" class=\"fr-fic fr-dii fr-bordered\" data-attachment=\"[object Object]\" data-id=\"103025477852\"></span></p><p style=\"color: rgb(147, 101, 184);\"><span style=\"color: rgb(147, 101, 184);\"><br></span></p><p dir=\"ltr\"><span style=\"color: rgb(147, 101, 184);\">If this application does not fit the screen correctly you can use the browser magnification to zoom in and out until it fits.</span></p>",
+    "user_id": 103027878347,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2023-05-23T11:31:54+01:00",
+    "modified_by": 103027878347
+  }
+]

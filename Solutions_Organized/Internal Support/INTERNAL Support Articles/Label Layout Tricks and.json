@@ -1,0 +1,34 @@
+[
+  {
+    "id": 103000332366,
+    "title": "How to hide \"size\"",
+    "text": "On the standard label, the text \"size\" appears before the size description. Some customers find it annoying that only size appears on the label when they have an item that doesn't have a size, see screenshot from KDG. If you go to the label layouter System -> Service -> logical labels and change the label layout you can double-click on the text \"Gr.\" and enter this expression instead of the text \"Gr.\": Cond(@Size >'0','Gr.','') Result: the word \"Gr.\" is no longer printed on a label without a size",
+    "category": "INTERNAL Support Articles",
+    "folder": "Label Layout Tricks and",
+    "created_at": "2025-01-31T10:24:54+00:00",
+    "updated_at": "2025-01-31T10:34:08+00:00",
+    "status": 2,
+    "tags": [
+      {
+        "name": "Label"
+      },
+      {
+        "name": "Etikett"
+      },
+      {
+        "name": "cowis.net"
+      },
+      {
+        "name": "List&Label"
+      }
+    ],
+    "description": "<p></p><p>On the standard label, the text \"size\" appears before the size description.</p><p><br></p><p dir=\"ltr\">Some customers find it annoying that only size appears on the label when they have an item that doesn't have a size, see screenshot from KDG.</p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103185525314/original/xmpcZ0dE86LeJ1rOeYGvSU81vl_nVSMZUw.png?1738317559\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103185525314\"></p><p><br></p><p><br></p><p>If you go to the label layouter</p><p><br></p><p>System -&gt; Service -&gt; logical labels and change the label layout</p><p><br></p><p dir=\"ltr\"><br></p><p><br></p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103185527488/original/pbybN2AN9IUICo9mYkSBR6N3g82t8jsKRA.png?1738317754\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103185527488\"></p><p><br></p><p><br></p><p dir=\"ltr\">you can double-click on the text \"Gr.\"</p><p><br></p><p>and enter this expression instead of the text \"Gr.\":</p><p><br></p><p dir=\"ltr\">Cond(@Size &gt;'0','Gr.','')</p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103185537024/original/yTbV5XxCEl_63oDldDcazUVQZZMtg_nYNQ.png?1738318700\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103185537024\"></p><p><br></p><p><br></p><p>Result: the word \"Gr.\" is no longer printed on a label without a size</p><p><br></p><p></p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103185537413/original/hlN4hwZyOBHWTEKBIpc1kpZ47zAKRC9hfw.png?1738318738\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103185537413\"></p>",
+    "user_id": 103081814775,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 1,
+    "seo_data": {},
+    "modified_at": "2025-01-31T10:24:54+00:00",
+    "modified_by": 103081814775
+  }
+]

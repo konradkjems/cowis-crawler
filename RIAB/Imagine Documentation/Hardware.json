@@ -1,0 +1,13 @@
+[
+  {
+    "id": 103000019602,
+    "title": "Changing the K3 Printer Language",
+    "text": "if you need to use a different language on the k3 printer, you can follow these steps to set the language within the printer itself: download the printer tool from https://rongtatech.com/rp820_download and connect the thermal printer to your computer. note the com port it connects to, which can be found in the device manager. start up the printertool.exe and configure the printer by setting the com port to the one it's connected to and hit \"configure the port.\" set the baud rate to 38400 and then hit \"set printer.\" on the first tab, set the code page to \"chinese\" and set the baud rate to 38400. hit \"set\" and the printer should beep. on the \"big5\" tab, set the emulation mode to \"epson esc/pos\" and language to \"chinese gb 18030.\" hit \"set\" on both options. on the first tab again, hit \"self-test.\" the printer should print out its configuration, and the code page at the top should now read \"gbk\" along with some chinese characters. unplug the printer and plug it back into your connector, then reboot your connector. ssh onto the connector and change the docker-compose.yml file by adding the following configuration to the arm gateway container as an environment variable: \"encodingcodepagevalue: 54936\" reboot your connector again.",
+    "category": "Imagine Documentation",
+    "folder": "Hardware",
+    "created_at": "2022-10-24T17:34:53+01:00",
+    "updated_at": "2023-04-24T17:00:23+01:00",
+    "status": 2,
+    "tags": []
+  }
+]

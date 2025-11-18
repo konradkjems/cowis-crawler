@@ -1,0 +1,13 @@
+[
+  {
+    "id": 103000144746,
+    "title": "New logo on exchange label",
+    "text": "save the logo in e.g. cowiskasse -> vorlagen (size and format is irrelevant. cowis accepts all formats and sizes) open cowis pos -> funktion check that the right printer is installed (e.g. zebra tlp) system -> logische drucker click abbruch (cancel) click service and sign on as cowsys (pw c0w15!) click schließen to close that window click allgemein -> ersatzetikett drucken choose random article by clicking ok choose a random article and clik ok click ja on design anpassen (adjust design) choose einfügen (insert) click bild (picture) with left mousekey, create a field at the top of the label choose datei (file) locate and choose the logo you saved beforehand and click öffnen (open) you can adjust the placement of the logo, but not the size. click save you get a print preview of the label. clck druckvorschau schließen ask customer to test if the setup is correct.",
+    "category": "INTERNAL Support Articles",
+    "folder": "POS (Kasse)",
+    "created_at": "2023-07-03T11:15:29+01:00",
+    "updated_at": "2023-07-03T11:15:32+01:00",
+    "status": 2,
+    "tags": []
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": 103000307989,
+    "title": "POSFLOW lokal numbers index",
+    "text": "Example Index=\"1\" From=\"1\" To=\"99999999\" Actual=\"127160\"--> POS verkoop/retour Document Index=\"2\" From=\"1\" To=\"99999999\" Actual=\"211308\"--> POS verkoop/retour Journaal en TimeEvidence Index=\"3\" From=\"1\" To=\"99999999\" Actual=\"3020\"--> KASgeld begin Index=\"4\" From=\"1\" To=\"99999999\" Actual=\"8243\"--> Kasboeking Index=\"5\" From=\"31460001\" To=\"31462499\" Actual=\"31460102\"--> Factuur (?) Index=\"6\" From=\"1\" To=\"99999999\" Actual=\"1\"--> Waardenbon (ONLINE) Index=\"6\" From=\"FFF00000\" To=\"FFF49999\" Actual=\"FFF00001\"--> Waardenbon (nummerreeks) Index=\"7\" From=\" FFF00000\" To=\"31462499\" Actual=\"31460001\"--> Tegoedbon Index=\"8\" From=\"31460001\" To=\"31462499\" Actual=\"31460001\"--> Pakbon Index=\"9\" From=\"31460001\" To=\"31462499\" Actual=\"31460001\"--> Aanbetaling Index=\"10\" From=\"31460001\" To=\"31462499\" Actual=\"31460001\"--> Kortingcheque Index=\"11\" From=\"1\" To=\"99999999\" Actual=\"126188\"--> Klanten (ONLINE) Index=\"12\" From=\"31460001\" To=\"31462499\" Actual=\"31460 001\"--> OPzicht Index=\"24\" From=\"1\" To=\"99999999\" Actual=\"127077\"--> Controle document",
+    "category": "INTERNAL Support Articles",
+    "folder": "Handleiding Posflow",
+    "created_at": "2024-08-14T08:38:58+01:00",
+    "updated_at": "2024-08-14T08:42:38+01:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p style=\"margin-bottom: 0cm; margin-left: 0cm; font-size: 15px; font-family: Calibri, sans-serif;\"><img width=\"624\" src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103137970436/original/DTTYEj2bdrEZtgBHY-nHsSPBEA3MP32SwA.jpeg?1723621095\" class=\"fr-fic fr-dii\" data-attachment=\"[object Object]\" data-id=\"103137970436\" style=\"max-width: 100%;\"></p><p style=\"margin-bottom: 0cm; margin-left: 0cm; font-size: 15px; font-family: Calibri, sans-serif;\">&nbsp;</p><p style=\"margin-bottom: 0cm; margin-left: 0cm; font-size: 15px; font-family: Calibri, sans-serif;\"><strong dir=\"ltr\">Example</strong></p><p style=\"margin-bottom: 0cm; margin-left: 0cm; font-size: 15px; font-family: Calibri, sans-serif;\">Index=\"1\" From=\"1\" To=\"99999999\" Actual=\"127160\"--&gt; POS verkoop/retour Document</p><p style=\"margin-bottom: 0cm; margin-left: 0cm; font-size: 15px; font-family: Calibri, sans-serif;\">Index=\"2\" From=\"1\" To=\"99999999\" Actual=\"211308\"--&gt; POS verkoop/retour Journaal en TimeEvidence</p><p style=\"margin-bottom: 0cm; margin-left: 0cm; font-size: 15px; font-family: Calibri, sans-serif;\">Index=\"3\" From=\"1\" To=\"99999999\" Actual=\"3020\"--&gt; KASgeld begin</p><p style=\"margin-bottom: 0cm; margin-left: 0cm; font-size: 15px; font-family: Calibri, sans-serif;\">Index=\"4\" From=\"1\" To=\"99999999\" Actual=\"8243\"--&gt; Kasboeking</p><p style=\"margin-bottom: 0cm; margin-left: 0cm; font-size: 15px; font-family: Calibri, sans-serif;\">Index=\"5\" From=\"31460001\" To=\"31462499\" Actual=\"31460102\"--&gt; Factuur (?)</p><p style=\"margin-bottom: 0cm; margin-left: 0cm; font-size: 15px; font-family: Calibri, sans-serif;\">Index=\"6\" From=\"1\" To=\"99999999\" Actual=\"1\"--&gt; &nbsp;<span>Waardenbon (ONLINE)</span></p><p style=\"margin-bottom: 0cm; margin-left: 0cm; font-size: 15px; font-family: Calibri, sans-serif;\">Index=\"6\" From=\"FFF00000\" To=\"FFF49999\" Actual=\"FFF00001\"--&gt; &nbsp;<span>Waardenbon (nummerreeks)</span></p><p style=\"margin-bottom: 0cm; margin-left: 0cm; font-size: 15px; font-family: Calibri, sans-serif;\">Index=\"7\" From=\" FFF00000\" To=\"31462499\" Actual=\"31460001\"--&gt; Tegoedbon</p><p style=\"margin-bottom: 0cm; margin-left: 0cm; font-size: 15px; font-family: Calibri, sans-serif;\">Index=\"8\" From=\"31460001\" To=\"31462499\" Actual=\"31460001\"--&gt; Pakbon</p><p style=\"margin-bottom: 0cm; margin-left: 0cm; font-size: 15px; font-family: Calibri, sans-serif;\">Index=\"9\" From=\"31460001\" To=\"31462499\" Actual=\"31460001\"--&gt; Aanbetaling</p><p style=\"margin-bottom: 0cm; margin-left: 0cm; font-size: 15px; font-family: Calibri, sans-serif;\">Index=\"10\" From=\"31460001\" To=\"31462499\" Actual=\"31460001\"--&gt; Kortingcheque</p><p style=\"margin-bottom: 0cm; margin-left: 0cm; font-size: 15px; font-family: Calibri, sans-serif;\">Index=\"11\" From=\"1\" To=\"99999999\" Actual=\"126188\"--&gt; Klanten (ONLINE)</p><p style=\"margin-bottom: 0cm; margin-left: 0cm; font-size: 15px; font-family: Calibri, sans-serif;\">Index=\"12\" From=\"31460001\" To=\"31462499\" Actual=\"31460 &nbsp; &nbsp; 001\"--&gt; OPzicht</p><p style=\"margin-bottom: 0cm; margin-left: 0cm; font-size: 15px; font-family: Calibri, sans-serif;\">&nbsp;</p><p style=\"margin-bottom: 0cm; margin-left: 0cm; font-size: 15px; font-family: Calibri, sans-serif;\">Index=\"24\" From=\"1\" To=\"99999999\" Actual=\"127077\"--&gt; Controle document</p>",
+    "user_id": 103081815565,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2024-08-14T08:39:01+01:00",
+    "modified_by": 103081815565
+  },
+  {
+    "id": 103000307992,
+    "title": "Show Button ID on POSFLOW",
+    "text": "Shutdown POSFLOW Set buttonshowID op true in Kasse4Param.xml ButtonShowID=\"true\" Start POSFLOW",
+    "category": "INTERNAL Support Articles",
+    "folder": "Handleiding Posflow",
+    "created_at": "2024-08-14T08:44:13+01:00",
+    "updated_at": "2024-08-14T08:44:57+01:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p dir=\"ltr\">Shutdown POSFLOW</p><p dir=\"ltr\"><br></p><p dir=\"ltr\">Set buttonshowID op true in Kasse4Param.xml</p><p><br></p><p dir=\"ltr\">ButtonShowID=\"true\"</p><p><img width=\"372\" src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103137972927/original/n746bXVgGriroBH_5mHKKF-qdqctjTHgvA.png?1723621410\" class=\"fr-fic fr-dii\" data-attachment=\"[object Object]\" data-id=\"103137972927\" style=\"max-width: 100%;\"></p><p><img width=\"373\" src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103137972929/original/YqRodhYAcUL9cv-Gz65wO7Qbo14zLs8sWQ.png?1723621410\" class=\"fr-fic fr-dii\" data-attachment=\"[object Object]\" data-id=\"103137972929\" style=\"max-width: 100%;\"></p><p><br></p><p dir=\"ltr\">Start POSFLOW</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p>",
+    "user_id": 103081815565,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2024-08-14T08:44:15+01:00",
+    "modified_by": 103081815565
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "id": 103000133925,
+    "title": "Ignore articlegroups from bonuspoints",
+    "text": "it is possible to ignore articlegroups from bonuspoints. open c:\\posflow\\config\\bonuspoints.config.xml add the articlegroups in the section: <clsvariable name=\"ignorearticlegroups\" value= see example below",
+    "category": "INTERNAL Support Articles",
+    "folder": "INTERNAL: POSFLOW",
+    "created_at": "2023-06-20T14:13:19+01:00",
+    "updated_at": "2023-06-20T14:13:32+01:00",
+    "status": 2,
+    "tags": []
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": 103000178824,
+    "title": "Assigning a recipt/purchase to a customer in DdD loyalty",
+    "text": "Some times the customer purchases from a shop but the receipt/amount is not registered in DdD loyalty and the customer cannot receive his bonus points/Money. The customer comes back and want to register his purchase in order to activate his bonus and receive the points he deserves. It can also be done by the shop clerk if they have access to DdD loyalty. First of all the clerk needs to login from the following link by entering login details. By logging in,Locate the customer by its name or customer number Here,the example is taken for a customer named Thomas with customer number 204640411 Then the clerk must enter information for the receipt. When the following information is entered the receipt is read and the points are added accordingly to the customer. As soon as the blue button is clicked ,the receipt is read by the system as shown with 699 danish kroner and is assigned to the customer by clicking save button in the window. Now we can see that the receipt number 734 has been assigned to the customer and the bonus points are accordingly activated for this particular purchase.",
+    "category": "DdD Customer Help",
+    "folder": "DdD Loyalty",
+    "created_at": "2023-08-03T15:32:18+01:00",
+    "updated_at": "2023-10-16T10:15:57+01:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p dir=\"ltr\">Some times the customer purchases from a shop but the receipt/amount is not registered in DdD loyalty and the customer cannot receive his bonus points/Money.<br>The customer comes back and want to register his purchase in order to activate his bonus and receive the points he deserves.<br><br>It can also be done by the shop clerk if they have access to DdD loyalty.<br><br>First of all the clerk needs to login from the following link by entering login details.<br><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103040654619/original/cmoXs_IWO5UPfNwZJzd5P7o0WsJGd0bSkQ.png?1691072233\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103040654619\">&nbsp;</p><p dir=\"ltr\">By logging in,Locate the customer by its name or customer number<br><br>Here,the example is taken for a customer named Thomas with customer number 204640411<br><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103040655698/original/AoGsw6bxENXyXZXMOEXPq8aPDXGj0Y1_ug.png?1691072401\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103040655698\"></p><p><br></p><p><br></p><p dir=\"ltr\">Then the clerk must enter information for the receipt.<br><br><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103040656633/original/Wz-DyiFahsE7b19wW-A1whfeufyX8ZZ1nQ.png?1691072562\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-id=\"103040656633\"></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">When the following information is entered the receipt is read and the points are added accordingly to the customer.<br><br><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103040657251/original/Tjcf41O1tGp-qB7q-6iCVP6LFYDftkjKgA.png?1691072673\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-id=\"103040657251\"></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">As soon as the blue button is clicked ,the receipt is read by the system as shown with 699 &nbsp;danish kroner</p><p dir=\"ltr\">and is assigned to the customer by clicking save button in the window.</p><p dir=\"ltr\"><br><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103040657787/original/X3qw_jsWLf-bU7XrRUnPYR6JwQDFf_m1wA.png?1691072762\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103040657787\"><br><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103040659771/original/yg7_xCca4Q3FIffMr9B5zdWnl5IVE7La_w.png?1691073125\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103040659771\"></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">Now we can see that the receipt number 734 has been assigned to the customer and the bonus points are accordingly activated for this particular purchase.</p><p dir=\"ltr\"><br></p>",
+    "user_id": 103081812637,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 2,
+    "seo_data": {},
+    "modified_at": "2023-08-03T15:32:18+01:00",
+    "modified_by": 103081812637
+  },
+  {
+    "id": 103000309173,
+    "title": "Export members",
+    "text": "It is now possible to export a list with all your members. Just log in to you Loyalty Portal and press export Members. Login with your credentials: Choose the group you want to access. (In case there are more then one) Choose Export members. The file you download, will be a CSV file, that can be imported into Excel.",
+    "category": "DdD Customer Help",
+    "folder": "DdD Loyalty",
+    "created_at": "2024-08-23T08:32:21+01:00",
+    "updated_at": "2024-09-09T12:42:42+01:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p dir=\"ltr\">It is now possible to export a list with all your members. Just log in to you Loyalty Portal and press export Members.&nbsp;</p><p dir=\"ltr\"><br></p><p dir=\"ltr\">Login with your credentials:</p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103144930429/original/XBIbySKBldRpukb4GT2ykibOoTIgjC4Iww.png?1725881942\" style=\"width: 363px; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103144930429\"></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">Choose the group you want to access. (In case there are more then one)</p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103144931007/original/qePUMqjhag01ch-uD09w9Oykr-ho61eRGA.png?1725882004\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103144931007\"></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">Choose Export members.&nbsp;</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103140369738/original/uONVNHn5JpZUER8VtHaBGIVFYhogD0-FLw.png?1724398325\" style=\"width: auto; max-width: 100%;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103140369738\"></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">The file you download, will be a CSV file, that can be imported into Excel.&nbsp;</p><p><br></p><p><br></p><p><br></p>",
+    "user_id": 103081815037,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 1,
+    "seo_data": {},
+    "modified_at": "2024-09-09T12:42:42+01:00",
+    "modified_by": 103081815037
+  }
+]

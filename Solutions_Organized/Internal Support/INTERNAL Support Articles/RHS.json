@@ -1,0 +1,40 @@
+[
+  {
+    "id": 103000263498,
+    "title": "Createsend.com-MStore Integration For RHS",
+    "text": "Createsend.com is a service provided by Campaign Monitor (https://www.campaignmonitor.com/), which is CRM product. In terms of the Createsend.com integration into MStore, this is just a email server, that we send details to for Createsend.com to email confirmation emails to customers. In doing so, they log the details they received a customer record in the CRM system using the email address. You can change the integration settings in the below website config options:",
+    "category": "INTERNAL Support Articles",
+    "folder": "RHS",
+    "created_at": "2023-12-20T14:06:49+00:00",
+    "updated_at": "2023-12-20T15:00:49+00:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p dir=\"ltr\"><a href=\"//Createsend.com\">Createsend.com</a> is a service provided by Campaign Monitor (<a href=\"https://www.campaignmonitor.com/\">https://www.campaignmonitor.com/</a>), which is CRM product.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\">In terms of the <a href=\"//Createsend.com\">Createsend.com</a> integration into MStore, this is just a email server, that we send details to for <a href=\"//Createsend.com\">Createsend.com</a> to email confirmation emails to customers. I<span class=\"ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak\" dir=\"ltr\">n doing so, they log the details they received a customer record in the CRM system using the email address.</span>&nbsp;</p><p dir=\"ltr\"><br></p><p><span class=\"ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak\" dir=\"ltr\"></span></p><p dir=\"ltr\">You can change the integration settings in the below website config options:</p><p><span class=\"fui-Flex ___o96bqp0 f22iagw f5wk2nc f10ra9hq\" style=\"max-width: 58.3rem;\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103074695971/original/uhPnOPKSqI_dY3a2QjiEoHg0mrPmJUE5cg.png?1703084350\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103074695971\"></span></p><p></p>",
+    "user_id": 103082581554,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2024-04-17T13:46:47+01:00",
+    "modified_by": 103082581554
+  },
+  {
+    "id": 103000301831,
+    "title": "Connecting Onto RHS Server (RHS-Welcome)",
+    "text": "This is the new connection method to connect onto the RHS server and databases, due to there not being unattended access to the RHS server anymore. Go to https://client.wvd.microsoft.com/arm/webclient/index.html. Log into the Microsoft account HarryWillatts@rhs.org.uk. The password for this account can be found in LastPass. You may need to log out of your own Microsoft account on the browser you are using to be able to do this, if you do experience any issues. Once you have logged in, you will then see the below apps. Please select Full RHS Desktop. Once you have logged into this RDP connection, you can RDP onto the RHS-Welcome server, where the SQL databases are held, and you will have SQL access.",
+    "category": "INTERNAL Support Articles",
+    "folder": "RHS",
+    "created_at": "2024-07-10T11:10:28+01:00",
+    "updated_at": "2024-07-10T11:10:28+01:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p dir=\"ltr\">This is the new connection method to connect onto the RHS server and databases, due to there not being unattended access to the RHS server anymore.</p><p dir=\"ltr\"><br></p><ol><li dir=\"ltr\">Go to <span class=\"ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak\" dir=\"ltr\"><a data-fr-linked=\"true\" href=\"https://client.wvd.microsoft.com/arm/webclient/index.html\">https://client.wvd.microsoft.com/arm/webclient/index.html</a>.</span><br><br></li><li dir=\"ltr\"><span class=\"ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak\" dir=\"ltr\">Log into the Microsoft account <a data-fr-linked=\"true\" href=\"mailto:HarryWillatts@rhs.org.uk\">HarryWillatts@rhs.org.uk</a>. The password for this account can be found in LastPass. You may need to log out of your own Microsoft account on the browser you are using to be able to do this, if you do experience any issues.</span><br><br></li><li dir=\"ltr\"><span class=\"ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak\" dir=\"ltr\">Once you have logged in, you will then see the below apps. Please select <strong dir=\"ltr\">Full RHS Desktop</strong>.</span><br><span class=\"ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak\" dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103128799407/original/pqfdKlVJ8WNvDCdDrvRJPDjPNN8kWxtbjQ.png?1720606059\" style=\"width: 562px;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103128799407\"></span><br><br></li><li dir=\"ltr\"><span class=\"ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak\" dir=\"ltr\">Once you have logged into this RDP connection, you can RDP onto the <strong>RHS-Welcome</strong> server, where the SQL databases are held, and you will have SQL access.</span></li></ol><p><br></p>",
+    "user_id": 103082581554,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2024-07-10T11:10:28+01:00",
+    "modified_by": 103082581554
+  }
+]

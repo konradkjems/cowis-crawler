@@ -1,0 +1,20 @@
+{
+  "main_category": "ViJi Track",
+  "sub_category": "ViJi Track Documentation",
+  "total_articles": 32,
+  "folders": {
+    "Welcome Page & Settings": 2,
+    "CSR Profile": 2,
+    "Suppliers List": 3,
+    "Items": 1,
+    "CSR Documents": 4,
+    "Questionnaires": 1,
+    "Purchase Orders": 2,
+    "CSR Commitments": 1,
+    "Sales Orders": 3,
+    "My Items/Orders": 1,
+    "Admin Info": 6,
+    "Glossary / Support / API": 4,
+    "ViJiClick Installation Guide": 2
+  }
+}

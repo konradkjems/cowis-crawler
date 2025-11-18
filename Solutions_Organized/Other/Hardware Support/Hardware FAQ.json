@@ -1,0 +1,21 @@
+[
+  {
+    "id": 103000343231,
+    "title": "Why is my POS  / Till slow?",
+    "text": "Your Point of Sale might be slow because it's old (5 years is the normal expected lifespan of any computer before operating system updates etc slow it down). The operating system might need optimising - see help in the product-specific sections of this knowledgebase. Some customers install other software on their POS, including back office software, Microsoft Office, and many other applications. This can slow your POS down if the hardware was specified for only running a POS (most likely) i.e. it was not intended as a general purpose computer. K3 test the performance and functionality of their POS software on the hardware that we supply, but we do not test the impact of adding many unknown extra applications on it. We can help you by supplying a higher specification POS if you do need a POS which doubles as a general purpose machine. Also See What Hardware Can I Purchase from K3? How Long Can Hardware be Supported For?",
+    "category": "Hardware Support",
+    "folder": "Hardware FAQ",
+    "created_at": "2025-03-31T17:29:53+01:00",
+    "updated_at": "2025-05-01T09:57:26+01:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p dir=\"ltr\">Your Point of Sale might be slow because it's old (5 years is the normal expected lifespan of any computer before operating system updates etc slow it down). The operating system might need optimising - see help in the product-specific sections of this knowledgebase.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\">Some customers install other software on their POS, including back office software, &nbsp;Microsoft Office, and many other applications. This can slow your POS down if the hardware was specified for only running a POS (most likely) i.e. it was not intended as a general purpose computer. K3 test the performance and functionality of their POS software on the hardware that we supply, but we do not test the impact of adding many unknown extra applications on it. We can help you by supplying a higher specification POS if you do need a POS which doubles as a general purpose machine.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><strong>Also See</strong></p><ul><li dir=\"ltr\"><a dir=\"ltr\" href=\"https://support.k3btg.com/en/support/solutions/articles/103000347002\" rel=\"noreferrer\" target=\"_blank\">What Hardware Can I Purchase from K3?</a></li><li dir=\"ltr\"><a href=\"https://support.k3btg.com/en/support/solutions/articles/103000323844\">How Long Can Hardware be Supported For?</a>&nbsp;</li></ul><p dir=\"ltr\"><br></p>",
+    "user_id": 103023352668,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 2,
+    "seo_data": {},
+    "modified_at": "2025-05-01T09:57:26+01:00",
+    "modified_by": 103023352668
+  }
+]

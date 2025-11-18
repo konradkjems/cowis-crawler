@@ -1,0 +1,111 @@
+[
+  {
+    "id": 103000265420,
+    "title": "Can you let me know where I go to edit the custom POS buttons?",
+    "text": "A: The custom POS buttons can be located and edited in Store Ops Manager, by following 'Database' - 'Registers' and you have multiple options such as keyboards, custom POS buttons and POS task pads that can all be edited.",
+    "category": "RMS Customer Help",
+    "folder": "Store Ops Manager",
+    "created_at": "2024-01-02T16:07:32+00:00",
+    "updated_at": "2024-01-02T16:07:33+00:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p dir=\"ltr\">A: The custom POS buttons can be located and edited in Store Ops Manager, by following 'Database' - 'Registers' and you have multiple options such as keyboards, custom POS buttons and POS task pads that can all be edited.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103076508470/original/7r9NXeqgG2WY_nwm36X0sQwxo1-pDBbNNA.png?1704211642\" style=\"width: 577px;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103076508470\"></p>",
+    "user_id": 103081806982,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 5,
+    "seo_data": {},
+    "modified_at": "2024-01-02T16:07:32+00:00",
+    "modified_by": 103081806982
+  },
+  {
+    "id": 103000271230,
+    "title": "POS Display settings",
+    "text": "When the POS display setting is corrupted and the touchscreen keyboard moves under the transaction screen as below. To resolve this Hold down the CTRL + f6 the following window is displayed. Click on Transaction Screen tab and select window. Make a note of the height of the transaction window you will need this to set the top position of the touchscreen keyboard. Click Ok and select the touchscreen keyboard and click window. Set the top position to be the same as the height of the touchscreen keyboard. Click Ok Then ok again. You screen should be restored.",
+    "category": "RMS Customer Help",
+    "folder": "Store Ops Manager",
+    "created_at": "2024-01-24T13:00:31+00:00",
+    "updated_at": "2024-02-02T08:58:18+00:00",
+    "status": 2,
+    "tags": [
+      {
+        "name": "RMS"
+      }
+    ],
+    "description": "<p dir=\"ltr\">When the POS display setting is corrupted and the touchscreen keyboard moves under the transaction screen as below.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103082193270/original/rzuI8wBJxVdjCZDAnqD30LHRfx1mkvYGiA.png?1706100222\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib fr-bordered\" data-attachment=\"[object Object]\" data-id=\"103082193270\"></p><p><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">To resolve this Hold down the <strong dir=\"ltr\">CTRL + f6</strong> the following window is displayed.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103082206215/original/vFB_JjZlawuuEv2JvjetAjai1fWz4YKqTw.png?1706101721\" style=\"width: auto; display: block; float: none; vertical-align: top; margin: 5px auto; text-align: center;\" class=\"fr-fic fr-dib\" data-attachment=\"[object Object]\" data-id=\"103082206215\"></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">Click on <strong dir=\"ltr\">Transactio</strong><strong>n</strong> Screen tab and select <strong dir=\"ltr\">window.&nbsp;</strong>Make a note of the height of the transaction window you will need this to set the top position of the touchscreen keyboard.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103082201178/original/rI3nBfCN7QI1q82nXi1TpMwlu2hWXI6Yyg.png?1706101145\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103082201178\"></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">Click Ok and select the touchscreen keyboard and click window.</p><p dir=\"ltr\">Set the top position to be the same as the height of the touchscreen keyboard.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103082199899/original/D_krNsX34fD1dRFsTVOezAW5KJqRYTt9MA.png?1706100981\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103082199899\"></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">Click Ok Then ok again. You screen should be restored.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103082200668/original/x_qmtb-zGGweQ6BJiunyGinkKAAj2FIikw.png?1706101071\" style=\"width: auto; display: block; vertical-align: top; margin: 5px auto; text-align: center; float: none;\" class=\"fr-fic fr-dib\" data-attachment=\"[object Object]\" data-id=\"103082200668\"></p><p dir=\"ltr\">&nbsp;</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p>",
+    "user_id": 103081816648,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 3,
+    "seo_data": {},
+    "modified_at": "2024-02-02T08:58:18+00:00",
+    "modified_by": 103081816648
+  },
+  {
+    "id": 103000272956,
+    "title": "Attempt to process COM object RSG_ILINK",
+    "text": "Attempt to process COM object 'RSG_ILINK.clsCardAuth' failed. An unknown error occurred. When trying to process a card transaction you get the following. The first thing to try is to exit and restart POS. In most cases this will resolve the issue. If that fails there may be an issue with the dll or the dll is no registered. In which case contact K3 support.",
+    "category": "RMS Customer Help",
+    "folder": "Store Ops Manager",
+    "created_at": "2024-02-02T09:03:08+00:00",
+    "updated_at": "2024-02-02T09:03:35+00:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p dir=\"ltr\">Attempt to process COM object 'RSG_ILINK.clsCardAuth' failed. An unknown error occurred.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">When trying to process a card transaction you get the following.</p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103084676199/original/dcuYEQFXMxc5fOouBLCm031kNFFZ363zMQ.png?1706864483\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib fr-bordered\" data-attachment=\"[object Object]\" data-id=\"103084676199\"></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">The first thing to try is to exit and restart POS.</p><p dir=\"ltr\">In most cases this will resolve the issue.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\">If that fails there may be an issue with the dll or the dll is no registered.</p><p dir=\"ltr\">In which case contact K3 support.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p>",
+    "user_id": 103081816648,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2024-02-02T09:03:35+00:00",
+    "modified_by": 103081816648
+  },
+  {
+    "id": 103000290172,
+    "title": "Offline batches -Blind Closed",
+    "text": "When an RMS till goes into offline mode, the current batch is Blind Closed by the system. If the till is used in offline mode the these transactions go into a separate batch in the offline database. When the till is back online (reconnected to the primary database), this batch too is uploaded to the server and blind closed. The transaction from that point forward go into a new (3rd) batch and trading continues as normal. When you come to Z read at the end of the day only the transactions from the point the database was reconnected will show (3rd batch). In order to balance the till, it will be necessary to X and Z read these blind closed batches. To do this follow the following instructions. First of all exit POS, this is because POS holds the printer and the X and Z reads will not print if the printer is help on to by POS. Open SO manager. Go to Journal / Update batch info. Click OK on the dialogue box that appears, there is no need to enter any filters. Find Blind Closed batches in the list. The below image only shows open batches as I do not have any blind closed batches currently. Open batches are current batches being worked, these can not be X or Z read here. To process the batches Double click on the batch number. This will bring up the options below. Whether you need to enter Opening and Closing amounts depends on your current settings. When you have Z read all of the batches for the day in question. These Z reads can be added to the totals from the main Z read to balance the till. Please remember that if POS is still open and you process the Z read, the Z read will not print but it will process the bacth and it will no longer be available in this list. There is nothing we can do to get it back, so please make sure POS is exited before this process is undertaken.",
+    "category": "RMS Customer Help",
+    "folder": "Store Ops Manager",
+    "created_at": "2024-04-30T12:18:05+01:00",
+    "updated_at": "2024-04-30T12:18:05+01:00",
+    "status": 2,
+    "tags": [
+      {
+        "name": "offline batches"
+      },
+      {
+        "name": "blind closed batches"
+      }
+    ],
+    "description": "<p data-identifyelement=\"482\" dir=\"ltr\">When an RMS till goes into offline mode, the current batch is Blind Closed by the system.</p><p data-identifyelement=\"482\" dir=\"ltr\"><br></p><p data-identifyelement=\"482\" dir=\"ltr\">If the till is used in offline mode the these transactions go into a separate batch in the offline database.</p><p data-identifyelement=\"482\" dir=\"ltr\"><br></p><p data-identifyelement=\"482\" dir=\"ltr\">When the till is back online (reconnected to the primary database), this batch too is uploaded to the server and blind closed.</p><p data-identifyelement=\"482\" dir=\"ltr\"><br></p><p data-identifyelement=\"482\" dir=\"ltr\">The transaction from that point forward go into a new (3rd) batch and trading continues as normal.</p><p data-identifyelement=\"482\" dir=\"ltr\"><br></p><p data-identifyelement=\"482\" dir=\"ltr\">When you come to Z read at the end of the day only the transactions from the point the database was reconnected will show (3rd batch).</p><p data-identifyelement=\"482\" dir=\"ltr\"><br></p><p data-identifyelement=\"482\" dir=\"ltr\">In order to balance the till, it will be necessary to X and Z read these blind closed batches.</p><p data-identifyelement=\"482\" dir=\"ltr\"><br></p><p data-identifyelement=\"482\" dir=\"ltr\">To do this follow the following instructions.</p><p data-identifyelement=\"482\" dir=\"ltr\"><br></p><p data-identifyelement=\"482\" dir=\"ltr\"><strong><u>First of all exit POS</u></strong>, this is because POS holds the printer and the X and Z reads will not print if the printer is help on to by POS.</p><p data-identifyelement=\"482\" dir=\"ltr\">Open SO manager.</p><p data-identifyelement=\"482\" dir=\"ltr\">Go to Journal / Update batch info.</p><p data-identifyelement=\"482\" dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103109426404/original/tb84GIFZ0mqlCPL5ysiKPrRDRdE27dV6Ow.png?1714475207\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103109426404\"></p><p><br></p><p><br></p><p dir=\"ltr\">Click OK on the dialogue box that appears, there is no need to enter any filters.</p><p dir=\"ltr\"><br></p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103109427136/original/ru7jvikp7dKBbY38wiVVmZcCgxS-6x5Omg.png?1714475281\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103109427136\"></p><p><br></p><p><br></p><p dir=\"ltr\">Find Blind Closed batches in the list.</p><p dir=\"ltr\">The below image only shows open batches as I do not have any blind closed batches currently.</p><p dir=\"ltr\">Open batches are current batches being worked, these can not be X or Z read here.</p><p dir=\"ltr\"><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103109427546/original/JwMiznQ6WNDRT_Ftd8zx0hGgCjYLQEpwWg.png?1714475332\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103109427546\"></p><p><br></p><p dir=\"ltr\">To process the batches Double click on the batch number.</p><p dir=\"ltr\">This will bring up the options below.</p><p dir=\"ltr\">Whether you need to enter Opening and Closing amounts depends on your current settings.&nbsp;</p><p><br></p><p><img src=\"https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103109428574/original/WTWT0eaIHhVnO4g4I1AjVAbgjlc7I_UZ5g.png?1714475421\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"103109428574\"></p><p><br></p><p dir=\"ltr\">When you have Z read all of the batches for the day in question.</p><p dir=\"ltr\">These Z reads can be added to the totals from the main Z read to balance the till.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><strong><u>Please remember</u></strong> that if POS is still open and you process the Z read, the Z read will not print but it will process the bacth and it will no longer be available in this list.</p><p dir=\"ltr\">There is nothing we can do to get it back, so please make sure POS is exited before this process is undertaken.</p><p><br></p><p><br></p>",
+    "user_id": 103081816648,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 2,
+    "seo_data": {
+      "meta_title": "offline - blind closed batches",
+      "meta_description": "offline - blind closed batches"
+    },
+    "modified_at": "2024-04-30T12:18:05+01:00",
+    "modified_by": 103081816648
+  },
+  {
+    "id": 103000334234,
+    "title": "Cinders Reports",
+    "text": "Cinders require an update to one of their reports every year to allow the new seasons to show in their customer Value list report. This requires you adding some lines to the report file via Notepad++ As you can see from the below formula there is a pattern that needs to be followed to allow the report to run correctly. Other parts of the report file will need to be updated to the new season name. eg SS2026 You need to save the file as a new qrp and upload it to the RMS reports folder for HQ. A copy of the latest reports have been sent to Thomas Toulouse.",
+    "category": "RMS Customer Help",
+    "folder": "Store Ops Manager",
+    "created_at": "2025-02-07T15:00:34+00:00",
+    "updated_at": "2025-02-07T15:00:34+00:00",
+    "status": 2,
+    "tags": [],
+    "description": "<p>Cinders require an update to one of their reports every year to allow the new seasons to show in their customer Value list report.&nbsp;</p><p><br></p><p>This requires you adding some lines to the report file via Notepad++&nbsp;</p><p><br></p><p>As you can see from the below formula there is a pattern that needs to be followed to allow the report to run correctly.</p><p><br></p><p><br></p><p><br></p><p>Other parts of the report file will need to be updated to the new season name. eg SS2026</p><p><br></p><p>You need to save the file as a new qrp and upload it to the RMS reports folder for HQ. A copy of the latest reports have been sent to Thomas Toulouse.</p><p><br></p><p><br></p>",
+    "user_id": 103081806982,
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "seo_data": {},
+    "modified_at": "2025-02-07T15:00:34+00:00",
+    "modified_by": 103081806982
+  }
+]

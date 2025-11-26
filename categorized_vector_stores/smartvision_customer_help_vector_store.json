@@ -1,0 +1,765 @@
+[
+  {
+    "title": "SmartVision 7.5 Release Notes",
+    "text": "Please find attached the SmartVision 7.5 Release Notes.",
+    "category": "SmartVision Customer Help",
+    "subcategory": "SmartVision v7.5",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103201215236/original/WfkAPz_K6I1kWeA4UUG1FVpeiFNMe1Xpjg.png?1742896714"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2025-01-17T13:30:44+00:00",
+    "updated_at": "2025-03-25T09:58:39+00:00",
+    "id": 103000329766,
+    "tags": []
+  },
+  {
+    "title": "SmartVision V7.5 Hardware and Software Requirements",
+    "text": "SmartVision V7.5 Hardware and Software Requirements The following hardware and software recommendations are made by K3 based on the experience of our customers and the operating system author’s recommendations. These requirements are effective as January 2025 and are subject to change without notice. SmartVision Server Requirements Server Hardware Minimum Recommended Processor Speed Dual Core Quad Core or greater Memory 4GB 8GB or greater Hard Disk (Free Space) SATA 7200rpm SSD with RAID-5 (SAS) Network Adapter 100 Base-T 1000 Base-T Important Notes Tape Backup and UPS (battery backup) highly recommended. Hardware must comply with operating system author’s hardware compatibility list. Hardware specifications are based on a dedicated server and 20 concurrent users, if the server has additional workloads placed upon it, they should be factored into these recommendations. Recommendation is for a server with 100gb disc capacity. This allows for a live database, a test database, SQL Logs, a number of days of SQL backups and room for expansion as you grow. Server Software Supported Server Operating Systems Windows 2022 server Windows 2019 server Windows 2016 server Microsoft SQL Server Microsoft SQL Server 2022 Microsoft SQL Server 2019 Microsoft SQL Server 2017 Microsoft SQL Server 2016 Important Notes Microsoft .NET 3.5 is required. SmartVision Client Requirements Client Hardware Minimum Recommended Processor Speed 1GHz 2 GHz+ RAM 512MB 1GB+ Hard Disk (Free Space) 5GB 10GB Network Adaptor 100 Base-T 1000 Base-T Display Settings SVGA (1024x768) SVGA (1024 x 768 or greater) * Other Hardware Requirements Hardware must comply with operating system author’s hardware compatibility list. Isolated power circuits with surge protection or UPS recommended. * For high resolution monitors e.g. 4k, please check with your Account Manager Client Software Supported Client Operating Systems Windows 10 Professional or Enterprise Windows 11 Professional or Enterprise Important Notes Microsoft .NET 3.5 is required. For any further details and recommendations please contact Technical Support.",
+    "category": "SmartVision Customer Help",
+    "subcategory": "SmartVision v7.5",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [],
+    "has_images": false,
+    "image_count": 0,
+    "created_at": "2025-01-10T14:13:30+00:00",
+    "updated_at": "2025-03-25T09:57:51+00:00",
+    "id": 103000328377,
+    "tags": []
+  },
+  {
+    "title": "SmartVision 7.5 Installation Guide",
+    "text": "Please find attached the SmartVision 7.5 Installation Guide.",
+    "category": "SmartVision Customer Help",
+    "subcategory": "SmartVision v7.5",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [],
+    "has_images": false,
+    "image_count": 0,
+    "created_at": "2025-01-17T13:33:31+00:00",
+    "updated_at": "2025-03-25T09:57:24+00:00",
+    "id": 103000329770,
+    "tags": []
+  },
+  {
+    "title": "SmartVision Release Notes Journal",
+    "text": "SmartVision Release Notes Journal",
+    "category": "SmartVision Customer Help",
+    "subcategory": "SmartVision v7.5",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [],
+    "has_images": false,
+    "image_count": 0,
+    "created_at": "2025-03-26T15:15:34+00:00",
+    "updated_at": "2025-03-26T15:19:34+00:00",
+    "id": 103000341902,
+    "tags": []
+  },
+  {
+    "title": "SmartVision 7.4 Release Notes",
+    "text": "SmartVision 7.4 Release Notes",
+    "category": "SmartVision Customer Help",
+    "subcategory": "Previous SmartVision Release Notes",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [],
+    "has_images": false,
+    "image_count": 0,
+    "created_at": "2025-03-26T15:18:38+00:00",
+    "updated_at": "2025-03-26T15:18:52+00:00",
+    "id": 103000341905,
+    "tags": []
+  },
+  {
+    "title": "Recalculate Cost Rollups",
+    "text": "",
+    "category": "SmartVision Customer Help",
+    "subcategory": "SmartVision",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103071472987/original/_kO--dRRBlTrL_8ai43OMl9Oho5F3H5UnQ.png?1701966702",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103071473014/original/SQl7N26BaYTVtRcXsI73FqjIzkD62AenKg.png?1701966711",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103071473350/original/Ki8FZYd8-q4zjIKdFzF-Pxumqhsc-i4WtA.png?1701966782",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103071473132/original/OWodI0FG5PBFT09CLAyfqXv0YgdyB8eVsg.png?1701966734"
+    ],
+    "has_images": true,
+    "image_count": 4,
+    "created_at": "2023-12-07T16:32:30+00:00",
+    "updated_at": "2023-12-07T16:33:12+00:00",
+    "id": 103000260984,
+    "tags": []
+  },
+  {
+    "title": "\"In-Inspection\" module",
+    "text": "",
+    "category": "SmartVision Customer Help",
+    "subcategory": "SmartVision",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103071611558/original/gOYIflynV4k5M0cwAPtg8LNn9j7RF9Hduw.png?1702031355"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2023-12-08T10:29:22+00:00",
+    "updated_at": "2023-12-08T10:29:27+00:00",
+    "id": 103000261064,
+    "tags": []
+  },
+  {
+    "title": "Allowable Excess Receipt %",
+    "text": "",
+    "category": "SmartVision Customer Help",
+    "subcategory": "SmartVision",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103075803377/original/yM6eORQED9n0s4NuhJtBycZvo0hyRlv7Fw.png?1703757330",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103075803438/original/3Th6sjfT_AsPSCmc9cK6oJDXA-1OueZ3cA.png?1703757339"
+    ],
+    "has_images": true,
+    "image_count": 2,
+    "created_at": "2023-12-28T09:56:05+00:00",
+    "updated_at": "2023-12-28T09:56:28+00:00",
+    "id": 103000264912,
+    "tags": []
+  },
+  {
+    "title": "De-expedited Shop Orders",
+    "text": "",
+    "category": "SmartVision Customer Help",
+    "subcategory": "SmartVision",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103075808996/original/PyNxFf9bhoRwJTQte8vhr0Ss5eTT9Ya35A.png?1703758332",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103075808610/original/QaNmSbeH4XB9PIlfToGfke-aElUSepZaKw.png?1703758257",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103075808682/original/2OWTRYWuh3N4IWVmnKgAvNGMZgnlXWZihg.png?1703758268"
+    ],
+    "has_images": true,
+    "image_count": 3,
+    "created_at": "2023-12-28T10:11:32+00:00",
+    "updated_at": "2023-12-28T10:12:32+00:00",
+    "id": 103000264917,
+    "tags": []
+  },
+  {
+    "title": "BTrieve Error 47 - Maximum Open Files",
+    "text": "",
+    "category": "SmartVision Customer Help",
+    "subcategory": "SmartVision",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103089906729/original/L8klrpwkCPJoWoPHy0_OlhShGok5RopxRA.png?1708523786"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2024-02-21T13:57:21+00:00",
+    "updated_at": "2024-02-21T13:57:22+00:00",
+    "id": 103000277384,
+    "tags": []
+  },
+  {
+    "title": "How to Change Nettable Status of a Stock ID",
+    "text": "",
+    "category": "SmartVision Customer Help",
+    "subcategory": "SmartVision",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103094715964/original/mQIVuHculSrxpvrzcmFVm_6w1qDJlNJpJQ.png?1709803063"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2024-03-07T09:16:33+00:00",
+    "updated_at": "2024-03-07T09:17:47+00:00",
+    "id": 103000280737,
+    "tags": []
+  },
+  {
+    "title": "Purging SmartVision Data",
+    "text": "In most companies Purging would normally be carried out on an annual basis, and we would advise the following sequence. In some situations, more frequent purging of certain areas may be required and in this case, not all purge routines may be required. The SmartVision purge processes delete the records selected from the system therefor a backup of the SQL database must be take BEFORE purging it. (change the name of the backup to include descriptive text relevant to pre purging) System Manager>Batch>Purge MTD/YTD Data Materials>Inventory Control>Batch>Purge Part Stock Materials>Inventory Control>Batch>Purge Lot Data Materials>Inventory Control>Batch>Purge Serial Numbers Customer>Sales Order Processing>Batch>Purge Sales Orders Customer>Sales Order Processing>Batch>Purge Invoices Materials>Master Scheduling>Batch>Purge Master Schedule Orders Production>Shop Floor Execution>Batch>Purge Shop Orders Production>Shop Floor Execution>Batch>Purge Time Tickets Production>Shop Floor Execution>Batch>Purge Employee Work Materials>Purchasing Control>Batch>Purge Purchase Orders Materials>Purchasing Control>Batch>Purge Purchase Requisitions Materials>Purchasing Control>Batch>Purge Vouchers Finance>Costing>Batch>Purge Work GL Materials>Inventory Control>Batch>Purge Transaction History Backup the database AFTER purging it (change the name of the backup to include descriptive text relevant to post purging",
+    "category": "SmartVision Customer Help",
+    "subcategory": "SmartVision",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [],
+    "has_images": false,
+    "image_count": 0,
+    "created_at": "2024-03-08T14:03:31+00:00",
+    "updated_at": "2024-03-11T10:14:47+00:00",
+    "id": 103000281019,
+    "tags": []
+  },
+  {
+    "title": "SmartVision Month-Year end Process",
+    "text": "The attached document takes you though the following Period end Procedures which include the purge processes:- MTD/YTD Sales Orders. Sales Invoices. Purchase Orders – Inventory & Non-inventory Vouchers Purchase Requisitions Shop Orders Master Schedule Orders Employee Work Time Tickets GL Files Part Stock Data Lot Data Serial Numbers Stock On Hand Reconciliation. Requirements Audit. Job Progress Audit EDI Transactions Transaction History (MUST BE LAST)",
+    "category": "SmartVision Customer Help",
+    "subcategory": "SmartVision",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [],
+    "has_images": false,
+    "image_count": 0,
+    "created_at": "2024-03-11T10:50:03+00:00",
+    "updated_at": "2024-03-11T11:00:33+00:00",
+    "id": 103000281233,
+    "tags": []
+  },
+  {
+    "title": "PIIM Error during processing - Type mismatch",
+    "text": "Type mismatch error during the PIIM>Export Invoices process:- This message indicates that the software is not finding a value in the required field for the document number listed. On this example the Terms Code number of days field for PR - PRO-FORMA is blank:- To amend the field you need to open Vendor>Purchase Control>Activity>Purchase Data>PO Code Data>Terms Click the Terms Code for the list of Terms setup and enter the number of days and click Add:-",
+    "category": "SmartVision Customer Help",
+    "subcategory": "SmartVision",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103099633140/original/JoTAOR56iD72xxmAopqaViVR7iaQ9gmeSA.png?1711365991",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103099634066/original/5u7BH04XJAtMOdVdDmlXhSpHTYo9EGZrIw.png?1711366093",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103099636418/original/tN1QDVmKX3Vp9tv3f079mLMyxGi6F9w-2A.png?1711366355",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103099637657/original/Pf_1PZcTKb_Dzl6J41pJ3DMZ_NhJzfTiYQ.png?1711366489"
+    ],
+    "has_images": true,
+    "image_count": 4,
+    "created_at": "2024-03-25T11:36:18+00:00",
+    "updated_at": "2024-03-25T11:36:21+00:00",
+    "id": 103000283850,
+    "tags": []
+  },
+  {
+    "title": "Setting up  a new user in SmartVision",
+    "text": "Log into SmartVision System Manager Client as MANAGER Select Maintain Users Select Create Enter the required details and select Default under Security Settings and Save",
+    "category": "SmartVision Customer Help",
+    "subcategory": "SmartVision",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103100456786/original/FqP86izdcxNdWqLICbTwjswvl4xZY8131w.png?1711547714",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103100457508/original/YR1T4ydI3oxLtJ244xVSsJ17h5kKrFe6lg.png?1711547782",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103100458690/original/MNgCy0ToYelpA0cF6qpXwnlRoKg27PJ3Kg.png?1711547926",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103100459058/original/t6CwnbS3GXmGr8tzL4OGAf5JyAzEfGDXFQ.png?1711547969",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103100460479/original/sYt40PJberp5GvnWrGQYEYL4oNS2gnvq8g.png?1711548118"
+    ],
+    "has_images": true,
+    "image_count": 5,
+    "created_at": "2024-03-27T14:03:46+00:00",
+    "updated_at": "2024-03-27T14:03:50+00:00",
+    "id": 103000284581,
+    "tags": []
+  },
+  {
+    "title": "How to clear the SmartVision Temporary Files",
+    "text": "To clear the SmartVision Temporary files you need to delete the files found in the trk and ss2 folders. The location of the files will depend on the version of SmartVision you are using as per the details below: - SmartVision 6.4 + The location used for several user-specific temporary files is located are in sub-folder beneath the user-specific Local Application Data folders. Local Application Data C:\\Users\\$USER$\\AppData\\Local\\K3BTG\\SmartVision If you are unable to see the AppData folder then it is hidden and you need to amend the View in windows Explorer by selecting View>Options>Show hidden files, folder, and drives: - The local sub-folders created by SmartVision are: dat Stores temporary files created when using the Assign function within the Purchasing Schedule. log Stores the issue log and error file created when performing issues within the Inventory Control module. out Stores the temporary posting reports created when posting Sales Orders, Vouchers and GL transactions in the Financial Integration module. ss2 Stores the temporary files which hold user grid preferences. There are the x*.ss2 files. The default grid settings files, *.ss2, are stred in the common application data folder. trk Stores files in which is saved the state of open, modeless Activity and Inquiry windows at the time an application is closed. Data in these files is then used to re-instate the window state when the corresponding application is next launched. SmartVision V5.4 - V6.3 The location used for several user-specific temporary files for SmartVision versions 5.4 to 6.3 are located in sub-folder beneath the user-specific Local Application Data folders. C:\\ProgramData\\K3BTG\\SmartVision SmartVision V2.2 - V5.3 The location used for several user-specific temporary files for SmartVision versions 2.2 to 5.3 are located in the C:\\Windows directory.",
+    "category": "SmartVision Customer Help",
+    "subcategory": "SmartVision",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103162030338/original/joBkXVZA-hEyRJkzdsvrTTqhLtRmVQ4axg.png?1730910510",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103162031370/original/QTd7_6Sb3lVIZwylAEDZQ6YuKQMAoI2E9w.png?1730910676",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103162031163/original/yAE2XoJz4ZLbN35L69IuAsWweUzr5oypxQ.png?1730910646"
+    ],
+    "has_images": true,
+    "image_count": 3,
+    "created_at": "2024-04-08T10:29:44+01:00",
+    "updated_at": "2024-11-06T16:34:31+00:00",
+    "id": 103000286018,
+    "tags": []
+  },
+  {
+    "title": "SmartVision Costing Method",
+    "text": "Costing Method: The Cost Per Unit for parts depends upon the Costing Method defined here. The three possible costing methods are: S = Standard costing A = Average costing P = Last purchase If the costing method is set to \"S\" (standard), the part cost comes from manual maintenance of Maintain Cost Data or as calculated by Recalculate Cost Rollups. Average costing is only used for Purchase Parts (B, D, Y). When receiving against a PO, if the costing method is average, then a new average cost is calculated as each purchase order is received. The Average Cost (AC) is calculated as: (PO Cost * Rec Qty) + (On Hand Qty * Part Master Cost) Rec Qty + On Hand Qty Receipt Quantity is converted from Purchasing units of measure to Cost unit of measure using the Purchase Cost Conversion. The Bill of Materials Unit of Measure is entered in Part Master. The Purchasing Unit is entered in Purchase Part Data. If P (last purchase) is entered as the costing method, each time a receipt is processed against a purchase order in Receipt To Stock, SmartVision writes the purchase order's unit cost to the part's material cost field stored in the part master file. The order's unit cost will replace the current standard cost with the latest purchase cost of the item. If, however, the cost set is not set to 00, but to a cost set 01-08, that cost set is written to instead of the part master file.",
+    "category": "SmartVision Customer Help",
+    "subcategory": "SmartVision",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [],
+    "has_images": false,
+    "image_count": 0,
+    "created_at": "2024-05-21T12:52:33+01:00",
+    "updated_at": "2024-05-21T12:52:35+01:00",
+    "id": 103000292916,
+    "tags": []
+  },
+  {
+    "title": "SmartVision VAT calculation",
+    "text": "",
+    "category": "SmartVision Customer Help",
+    "subcategory": "SmartVision",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103124951431/original/vYw_KWx_5tKkxTx1jKpj_jps_5RksNzcAA.png?1719393239"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2024-06-26T10:14:06+01:00",
+    "updated_at": "2024-06-26T10:14:09+01:00",
+    "id": 103000299905,
+    "tags": []
+  },
+  {
+    "title": "SmartVision SQL Data Tables – by module",
+    "text": "",
+    "category": "SmartVision Customer Help",
+    "subcategory": "SmartVision",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103124952113/original/BTPKqTEMD6xHDrMfKUcM7orMc3znT7JYOw.png?1719393304"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2024-06-26T10:15:15+01:00",
+    "updated_at": "2024-06-26T10:15:20+01:00",
+    "id": 103000299906,
+    "tags": []
+  },
+  {
+    "title": "SmartVision Data Tables – Alphabetical Listing",
+    "text": "",
+    "category": "SmartVision Customer Help",
+    "subcategory": "SmartVision",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103124952678/original/DDDzqqJ6CaZ03qwqhiqm7RqtfTw1EGsjWQ.png?1719393359"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2024-06-26T10:16:02+01:00",
+    "updated_at": "2024-06-26T10:16:04+01:00",
+    "id": 103000299907,
+    "tags": []
+  },
+  {
+    "title": "SmartVision Period End Procedures",
+    "text": "",
+    "category": "SmartVision Customer Help",
+    "subcategory": "SmartVision",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103124955814/original/Z7LuqwnXRAhkbRjBsg0n0F5LUpBs3gCsoQ.png?1719393636"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2024-06-26T10:21:01+01:00",
+    "updated_at": "2024-06-26T10:21:04+01:00",
+    "id": 103000299909,
+    "tags": []
+  },
+  {
+    "title": "SmartVision Part Type Code",
+    "text": "",
+    "category": "SmartVision Customer Help",
+    "subcategory": "SmartVision",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103124958397/original/vLSHdJ1ZPaKIb6NX7K4oaQuWKFvMubXu0g.png?1719393853"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2024-06-26T10:24:18+01:00",
+    "updated_at": "2024-06-26T10:24:20+01:00",
+    "id": 103000299911,
+    "tags": []
+  },
+  {
+    "title": "SmartVision Order Policy",
+    "text": "",
+    "category": "SmartVision Customer Help",
+    "subcategory": "SmartVision",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103124958954/original/MI7mcntsneqH5boFfS-FmckLbYWcFwufyg.png?1719393899"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2024-06-26T10:25:06+01:00",
+    "updated_at": "2024-06-26T10:25:09+01:00",
+    "id": 103000299912,
+    "tags": []
+  },
+  {
+    "title": "SmartVision Demand",
+    "text": "",
+    "category": "SmartVision Customer Help",
+    "subcategory": "SmartVision",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103124959262/original/eMwHgcbgNVWDdRpalLgQR5SQ_rQaJJmFDA.png?1719393931"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2024-06-26T10:25:33+01:00",
+    "updated_at": "2024-06-26T10:25:35+01:00",
+    "id": 103000299913,
+    "tags": []
+  },
+  {
+    "title": "SmartVision MRP Exceptions",
+    "text": "",
+    "category": "SmartVision Customer Help",
+    "subcategory": "SmartVision",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103124960281/original/-n_40B2r0Gi6sVmj_PTonpP7FcR74mfkSw.png?1719394019"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2024-06-26T10:27:07+01:00",
+    "updated_at": "2024-06-26T10:27:09+01:00",
+    "id": 103000299914,
+    "tags": []
+  },
+  {
+    "title": "MRP Explosion Logic & SmartVision Switches",
+    "text": "",
+    "category": "SmartVision Customer Help",
+    "subcategory": "SmartVision",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103124961176/original/G-Hdj6EAsAsA2bjj-19MCIkd05b7GZ2Qng.png?1719394095"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2024-06-26T10:28:25+01:00",
+    "updated_at": "2024-06-26T10:28:28+01:00",
+    "id": 103000299915,
+    "tags": []
+  },
+  {
+    "title": "SmartVision MRP Prodedures",
+    "text": "",
+    "category": "SmartVision Customer Help",
+    "subcategory": "SmartVision",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103125005666/original/wQGZtPDXwZC7lDooFeA-MPcQzIb1QcTiiQ.png?1719398380"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2024-06-26T11:39:43+01:00",
+    "updated_at": "2024-06-26T11:39:45+01:00",
+    "id": 103000299938,
+    "tags": []
+  },
+  {
+    "title": "SmartrVision MRP Command Line Parameters",
+    "text": "",
+    "category": "SmartVision Customer Help",
+    "subcategory": "SmartVision",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103125006099/original/37HwmMUgr2zH0OtzOP1VqBo58KA6ZvD71Q.png?1719398437",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103125006137/original/GCC3U2VCBlhD367rSFxcwWRhwVvWCXxjEA.png?1719398444",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103125006368/original/Xl5Vpz6DpmHYUIG7vDhvZlcI1ndG_35CLg.png?1719398462",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103125006854/original/NFFyaj-jlxP5Yd_XsnicEk3BXvI8XvRHhw.png?1719398505"
+    ],
+    "has_images": true,
+    "image_count": 4,
+    "created_at": "2024-06-26T11:41:55+01:00",
+    "updated_at": "2024-06-26T11:41:56+01:00",
+    "id": 103000299939,
+    "tags": []
+  },
+  {
+    "title": "Quantity Required field",
+    "text": "Shop Orders The following table show how the Quantity Required field will be affected by the processing of shop order (type MF and MS). Planned order will not impact the Quantity Required fields.",
+    "category": "SmartVision Customer Help",
+    "subcategory": "SmartVision",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103132545641/original/IltolrNUJnF0uyjyxkDKTrWLIXkt_Ye4kg.png?1721811341"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2024-07-24T09:55:47+01:00",
+    "updated_at": "2024-07-24T09:55:50+01:00",
+    "id": 103000304919,
+    "tags": []
+  },
+  {
+    "title": "How to Delete Obsolete Stock IDs",
+    "text": "",
+    "category": "SmartVision Customer Help",
+    "subcategory": "SmartVision",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103139908245/original/0sRZjMzAEIvlQNiLu0NHTw7rm0EgtmlYwA.jpeg?1724251564"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2024-08-21T15:46:09+01:00",
+    "updated_at": "2024-08-21T15:46:12+01:00",
+    "id": 103000308913,
+    "tags": []
+  },
+  {
+    "title": "SmartVision BOM Recalculate Part Quantities",
+    "text": "Recalculate Part Quantities There is an option on the Bill of Material Batch menu to re-calculate Part Quantities what re-calculates the On Order and Required quantities: -",
+    "category": "SmartVision Customer Help",
+    "subcategory": "SmartVision",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103158487006/original/2mtXekskb82tkUMzH-o28kSs0y7Quc8uig.png?1729779470",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103158487007/original/5fdpllvVdO2kiBtK7Uhc0wyQKmGOPQ51EA.jpeg?1729779470"
+    ],
+    "has_images": true,
+    "image_count": 2,
+    "created_at": "2024-10-24T15:18:53+01:00",
+    "updated_at": "2024-10-24T15:18:55+01:00",
+    "id": 103000318324,
+    "tags": []
+  },
+  {
+    "title": "SmartVision Stock On-Hand Reconciliation",
+    "text": "The On Hand Quantity can get out of sync and this can be fixed by running the Stock On-Hand Reconciliation function. Open Inventory Control and select Batch>Stock On-Hand Reconciliation: - Select the problem part number and click Process: -",
+    "category": "SmartVision Customer Help",
+    "subcategory": "SmartVision",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103158526150/original/I3B7xvUDH0zIqhqoFvC7cpyVhwaAXN3PlA.png?1729784379",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103158526923/original/iNpy3OIvylrmwNSMQ_BQwtGRVTVLdKDkJQ.png?1729784513"
+    ],
+    "has_images": true,
+    "image_count": 2,
+    "created_at": "2024-10-24T16:11:14+01:00",
+    "updated_at": "2024-10-24T16:42:55+01:00",
+    "id": 103000318335,
+    "tags": []
+  },
+  {
+    "title": "Upgrading the SmartVision client after a migration to a new server",
+    "text": "Upgrading the SmV client after a migration to a new SmartVision server Open Windows Explorer and navigate to C:\\Windows and delete MAXNET.INI file: - Open 32-bit ODBC and delete all SmartVision ODBCs: - Open Registry Editor and delete MircroMRP from Computer\\HKEY_CURRENT_USER\\SOFTWARE\\MicroMRP: - Run the SmV client upgrade by running setup.exe from the \\\\servername\\K3btg\\SmartVision\\Net folder and follow the prompts: - Reboot the pc: - Right click the System Manager Client and select Run as administrator and this will create the new DSNs pointing to the new SmartVision server: - Click Yes: - Log into the SmartVision client: -",
+    "category": "SmartVision Customer Help",
+    "subcategory": "SmartVision",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103161038942/original/GZiJxn5rrW9Q89JjQADADfN3qQSOFiOs0g.png?1730717957",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103161038937/original/1ghJ4RCgXtH8Q5B6rGtIL9w1lb1jceZOMA.png?1730717957",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103161038939/original/6XDDsU70ZVg-rLoavU5BOGHxl9adsE_GHw.png?1730717957",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103161038938/original/N_OQr_ew7CLO9YXXSXRFRlaxVonlyASFRA.png?1730717957",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103161038957/original/4QzB3PdTYXwc3WZwbsZwLjo4JYE8rsLDKQ.png?1730717957",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103161038940/original/f_nOf9p83byJYYJduynYbYLohj9prCWr3g.png?1730717957",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103161038941/original/rR2gM5QeSoAfZvtXpMPhgfmZeS0jMJmltQ.png?1730717957",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103161038944/original/lH-Ilxgasxfi79PQC4GwS8jvRkfkqPpo2Q.png?1730717957",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103161038946/original/WmUZ6vtonh_IVtOlZbGnh4eBvV_OGwkXDA.png?1730717957",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103161038945/original/6OzhmGevUtoi9uAoYEZzb2YWudBx_1Te0Q.png?1730717957",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103161038943/original/5uS7lENdFJjOEXA3P38zaCKPDknRI-mJEQ.png?1730717957",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103161038950/original/1kCnbuTeacKxmHZ-aT2SguM7zUINoduq4Q.png?1730717957",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103161038948/original/l5NNRAzS1lNWo1M8nvb8Kge8Td1cq3We8Q.png?1730717957",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103161038952/original/LKfAK4ycQkhO7Kx0B3bTYs2etD-FTAN14Q.png?1730717957",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103161038953/original/EeX98FM5fqsFozeL85YbY4Yi5UQ0IZawnA.png?1730717957",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103161038955/original/slmrzvUP34qTv1FQ0QN9xhFDxYJVBgaj3A.png?1730717957",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103161038956/original/lR6RtjCaC5geO6QOhLWbS_MThDFQHDrPZw.png?1730717957",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103161038951/original/xLlLU2BboVKx-MfK39H5Ta2Pg0FfTNrs0A.png?1730717957",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103161038954/original/cJ4hrReZT0tQccNQoWfweq4BvIiGpmXL5A.png?1730717957"
+    ],
+    "has_images": true,
+    "image_count": 19,
+    "created_at": "2024-11-04T11:00:51+00:00",
+    "updated_at": "2024-11-04T11:00:54+00:00",
+    "id": 103000319456,
+    "tags": []
+  },
+  {
+    "title": "Printing Standard PO Notes for Vendors",
+    "text": "Printing Standard PO Notes for Vendors The Standard PO Notes for Vendors need to exist before entering the PO: - Add the line and save it: - Double left click the Desc/Comments field and select Note Type - Purchase Order and you should see the PO Vendor Notes and Part Notes: - Ensure the “Print in PO” is ticked for the Note to see it on the print: -",
+    "category": "SmartVision Customer Help",
+    "subcategory": "SmartVision",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103165182724/original/TGZsdqtrEwlaCseVj79VOp-HZTrE09ViaA.png?1731930442",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103165182725/original/f17KBFZi1Y3-cYyRA2r1Q3T9LKJrAft0ww.png?1731930443",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103165182728/original/dbmGZUNdQYldKNZIqHkmrGmZtcB2Iu0CrQ.png?1731930443",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103165182730/original/0fur6tBu23mvs78WzJfXvxdLo8rf7bcLUw.png?1731930443",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103165182729/original/fEdFYy49vwxGI7f_ZcriGA67gRqwqlUb2Q.png?1731930443"
+    ],
+    "has_images": true,
+    "image_count": 5,
+    "created_at": "2024-11-18T11:47:43+00:00",
+    "updated_at": "2024-11-18T11:47:47+00:00",
+    "id": 103000320806,
+    "tags": []
+  },
+  {
+    "title": "Manage Period End",
+    "text": "The SmartVision System Manager Client provides a facility to Manager Period End processing. This replaces the Purge MTD/YTD Data option of the classic SmartVision System Manager. The feature is accessed from the Batch Processor group within the ribbon: The Period End Manager Console dialog provides options to control the period end processes. Clear Out of Tolerance Counter - Check the Clear Out of Tolerance Counter option to clear the count of out of tolerance cycle counts in the [Part Master] table. Month-to-date - Check the required Month-to-date options to have month-to-date values cleared in the associated tables. (Details of values updated are provided further down). Year-to-date Check the required Year-to-date options to have year-to-date values cleared in the associated tables. (Details of values updated are provided further down). Performing a right-click in the area containing the Month-to-date and Year-to-date check boxes activates a Context Menu with options to Select All or Deselect All items at once. Status Information about processed records in shown under Status:- Status - Information about processed records in shown under Status. Process Mode - Select Generate Audit Reports Only to produce reports showing current cumulative values. - Select Clear Values with No Audit Reports to have cumulative values cleared without generating reports. - Select Generate Reports & Clear Values to produce reports showing current cumulative values and to subsequently clear the values. - If only the option to Clear Out of Tolerance Counter is selected, no report is produced and Process Mode selection is disabled. Process - Click the Process button to initiate period end processing. - Depending on the options selected, reports will be produced showing current cumulative values and / or cumulative values will be cleared. If any of the Process Modes which involve values being reset is selected, a confirmation dialog is displayed before values are cleared: - If any of the Process Modes which involve report generation is selected, a tabbed dialog showing reports for all selected tables is displayed. Select the required report in the left-hand pane for it to appear in the right-hand pane: - The report list will not be visible if a single table was selected for reporting: -",
+    "category": "SmartVision Customer Help",
+    "subcategory": "SmartVision",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103179473252/original/tHNwk_1yzOZm3s8b-R7sBLiew4pJfjYWXA.png?1736764007",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103179473553/original/ru2e9WVgC33VTvIS19FVenzz0EuymVAqNA.png?1736764024",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103179475747/original/T3x5thpwfMW8xXx1zi1eGzNzgaW2OhraKg.png?1736764189",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103179478783/original/AU6VEjTSmoTXv8n5fDbVFd6---tAMRopbA.png?1736764408",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103179479021/original/AGzpBRvy-UC7sG-hs2IDlKKxKACmC58Y-w.png?1736764427",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103179479209/original/4PnZy8O_9jzknSZazJN8tJvdrYdzE7W7jw.png?1736764441",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103179479388/original/dpCgPYh4bTVlvger_7vgvt32pPKPN_1aag.png?1736764457",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103179479751/original/vtPNBUVcD5X0Snv41ZmSAguRSyiHnQT3jQ.png?1736764486",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103179480035/original/8aqmmFeb9iv6faGDSW_x0Ej6NePUHUz9Ww.png?1736764511",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103179480547/original/k_b_0VFqfpuaQYaXdpyCfDd3jKIsAjgKpg.png?1736764548"
+    ],
+    "has_images": true,
+    "image_count": 10,
+    "created_at": "2025-01-13T10:35:57+00:00",
+    "updated_at": "2025-03-25T09:57:23+00:00",
+    "id": 103000328553,
+    "tags": []
+  },
+  {
+    "title": "SmartVision Quantity on Order",
+    "text": "",
+    "category": "SmartVision Customer Help",
+    "subcategory": "SmartVision",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103189450042/original/lBdJeraiiw1Mgj4tnBpWwlb7zoOTfX9SIg.png?1739439791"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2025-02-13T09:43:17+00:00",
+    "updated_at": "2025-03-25T09:57:24+00:00",
+    "id": 103000335219,
+    "tags": []
+  },
+  {
+    "title": "Replacing an Existing ID with a New ID",
+    "text": "You can use the Find and Replace Utility to: Change the ID of a customer, employee, material, vendor, work center, location, GL account number, bank code, tax name, or sales code anywhere it is used in JobBOSS. Change multiple material IDs at once using a text file. For example, you might need to do this if one of your customers changes the name of its business. If the ID you want to change it to already exists in JobBOSS, see Merging an Existing ID into Another Existing ID instead. What happens when I replace an ID? When you replace an existing ID with a new ID in JobBOSS: The change affects all instances of that ID in the JobBOSS database, including historical items (such as closed jobs and POs). No record of the change exists in JobBOSS. Only the specified ID field changes. Any associated fields remain unchanged. (For example, if you change a Customer ID, the customer's Name remains as-is). If you use an accounting solution other than JobBOSS Accounting, you are responsible for making the corresponding change in your accounting software. Before using the Find and Replace Utility: Verify that the version of the utility matches your JobBOSS version. Using the wrong version of the utility can affect the integrity of your database. Notify all users to log off of JobBOSS. Back up the JobBOSS database that will be affected by the Find and Replace Utility. The Find and Replace Utility does not allow you to undo your changes. If a mistake is made, you can restore the database from the backup file, then make the change as originally intended.",
+    "category": "SmartVision Customer Help",
+    "subcategory": "SmartVision",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [],
+    "has_images": false,
+    "image_count": 0,
+    "created_at": "2025-03-10T09:11:26+00:00",
+    "updated_at": "2025-03-25T09:57:24+00:00",
+    "id": 103000338966,
+    "tags": []
+  },
+  {
+    "title": "Unable to locate the version of the Visual C++ Redistributable package",
+    "text": "Error during the installation of the SmartVision Client on a pc: - The SmartVision client requires a version of the C++ software to be installed on the pc on which you are installing the SmartVision Client. You can install the required version from the C++ Runtime folder in the SmartVision media folder: - Once installed reboot the pc and run the SmartVision Client installation once again.",
+    "category": "SmartVision Customer Help",
+    "subcategory": "SmartVision",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103207448937/original/snegsAMv_f0fnCr-h9ixtDpXUXZC-9k2Bg.png?1744726335",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103207449503/original/KMe7kfwK6OwEBQiCx9ZHgSw32uRDdyLIIQ.png?1744726407",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103207449575/original/AyLq6NHQjDxE6WpgSTlesXvcDfNeYjWD7Q.png?1744726417",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103207449629/original/abq5rMyoZOXmXH_TZzQcb_eaMoDQE7dB_w.png?1744726423"
+    ],
+    "has_images": true,
+    "image_count": 4,
+    "created_at": "2025-04-15T15:14:20+01:00",
+    "updated_at": "2025-04-15T15:15:29+01:00",
+    "id": 103000347281,
+    "tags": []
+  },
+  {
+    "title": "SmartVision Client ODBC Administrator",
+    "text": "The SmartVision Client ODBC Administrator is a new utility designed to help with initial configuration of 64-bit and 32-bit SmartVision Company DSNs when new SmartVision client installations are being undertaken. The program can be found in the SmartVision client bin folder and has the name: K3BTG.SmartVision.Client.OdbcAdministrator.exe Since execution of the program requires administrative privileges, a User Account Control dialog will be displayed upon launching the program: Click the Yes button to allow the SmartVision Client ODBC Administrator program to proceed. If the SmartVision Client ODBC Administrator is unable to confirm the path to the folder that contains the MAX.EXE and/or MAXDSNDP.INI files, a dialog is displayed giving the option to enter a new path. Click the Yes button to allow a different folder to be selected Navigate to the required folder and click the Open button to select the desired path. Note: The path to the folder containing the MAX.EXE file should be defined using UNC format. The SmartVision Client ODBC Administrator will then check all SmartVision Companies defined in the installation and report any errors detected. E.g. If any DSNs are missing, these will be created automatically by the SmartVision Client ODBC Administrator. On a 32-bit machine, only 32-bit DSNs are relevant. On a 64-bit client, 32-bit and 64-bit DSNs will be created if they are found to be missing. Finally, a window will be displayed showing details of the SmartVision Companies detected and the DNSs now present. Click the X button in the top-right corner to close the dialog and exit the program.",
+    "category": "SmartVision Customer Help",
+    "subcategory": "SmartVision",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103207493507/original/0NK6cfR7-bSmTdV31s9iDbmEKWHrb_vbAQ.png?1744731507",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103207493917/original/XQk0l-qLc7LSczucKP7NZFU8Vc7U_fnl6w.png?1744731563",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103207494192/original/CvM6moDsnzfYbnxPxEj_OvmCj-EOPv5z4w.png?1744731599",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103207494661/original/1Uo1jUDipJ8sPN0fbNIkOgg5SI9RmYw8IQ.png?1744731677",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103207495202/original/4CcehQ30QTLz9j-RQFgibHCaBCLYujkinw.png?1744731757"
+    ],
+    "has_images": true,
+    "image_count": 5,
+    "created_at": "2025-04-15T16:43:39+01:00",
+    "updated_at": "2025-04-15T16:44:58+01:00",
+    "id": 103000347328,
+    "tags": []
+  },
+  {
+    "title": "64-bit DSNs for SmartVision Reports",
+    "text": "When creating reports for SmartVision either with Crystal Report Writer or via an Microsoft Excel Query you will need a 64-bit DSN for the SmartVision database that you are reporting on. You can create a 64-bit DSN by running the K3BTG.SmartVision.Client.Odbc.Administrator.exe The details are in the Knowledge Base link below: - Helpdesk : K3 Support",
+    "category": "SmartVision Customer Help",
+    "subcategory": "SmartVision",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [],
+    "has_images": false,
+    "image_count": 0,
+    "created_at": "2025-04-15T16:54:49+01:00",
+    "updated_at": "2025-04-15T16:56:16+01:00",
+    "id": 103000347333,
+    "tags": []
+  },
+  {
+    "title": "MRP won't run",
+    "text": "If you get this error message: You should be able to reset the Next Planned Order Number to ‘400000’ using System Settings: As indicated in the error message an ‘MRP Regen’ will then need to be run prior to carrying out the MRP run.",
+    "category": "SmartVision Customer Help",
+    "subcategory": "SmartVision",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103211001351/original/CVDGwrsjbgCzUBn-f3fK474e9v4xsAMMtA.PNG?1746004930",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103210998244/original/WbCjtHre5HJ0NkAZovfYlgMZo-fILeQ9bg.png?1746004636"
+    ],
+    "has_images": true,
+    "image_count": 2,
+    "created_at": "2025-04-30T10:23:29+01:00",
+    "updated_at": "2025-04-30T10:30:40+01:00",
+    "id": 103000349031,
+    "tags": [
+      {
+        "name": "MRP"
+      },
+      {
+        "name": "SmartVision"
+      },
+      {
+        "name": "won't run"
+      }
+    ]
+  },
+  {
+    "title": "SmartVision Release Notes Journal",
+    "text": "SmartVision Release Notes Journal.",
+    "category": "SmartVision Customer Help",
+    "subcategory": "New Releases",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [],
+    "has_images": false,
+    "image_count": 0,
+    "created_at": "2025-03-26T15:12:52+00:00",
+    "updated_at": "2025-03-26T15:19:04+00:00",
+    "id": 103000341898,
+    "tags": []
+  }
+]

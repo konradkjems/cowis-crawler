@@ -1,0 +1,316 @@
+[
+  {
+    "title": "What is RMSify?",
+    "text": "RMSify is a Shopify add-in developed and supported by K3 BTG, and is designed to provide a full integration between Microsoft Dynamics RMS, and the popular eCommerce platform, Shopify. The add-in must be installed through the Shopify App Store, and you must have a valid Shopify account in order to install it. It’s easily found by searching for “RMSify” at http://apps.shopify.com. RMSify makes it easy for retailers using Microsoft Dynamics RMS to start trading online without the expense and risk associated with fully integrated solutions. RMSify can be installed quickly and easily, and configured with a minimal amount of fuss, all without the need for an expensive consultant, or detailed technical knowledge of RMS or Shopify. If you can use RMS, you can use RMSify. Using RMSify means you have total integration of your products across your sales channels.",
+    "category": "RMSify Customer Help",
+    "subcategory": "RMSify",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [],
+    "has_images": false,
+    "image_count": 0,
+    "created_at": "2024-01-15T12:05:17+00:00",
+    "updated_at": "2024-01-15T12:05:37+00:00",
+    "id": 103000268781,
+    "tags": []
+  },
+  {
+    "title": "RMSify Introduction",
+    "text": "RMSify is a Shopify add-in developed and supported by K3 BTG, and is designed to provide a full integration between Microsoft Dynamics RMS, and the popular eCommerce platform, Shopify. The add-in must be installed through the Shopify App Store, and you must have a valid Shopify account in order to install it. It’s easily found by searching for “RMSify” at http://apps.shopify.com The software itself is a single installer which can be used anywhere in the RMS estate. There are no different installers for Headquarters, Store or POS as there are with other integrated solutions. It’s one simple package which can be installed wherever you need to run it. The package consists of 2 components. RMSify Sync – This is the application which synchronises your product data between RMS and Shopify, and is also where all settings are configured. RMSify Sync can either synchronise data from RMS to Shopify, or the other way round – from Shopify into RMS. This can be run on a Store Operations database or a Headquarters database and it will automatically detect which it is and behave accordingly. This is usually operated from a “Back office” computer. RMSify Web Orders – This is the application which runs on the till and allows the process of Shopify Web Orders through the RMS POS interface. It retrieves outstanding orders from Shopify to allow a “Picking List” to be printed to your receipt printer. Once picked, it imports the order as a standard POS transaction and allows you to tender the transaction as per RMS. It then notifies Shopify that the order has been shipped. It can only be launched through a Custom POS Button and therefore can only be run on an RMS Point of Sale. As already discussed, RMSify can be used in Store Operations and Headquarters, or a combination of both. Here are the supported topologies which you can deploy RMSify to. Standard Headquarters – This scenario is when product data is synchronising from the Headquarters database. All web orders must be processed through an RMS POS, and you must choose which store is going to be used to process your web orders. You can optionally choose which “on hand” figures you want to use in Shopify – Either the quantities from the store you selected as your web store or the total of “on hand” quantities from all of your stores. In this scenario, it is not possible to run Sync and Web Orders on the same physical computer. Store Only Headquarters – This scenario is when your store is part of an RMS Headquarters chain, but product data and web orders are all processed through a single store as part of that chain. This is not recommended, as any product data amended at store level is liable to be overwritten by an RMS Headquarters Worksheet. In this scenario, only local store inventory data is used for your Shopify inventory levels. Single Store – This scenario is when you have only one RMS store. Both RMSify Sync and RMSify Web Orders run from the single store database.",
+    "category": "RMSify Customer Help",
+    "subcategory": "RMSify",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [],
+    "has_images": false,
+    "image_count": 0,
+    "created_at": "2024-01-02T16:13:33+00:00",
+    "updated_at": "2024-01-02T16:13:33+00:00",
+    "id": 103000265422,
+    "tags": []
+  },
+  {
+    "title": "I am seeing error messages in the sync log, what do they mean?",
+    "text": "During the synchronisation in either direction, the Log section gives you some really useful information as to what is going on with the sync you are attempting There are 3 types of log message, indicated by the icon. Success: This indicates that something has happened successfully. For example, a product has been successfully uploaded, or a product has been updated for. Warning: This informational message alerts you that something has changed which you need to be aware of, or something has been uploaded that you need to consider as it may not be right. An example of this might be a product which has been uploaded with a Zero price, or informing you that one of the synchronization rules have changed. Error: This means something during the synchronization has failed. Usually, these errors will tell you what the fault is so you can correct them. This may be that it was unable to connect to Shopify, or perhaps that an image failed to upload due to it already being in use for another product.",
+    "category": "RMSify Customer Help",
+    "subcategory": "RMSify",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103076511714/original/yS7VCwuYjrOWNESyZqHdH89QEZO12IWnNg.png?1704212213",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103076512671/original/tSWXIYLbVYnENuLvLnv7OFBiOjQ4rIK3-A.png?1704212405"
+    ],
+    "has_images": true,
+    "image_count": 2,
+    "created_at": "2024-01-02T16:20:43+00:00",
+    "updated_at": "2024-01-02T16:20:43+00:00",
+    "id": 103000265427,
+    "tags": []
+  },
+  {
+    "title": "Automatically Create RMS Transactions",
+    "text": "RMSify allows you to automatically create transactions for Shopify Web Orders in RMS. When enabled, you must ensure that RMSify Automatic Web Orders is running on your Web Store POS. When running, Auto Web Orders will check for new orders from your Shopify store every 5 minutes. When an order meets the set criteria (i.e. Fulfilled/Paid) RMSify will automatically create a corresponding transaction in your RMS database for the Web Order. This setting gives you the flexibility of allowing you to fulfil your orders through the Shopify admin panel but still track and amend stock in your RMS system to ensure inventory levels are as accurate as possible. This setting can be enabled in the RMSify Sync Settings under the rules tab and enabling \"Automatically Create RMS Transactions\": Once enabled, you'll need to decide when you want RMSify to create the transactions by setting the \"Create Transactions When\" option: When set to Fulfilled, RMSify will automatically create a transaction in RMS as soon as you mark the order as fulfilled in Shopify. RMSify will still commit stock on orders that haven't yet been fulfilled and committed stock will be released when the transaction is created in RMS. When set to Paid, RMSify will automatically create a transaction in RMS as soon as the order in Shopify is marked as Paid. Stock will typically not be committed in this instance as orders will typically come through as 'Paid' immediately. This means that the transaction will be created almost instantly and instead of being set to committed, the stock will be removed from your on-hand quantities You'll also need to select your preferred cashier to be assigned to the transactions in RMS. This drop-down will list all cashiers listed in your RMS database. Finally, you can specify a register for the transactions to be created against. Web Order Transactions will be posted into the currently open batch on the specified register. When enabling this setting in a HQ environment, RMSify will automatically create #51 Worksheets to update your nominated Web Stores settings. You'll need to ensure these worksheets are processed to ensure Auto Transactions is enabled at the Store level. Like Transactions, you also have the option of automatically creating returns. Auto returns will identify any orders that have been refunded or partially refunded and process a corresponding return in RMS. Important note: When this setting is enabled, the stock for any refunds will be sent back to your on-hand quantities. If you aren't receiving the stock back you'll need to ensure to manually adjust the stock accordingly. Auto Transactions can be enabled without Auto Refunds but Auto Refunds CANNOT be enabled without Auto Transactions. If you wish to create automatic refunds RMSify will also create automatic transactions.",
+    "category": "RMSify Customer Help",
+    "subcategory": "RMSify",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103079570057/original/75L3lDhQOA-O8GziEq8iOZgLCQ5KTRlBvw.png?1705316402",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103079575625/original/5TVyS91K8BmKE3-2ATwLSmO9jigON20YaA.png?1705316949"
+    ],
+    "has_images": true,
+    "image_count": 2,
+    "created_at": "2024-01-15T11:25:02+00:00",
+    "updated_at": "2024-01-15T11:25:02+00:00",
+    "id": 103000268766,
+    "tags": []
+  },
+  {
+    "title": "Using Windows Task Scheduler to Start Auto Web Orders",
+    "text": "Auto Web Orders is a critical part of RMSify and must be running in the background as often as possible. Auto Web Orders starts up by default when you first click on the Get Web Orders button on the POS. However, you may wish for this to be started up automatically, for example if you're using the Automatic Transactions process or perhaps don't open the Web Orders UI that frequently but still wish for RMSify to be reading your orders to commit stock in RMS. To set up a scheduled task to run Auto Web Orders do the following: Search for Task Scheduler in your Windows Start Menu, open it and navigate to your Task Scheduler Library. On the right-hand side click on \"Create Task\": In the form that opens up, give the task a suitable name and tick the \"Run with highest Privileges\" box: Navigate to the \"Triggers\" tab. Here click \"New...\" and change the \"Begin the task\" option to \"At log on\": Please note that users will be required to have admin privileges in order to run Auto Web Orders. If you have users set up that don't have admin rights then you may wish to select a specific user rather than any user. Next, click on the actions tab and create a new action. From here, select \"Start a program\" and browse to your RMSify install path and select \"RMSifyAutomaticWebOrders.exe\": The default install path for RMSify is \"C:\\Program Files (x86)\\K3 Retail\\RMSify\\RMSifyAutomaticWebOrders.exe\" Press OK to come out of all menus and your task will be created. You can test that the scheduled task is working by attempting to run it manually and confirming the process is running in Task Manager.",
+    "category": "RMSify Customer Help",
+    "subcategory": "RMSify",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103086665461/original/qdni4_IrvNM5Qd6oVikZm0_mIKiduWy21Q.png?1707471053",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103086659879/original/mhcfbfpO2Ao2jBy2_EZN_nyc8nOT70Hcgg.png?1707470410",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103086660516/original/8bBjZgjMYjeDF9pnLMRufiDJ9BJVv8QUKg.png?1707470485",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103086663030/original/R6a7hlUHp3g0cyYv0HTAaO7eIRu5pj2YYg.png?1707470782"
+    ],
+    "has_images": true,
+    "image_count": 4,
+    "created_at": "2024-02-09T09:32:26+00:00",
+    "updated_at": "2024-02-09T10:22:13+00:00",
+    "id": 103000274659,
+    "tags": []
+  },
+  {
+    "title": "Duplicate error when syncing",
+    "text": "The error message below can appear when you try to sync newly created web items from RMS but have custom fields via quick editor blank. If you're using custom fields in RMSify, please ensure you have filled in the custom fields with data and then run the sync again. The reason the error is displayed is due to RMSify trying to create new items with blank data for the fields which in turn makes RMSify thing these items will be duplicates on Shopify.",
+    "category": "RMSify Customer Help",
+    "subcategory": "RMSify",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103096562056/original/B2w3vH7SdY8G_eGfP-V5VcoJMjyiyiviaQ.png?1710345874"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2024-03-13T16:08:13+00:00",
+    "updated_at": "2024-03-13T16:08:13+00:00",
+    "id": 103000281989,
+    "tags": []
+  },
+  {
+    "title": "Setting a Custom Schedule for Automatic Stock Update",
+    "text": "Sometimes you may be required to set a custom running time for your RMSify Automatic Stock Updates. Since the function of the stock sync is to update Shopify with stock sold in your brick and mortar store it is best practice to run your Stock Updates during trading hours only or if in a HQ environment, only for the duration that your Stock Source stores are polling. By default RMSify only allows you to pick from certain timing options for your schedule: You can change the timings more granularly by editing the Scheduled Task itself in Windows Task Scheduler. To do this: Open Windows Task Scheduler. Find your RMSify Stock sync (this should be called \"RMSify_StockUpdate\") and double-click into it to open the proerties. Navigate to the 'Triggers' tab and edit the current trigger: Set your start time to be your opening time: Enable the 'Repeat Task every:' option and set the frequency to your desired amount: When selecting a duration you'll notice the drop-down only includes set amounts. You can add any duration you wish by simply typing into the text field. It may be tempting to run the schedule as frequently as possible. However, this can actually be detrimental. Best practice when choosing a frequency when running in an RMS HQ environment is to match your 401 worksheet frequency. This ensures HQ has the latest stock figures and isn't updating Shopify unnecessarily. Another consideration is the amount of items included in the stock sync. Typically we would recommend not running your stock sync more frequently than 1 hour. In the below example our trading hours would be 09:00 - 18:00 and the stock sync will run on the hour, every hour between those times: Click 'OK' on all open windows to save your changes.",
+    "category": "RMSify Customer Help",
+    "subcategory": "RMSify",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103155908594/original/F32-8dzhqkzUq2065VMoEc7noxJAbaVzbw.png?1729072358",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103155911194/original/fb0FTE1DUwjGu-Z6bo2QJtvTHCLae_zrdA.png?1729072611",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103155914601/original/P-lf6CKnLwJhUT0a0Tb0fwGJFYSYqgXcKg.png?1729072888",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103155915080/original/t35ACNB65v87R7BdR6VbObeLAtPsl2VbrQ.png?1729072927",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103155912715/original/XVEOomPnqZhN-VsZ2-XSnP6cEgAo0yK_aA.png?1729072735"
+    ],
+    "has_images": true,
+    "image_count": 5,
+    "created_at": "2024-10-16T11:10:01+01:00",
+    "updated_at": "2024-10-16T11:10:01+01:00",
+    "id": 103000316996,
+    "tags": []
+  },
+  {
+    "title": "How to Launch RMSify",
+    "text": "RMSify can be launched from the Start Menu through Start > All Programs > Retail Technology Ltd > RMSify, or if you are using the standard RMS addins path, it will be accessible through Utilities > Addins > RMSify in Store Operations or Headquarters Manager. These will always launch the main RMSify application, which is known as RMSify Sync and is shown below. Additionally, there is an application called RMSify Web Orders, and can only be opened through a “Custom POS Button” on the POS. This button is automatically created upon the launch of RMSify Sync. This is shown below.",
+    "category": "RMSify Customer Help",
+    "subcategory": "Overview",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103076513294/original/gfdMS5EhutItnSMVcVN_w81VnUxs2EqETw.png?1704212529",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103076513342/original/EQBsPHNri3E8N4_qjrsUFvdzgzNbwArTdA.png?1704212542"
+    ],
+    "has_images": true,
+    "image_count": 2,
+    "created_at": "2024-01-02T16:22:50+00:00",
+    "updated_at": "2024-01-02T16:23:04+00:00",
+    "id": 103000265428,
+    "tags": []
+  },
+  {
+    "title": "Menus Explained",
+    "text": "The menus allow you to access various tools and functions within the application. File > Database Settings This will let you switch between RMS databases File > Exit This will exit the application Options > Settings This will take you to the settings screen to configure the software Options > Backup Database This will backup the database the application is using Options > Require Login This will toggle if you are required to log in to the app or not Updates > Check For Updates This will update the software to the latest version Tools > Scheduled Stock Updates This will allow you to schedule an automatic stock quantity update Tools > Multiple Web Stores This is where you configure RMSify to update multiple web stores Tools > Web Item Filter This is where you can filter what items get published to the web Tools > Custom Fields This is where you define custom fields to extend your database Tools > Quick Editor This is where you make quick wholesale changes to your database Tools > Print Logs This will print the log from the user interface to help troubleshoot Tools > Delete All Custom Collections This will delete all custom collections from your Shopify store Tools > Delete All Images This will delete all images from your Shopify store Help > About This will tell you the software’s current version number Help > Read Manual This will open this user guide (PDF Reader required) Help > Send Logs This is used by K3 support if we need to troubleshoot the software Help > Support Forum This is a link to our support forum to get free help with the software",
+    "category": "RMSify Customer Help",
+    "subcategory": "Overview",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [],
+    "has_images": false,
+    "image_count": 0,
+    "created_at": "2024-01-02T16:35:27+00:00",
+    "updated_at": "2024-02-02T16:23:37+00:00",
+    "id": 103000265431,
+    "tags": []
+  },
+  {
+    "title": "User Interface",
+    "text": "Status The status bar shows you the current sync status of the application. When Idle (As above) or complete, you can Sync data. Whilst data syncing is in progress, you will see a progress bar for each section of the sync that it has to perform. Each of these are detailed later in the user guide. Log The log section of the screen shows you useful information about the sync process, allowing you to see exactly what is happening during data synchronisation. If you double click an error in the log, it will show you the full details of the error, which can often be much more helpful when deducing the cause of the issue or warning. If you need to send these log files to K3 for analysis, then use the Help > Send Logs menu. Sync Section This area lists the different Shopify fields which RMS can sync with. These make use of the field mappings which are defined in the configuration. At any time you can see what field is mapped to it by hovering the pointer over the field name. To Shopify This column allows you to pick which fields you want to update in Shopify when you press the Sync button. It will only update fields in Shopify which have a check in the box. Cells which are shaded out are “required” fields that you can not toggle, so will always synchronise with Shopify. From Shopify This column allows you to synchronise data back from Shopify into RMS when you press the sync button. It is designed so that you can make the most of Shopify’s WYSIWYG editor and apply rich formatting to your product description and product pages. Cells which are shaded out are “required” fields that you can not toggle, so will always synchronise with Shopify. Sync Buttons When one of the relevant Sync buttons is pressed, data will be syncronised between RMS and Shopify in the direction that you choose. Only fields which have a check in the box will be synchronised. They will only synchronise new or changed data. Go To Webstore This button takes you directly to the administration area of your Shopify web store. You will still need to log in using your registered username and password. If you are using the Multiple Web Stores feature, the button will take you to the administration page of the webstore selected in the Sync drop down box. Choose Web Store If you are using the Multiple Web Stores feature, then the Sync screen has a drop down box listing the web stores you have configured. Pressing the Sync button will sync data for the web store selected in this box only.",
+    "category": "RMSify Customer Help",
+    "subcategory": "Overview",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103084908682/original/BqikoT2PQ1Hqm9C-ZU4K4Ty1jI06ndSbfQ.png?1706891421",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103084908789/original/t5z2xnSn-s9WYzKbFCwN0FWSyi-g7w3LVA.png?1706891437",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103084908863/original/KP1Efom05KCNJD6uDVKL4_87HFzJu6KehA.png?1706891458",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103084908937/original/mUzFoyQ-eeWpjBUT-VO9Kt9Y_U_6duNy8w.png?1706891478",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103084909207/original/8ajlPm8Oo-ICoHR0_hAlK55RNRTcXRz1Cg.png?1706891515",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103084909319/original/_QM02CLd7iXUCM9yOBGx08Msovd8p9Uu5w.png?1706891532",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103084909572/original/qwO2tKLcONU3cUCpaV8_1wiH-9tK-tPrdw.png?1706891579",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103084909661/original/BXYxSsDZGYxyqNmQ_3qeana31TPR7pptFw.png?1706891599",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103084909705/original/N1NWpq2o4-lwXgWF_07Zef2Kr-vO42znkg.png?1706891608",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103084909769/original/u7fzCO4Nw_UIUF2RiJ25638o3PbPw37KOA.png?1706891628"
+    ],
+    "has_images": true,
+    "image_count": 10,
+    "created_at": "2024-02-02T16:34:34+00:00",
+    "updated_at": "2024-02-02T16:34:35+00:00",
+    "id": 103000273057,
+    "tags": []
+  },
+  {
+    "title": "Web Orders",
+    "text": "This section lists all of the web orders which have been downloaded to RMS and are awaiting picking and processing. With an order selected you can perform a task with the buttons at the bottom of the screen. Order Name The Shopify order name downloaded (Usually an order number) Order Date The date the order was created on Shopify RMS Customer Name The name of the RMS customer that the order is for Shopify Billing Name The name of the customer downloaded from Shopify Order Value The total value of the order (Including shipping) Status If the order has been picked or not Risk If the order is at risk of being fraudulent it will show a yellow icon The RMS Customer and Shopify Billing Name can be different. The Shopify Billing Name is the name of the customer as entered into the web order. When downloading web orders, it associates the order with the RMS customer which has a matching Account Number or Email Address. Any cashier which needs to process web orders must have the permission to alter tax status in their RMS cashier rights. For more information about this, please contact your RMS support partner.",
+    "category": "RMSify Customer Help",
+    "subcategory": "Overview",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103084910830/original/QZbupOvkH90Hr9MWAiR6TMvarbXTEA4Xug.png?1706891887",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103084910097/original/MBf1YnJ6cOCtPwEgx8KB7ea1olIsQ-34Ag.jpeg?1706891697",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103084910096/original/WjmgH1P11cak4xqS25lzQy8Ykq9HhI2Nag.jpeg?1706891697",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103084910883/original/vlOnlrHFCNORmvsLj60BYLyePTLzWFFmyA.png?1706891907"
+    ],
+    "has_images": true,
+    "image_count": 4,
+    "created_at": "2024-02-02T16:41:54+00:00",
+    "updated_at": "2024-02-02T16:41:54+00:00",
+    "id": 103000273058,
+    "tags": []
+  },
+  {
+    "title": "Get Web Orders",
+    "text": "Pressing this button will retrieve all “Open” web orders in groups of 20 from your Shopify web store, where a payment has either been “Authorised” or “Captured”. The application will automatically connect to Shopify and download orders when the Web Orders button is pressed in the POS, so there is no need to click the Web Orders button and then immediately click the Get Web Orders button. If you have more than 20 open web orders pressing ‘More Web Orders’ will then download the next 20 open orders to the list. Additionally, once Web Orders has been opened the first time in the day, it will check for Web Orders automatically for you in the background, every 5 minutes. If it finds an order, it will tell you. If you restart your computer, you will need to click the Web Orders button again the first time to restart the automatic web order download process again. If you are using the Multiple Web Stores feature, pressing this button will retrieve orders from all web stores which this store has been configured to process orders for. For more information, please see section 4.9. Apply Date Range By default when you open Web Orders the Apply date Range option is unchecked and will download the 20 latest orders from your web store. Pressing More Web orders will then download the next 20 open orders from Shopify. Using the Apply Date Range option you can grab the open orders for a specific date. This will use the From Date and To Date to determine what to download and will grab any order created between 00:00 on the From Date up to 23:59 on the To Date. To Apply a Date Range check the Apply Date Range checkbox and enter the dates followed by pressing ‘Get Web Orders’. This will refresh the web orders list to show any open orders between these dates. Please note the date range settings are saved so when you exit Web Orders and reopen it will apply the previously set date range, if on the next open you want it to grab All open orders ensure before closing the Web Orders box you uncheck the Apply Date Range option.",
+    "category": "RMSify Customer Help",
+    "subcategory": "Overview",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103084912103/original/OG4g_2Aqvov0Iy4IauDuXTbo6tajMo99UQ.png?1706892164",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103084912402/original/R4LPCRMbbgXCNwE6amXJgalpJjU2vg0Djg.png?1706892224"
+    ],
+    "has_images": true,
+    "image_count": 2,
+    "created_at": "2024-02-02T16:45:25+00:00",
+    "updated_at": "2024-02-02T16:45:25+00:00",
+    "id": 103000273060,
+    "tags": []
+  },
+  {
+    "title": "Print Pick List",
+    "text": "Pressing this button with a web order selected in the list will print a picking list to the OPOS printer defined for the installed register. This can then be used by the cashier to go and find the products they need to dispatch. If the user wants to print the picking list to a Windows Printer instead, simply check the Windows Printer box and choose the printer they want to print to. Once the button has been pressed, the Status column of the Web Orders list will change to say “Picking” to indicate that someone is already picking the goods.",
+    "category": "RMSify Customer Help",
+    "subcategory": "Overview",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103084913059/original/8PEq4DNWUsqBqO01sn52V0lDuJXfSUSWPg.png?1706892372",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103084913131/original/x3Syqm9lUyCIKY-XwQSCjI4MA7WJsBwJjg.png?1706892391"
+    ],
+    "has_images": true,
+    "image_count": 2,
+    "created_at": "2024-02-02T16:46:47+00:00",
+    "updated_at": "2024-02-02T16:46:47+00:00",
+    "id": 103000273061,
+    "tags": []
+  },
+  {
+    "title": "Complete Order",
+    "text": "Pressing the Complete Order button will load the Web Order you have selected into the POS transaction screen. RMSify does not actually complete the order in Shopify until it has been tendered through the POS against the defined Web Tender.",
+    "category": "RMSify Customer Help",
+    "subcategory": "Overview",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103084913489/original/jC5dsiNdu945AX-jRnHg_VjZAKuEOCAHCw.png?1706892463",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103084913284/original/Gq7zuqkUl7Y50Bws8OQE26iUb3VgWPQlfg.jpeg?1706892428"
+    ],
+    "has_images": true,
+    "image_count": 2,
+    "created_at": "2024-02-02T16:48:27+00:00",
+    "updated_at": "2024-02-02T16:50:24+00:00",
+    "id": 103000273062,
+    "tags": []
+  },
+  {
+    "title": "RMSify Quick Process",
+    "text": "RMSify has the ability to Quickly grab and process a single Shopify Order by using the RMSify Quick process button which you will see on the POS as below: Pressing the RMSify Quick Process will show an input screen where you can enter in the Shopify Order Number: Once the order number has been entered pressing 'OK' will open the normal RMSify Web Orders screen with only the single order in the list. From here you can use the normal Processing options to load the order into the POS for processing.",
+    "category": "RMSify Customer Help",
+    "subcategory": "Overview",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103084913883/original/1ofGl1VLaoZ6zVcN1Nrc4wYvqWbaNHiprg.png?1706892544",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103084913769/original/J469jtIcUKiElQvZBh0qcBs9gdlfty60JQ.png?1706892525",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103084913991/original/9GnIJAW2vzdHOCRa8p-osHiwYt_FbTMbwA.png?1706892576"
+    ],
+    "has_images": true,
+    "image_count": 3,
+    "created_at": "2024-02-02T16:50:06+00:00",
+    "updated_at": "2024-02-02T16:50:06+00:00",
+    "id": 103000273063,
+    "tags": []
+  },
+  {
+    "title": "Configuration Overview",
+    "text": "All configuration is completed through the Sync application. This is the application that is launched when you select Start > All Programs > Retail Technology Ltd > RMSify. Alternatively, it can be launched from Headquarters or Store Operations Manager through the menu Utilities > Addins > RMSify. Initial configuration is performed through the installation wizard which takes you through the same configuration screens described in further articles, but in a more structured way. The wizard only appears on first launch. There are rules as to where you can edit the configuration, and these work in line with the supported topologies described in the Introduction. Standard Headquarters – All configuration is performed in the Headquarters database. Changes to the configuration are transmitted to the processing store through a Worksheet 51. You will not be able to open the Sync application at the processing store. Store Only Headquarters – Once the wizard is run and you have told it you are syncing from the processing store, all configuration will need to be performed at the processing store. If you want to change back to a Standard Headquarters topology, you launch the application at Headquarters and make the change there. Single Store – The configuration can be run on any computer which has RMSify installed. To access the configuration settings, click Options > Settings from the RMSify menus. Any machine which is going to run the Web Orders tool MUST have the Sync application launched once before the Web Orders “Custom POS Button” will work. Any change made in RMSify in a Headquarters database will be automatically transmitted to stores through a Worksheet 51.",
+    "category": "RMSify Customer Help",
+    "subcategory": "Configuration",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103084915618/original/5jTLpRikk1sCABz9Mam5icQxebRdLSnNRw.png?1706892942",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103084915181/original/gkBWpgEpA6ZkWnfCj-MMcqwcK5Q4hvvm6Q.jpeg?1706892836",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103084915179/original/KSYrc4-J6sxDDziQQN4eUlNtp67j24laVA.jpeg?1706892836"
+    ],
+    "has_images": true,
+    "image_count": 3,
+    "created_at": "2024-02-02T16:59:05+00:00",
+    "updated_at": "2024-02-02T16:59:05+00:00",
+    "id": 103000273065,
+    "tags": []
+  },
+  {
+    "title": "Stock Sync",
+    "text": "If you are tracking your inventory or stock levels with your Shopify store (Please see the Rules section for details) you need to synchronise the data on a regular basis. We advise you schedule the stock to be updated automatically (see below) however you can update it manually at any time by right-clicking the RMSify icon in the bottom right hand corner by the clock, and clicking “Update Stock Quantities” If you are using the Multiple Web Stores feature, it will update the stock quantities for each defined web store, one at a time. In order to maintain accurate stock levels, its important that these are updated as frequently as possible and appropriate for your business. RMSify can perform this task for you automatically. Click Tools followed by Scheduled Stock Update. RMSify uses a Windows Scheduled Task to do this You can choose whether or not you want to make use of this feature through the Enable check box. Checked means it will run, unchecked means it will not. You can choose how often it is repeated too. By default it is selected as Daily, which means it will run the stock update at midnight every day. If you were to choose a different option, it would run every n minutes throughout the day. If you are using the Multiple Web Stores feature, it will update the stock quantities for each defined web store, one at a time. If you wish to set up more advanced settings, you can edit the properties of the relevant Windows Scheduled Task. K3 does not support the execution and advanced configuration of scheduled tasks as this is a core windows feature. For more help in configuring a scheduled task please contact your support partner.",
+    "category": "RMSify Customer Help",
+    "subcategory": "Synchronisation",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103100497985/original/MqKidKv7BkvNCeVZIHIKDV_szpuO-9xcZw.png?1711552370",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103100498556/original/YoN239mG16x2FZckGpVz8tvEDqvJJVNw2w.png?1711552435",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103100498486/original/B4ck072H5RQXDWB2CJh-gDPWH1BTxSX70g.jpeg?1711552426"
+    ],
+    "has_images": true,
+    "image_count": 3,
+    "created_at": "2024-03-27T15:15:33+00:00",
+    "updated_at": "2024-03-27T15:15:33+00:00",
+    "id": 103000284611,
+    "tags": []
+  }
+]

@@ -1,0 +1,127 @@
+{
+  "total_items": 4169,
+  "total_categories": 24,
+  "categories": [
+    {
+      "name": "ARCHIVED",
+      "count": 7,
+      "filename": "archived_vector_store.json"
+    },
+    {
+      "name": "Alert Manager Customer Help",
+      "count": 1,
+      "filename": "alert_manager_customer_help_vector_store.json"
+    },
+    {
+      "name": "Cowis Backoffice",
+      "count": 115,
+      "filename": "cowis_backoffice_vector_store.json"
+    },
+    {
+      "name": "Cowis Customer Help",
+      "count": 95,
+      "filename": "cowis_customer_help_vector_store.json"
+    },
+    {
+      "name": "Cowis POS",
+      "count": 13,
+      "filename": "cowis_pos_vector_store.json"
+    },
+    {
+      "name": "Cowis Webshop",
+      "count": 2,
+      "filename": "cowis_webshop_vector_store.json"
+    },
+    {
+      "name": "DdD Customer Help",
+      "count": 145,
+      "filename": "ddd_customer_help_vector_store.json"
+    },
+    {
+      "name": "Default Category",
+      "count": 2,
+      "filename": "default_category_vector_store.json"
+    },
+    {
+      "name": "Hardware Support",
+      "count": 9,
+      "filename": "hardware_support_vector_store.json"
+    },
+    {
+      "name": "How to use this portal and what to expect from Support",
+      "count": 25,
+      "filename": "how_to_use_this_portal_and_what_to_expect_from_support_vector_store.json"
+    },
+    {
+      "name": "INTERNAL MStore Product Information",
+      "count": 54,
+      "filename": "internal_mstore_product_information_vector_store.json"
+    },
+    {
+      "name": "INTERNAL Support Articles",
+      "count": 2682,
+      "filename": "internal_support_articles_vector_store.json"
+    },
+    {
+      "name": "Imagine Documentation",
+      "count": 355,
+      "filename": "imagine_documentation_vector_store.json"
+    },
+    {
+      "name": "Imagine FAQs",
+      "count": 16,
+      "filename": "imagine_faqs_vector_store.json"
+    },
+    {
+      "name": "JobBOSS Customer Help",
+      "count": 21,
+      "filename": "jobboss_customer_help_vector_store.json"
+    },
+    {
+      "name": "MStore Customer FAQs",
+      "count": 159,
+      "filename": "mstore_customer_faqs_vector_store.json"
+    },
+    {
+      "name": "MStore User Guide",
+      "count": 53,
+      "filename": "mstore_user_guide_vector_store.json"
+    },
+    {
+      "name": "Omnis Customer Help",
+      "count": 25,
+      "filename": "omnis_customer_help_vector_store.json"
+    },
+    {
+      "name": "RMS Customer Help",
+      "count": 9,
+      "filename": "rms_customer_help_vector_store.json"
+    },
+    {
+      "name": "RMSify Customer Help",
+      "count": 17,
+      "filename": "rmsify_customer_help_vector_store.json"
+    },
+    {
+      "name": "RVE - RFA - POSFLOW etc.  Customer Help",
+      "count": 260,
+      "filename": "rve_-_rfa_-_posflow_etc_customer_help_vector_store.json"
+    },
+    {
+      "name": "Sigma Customer Help",
+      "count": 30,
+      "filename": "sigma_customer_help_vector_store.json"
+    },
+    {
+      "name": "SmartVision Customer Help",
+      "count": 42,
+      "filename": "smartvision_customer_help_vector_store.json"
+    },
+    {
+      "name": "ViJi Track Documentation",
+      "count": 32,
+      "filename": "viji_track_documentation_vector_store.json"
+    }
+  ],
+  "created_at": "2025-11-18T15:29:29.065Z"
+}

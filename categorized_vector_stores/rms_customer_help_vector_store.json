@@ -1,0 +1,183 @@
+[
+  {
+    "title": "HQ Inventory not matching store quantities",
+    "text": "The issue can arise if manual adjustments are made or for other reasons the HQ and Store quantities get out of kilter. This can be rectified by performing a full item stock reconciliation. To do this open HQ manager and go to worksheets. Chose 501: Request a full item count. First step Click none to clear all and select the store you want to perform this for. Although multiple stores can be chosen on this worksheet, it is highly recommended doing them one at a time. 1. To avoid confusion 2. The second step explained later will be better served doing one at a time. Click Next You will see the following dialogue box. Ordinarily you can leave this as is and click next. Click Finish Check the details and click Approve. A worksheet will be created. Wait for the store to poll and process the worksheet, (Green flag). Once processed, no changes have been made. It has merely uploaded store quantities to the HQ but not made any changes to the inventory. The next step will allow the changes to be made. This is why it is advisable to do one store at a time. The next step needs to be performed before the store polls again. This is because the worksheet has uploaded quantities as they are now. Once the store polls again, any sales, returns or transfers will not be represented in the uploaded quantities. If you miss this window, the worksheet will need to be run again. Second step As stated earlier, the above worksheet must have been processed by the store. This step MUST be performed before the store polls again, unless they are currently not trading. Otherwise the quantities uploaded via the worksheet may no longer be correct, due to sales, returns or other inventory changes. HQ needs to be in maintenance mode. Go to wizards and select inventory wizard. Click Next Select task 190: Full item count reconciliation. Click Next Select the store you did the 501 worksheet for. You can check the box ( only show discrepancies). I have left it blank as there are no discrepancies on my test data. Click Next. Click Finish. A box will be displayed showing the discrepancies between the HQ and the uploaded store quantities. . Once you click commit HQ quantities will be changes to match the uploaded store quantities. It is not a bad idea to perform this periodically to make sure the data is correct.",
+    "category": "RMS Customer Help",
+    "subcategory": "HQ manager",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103083340357/original/y1VYk8kd9pYZF__qMPnOdnRuJ8D3V15Xjg.png?1706530603",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103083341631/original/-aR9x7XBFSK0gaum6f1Ry9TGVNgBSxLDvg.png?1706530756",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103083341961/original/JPgzvTNMluMnvjz4VWYn9vy61fp7hxwAzg.png?1706530799",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103083342795/original/eJ1hIWQ1Wkpzv5TjGsE0TYrAN0-eDsHn9g.png?1706530885",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103083343295/original/B77I78eDvX-TD45yh1FJ3lm-eOwM4QmoHw.png?1706530942",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103083346077/original/XMV2TrRZqniieeAWD834TB4Q6JW_IM8A8w.png?1706531251",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103083346775/original/J8wLxqy6JdD4s3c0mm1r8etSpNVBCq9H-w.png?1706531317",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103083347477/original/a4OzwG8wBZu9iXmgAqMXDB0dzC-AvwJh3A.png?1706531400",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103083348506/original/YfkB9zlRL90inliD0rrzMAVhJ7C7M6WjuA.png?1706531502",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103083348952/original/9sfPoSmOHWeDLS1l811bd_7su9X3o9B8Lw.png?1706531542",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103083350442/original/CGLqqjG4kwptHwsjqKYFrlAIuLx6zemZMQ.png?1706531708"
+    ],
+    "has_images": true,
+    "image_count": 11,
+    "created_at": "2024-01-29T12:38:27+00:00",
+    "updated_at": "2024-01-29T12:46:56+00:00",
+    "id": 103000271997,
+    "tags": []
+  },
+  {
+    "title": "Polling stalled",
+    "text": "Occasionally polling can stall, this results in no data being collected from the stores. The 402 (data upload) worksheet runs every time the store connects and processes sales, transfers as well as other data. If Polling has stalled you will notice that no sales data for the affected stores appear in reports. The first thing to check is that HQ server and Voucher server (if used) are both running and waiting for connection (green arrow). Next check that the worksheets are being processed. In H! manager Go To View / Worksheet status / Store status (as shown below). Flag symbols are as follows. White - unapproved, Green - completed, Blue - not completed but not due yet, Blue with yellow ! - Not processed but overdue. The Blue ones with an ! will be the ones that have not polled. The last polled date is shown. First try restarting HQ server by clicking file / exit on both HQ server and Voucher server. Or by ending HQserver.exe in Task Manager, NB (Voucher server is also HQserver.exe in TM). IMPORTANT!! HQ server must be started first, if voucher server is started first HQserver will return an error when starting and won't start. After restarting HQ and Voucher server and Voucher server check the status of worksheets again as above. If still not polling check HQclient in the stores is running and processing worksheets. In the stores HQclient will be running either on a Back Office PC or Till 1. HQ client looks like this. Check that worksheets 'completed with no errors'. Voucher server looks slightly different and doesn't process worksheets as such but facilitates global vouchers. When all completed and working Worksheet status looks like this.",
+    "category": "RMS Customer Help",
+    "subcategory": "HQ manager",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103088229382/original/ZjfU59mo1JTdp88lXYkS5P2u6B5peHYCww.png?1707993575",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103088231023/original/9aQbqBQGOMc2PoUrgSZNwzW1rBQVNoaqQg.png?1707993769",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103088236007/original/D-H_TE1-vX-idoDwSd3O6xt13i2qnbh2mw.png?1707994271",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103088237172/original/nEeUFbmFd49eVSoi1KWaulfBej2tpTKo6g.png?1707994390"
+    ],
+    "has_images": true,
+    "image_count": 4,
+    "created_at": "2024-02-15T10:53:22+00:00",
+    "updated_at": "2024-02-15T10:53:33+00:00",
+    "id": 103000275983,
+    "tags": []
+  },
+  {
+    "title": "Oaktron EDI",
+    "text": "Oaktron I believe are the only customer on RMS using EDI via Clarks and software called LexiCom. The EDI files are sent through LexiCom between Oaktron and Clarks, the process is very similar to CFI with RMS as it handles the creation of new Clarks styles, stock takes and sales. EDI process runs on scheduled tasks on the back office machines at each location. The main machine being in Barcelona. The process on LexiCom require secure updated certificate files every 2 years. We are responsible for generating these certificates and there is a guide on doing so in the site files teams channel location. Clarks have to pay for these certificates before we generate them and upload them to LexiCom so make sure to speak with Emma Smith about the billing process. Recently Lexicom is no longer working for Oaktron as the certificates I generated no longer are supported security wise by Lexicom and to be able to generate the new version the latest version of Lexicom is required. However the new version no longer works on older Windows versions which Oaktron are running Windows 7. Sandra said they were going to work out on upgrading their machines and come back to us.",
+    "category": "RMS Customer Help",
+    "subcategory": "Oaktron",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [],
+    "has_images": false,
+    "image_count": 0,
+    "created_at": "2025-02-07T15:00:10+00:00",
+    "updated_at": "2025-02-07T15:00:10+00:00",
+    "id": 103000334233,
+    "tags": []
+  },
+  {
+    "title": "Can you let me know where I go to edit the custom POS buttons?",
+    "text": "A: The custom POS buttons can be located and edited in Store Ops Manager, by following 'Database' - 'Registers' and you have multiple options such as keyboards, custom POS buttons and POS task pads that can all be edited.",
+    "category": "RMS Customer Help",
+    "subcategory": "Store Ops Manager",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103076508470/original/7r9NXeqgG2WY_nwm36X0sQwxo1-pDBbNNA.png?1704211642"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2024-01-02T16:07:32+00:00",
+    "updated_at": "2024-01-02T16:07:33+00:00",
+    "id": 103000265420,
+    "tags": []
+  },
+  {
+    "title": "POS Display settings",
+    "text": "When the POS display setting is corrupted and the touchscreen keyboard moves under the transaction screen as below. To resolve this Hold down the CTRL + f6 the following window is displayed. Click on Transaction Screen tab and select window. Make a note of the height of the transaction window you will need this to set the top position of the touchscreen keyboard. Click Ok and select the touchscreen keyboard and click window. Set the top position to be the same as the height of the touchscreen keyboard. Click Ok Then ok again. You screen should be restored.",
+    "category": "RMS Customer Help",
+    "subcategory": "Store Ops Manager",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103082193270/original/rzuI8wBJxVdjCZDAnqD30LHRfx1mkvYGiA.png?1706100222",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103082206215/original/vFB_JjZlawuuEv2JvjetAjai1fWz4YKqTw.png?1706101721",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103082201178/original/rI3nBfCN7QI1q82nXi1TpMwlu2hWXI6Yyg.png?1706101145",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103082199899/original/D_krNsX34fD1dRFsTVOezAW5KJqRYTt9MA.png?1706100981",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103082200668/original/x_qmtb-zGGweQ6BJiunyGinkKAAj2FIikw.png?1706101071"
+    ],
+    "has_images": true,
+    "image_count": 5,
+    "created_at": "2024-01-24T13:00:31+00:00",
+    "updated_at": "2024-02-02T08:58:18+00:00",
+    "id": 103000271230,
+    "tags": [
+      {
+        "name": "RMS"
+      }
+    ]
+  },
+  {
+    "title": "Attempt to process COM object RSG_ILINK",
+    "text": "Attempt to process COM object 'RSG_ILINK.clsCardAuth' failed. An unknown error occurred. When trying to process a card transaction you get the following. The first thing to try is to exit and restart POS. In most cases this will resolve the issue. If that fails there may be an issue with the dll or the dll is no registered. In which case contact K3 support.",
+    "category": "RMS Customer Help",
+    "subcategory": "Store Ops Manager",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103084676199/original/dcuYEQFXMxc5fOouBLCm031kNFFZ363zMQ.png?1706864483"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2024-02-02T09:03:08+00:00",
+    "updated_at": "2024-02-02T09:03:35+00:00",
+    "id": 103000272956,
+    "tags": []
+  },
+  {
+    "title": "Offline batches -Blind Closed",
+    "text": "When an RMS till goes into offline mode, the current batch is Blind Closed by the system. If the till is used in offline mode the these transactions go into a separate batch in the offline database. When the till is back online (reconnected to the primary database), this batch too is uploaded to the server and blind closed. The transaction from that point forward go into a new (3rd) batch and trading continues as normal. When you come to Z read at the end of the day only the transactions from the point the database was reconnected will show (3rd batch). In order to balance the till, it will be necessary to X and Z read these blind closed batches. To do this follow the following instructions. First of all exit POS, this is because POS holds the printer and the X and Z reads will not print if the printer is help on to by POS. Open SO manager. Go to Journal / Update batch info. Click OK on the dialogue box that appears, there is no need to enter any filters. Find Blind Closed batches in the list. The below image only shows open batches as I do not have any blind closed batches currently. Open batches are current batches being worked, these can not be X or Z read here. To process the batches Double click on the batch number. This will bring up the options below. Whether you need to enter Opening and Closing amounts depends on your current settings. When you have Z read all of the batches for the day in question. These Z reads can be added to the totals from the main Z read to balance the till. Please remember that if POS is still open and you process the Z read, the Z read will not print but it will process the bacth and it will no longer be available in this list. There is nothing we can do to get it back, so please make sure POS is exited before this process is undertaken.",
+    "category": "RMS Customer Help",
+    "subcategory": "Store Ops Manager",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103109426404/original/tb84GIFZ0mqlCPL5ysiKPrRDRdE27dV6Ow.png?1714475207",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103109427136/original/ru7jvikp7dKBbY38wiVVmZcCgxS-6x5Omg.png?1714475281",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103109427546/original/JwMiznQ6WNDRT_Ftd8zx0hGgCjYLQEpwWg.png?1714475332",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103109428574/original/WTWT0eaIHhVnO4g4I1AjVAbgjlc7I_UZ5g.png?1714475421"
+    ],
+    "has_images": true,
+    "image_count": 4,
+    "created_at": "2024-04-30T12:18:05+01:00",
+    "updated_at": "2024-04-30T12:18:05+01:00",
+    "id": 103000290172,
+    "tags": [
+      {
+        "name": "offline batches"
+      },
+      {
+        "name": "blind closed batches"
+      }
+    ]
+  },
+  {
+    "title": "Cinders Reports",
+    "text": "Cinders require an update to one of their reports every year to allow the new seasons to show in their customer Value list report. This requires you adding some lines to the report file via Notepad++ As you can see from the below formula there is a pattern that needs to be followed to allow the report to run correctly. Other parts of the report file will need to be updated to the new season name. eg SS2026 You need to save the file as a new qrp and upload it to the RMS reports folder for HQ. A copy of the latest reports have been sent to Thomas Toulouse.",
+    "category": "RMS Customer Help",
+    "subcategory": "Store Ops Manager",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [],
+    "has_images": false,
+    "image_count": 0,
+    "created_at": "2025-02-07T15:00:34+00:00",
+    "updated_at": "2025-02-07T15:00:34+00:00",
+    "id": 103000334234,
+    "tags": []
+  },
+  {
+    "title": "POS keyboard no longer showing",
+    "text": "If a customer has logged a case regarding the POS or onscreen keyboard not showing correctly on the screen. This could be a case that the windows position or size is incorrect. One way of changing the size is by using CTRL + F6 where a screen menu will pop up. If CTRL + F6 does not work, you maybe find a screen button on the POS that also allows you to see this menu. In this menu there will be options for changing the transaction screen and an option for the onscreen keyboard. By editing the Position and the Size, you will be able to correct the positions of the POS and one screen keyboard. Once you have made your changes click OK for these to take effect.",
+    "category": "RMS Customer Help",
+    "subcategory": "Store Ops POS",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103096564557/original/vAkb5BOThcUfW85B2trogvmyRn26uwyk-w.png?1710346223",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103096564621/original/4mNmXQW-xpJEliE7oeuMd-k1Zzbhs7ZxrA.png?1710346228"
+    ],
+    "has_images": true,
+    "image_count": 2,
+    "created_at": "2024-03-13T16:10:44+00:00",
+    "updated_at": "2024-03-13T16:10:44+00:00",
+    "id": 103000281993,
+    "tags": []
+  }
+]

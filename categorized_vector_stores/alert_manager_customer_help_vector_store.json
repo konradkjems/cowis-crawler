@@ -1,0 +1,21 @@
+[
+  {
+    "title": "Alert Manager Client error 429",
+    "text": "The following error displays running the Alert Manager client:-",
+    "category": "Alert Manager Customer Help",
+    "subcategory": "Alert Manager",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103071335097/original/iU7CQR_hUB2wYpS7hxfRmtjCODGD0SsX4g.png?1701949172",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103071335183/original/emPNYSJ9kUtSK7pHDr7DDjOSwgSooQW6yw.png?1701949183",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103071335245/original/20_tlKpZQrIKjy9fmov47RDE2VyVTj2dXg.png?1701949193"
+    ],
+    "has_images": true,
+    "image_count": 3,
+    "created_at": "2023-12-07T11:50:40+00:00",
+    "updated_at": "2023-12-07T12:02:50+00:00",
+    "id": 103000260872,
+    "tags": []
+  }
+]

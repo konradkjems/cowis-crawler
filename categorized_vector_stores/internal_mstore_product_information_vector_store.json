@@ -1,0 +1,1010 @@
+[
+  {
+    "title": "Product Development SharePoint Site",
+    "text": "The MStore product development team store their core documents in the SharePoint library below. Freshdesk will contain new documentation and additional short articles to supplement this as the product is updated. MStore DevelopmentSoftware Management - Documentation Library",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "MStore Core Product Updates",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [],
+    "has_images": false,
+    "image_count": 0,
+    "created_at": "2024-10-01T15:51:54+01:00",
+    "updated_at": "2024-10-01T16:07:05+01:00",
+    "id": 103000315352,
+    "tags": []
+  },
+  {
+    "title": "Website CSS",
+    "text": "Historically, when we have developed customer ticketing sites to be inline with their \"main\" site, we have hotlinked/referenced to their own CSS files, hosted on their own servers. This has previously brought benefits - in that they can control their stylesheets, which will downstream to our ticketing site be reflected to us with no change required by us, so it is simple and cost effective. However this is a double edged sword. Our site and some javascript depends on certain CSS classes and properties being certain ways. This means that customers can, inadvertently, break their ticketing site. This causes a huge amount of pain for all inolved. The end customer cannot book tickets which causes a revenue effect. The client/attraction questions us as to why we made changes without them asking (which we didn't) and it costs us time supporting/fixing things. Recently these issues have become more frequent to the point the drawbacks heavily outweigh the pros. As such the policy now is that we will host a copy of the CSS ourselves. This means that, if they want to make changes to the styling, they have to do so through a change request with us. We will not be proactively changing these as the cost to do so would be too significant, however if it meets the following criteria we will implement the change Website Reskin Mini website reskin where navigation and or simple styling changes are done. Normally for jobs 3 hours and above. Upgrading from version 1.0 to 1.5. We won’t be looking for any convoluted over engineered solution. We are simply going to take them, host them and use them in future. This is the only way to ensure that Customers will no longer be able to impact the quality and stability of our web offering and cause us reputational damage. Customer version of this article which you can refer any customer queries to is How does styling work for the Ticketing pages?",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "MStore Core Product Updates",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [],
+    "has_images": false,
+    "image_count": 0,
+    "created_at": "2024-10-15T09:15:51+01:00",
+    "updated_at": "2024-10-22T17:54:13+01:00",
+    "id": 103000316830,
+    "tags": []
+  },
+  {
+    "title": "E-Commerce Vouchers - Enhancements",
+    "text": "Voucher Redemptions: Add a feature for setting template ID for vouchers. This will be on the Voucher, with additional options for retail and adoptions as neither will have a template ID. If it isn’t in the list the voucher will not be allowed. Text will be amended with a generic message. Replacing the current “Invalid Voucher” with text suggesting trying again, if still fails, call a number. Note: - It is known if a basket contains multiple types of ticket, it won’t handle every possibility. For example, Membership first, then and event, we store the membership page ID as such if they attempt to use an event voucher it will not allow and suggest try again/call. Importantly these exceptions will result in them needing to call rather than allowing the wrong vouchers.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Websites",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103187671318/original/HMBSfZ42izc5BKNv1q9bkVxczkmof-iAYw.png?1738920919",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103187673622/original/sFsB4loP7SzfexB7NPWwB3zJ5AeIW_yPyw.png?1738921127"
+    ],
+    "has_images": true,
+    "image_count": 2,
+    "created_at": "2025-02-07T09:38:52+00:00",
+    "updated_at": "2025-06-05T09:22:16+01:00",
+    "id": 103000333954,
+    "tags": []
+  },
+  {
+    "title": "Digital Wallets",
+    "text": "This feature enables Google and Apple Wallet pages to be used with our e-commerce ticketing. Websites will need to undergo enhancements to have this feature added. It can be applied to V1 and V1.5 Websites. One it has been added there will be two options within the website admin config. Each of the options will allow the customer to change the pictures that are passed to the wallets data. We would expect customers to change the descriptions but not the values pulled from our system. We have created the options to make it easier and more Customisable as customers require changes. For a customer to start receiving these passes as part of the email they receive. The emails can be modified to with two new merge fields. If they do not want the passes to be available on certain types of bookings. This can be done by not including them in the email template the customer receives. We have written an API to allow the passing of this information for all our customers to a single point and using our certificates. With this in place, the customer configuration involvement is minimal. Examples: Booking reference along the top as normal. If the customer uses unique tickets and the merge tag is on the email and this feature is turned on with the merge tag on the email. It will show a a digital wallet option for the individual ticket. This allow entry or validation on a per ticket basis. The code being sent is the unique ticket reference. There is an option at the bottom to add a digital wallet for the whole booking. The QR Code that is associated with the pass will be the booking reference. If using unique tickets the pass shows the ticket info and individual quantity. The total quantity is shown which in this case indicates 1/2 tickets. If using the booking reference, there will be no ticket information, no quantity. The total Qty is shown for the number of booked items. The code is the booking reference. Key important information in this summary view is the date, template description, the total quantity, the time and the booking reference. The time is that of when they are intending to arrive or if they use general timeslots for all day. It is suggested \"Time\" be changed to \"Opening Time\" or similar in the options listed above. Digital Wallets for Memberships: Configuration for memberships is separate to bookings. The descriptions can be modified, for example some of our customers would prefer annual pass type or holder name etc. The email template will need to use the merge tag: It is a standard tag to show details of each membership on screen separately. If the tag is present and the site is using digital wallets the attachments for memberships (apple) or the google wallet option will appear. Key points to note: 1) In my screenshots above it only shows Google Wallet, that is because the screens were taken on an android device. If on an apple device it apple pass attachments as part of the email they receive. 2) This is not intended to show price, be a receipt or be a breakdown of an itinerary. It is PASS. 3) Digital Wallets for memberships extend current functionality and doesn't change it. Temporary card numbers, real card numbers will depend on their onsite configurations. This just extends the card numbers will have already received to their digital wallets. Finer points of card numbers is outside the scope of this work and is just standard setup advice.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Websites",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103194540221/original/d7npd0q-dUnPJfsmj1dKLd2pGkECmOd_Cw.png?1740999972",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103194541729/original/f9cDwlsML456dF3fiPnBS0zR4JgrLYu-GA.png?1741000095",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103194543138/original/vIDrTAJcdzJe2NNhBNGcafceEEvug6EkDQ.png?1741000228",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103194544576/original/IiL3qDYeBSvPx6k2sz9dP8NX1_GQS5nZeQ.png?1741000353",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103194547808/original/n8Mb0xvKqB-fCBwcpVxC_R06NdMa-7gsMg.png?1741000651",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103194548209/original/3xlLr2rRCc0UvAOhosXJOzEph-O_aEca3Q.png?1741000685",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103194548597/original/EQ-KkpYCdZlJ-_dIgy7bdILCVI550yQV8A.png?1741000737",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103194551593/original/txMx2j1up1EMAw_UgtRzDjBQeXVtEqLuhA.png?1741000987",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103194558318/original/DwSLmAKRKOTnvri6GDFlJMZchOQDHaPjvQ.png?1741001586",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103194552504/original/n0C0TD0DXgqdIDnCjHmU9WfqMAZ576HLrQ.png?1741001039",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103198930040/original/Liaznb6PsbIrXou-eiItonpzICD_m4nx0w.png?1742232918",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103198930543/original/XUzo8-yjVhkdbw63-_5vCHHbi_a1csVpVQ.png?1742233104",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103198930784/original/Zmu5vqmm-2yojKQA_K4P-G9nsfSG-BqJSw.png?1742233231",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103198931088/original/OTREYpwe1SzA67OanNuLHT_PV_YsiM-TxA.png?1742233322",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103198931110/original/dhbDvnxbXkFrmRH64GwEgv9m5X92-JIWsQ.png?1742233330"
+    ],
+    "has_images": true,
+    "image_count": 15,
+    "created_at": "2025-03-03T11:33:14+00:00",
+    "updated_at": "2025-03-17T17:42:23+00:00",
+    "id": 103000337575,
+    "tags": []
+  },
+  {
+    "title": "Session Images Filter",
+    "text": "There is a new template filter. Filters only work on sessions. The new filter is called “Session Images”. This will activate a new sessionsFIP page. This would need to be built in a customer website along with the ability to add images to session types. If filter is not set, it will load a normal sessions page. The website will detect this filter and change the page by itself. New option within the admin page online. Upload images and assign images to session types. It will show as the image, any blurb and as options, then an accordion to see times. Each session type will show with image and blurb and will hide the times until chosen, once time is chosen, tickets can be selected.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Websites",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103209675903/original/uiEZpgwPP4kc-jOsoQXs7kOM-9xxEKy2EA.png?1745520678",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103209675989/original/3dps2iwGv5HaNV4hDInFFozaWL_SiOXgAg.png?1745520774",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103209676008/original/xsa5IFU4UG-xHDOfo89C6J00KSOv4Nxh7g.png?1745520782",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103209676081/original/OZCQIo8iSBPsWc0dsnVhTa5eRatA5lCYqg.png?1745520882",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103209676055/original/S1FyJ_1wAImuF8LP4cjdtkKNbBweeJ0cNw.jpeg?1745520851",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103209676149/original/YUYB3ysc8WPvGuo2VaPKYDOZNMZsGeSESg.jpeg?1745520923"
+    ],
+    "has_images": true,
+    "image_count": 6,
+    "created_at": "2025-04-24T19:56:08+01:00",
+    "updated_at": "2025-04-24T20:07:44+01:00",
+    "id": 103000348278,
+    "tags": []
+  },
+  {
+    "title": "Apportion capacity without seating plan",
+    "text": "Enhancements have been made to allow apportioning of capacity with price bands without needing a seating plan. Example below: For this to work, enhancements are needing to be made on the customers website, web DB script updated, version 3.19.15 or above, the latest MOI dated May 2025 onwards and version 1.5 of the website. Example of the messaging: This has since been extended to show the price band name within the messaging if required.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Websites",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103216855236/original/Kl57HcGU6ywhCjeT2roxm-ueOANH-OoMCw.png?1747871034",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103216855291/original/aNoM0dlT7KwOOGoXSq2ERGgOV6Km7GQzjw.png?1747871228"
+    ],
+    "has_images": true,
+    "image_count": 2,
+    "created_at": "2025-05-22T00:47:37+01:00",
+    "updated_at": "2025-05-22T00:48:48+01:00",
+    "id": 103000354349,
+    "tags": []
+  },
+  {
+    "title": "Booking fee percentage",
+    "text": "In the config options you will see 3 more settings. Booking Fee TIDS - Select the template it relates to. Any Template ID it finds throughout the buying process will trigger this to turning on. Even if using a follow on template, if any TID is in this list it will activate. Booking Fee resource is set using the ID as found below. Booking fee percentage is the % of the total booking. It will only include session able items in the total when working out the percentage. It will be recalculated if adding more tickets. It will show in the basket as the description of the resource given. The item cannot be removed.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Websites",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103216855382/original/Kc1ec8geVeCoZDBqC2icl6CzAvPxRNp8cw.png?1747871525",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103216855397/original/YlNs_ioGIRuGCSIx1t_eezTwuL-w-NQ10w.png?1747871553",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103216855478/original/vZDt9Bf6rkTqYdfSKp0X5WImwLvwQjRVpw.png?1747871727"
+    ],
+    "has_images": true,
+    "image_count": 3,
+    "created_at": "2025-05-22T00:57:08+01:00",
+    "updated_at": "2025-05-22T00:57:22+01:00",
+    "id": 103000354350,
+    "tags": []
+  },
+  {
+    "title": "CSS Styling toggle",
+    "text": "New Lookup is now available. That can be set on template header. By having the template style added to the template header. It will change the link. That will trigger the website to use the corresponding website design. In our test environment we demonstrated that small changes reflect it is showing different when setting is ticked. It is also possible for K3 to add a style design our side as requested and it back updates the lookups via API ready for the customer to choose on the template header. This allows the customer to create them in advance and tell us the CSS they want building for the website, or we (K3) add a new website design and name it which flows down to your system ready to set. This requires v1.5, feature enhancement, and 3.15.19 onwards.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Websites",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103216855552/original/Qlm9tdJS1QtZpQGbrP8677I1I4NfNZ6Seg.png?1747871908",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103216855553/original/eE6RcZNPdiRZj-fU1luSh1TOsKk-gYTcow.png?1747871908",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103216855563/original/on8wm8BB38f965gYA0V2OTZHx3sp9sH0SA.png?1747871932"
+    ],
+    "has_images": true,
+    "image_count": 3,
+    "created_at": "2025-05-22T01:00:27+01:00",
+    "updated_at": "2025-05-22T01:00:38+01:00",
+    "id": 103000354351,
+    "tags": []
+  },
+  {
+    "title": "Member Visit Restrictions",
+    "text": "Available in 3.19.16 New Visit Restrictions button that allowed you to set total number of visits per set of session types and the date ranges. When the membership card is scanned on the POS with the session selected it will perform checks. If they don’t have enough visits remaining it will prevent them from proceeding. Online with member validation in place it will do similar checks. Note that that we perform checks to ensure if a card has been used in the basket, we take that in to account to when checking the database. A web config prevents it from being used twice however if that is not set and cards can be used more than once, this will take it in to account.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Websites",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103220563868/original/ai8KiEEVBzQTccfCMjTtZ5FY-UY8_lVRKQ.png?1749048101",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103220565006/original/uVn_XDg7VK1F-Z36384nD6nlzCcx7VqR2Q.png?1749048216",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103220726152/original/T3QC9yJRuoe3IwQr6izSPTMg7QkH4EfMxQ.png?1749111813"
+    ],
+    "has_images": true,
+    "image_count": 3,
+    "created_at": "2025-06-04T15:45:02+01:00",
+    "updated_at": "2025-06-05T09:23:46+01:00",
+    "id": 103000355512,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.16 - Session Dependency Link (Online)",
+    "text": "To book session A you need book something in session B...C...D.... List of all active session types multi select. OR rule rather than AND. At the basket stage. If a session type has been chosen which has a link dependency set. Checks if another item in the basket linked to once of the sessions in the dependency. If yes, then pass and allow to continue without messaging. If fails > message that states they must purchase a X,Y,Z session type ticket. DO NOT ALLOW to continue. Within Session types. Choose the session type that needs to have something sold alongside. Last year they used “Santa 2024” and this year it will either be renamed or new ones setup. Click > “Dependency Link” Choose the session type that needs to be sold in order to buy the session type selected.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Websites",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103222910001/original/oiUandwuLZ9grfZOIot7px07xm43UtJZCA.png?1749762485",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103222910005/original/uYd5VzmgyQSZ1pNay1gVxYfMYnOvCjEH-w.png?1749762496"
+    ],
+    "has_images": true,
+    "image_count": 2,
+    "created_at": "2025-06-12T22:08:21+01:00",
+    "updated_at": "2025-06-12T22:08:22+01:00",
+    "id": 103000356229,
+    "tags": []
+  },
+  {
+    "title": "Android Stocktake Scanner apk v2",
+    "text": "Windows MTab program has been migrated to an android app with the same name. It exists as an APK file that can be installed on android devices. The application will use the same SQL procedures as the windows application and the way the device works will be identical. The screens will look a little different as they are android and not windows but the functions on screen and the way they work will remain the same. Knowing how to use the original device or following previous instructions will be enough. There are some nice little changes within the app. They are noted below. App icons using the K3 Logo. Login screen: Information tiles along the top to inform the user of the date/time and activity and status of the device. The ability to not show functions/activities that aren't going to be used by users. By unticking them, the choices will no longer appear on the main menu. I have chose to see only two in the list below. On the main screen there are now only two choices. The options to use external scanner is possible. It might be the device uses an internal or external scanner and won't be needing the camera to scan barcodes. By ticking this box. it will disable the camera screen from showing and auto focus on barcode box ready to accept what is being scanned by the scanner. Diagnostics menu is useful. It will show the version. When supporting the device it is important to know the version. It allows for testing connection to it's local database on the phone, the remote database it connects to and allows for showing logs. Logs will appear on screen. The app will log everything it does. It will show the SQL each time to make errors easier to diagnose. The user can then share them using the normal apps on the phone. As of version 1.2.2 onwards there is an archive function. It can be accessed via the diagnostics option on the main screen. Details look like: Restore will be grayed out if the device is current mid activity/function By clicking restore and confirming, the data will be back on the device as it was prior to upload. The contents can be seen, the data can be edited and resubmitted. This does not delete any of the previous submissions. Anything restored will be removed the achieve and be placed back with new information such as upload times etc. A useful tool for allowing users to reupload data alongside support deleting the data from the server if needed as part of a support issue. 06-01-2025- Feature enhancement - Version 1.3.0 A new feature has been added to allow replacing stock using the check stock function. A new button has been added to the bottom once an item has been scanned. Allowing replacing the stock quantities on items and updating them. This will add a zeroise prior and add the new quantity for the chosen location/s. This is the same as when performed from the back office. This feature can only be used online. It does not place data in to an inspection holding area. Changes made will be be done immediately and can be seen from within the stock audit as normal. This concludes the tweaks to the MTab application for stocking in MStore.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Apps and Services",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103150911014/original/I5WLcxOK4yl4iHlDDImwOwEc-gtEgQcYtA.jpg?1727688517",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103150912387/original/DBewQ5iRY9qtOtaiWX7n844RdS9i06lzqg.jpg?1727688640",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103150912934/original/vJfkLlW-HXoHNf67vzGF0NB6I7AFYwkGPw.jpg?1727688689",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103150913763/original/aN0Epnng-Yy3Dy6fKdhWT_Oct9pw2gaRBw.jpg?1727688755",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103150914162/original/qwd77LTgoqzENsuTnmDIcILDYHaWjb-OAA.jpg?1727688792",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103150918726/original/C2evW-qAhO1ZBrkkegNc2o7LeL3BKJjUlQ.jpg?1727689169",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103150914928/original/ulcn5B3uTbqtTB4WRHJbojL44fPhl391nA.jpg?1727688856",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103150916392/original/zcs-NYomyB8xpfuTrZYzKQOZJOvPjfJkaw.jpg?1727688968",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103150916735/original/-YBJRHptRwJJYYsdbSNSpviyCYkjvizUdg.jpg?1727689002",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103152520486/original/WawIOQYFuDP75r4DvzbM5terZB8TajIBjg.png?1728037647",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103152523092/original/cdFNPG6onyIsFyHQrG3aMUDRCN_Iunb5ow.png?1728037929",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103152553602/original/FnPaImJdhEniroogvhgOLU7y5R8cEgHeWw.png?1728041435",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103177600028/original/r4dCdxxDB2WSvwDymmoXvo7TPSrvGEx2Fg.png?1736195489",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103177600052/original/0kWzKdlv3S-WZVDk5aICTlESyVLMPfBQwA.png?1736195507",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103177600190/original/ioVo5eEUGhdXN_YB5qt6aaaa8Fh5ax10Jw.png?1736195589"
+    ],
+    "has_images": true,
+    "image_count": 15,
+    "created_at": "2024-09-30T10:40:18+01:00",
+    "updated_at": "2025-01-07T16:48:08+00:00",
+    "id": 103000314922,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.2 - Refresh Button on Booking Form",
+    "text": "Refresh button has been added to the booking form. If other users have been editing the booking, can refresh to see these details rather than closing and re-opening to see them.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103152528902/original/dYAJz8GWzRAcLMqo7vQMltikNKg2DYa0fQ.png?1728038544"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2024-10-04T11:43:03+01:00",
+    "updated_at": "2024-10-04T11:43:03+01:00",
+    "id": 103000315721,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.2 - Auto populate data in PO form.",
+    "text": "Our reference, delivery FAO and Notes have been extended to the delivery address section of the back office for sub departments. The data will populate if the chosen department has that data set. If it doesn't then will load the branch data for some and the rest will remain blank. It doesn't prevent the data from being overwritten.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103152530691/original/OQ12lwqfseqFt8AAzh7wu-xFL_AIV1aqjQ.png?1728038743",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103152531688/original/gFvw4U544xwtS_jjADcl4HzgA-qFY7ESGg.png?1728038856"
+    ],
+    "has_images": true,
+    "image_count": 2,
+    "created_at": "2024-10-04T11:48:45+01:00",
+    "updated_at": "2024-10-04T11:48:45+01:00",
+    "id": 103000315722,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.2 - Additional User Defined 4 for PLUs",
+    "text": "Extended the number of user defined fields to include a 4th. User defined 4 is multi select. Shows as below. Note: This functionality was created to allow users to make decisions onsite. It is not intended to appear on, or be a filter on any reports/exports.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103152533174/original/SmgFnfyIz5kvZFZMitFmI79iG7MmEkCzqg.png?1728039023",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103152534358/original/HvVWPpRoQl4KNZiG3Z6L36glLpNcIgpbuA.png?1728039157",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103152534653/original/wBQIEffKaAlUG-8zxVEKlwy3rZ8gyzcJHQ.png?1728039204"
+    ],
+    "has_images": true,
+    "image_count": 3,
+    "created_at": "2024-10-04T11:54:11+01:00",
+    "updated_at": "2024-10-04T11:54:12+01:00",
+    "id": 103000315724,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.2 - Stock bulk Entry - Additional fields",
+    "text": "Nominal Code 1 and Inherit Nominal Prefix from Department has been added as options to set on stock bulk entry form. Set on the PLU in the same way.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103152536270/original/-okpwufEvbR4o1svxxdzM5tb7HS3k98N7g.png?1728039398",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103152536823/original/J4XlowFRN_UyHgMOqndL6Zj9GsJQF6xAAA.png?1728039466"
+    ],
+    "has_images": true,
+    "image_count": 2,
+    "created_at": "2024-10-04T11:57:59+01:00",
+    "updated_at": "2024-10-04T11:57:59+01:00",
+    "id": 103000315726,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.2 Purchase Order - Undo Feature",
+    "text": "Once a purchase order has been saved in to the system. Future changes can have an undo. If changes are made to the purchase order for example stock lines have been received or the the order status changes then upon saving, the user can undo which will revert back to the changes and restore the PO to the point in time it was opened. If anything was received in to the stock the quantities will also be reversed out to reflect the stock no longer being received. If you close the form the ability to undo the saved changes since it was loaded is lost.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103154278422/original/zwaYewY4I8sZsq-x9VZK9Zvj-MWea-nx-A.png?1728564306",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103154280015/original/RCte4gubXg19ZvgY-NWY_oNAMGdQO8ikQg.png?1728564467"
+    ],
+    "has_images": true,
+    "image_count": 2,
+    "created_at": "2024-10-10T13:49:27+01:00",
+    "updated_at": "2024-10-10T14:09:19+01:00",
+    "id": 103000316357,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.4 - windows login feature",
+    "text": "New feature allows for inputting your windows login account. If this is populated it will bypass the username and password. It can only be linked to a single user account for obvious reasons. With this information populated it will not show a login box. If they want to login as a different user, once the screen has auto logged them in, click log out and it will allow entering different credentials.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103157570755/original/OPpcynrCa33vXq5ZSiRfPyv-85aHF4H3PQ.png?1729592074",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103157576507/original/2RsDAnYJmWhD3s4C3cfhnyHW8afoI-MwzA.png?1729592591"
+    ],
+    "has_images": true,
+    "image_count": 2,
+    "created_at": "2024-10-22T11:24:56+01:00",
+    "updated_at": "2024-10-22T11:24:59+01:00",
+    "id": 103000317923,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.4 - Auto Logoff (Back Office)",
+    "text": "Auto logoff for the back office can be set within system options > Security. Setting is defined in minutes. It will affect all users. If they remain inactive, it will log them off automatically. Note: Running reports are excluded from the timer checks. People run reports for long periods of time and leave them running. We don't want to disrupt that with this feature. It is not switched on by default.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103157581530/original/zBB8L5n1rnwcct7ulXbG-BzscQxiAefZoA.png?1729593107"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2024-10-22T11:37:08+01:00",
+    "updated_at": "2024-10-22T11:37:10+01:00",
+    "id": 103000317929,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.4 - Postage cost Matrix Form",
+    "text": "Existing postage table now now has an interface. Within stock maintenance > View > Postage. Can now create and change the prices, delete add new postage options.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103164020829/original/IQlJEGuJTF0QYetJogekcwxw134IQDgt2w.png?1731509538",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103164024941/original/bFv9sPe5c5fyzykHcMPSwlamExcTZY18Dg.png?1731509991"
+    ],
+    "has_images": true,
+    "image_count": 2,
+    "created_at": "2024-11-13T15:00:27+00:00",
+    "updated_at": "2024-11-13T15:00:30+00:00",
+    "id": 103000320516,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.4 - DD Renewal Transactions",
+    "text": "Description for till previously used purely for adjustments has been renamed. It has been renamed as it can do both adjustments and renewal transaction. Adjustment PLU already exists. If the PLU has gift aid then the adjustments will create records in the gift aid table. If set the system makes adjustments when payments are cancelled. Renewals PLU IF set will create transactions for the DD Member renewals. If blank it will work as it did before. Transactions are created for the renewals. Each transaction is linked to the account and will appear in the history.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103164026676/original/MUQDk4VzXQ-UIaVhS93zaxyZeTtBrR3O2g.png?1731510128",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103164028716/original/rg7XJlI7a9ykfMhipQPnMOcbQ5jn8PaFqA.png?1731510336"
+    ],
+    "has_images": true,
+    "image_count": 2,
+    "created_at": "2024-11-13T15:06:58+00:00",
+    "updated_at": "2024-11-13T15:07:03+00:00",
+    "id": 103000320517,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.6 - Diary screen changes",
+    "text": "Diary screen now has two new columns. One for booking reference and another for the value amount of the booking. Small enhancements to make life easier for customers.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103170198137/original/xv6t-2ZM_1SQmyKvjEW6bQQvhxueKyCV9A.png?1733314847"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2024-12-04T12:03:26+00:00",
+    "updated_at": "2024-12-04T12:20:58+00:00",
+    "id": 103000323146,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.6 - Configure .NET app for printing",
+    "text": "Configure till for using NET app for printing. 2. Copy KitchenPrint.exe into app folder (same as the till program, default: C:\\Program Files (x86)\\Merac\\ (Should be released with an upgrade). Inside folder C:\\ProgramData\\Merac\\KitchenPrint PMStore.exe creates a file for printing instructions and puts them into “InProgress” folder. After processing moved file into Processed or Errors. Also, all print action log into C:\\ProgramData\\Merac\\LogDebug.txt",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103177045227/original/jjsuToF_f73-ROlNEMYMIErC30LZLDyblg.png?1735911276",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103177045224/original/3glTpcXiHl_2GrYalyw14joA9jYiGmzSYA.png?1735911276",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103177045225/original/mOOpHM0f0n3npC7qrKLHbMToSVwC-nmOCQ.png?1735911276"
+    ],
+    "has_images": true,
+    "image_count": 3,
+    "created_at": "2025-01-03T13:41:48+00:00",
+    "updated_at": "2025-01-03T13:41:48+00:00",
+    "id": 103000327499,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.6 - Tethering Sessions",
+    "text": "Within Sessions/Tours a new button is available to create tethering sessions. Once open, create a group, link the sessions you need. The screenshot below does not show the times only the dates but it will show the times. When one is booked the others will be set to unavailable. Preventing bookings for the other sessions. If you cancel the booking and there are no other bookings on that session. Everything linked/tethered will be made available. If it finds there are still bookings it will NOT set them as available. Exclusive sessions still work with this feature as that prevents additional bookings on the current session booked.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103177049081/original/JeoAAnso7n_HeqQZDWODdrhro4Yg7EnZfg.png?1735911840",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103177049853/original/oHhQPAliOB23Dbq6nYC-Yzji-bDJcn9wJA.png?1735911937"
+    ],
+    "has_images": true,
+    "image_count": 2,
+    "created_at": "2025-01-03T13:50:52+00:00",
+    "updated_at": "2025-01-03T13:50:54+00:00",
+    "id": 103000327500,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.6 - Unique Voucher Restrictions set by template (Online Only)",
+    "text": "Unique Vouchers are allowed to be redeemed online to pay. Up until now, it has been treated like money and thus can be used to buy anything. It can now be restricted by template. Select the templates the voucher allows payments using. If not set the voucher can be used for everything. There are options for retail and adoptions as they do not use templates. Note: - It is known if a basket contains multiple types of ticket, it won’t handle every possibility. For example, Membership first, then and event, we store the membership page ID as such if they attempt to use an event voucher it will not allow and suggest try again/call. Importantly these exceptions will result in them needing to call rather than allowing the wrong vouchers. To use this feature the website will need to have the enhancement applied and the MOI upgraded to pull through new data and use it when applying new feature to existing website.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103177059842/original/WAm14sqhB6LIy7qcHT9smSPW6k2cd10dcQ.png?1735913358",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103177063775/original/ZfeuvCsqZGtwMeYRDS_c1AJ7y8rSvPZjvA.png?1735913853"
+    ],
+    "has_images": true,
+    "image_count": 2,
+    "created_at": "2025-01-03T14:19:55+00:00",
+    "updated_at": "2025-01-03T14:21:39+00:00",
+    "id": 103000327505,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.7 - Loyalty Points Additions",
+    "text": "Points have been added to the membership screen in the back office. Add new label to POS screen within the format file. Receipt condition for loyalty points shows for when members have points and not just when they pay with them.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103179069971/original/xZNJ5jAMLG_F3-oqf1uDll2zzwtH4cbNlw.png?1736515746",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103179070687/original/DH57d89w9ee0RvMxPjjuktenC75QbOM0ow.png?1736515835",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103179070502/original/1hoycTdG0oc2or3aEp564iQS3MwIenAdlQ.png?1736515809"
+    ],
+    "has_images": true,
+    "image_count": 3,
+    "created_at": "2025-01-10T13:31:30+00:00",
+    "updated_at": "2025-01-10T13:31:35+00:00",
+    "id": 103000328369,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.7 - Stocktake Additions",
+    "text": "When committing a stock take for each item that is discontinued but still counted it will check if they wish to continue. This shows for item it finds. New addition \"OK to All\" if selected it won't ask any further.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103179072385/original/M9lAPPD4RYuG72oxZS2-cgxaBXxO5Z2wMg.png?1736516019"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2025-01-10T13:34:52+00:00",
+    "updated_at": "2025-01-10T13:34:55+00:00",
+    "id": 103000328370,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.8 - Expire Live Cards",
+    "text": "New feature to expire live cards older than X days. These will be positive sales that link to a PLU that can be used to write off revenue. It is intended to be positive sales. VAT, Nominal codes etc can be configured for the PLU for till the same as any other item. New option in live cards config screen. Set the PLU to use for the expired sales to link to. Set the number of days from the date live card was activated (not last time used). Set till to use for sales to link to. Transactions will appear on tills screen. This is intended to run on a task setup in SQL. A Job will need creating within SQL traditionally nightly but doesn't have to be. MC_ExpireLiveCards is the SP needed with no parameters needed . \"Exec MC_ExpireLiveCards\"",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103182147083/original/177__rQIELcTnb4QRevRhZToZgprKLrOwQ.png?1737463873",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103182147481/original/A-G5vsR11COnjSOeXkPwZd7AYgRxYKyzNw.png?1737463921",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103182148442/original/0CJJ_Ca__5UGEQFwl9EyTi9ZeJU-5rCWow.png?1737463996"
+    ],
+    "has_images": true,
+    "image_count": 3,
+    "created_at": "2025-01-21T13:00:59+00:00",
+    "updated_at": "2025-01-21T13:06:50+00:00",
+    "id": 103000330258,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.8 - Prefix for Account Number",
+    "text": "New system option for setting a prefix for account number on account. It will add the prefix here. This will be any place a customer is created.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103182155742/original/DPICUVcRjGDFAO-eYI8nUsCO8dshyHUU1A.png?1737464663",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103182156522/original/nkNY2lMOM3zuk_vdt8n71yTC-SjUf1HMPg.png?1737464723"
+    ],
+    "has_images": true,
+    "image_count": 2,
+    "created_at": "2025-01-21T13:06:14+00:00",
+    "updated_at": "2025-01-21T13:06:16+00:00",
+    "id": 103000330260,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.8 - New Security Option",
+    "text": "New security option to prevent changing the parent department on a sub department. This can cause issues with forecasting and reporting as historic sales will now point to a new department.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103182159028/original/558tsDWEzywuX8WqvFF5A4fTATwW6E5eEA.png?1737464971"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2025-01-21T13:10:46+00:00",
+    "updated_at": "2025-01-21T13:10:48+00:00",
+    "id": 103000330262,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.9 - POS Pound Round Up",
+    "text": "New feature to round UP to the nearest £. A PLU will be set. A new command will be added that can be added to a button. “Basket Round Up” When pressed, the total transactional value will be rounded, and the difference be used to sell a PLU set in system for that value automatically. Transaction value = £36.57 Adds new PLU set in system options to the basket with the value of 43p. Each time button is pressed it will recalculate it. Just in case other items are added after the button has already been pressed.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103187660849/original/X9KR-DcJK-2__3eSDGqkiUSoKDaSbCc_GQ.png?1738919909",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103187874853/original/5_q4GA5cqP14gaGH5BtuR38JD23EXr7GZA.png?1738942603",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103187874706/original/dZY5103r1FqvSyhzliDzgYH31XypJ7USsw.png?1738942585"
+    ],
+    "has_images": true,
+    "image_count": 3,
+    "created_at": "2025-02-07T09:19:27+00:00",
+    "updated_at": "2025-02-07T15:37:10+00:00",
+    "id": 103000333940,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.10 - New Security Group “Allow changing Account Suspended”.",
+    "text": "New security option to stop users from modifying the account suspended flag on member accounts. If they don't have permissions it won't allow changing. By default the security group will be set to allow for everyone as it would be prior to this enhancement.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103193311989/original/zVmphZMCh-NLfIKyquJN-39KbkLJCEi0WQ.png?1740570084",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103193312949/original/l2khdvlor5cx094R8W3qbeu-5tzbcj91SA.png?1740570162"
+    ],
+    "has_images": true,
+    "image_count": 2,
+    "created_at": "2025-02-26T11:44:07+00:00",
+    "updated_at": "2025-02-26T11:44:20+00:00",
+    "id": 103000337067,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.10 - Stock Import Enhanced for Locations and Quantities",
+    "text": "Enhancement to allow setting a stock location and quantity as part of the stock import. If the location description matches the stock location it will create an opening record with the stock location.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103193314850/original/FU1RB8-wOdRU1tLv8OvkkzTaXCak3XOEhg.png?1740570362",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103193315603/original/ijOj2qb9j92RivsI4kKOmEpuKXSgs1JGdg.png?1740570428"
+    ],
+    "has_images": true,
+    "image_count": 2,
+    "created_at": "2025-02-26T11:48:06+00:00",
+    "updated_at": "2025-02-26T11:48:37+00:00",
+    "id": 103000337069,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.10 - Stock Movements - Export to Excel",
+    "text": "New enhancement to allow exporting the movements seen on screen to Excel.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103193317464/original/5Rdr1OnW9f4wp_aVrzh_3YqGZmPtQrHd-g.png?1740570612",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103193317819/original/leuB8n5MJiQM6-EAiSVqxxTAmCRPfOa2Rg.png?1740570651"
+    ],
+    "has_images": true,
+    "image_count": 2,
+    "created_at": "2025-02-26T11:51:01+00:00",
+    "updated_at": "2025-02-26T11:51:33+00:00",
+    "id": 103000337070,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.10 - PO Change to round to 4 decimal places",
+    "text": "Purchase order has been amended to be 4 decimal places. This allows for better rounding.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103193318992/original/kl_yDFoZZOQlbboLeu1589vGD5JDVTB_BQ.png?1740570791"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2025-02-26T11:54:23+00:00",
+    "updated_at": "2025-02-26T11:54:24+00:00",
+    "id": 103000337071,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.11 - Digitickets Integration (POS Member Scans)",
+    "text": "Affiliates PLUS has been enhanced to query Memberships with Digitickets. Code = DIGITICKET Name = DIGITICKET PROXY CARD # = Membership card number that will trigger the membership lookup. Username = Username Password = Password Start (from) = Anything current or in the past Expire (until) = Future date. Make it long in to the future. New Membership type is setup. If a promotion is to trigger if validation is successful. Entry PLU will be the PLU added to the basket if validation is successful and the till is set to record membership entries. Membership is created. Member card number will be the chosen one set on the affiliates setup. Affiliates code is entered in the system option that enables the functionality. Details of the member will display at the bottom left corner as normal. This information is retrieved from Digitickets. Any discount set on the Affiliates membership type setup above will trigger. Memberships will be recorded in the database under the affiliates member. No personal member data will be stored in the MStore database. Reports do not reflect this data. It will be exported via ad hoc procedure or custom report. Date/Times, transaction numbers, card numbers and response descriptions are stored in the affiliateactivity table. Latest Affiliates is required for this functionality. Affiliates \"PLUS\" is similar to Affiliates however there is no need to press a button to trigger a form, then scan cards then process them via another button click. This integration allows scanning cards in the same way they do if they were stored in MStore. New forms can be used to remove merge fields that won't be retrieved from Digitickets. RHS D365 and Digitickets are the only integrations that allow \"PLUS\".",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103201077877/original/KoDS1V4hZ1pz72IhfDt4itrcN0adwSWbow.png?1742844096",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103201078153/original/7rJpEPWiqZxLPZNzIyiF_Mo1yeIWBiQ04Q.png?1742844293",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103201078312/original/3uBHJv1Q1g3t67nA18F-gBaB_KLuO7CR-w.png?1742844405",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103201078439/original/uyvmrufpARigDVkcEC6Kq5k9e3mPHzh-Cg.png?1742844477",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103201078586/original/IxVlR4Fp6tbJ8mv9urZ_BT920JY-OXq8iA.png?1742844553",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103201078925/original/WFonB0rKicUam00p4HDDIIbLEGV2C13WKA.png?1742844771",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103201079116/original/GgyGxkkYzsf9TF31TqNKR-uQMExQdvZ_Kw.png?1742844895"
+    ],
+    "has_images": true,
+    "image_count": 7,
+    "created_at": "2025-03-24T14:51:41+00:00",
+    "updated_at": "2025-03-24T19:38:19+00:00",
+    "id": 103000341298,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.11 - Donation Vouchers fixed cap £30",
+    "text": "Donation voucher feature has been extended to cap at an amount set in the system. This supports changes in the HMRC where by the maximum benefit either can't exceed £30 or the amount of benefit is smaller above £30. Voucher max amount has been added in the system options. The total amount will not exceed the value entered. A transaction value of £1000 would still generate a £30 voucher. Example 1: Example 2:",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103201079840/original/o9hrK8ArqQ0JGZReKsUOJcVBJwcgpijykA.png?1742845295",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103201080115/original/015CXJ6lx5BA1hl0zKUpwQY0_8KZiWfpmA.png?1742845454",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103201080135/original/tYu2o6OowPtw7Zuq9VWQGD24N9jHWhEhrg.png?1742845472"
+    ],
+    "has_images": true,
+    "image_count": 3,
+    "created_at": "2025-03-24T14:52:20+00:00",
+    "updated_at": "2025-03-24T19:44:43+00:00",
+    "id": 103000341301,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.11 - Memberships to allow 3 discounts.",
+    "text": "Membership Schemes will now allow up to 3 membership types. The POS will step through each of the promotions in order. If an item receives a discount by the first promotion it will not trigger any further discount even if they would be discounted by promotion 2 and 3. Any items not discounts by promotion 1 could be promoted by promotions 2 and 3. An item that triggers a discount will be exempt from further promotions in the list.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103201080590/original/TUFHwLtqMLwFd4MSF18sKjLs6lq5fwbRyQ.png?1742845731"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2025-03-24T14:55:52+00:00",
+    "updated_at": "2025-03-24T19:51:18+00:00",
+    "id": 103000341304,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.11 - Membership Enhanced for uses per day",
+    "text": "Members type promotions have been extended to only allow the promotions to work x times a day. Once this has been met, the discount will no longer apply. If linked to a membership type with more than one promotions. It may be discounted promotions 2 and 3 instead.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103201081105/original/5I9cB9rcH6Jp84gHfR0Mi5uIgVNT8OKcDw.png?1742846012"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2025-03-24T14:56:23+00:00",
+    "updated_at": "2025-03-24T19:54:50+00:00",
+    "id": 103000341305,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.11 - DD Scheme visible on main form",
+    "text": "New label on General member tab to state if a member is a DD Member. YES/NO. If DD's are setup as \"Any\" and permissions restrict the Direct Debit tab. It is hard to know if a member pays by direct debit. This will help those customers know they pay by DD without needing to give wider access to the system.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103201077001/original/t94EC0Yspb4_Lipq5ZPVzO4sp0Go4ArpJQ.png?1742843568"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2025-03-24T14:58:44+00:00",
+    "updated_at": "2025-03-24T19:19:24+00:00",
+    "id": 103000341307,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.11 - DD Scheme Wizard Enhancements",
+    "text": "The DD Scheme is greyed out if the memberships have one set and isn’t configured to be “Any”. Messaging now appears when attempting to cross sell direct debits. You won’t be able to mix DD Schemes when signing up. Nor add DD and Non-DD Memberships. *If the membership type is set to Any then it is ignored from checks and continues as normal.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103202284791/original/mWGZNZQIA2RCXIXLIYNWKG8mHJouVdMRBA.png?1743116290",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103202284789/original/Pqk5ifEm_Nk4zYRIR40DuLINlesP0yna7A.png?1743116290"
+    ],
+    "has_images": true,
+    "image_count": 2,
+    "created_at": "2025-03-27T22:58:47+00:00",
+    "updated_at": "2025-03-27T22:58:51+00:00",
+    "id": 103000342374,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.13 - Suppress Past Session Prompt",
+    "text": "Within till configuration there is a new option for \"Suppress Past Session Prompt\" By ticking this the prompt below will no longer appear when in timelines view.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103209673526/original/59uEGd8Jkh8loLZCCJr-RxhEUekQv6neRA.png?1745519037",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103209673770/original/DExDgElKTcFVPnWgrHaNQTc-22ITw0QwUQ.png?1745519118"
+    ],
+    "has_images": true,
+    "image_count": 2,
+    "created_at": "2025-04-24T19:25:37+01:00",
+    "updated_at": "2025-04-24T19:26:18+01:00",
+    "id": 103000348274,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.13 - Add/Subtract Member Points in Back Office",
+    "text": "New system option is available for allow adding and subtracting loyalty points in the back office. If users don't have permissions the button will be greyed out. There will be a pop up to confirm. You wont be able to subtract more points than they have.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103209673937/original/URzrw3PZEYOavpEYApRk-p00EhaIN1b3mw.png?1745519256",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103209674104/original/7XgCiOw3eduJ_3QpXTkUbiHMHpcxKj69Nw.png?1745519375",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103209674160/original/fXSEnVGnMlElnJ-Hkd98xCV3Vv4yiEMhjw.png?1745519417",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103209674215/original/XaCF7xE6FwbM4uNMY93r7wgGxIO-QA0qiA.png?1745519440"
+    ],
+    "has_images": true,
+    "image_count": 4,
+    "created_at": "2025-04-24T19:31:29+01:00",
+    "updated_at": "2025-04-24T19:31:31+01:00",
+    "id": 103000348275,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.13 - Reporting Groups",
+    "text": "New security group is required to be on to allow users to configure the reporting groups in MStore. New icon will be available for reporting category groups. Create as many reporting groups as you want. Max description length and code is the same as it is for lookups in the system. New option for Max selected items. The will police the number allowed to be selected when choosing from that group. Like with existing lookup groups double click the group and it will allow configuring the items in the group. Within a PLU you will see reporting groups. It will give a summary overview via the box however to better see what is selected or make changes click the glasses. Select by using space bar or right click to toggle options on and off. Rules will prohibit selecting more than the max report items in the selection for that group. SQL Database table structure: Groups and Items PLU **It is not intended to update any MStore reports with this data as it would be impossible to have a multi select option based on headings as part of crystal reports. This feature is useful for external applications such as Power BI, exports into excel or data extracts to model data in place. Rather than relying on multiple user defined options which aren't policed. **",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103209674449/original/JkEB1IcyX2XcRL4Oa9MKH-5ntVD_CyuzWg.png?1745519636",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103209674525/original/olvPuuhVx3OOfF7BNifSm4KwlSyNbBbBMQ.png?1745519682",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103209674569/original/Jj1Hr_0kpXEHg5Oy4EyRp3-LYeLR_HkL2A.png?1745519707",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103209674708/original/YMuqi7MRK87LynDA-AJxyf49L0JP0yIfbA.png?1745519792",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103209674855/original/UdyJqSLQQy92aoRWb4aCqW2IwQKsuwC6Bg.png?1745519852",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103209674900/original/8ircqYI3xghFzxP3nesDhpZjvfLk7CB8TA.png?1745519909",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103209674940/original/dPGWI5a3SjWBrew819jPOHPZZ_7wpQZ0Rg.png?1745519938",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103209676857/original/C1dBba8_D-C9t6rPvPXjnxJj_W7gf0Vh7g.jpeg?1745521457",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103209676887/original/DtksLpMUk-48l6U7mEAqs1CB8tTeF6ZgSQ.jpeg?1745521483"
+    ],
+    "has_images": true,
+    "image_count": 9,
+    "created_at": "2025-04-24T19:41:18+01:00",
+    "updated_at": "2025-06-12T17:27:35+01:00",
+    "id": 103000348276,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.13 - Bookings Audit Screen",
+    "text": "Within booking screen there is now a history tab. You can see from the screenshot below the items we are auditing. “DELETE BOOKING:” means someone has deleted something from the booking. In final release the IDs have been changed from IDs to be the words of those items. See screenshot.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103209793254/original/M2WXX8udaEaxxXu6gpX9kUPKFst6HXnNig.png?1745571707"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2025-04-24T19:46:53+01:00",
+    "updated_at": "2025-04-25T10:02:14+01:00",
+    "id": 103000348277,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.13 - Session Images Filter",
+    "text": "There is a new template filter. Filters only work on sessions. The new filter is called “Session Images”. This will activate a new sessionsFIP page. This would need to be built in a customer website along with the ability to add images to session types. If filter is not set, it will load a normal sessions page. The website will detect this filter and change the page by itself. For full details please refer to the article: https://support.k3btg.com/en/support/solutions/articles/103000348278-filter-images",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103209676353/original/Gr77K0XtdO63052VTumXaGrZr9j8bHPdKA.png?1745521122"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2025-04-24T19:59:28+01:00",
+    "updated_at": "2025-04-24T20:03:03+01:00",
+    "id": 103000348279,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.15 - Add Roadmap button",
+    "text": "BOS: Add \"RoadMap\" button to Help > About. Links to URL: https://support.k3btg.com/en/support/solutions/articles/103000349101-mstore-product-roadmap",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103216855048/original/IPOIOujX97vkMJyFr7F3De4wz6XH0Fe2hg.png?1747870431"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2025-05-22T00:34:08+01:00",
+    "updated_at": "2025-05-22T00:34:20+01:00",
+    "id": 103000354347,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.15 - Add Internet price to grid",
+    "text": "Added internet price to pricing history grid. No longer need to click each of the prices to see what the price is online.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103216855101/original/Fn50NlOTvOnTc3dufaZ8GI-UPXY1-gZioA.png?1747870642"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2025-05-22T00:38:07+01:00",
+    "updated_at": "2025-05-22T00:38:09+01:00",
+    "id": 103000354348,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.16 - Group PLU Tick box allow when in Deposit Mode",
+    "text": "If internet redemption mode is set to anything except deposit. Functionality will be disabled.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103222908197/original/w5BNvRexjF3FnCS05n4TFEI5LuVjAjtQdA.png?1749760899",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103222908419/original/DAm_ryCV0mKGZO9lD1kH0Ss3_IoFmHjJCg.png?1749761028"
+    ],
+    "has_images": true,
+    "image_count": 2,
+    "created_at": "2025-06-12T21:43:51+01:00",
+    "updated_at": "2025-06-12T21:43:53+01:00",
+    "id": 103000356223,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.16 - Booking Templates - Add Template ID to the grid",
+    "text": "To make life easier for customers and support. The template ID is displayed along the left. It is still ordered alphabetically as it did before.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103222908498/original/p6paDN8czZzzAGYuAs_7zvuk1Mk1GFcI_Q.png?1749761116"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2025-06-12T21:45:17+01:00",
+    "updated_at": "2025-06-12T21:45:21+01:00",
+    "id": 103000356224,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.16 - Min and Max stock per Location",
+    "text": "Stock items can now have min and max stock levels per stock location. If there is nothing set it will default to any set on the stock record. No functionality will change if customers choose to not use this functionality. In purchase order entry it will use these new numbers if choosing a stock location when adding stock or auto populating list. If a stock location is not chosen it will default to the original numbers on the stock record. Like normal if there is non set at all it won't suggest stock quantities to order. * This enhancement was intended to be used by the purchase order screen. It was not intended to be extended to reports for ordering stock levels at this time.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103222908551/original/oJ9XK0EO5omXYYmYpLbrxJcoRdg1XCPqAA.png?1749761176",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103222908636/original/AOu2c08yefpfMCxRIB5Q77KkMh_X6JNKAA.png?1749761236",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103222908737/original/_KLZ56Wr5VT3DxyacsL3f7C2oO2f0WWa7w.png?1749761316"
+    ],
+    "has_images": true,
+    "image_count": 3,
+    "created_at": "2025-06-12T21:51:51+01:00",
+    "updated_at": "2025-06-12T21:51:53+01:00",
+    "id": 103000356225,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.16 - Disallow PLU from Promotions",
+    "text": "New option on a PLU to disallow from a promotion triggering on it. If a promotion has it included to be discounted but this is ticked, it will not discount. Example using coupon based promotion. Member promotion that discounted one item. Did not discount the item which isn't allowed to be discounted.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103222909138/original/k-y2ptKGI3ug_MAmG6mdW7MDeVpiIq1-nw.png?1749761651",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103222909271/original/JiK5oqBKumwOB5cQvFfKPtDkyIHbWGQ6Yg.png?1749761779",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103222909343/original/BNPlG64O8zVu7-GBok6VwxuWtR06ejU2Pg.png?1749761838",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103222909378/original/z8YXMklgVwGhFp0k2sUZZZLBdpEoRWcHRw.png?1749761863"
+    ],
+    "has_images": true,
+    "image_count": 4,
+    "created_at": "2025-06-12T21:58:06+01:00",
+    "updated_at": "2025-06-12T21:58:07+01:00",
+    "id": 103000356226,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.16 - Dynamic email content",
+    "text": "New button to add content per resource. The data can contain HTML to cater for bold, different colours and images if needed. Example below where we have added fixed text for “Test Dynamic email content” in the same way you might add text for “Important Information below”. We have added random text which in this instance is the descriptions of the resources the data came from. There is a new merge field. With this in place any content it finds within the dynamic text will display. Any text it finds per resource will be separate by a line break, so it doesn’t form a continuous paragraph. It will distinct the data entered for all the bookable resource data it finds to remove duplicates. This allows for email content to be driven by the items booked online. ** > Feature will need adding to the website for this to work.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103222909559/original/x6NVXyi8OLvZC2TKPlDwZK2hU3e1X9siKg.png?1749762045",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103222909615/original/M36fl9sp0I8Ksq6Mbt-wXyOymfRdu_IHnA.png?1749762078"
+    ],
+    "has_images": true,
+    "image_count": 2,
+    "created_at": "2025-06-12T22:01:57+01:00",
+    "updated_at": "2025-06-12T22:02:00+01:00",
+    "id": 103000356227,
+    "tags": []
+  },
+  {
+    "title": "Version 3.19.16 - Member validation restrictions when booking + Walk-ups",
+    "text": "New Visit Restrictions button that allowed you to set total number of visits per set of session types and the date ranges. When the membership card is scanned on the POS with the session selected it will perform checks. If they don’t have enough visits remaining it will prevent them from proceeding. Online with member validation in place it will do similar checks. Note that that we do perform checks to ensure if a card has been used in the basket, we take that in to account to when checking your database. I know you will prevent that because of the optional config online but if you ever allowed it then it would stop over booking from the allowance. Website update will be required to use this feature.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Release Note Specific",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103222909782/original/yfnx-fgDR2VTPoqna2gmYfAua5VdBN2pdg.png?1749762227",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103222909800/original/srcYtHhmw3BA7ELZ3fU5fTE9J70E-yNYgA.png?1749762246",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103222909822/original/qEAB7AG5Thh0z5d2TDFf-eOZwRtRNPsy6w.png?1749762269"
+    ],
+    "has_images": true,
+    "image_count": 3,
+    "created_at": "2025-06-12T22:04:44+01:00",
+    "updated_at": "2025-06-12T22:05:15+01:00",
+    "id": 103000356228,
+    "tags": []
+  },
+  {
+    "title": "MeracLocalCRMService",
+    "text": "New setting has been created in the latest release that allows control over the heartbeat monitor for the service. Rather than checking every second if it is time to run, it can be configured to only check every X number of seconds. This setting is to prevent setups that cause strain on customers servers. Checking every hour seems more reasonable and also prevents silly configuration such as run every 5 minutes. It will only run when this heart beat checks.",
+    "category": "INTERNAL MStore Product Information",
+    "subcategory": "Integrations",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103153085554/original/y1D0hJC-Gs9mbo3Tl-raTDBjSwfsQljrKA.png?1728304048"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2024-10-07T13:28:57+01:00",
+    "updated_at": "2024-10-07T13:28:58+01:00",
+    "id": 103000315848,
+    "tags": []
+  }
+]

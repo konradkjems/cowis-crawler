@@ -1,0 +1,286 @@
+[
+  {
+    "title": "No healthy upstream message",
+    "text": "In case you experience that there is a message (no healthy upstream) on the screen as shown below when you login to the Imagine POS. The solution to such problem is to press CTRL+F5 buttons at the same time on the keyboard. It generates a hard refresh and the page is loaded. POS display appears again and should work normally.",
+    "category": "Imagine FAQs",
+    "subcategory": "POS",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103041311119/original/VAWvG3HuBu-ujuxa-3sbwuvlIj_mK_3HrQ.png?1691477112"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2023-08-08T07:50:05+01:00",
+    "updated_at": "2023-08-08T07:50:06+01:00",
+    "id": 103000181807,
+    "tags": []
+  },
+  {
+    "title": "Payment Types - change/remove",
+    "text": "Log into the portal with administrator rights Backoffice Payment Types Tick/untick the desired payment types Save.",
+    "category": "Imagine FAQs",
+    "subcategory": "POS",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103041869625/original/1xtFUWbNDFqtEmllmCwzp6LeLR0QRmXTQQ.png?1691660896"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2023-08-10T10:49:08+01:00",
+    "updated_at": "2023-08-10T10:49:10+01:00",
+    "id": 103000184321,
+    "tags": []
+  },
+  {
+    "title": "Payment is not working",
+    "text": "Try hard reset, open the Chrome Dev Tools by pressing Ctrl+Shift+I Once the chrome dev tools are open, just right click on the refresh button and a menu will drop down. This menu gives you the option of doing a empty cache and hard reset",
+    "category": "Imagine FAQs",
+    "subcategory": "POS",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103041871205/original/6ob72pT_M0cGy5-uOQ2u4yFmCR7mbIQm8w.png?1691661106",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103041872199/original/8Bu_j0P1VedStv1tQR3wvP2d13bPeheHEA.png?1691661279"
+    ],
+    "has_images": true,
+    "image_count": 2,
+    "created_at": "2023-08-10T10:54:52+01:00",
+    "updated_at": "2023-08-10T10:54:54+01:00",
+    "id": 103000184339,
+    "tags": []
+  },
+  {
+    "title": "No response from card terminal",
+    "text": "If someone experiences that the card terminal gives no response when making the transaction, normally a restart to the Imagine connector is suggested first. If you observe that the restart to the connector also did not resolve the problem then look into display screen of the card terminal if ECR is green. In such cases, when ECR is green and the terminal is non-responsive then the best solution is to unplug the cable from card terminal, wait for 15 seconds and then plug it again. You will hear a beep sound, wait for the terminal to complete the restart. The screenshot is shared below. After the card terminal is online again, you will notice that the card terminal is functional now. Try with a test transaction and the active response from card terminal will be observed.",
+    "category": "Imagine FAQs",
+    "subcategory": "POS",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103058361540/original/-wSEUMFsfBOTcxJW88apjQ5esY0ykbk0TA.png?1697724600"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2023-10-19T15:17:28+01:00",
+    "updated_at": "2024-05-14T09:15:04+01:00",
+    "id": 103000246982,
+    "tags": []
+  },
+  {
+    "title": "Cash drawer is not functional in Imagine",
+    "text": "If you experience that when a transaction is made in Imagine POS,the receipt comes out of the receipt printer but the cash drawer does not open. The cash drawer also does not open even when yo click it on the Åbn Skuffen in Imagine. Please note that the cash drawer is connected to the receipt printer via a network cable. The solution in this case is to take that network cable out from the receipt printer and then click on Åbn Skuffen (screenshot shared below) and insert the cable again into the receipt printer. Now check with a test transaction and the cash drawer should open and work normally.",
+    "category": "Imagine FAQs",
+    "subcategory": "POS",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103064399731/original/_iogblO6fa36DIPlS1x_s8F-MJUczQnSRA.png?1699968296",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103064400986/original/liOUY2PNnGPkQUW9nLasnIGHNlHiFrnOtw.png?1699968457"
+    ],
+    "has_images": true,
+    "image_count": 2,
+    "created_at": "2023-11-14T13:29:31+00:00",
+    "updated_at": "2023-11-14T13:29:31+00:00",
+    "id": 103000255238,
+    "tags": []
+  },
+  {
+    "title": "Card payment not going through (reconciliation)",
+    "text": "If you are having issues doing transactions via card terminal, it might be necessary to do a reconciliation. You might even be prompted to do so. Press the button with 3 dots at the top right of your imagine POS screen, this will open another column menu In the next menu press \"Card Terminal actions\" You will be taken to the last menu When here, click \"\"Reconciliation\". Your card terminal will start its Reconciliation. After a short while a receipt should be printed and the card terminal is ready for use again.",
+    "category": "Imagine FAQs",
+    "subcategory": "POS",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103082194748/original/fOu8DYEb-hyOT__tcVyiCTDA4YBUdkjjlQ.png?1706100384",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103082194983/original/WjCugFe4WXMcVlcvTSQSoVmlxBzBmGyrwQ.png?1706100407",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103082195165/original/r5MoIhF4LdY09MnNjxL11ny6l69IkEwGLQ.png?1706100437"
+    ],
+    "has_images": true,
+    "image_count": 3,
+    "created_at": "2024-01-19T09:29:07+00:00",
+    "updated_at": "2024-01-24T13:26:32+00:00",
+    "id": 103000269983,
+    "tags": []
+  },
+  {
+    "title": "Customer search function on POS is not working.",
+    "text": "The search option for customers in Imagine normally works when a clerk sign in into the POS. If a store experience that the customer search option is not working and keeps loading/searching as shown in the screenshot. It means that the store should contact TRIMIT which is a third party between the store and K3. TRIMIT are the one who is responsible for maintining customer directory and the store should contact them at the first instant. The customer must have contact information for TRIMIT Support.",
+    "category": "Imagine FAQs",
+    "subcategory": "POS",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103084173492/original/B188Tsl-N4GuGt-H2ZCmC9GpTyJ-PV16Dw.png?1706715213"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2024-01-31T15:35:18+00:00",
+    "updated_at": "2024-02-01T11:49:31+00:00",
+    "id": 103000272569,
+    "tags": []
+  },
+  {
+    "title": "Setup card terminal (NETS)DK (Imagine)",
+    "text": "When setting up the card terminal, only a few settings need to be changed 1. communication type must be set to Ethernet 2.ECR must be enabled(Yes) 3. The ECR IP address must match the IP address written on the startup receipt from the Imagine Connector. Restart the connector to get a new startup receipt. In addition, it is important to make sure NOT to change the card terminal's own IP address. It is also important not to touch the HOST IP address, as you will not be able to connect to NETS if it has been tampered with. In case this happens, you must call NETS to get the HOST IP address (At the moment the HOST IP address is: 91.102.24.142) The paths to the different settings are described below: Before each of these steps, swipe the merchant card, typically found on the underside of the card terminal 1. Set communication type to Etherenet: 6-1-2, \"comm. type\" Press the green button to change the field if it is not set to Ethernet. Use the up or down arrow to select Ethernet. Press the green button to confirm. Then press the red button a few times to return to the main menu. The terminal will now reboot and change the communication type to Ethernet.' Note that the communication type must also be changed under \"ECR\" 6-1-3-pil ned, \"comm. type\", press the green button if it is set to \"USB slave\", arrow up or down until you hit \"IP Ethernet\", press the green button to confirm, then press the red button a few times until you are in the main menu, the card terminal will now reboot and the communication type is set to IP Ethernet 2. ECR enabled (set to yes) 6-1-3, If ECR is not set to \"Yes\", press the green button, arrow up and then green button again to confirm. Once the change is made, press the red button a few times until you reach the main menu. The card terminal will now restart and have ECR set to yes. 3. Set ECR IP address: In order for the Card Terminal to communicate with the Imagine connector, the Card Terminal's ECR IP address must match the Imagine connector's IP address. 6-1-3, arrow down until you hit ECR IP Address. Press the green button to type in the field. Yellow to delete, green to move on to the next field. Once the ECR IP Address is entered, press the green button to confirm, then the red button until you reach the main menu, the card terminal will now restart with the new ECR IP address.",
+    "category": "Imagine FAQs",
+    "subcategory": "POS",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [],
+    "has_images": false,
+    "image_count": 0,
+    "created_at": "2024-02-06T10:37:44+00:00",
+    "updated_at": "2024-08-20T13:13:54+01:00",
+    "id": 103000273463,
+    "tags": []
+  },
+  {
+    "title": "Release notes subscription by E-mail-Imagine",
+    "text": "Release notes are published in order to improve the quality of the product and keep the user informed what changes have been made to product in recent time. In Imagine,release notes are published at regular intervals and the customer has the opportunity for subscription in order to get information about release notes by email or other medium. On Imagine portal,you can click on the status buttons and it will redirect you to a new page where you can click on GET UPDATES and then enter the desired email in case if you want to get updates by email as shown. Finally click on subscribe.",
+    "category": "Imagine FAQs",
+    "subcategory": "POS",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103088283736/original/wz-v6fWqgdyl3QMn_6glwihiLvT1r-Jjtg.png?1707999648",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103088283938/original/kYHLIh3bj2YrcYi1WP1X_0WQ-PkpLAxNjg.png?1707999675",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103088285086/original/cgMK5Y6VUzDmXa6uje2C9Fv_bFoiUpacAw.png?1707999795"
+    ],
+    "has_images": true,
+    "image_count": 3,
+    "created_at": "2024-02-14T11:37:21+00:00",
+    "updated_at": "2024-03-04T09:49:50+00:00",
+    "id": 103000275760,
+    "tags": []
+  },
+  {
+    "title": "Copy/paste in imagine",
+    "text": "If youre having trouble pasting in a barcode/product name etc. anywhere in the imagine POS, its most likely because you havent given the imagine site access to the clipboard. First time, the browser should ask for your permission, like shown below. ' In case the browser has already been denied access, you will have to find the clipboard option and toggle it to allow sharing of the clipboard.",
+    "category": "Imagine FAQs",
+    "subcategory": "POS",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103120302293/original/-v6mBuZbHrNGMaWVtBhH1rz6Tb44_-24Mw.png?1718005098",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103120302435/original/oRSFs42wH_gX4fa_tewhMv_MbdYbXG46tg.png?1718005113",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103120302601/original/h_daYgQBAg8NyG2_2J_gcxlOsC2_F3D4uw.png?1718005131"
+    ],
+    "has_images": true,
+    "image_count": 3,
+    "created_at": "2024-06-10T08:39:04+01:00",
+    "updated_at": "2024-06-10T08:39:04+01:00",
+    "id": 103000296138,
+    "tags": []
+  },
+  {
+    "title": "Adding Age Verification to Items",
+    "text": "Some items sold may require the Cashier to verify the age of the customer. Imagine allows you to add prompts to items that will remind the cashier to verify the age of the customer purchasing any corresponding items. To add age verification to an item you'll first need to create a corresponding Custom Attribute and then an \"Item Info\" prompt linked to the previously created Custom Attribute. Create Custom Attribute To create a custom attribute navigate to Inventory > Custom Attribute and click the \"Create New\" button. On the following screen add details as follows: (Note that the Code and Name can be changed to whatever you require but the Data Type must be \"Yes/No\" and required must be unchecked to avoid the Attribute being applied to all new items.) Create Item Info Prompt Next you'll need to create a corresponding Item Info prompt. To do this navigate to Back Office > Item Info and click the \"Add Item Info\" button: On the following screen you'll need to fill in the following details: Description - Description of the Item Info record being created. Info Type - The type of information for any created Item Info, which can be either Info or Question. Prompt Every - Shows the selected prompt frequency for any created Item info on the POS, which can be Line or Transaction. Transaction: The message or question should only be presented once during a transaction when the same item is scanned. For example, if I purchase three identical items, I would prefer the clerk to verify age only once, rather than repeating the suggestion three times. Line: The message or question should be displayed every time an item is scanned. This is necessary because we may need to collect information or send a message about each item line, such as in the case of a sale of a pair of shoes where we need to confirm a matching pair. Remember to click \"Save\" when finished or \"Back\" to cancel any changes. Display Text - This is the prompt/message text which will be displayed on the POS. Custom Item Attribute - The drop-down menu allows selecting the Custom Item Attributes that will activate the Item Info prompt at the POS. Please note that only Yes/No type Custom Attributes will appear in the drop-down list as they are the ones that link the item to the Item Info. Question Choices - This field will only be displayed when the Info Type is set to Question. Here, the user can enter the options that the clerk can choose from, such as \"Yes,\" \"No,\" or \"Maybe.\" Each choice should be saved by hitting Enter between them. All other required fields should be completed as needed. Linking an Item Info Prompt to an Item After creating the Item Info prompt you must link it to your items. To do this you'll need to add the previously created Item Attribute to any corresponding Items. Navigate to Inventory > Item List and open the Item Card for the necessary item. Under the Custom Attributes tab click the + button and add the previously created attribute to the item: Now, when this item is added to a transaction on the POS and the cashier navigates to the payment screen the following prompt will be shown:",
+    "category": "Imagine FAQs",
+    "subcategory": "POS",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103128970906/original/ByY3LVszqR38aogvzv1ncayEr1J4CDzuBQ.png?1720626401",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103128044374/original/iEHZaSINZL8pl91We4ZqoOfCpvr_uIie8w.png?1720432345",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103128045948/original/7G5atTgfrhQRv8OgS6jgbS0G7-47_ZnC7Q.png?1720432489",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103128057092/original/-3ywjsfUoI0kIUZS9VtYW6tY1ee499U1Uw.png?1720433590",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103128058094/original/1LPxAM2zw97nf31qsqkD7OLHKa9JPnZViA.png?1720433699"
+    ],
+    "has_images": true,
+    "image_count": 5,
+    "created_at": "2024-07-08T11:17:03+01:00",
+    "updated_at": "2024-07-10T16:47:26+01:00",
+    "id": 103000301486,
+    "tags": []
+  },
+  {
+    "title": "How to restart the Connector",
+    "text": "Push the small power button until the blue light goes off – about 20 seconds. Then push it again to start the connector again. To remotely reboot a connector SSH/Putty into it and run \"sudo reboot\".",
+    "category": "Imagine FAQs",
+    "subcategory": "Connector",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103041855338/original/OXFhz-DssPdOFTtNzcaHoaDVjFskg-0E-Q.png?1691658928"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2023-08-10T10:15:38+01:00",
+    "updated_at": "2024-01-08T14:51:07+00:00",
+    "id": 103000184225,
+    "tags": []
+  },
+  {
+    "title": "Customer display on 2nd monitor",
+    "text": "If the customer would like the customer display to be automatically on the correct monitor when starting up you could do the following: First click on any empty spot on your desktop and click on Display Settings. Identify which monitor is your customer display and remember this for later. Go to POS ADMIN > POS Options > Customer Display > And select either monitor 1 or 2 (or higher) depending which one is your customer display.",
+    "category": "Imagine FAQs",
+    "subcategory": "Connector",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103041856429/original/46jjCXnhwigZB2acf-f8MrC78EBrcespgQ.png?1691659076",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103041856432/original/SdO4gWossFb5pAGuZv3hpOf76xKvrTBiNQ.png?1691659076",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103041856438/original/khSFzfczmLsTUkEhbfWrV2a7kcidzK1bCw.png?1691659076"
+    ],
+    "has_images": true,
+    "image_count": 3,
+    "created_at": "2023-08-10T10:18:13+01:00",
+    "updated_at": "2023-08-10T10:18:15+01:00",
+    "id": 103000184229,
+    "tags": []
+  },
+  {
+    "title": "Imagine Operational Status and Updates Webpage",
+    "text": "The Imagine documentation includes an article in the Introduction on the Status Page which shows you what you can see and subscribe to. The status page itself can be found on K3 Imagine - Status . The target uptime / availability of the Imagine platform is 99.95% excluding planned maintenance.",
+    "category": "Imagine FAQs",
+    "subcategory": "Further Information and Links",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [],
+    "has_images": false,
+    "image_count": 0,
+    "created_at": "2025-02-04T16:04:13+00:00",
+    "updated_at": "2025-04-03T12:37:37+01:00",
+    "id": 103000333180,
+    "tags": []
+  },
+  {
+    "title": "Webinar Recording - Overview of Imagine",
+    "text": "This session was for Danish customers, but the majority is in English. It provides an in-depth look at K3 Imagine, showcasing how it can help you: Deliver seamless and consistent shopping experiences across digital and physical touchpoints Ensure customer satisfaction throughout every stage of the journey Achieve enhanced security with secure data storage and compliance with industry regulations Minimise risks with robust disaster recovery mechanisms",
+    "category": "Imagine FAQs",
+    "subcategory": "Further Information and Links",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [],
+    "has_images": false,
+    "image_count": 0,
+    "created_at": "2025-02-04T16:11:53+00:00",
+    "updated_at": "2025-02-05T09:30:45+00:00",
+    "id": 103000333183,
+    "tags": []
+  },
+  {
+    "title": "How to delete wrong stock-takes in Imagine",
+    "text": "Navigate to Inventory / Stocktake Make the desired selection in date and branches Choose the status of which stock takes you want to clear. Press Submit In the result you can delete the Stock takes by pressing the BIN icon",
+    "category": "Imagine FAQs",
+    "subcategory": "Further Information and Links",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103191222007/original/IHazI5oOQ1iHJ5aH-qeJ0CWAlVKdn1GV0g.png?1739965131",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103191222472/original/7Sw0n5InYA4xm3deeEjDVrQM2KBEOYx76w.png?1739965187",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103191224238/original/7i40iW-BVCZe2ptA6BCuTN1j_oFRbyBHUw.png?1739965383",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103191222629/original/5S3EC2Y6Ft053by9lQJBajbI-fAtvDBkdg.png?1739965208",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103191224967/original/-fXwi8mP2b7M-DlUJu2JU70a79XCIT_YxQ.png?1739965450"
+    ],
+    "has_images": true,
+    "image_count": 5,
+    "created_at": "2025-02-19T11:45:32+00:00",
+    "updated_at": "2025-02-19T11:46:30+00:00",
+    "id": 103000336037,
+    "tags": []
+  }
+]

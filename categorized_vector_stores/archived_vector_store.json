@@ -1,0 +1,129 @@
+[
+  {
+    "title": "Restoring Wasabi Database on Till",
+    "text": "Please see attachment for Wasabi Database Till restore",
+    "category": "ARCHIVED",
+    "subcategory": "Wasabi",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [],
+    "has_images": false,
+    "image_count": 0,
+    "created_at": "2023-06-20T16:17:51+01:00",
+    "updated_at": "2023-06-22T09:30:22+01:00",
+    "id": 103000134090,
+    "tags": []
+  },
+  {
+    "title": "Wasabi Aures ODP 333 Receipt Printer Replacement",
+    "text": "Guide to Replacing a WASABI Toshiba Tec Printer which is still being used around the WASABI estate, this is however being replaced by the Aures ODP 333 White/Black Receipt. Wasabi Tills – YUNO or a HP Pro-desk PC Till & configuration for LS NAV Printer connection/configuration for both specs that uses LS NAV they are different Hardware but the installation remains the same - Go To setup TEC POS Control and Drivers this can be found within control panel Expand the OPOS CONTROL CashDrawer & POSPrinter Once both sections are completed and greyed out in the TEC POS CONTROL and Drivers section. You can now replace or inform the user to Disconnect the Toshiba Receipt Printer and go ahead and Plug in the new replacement which is the Aures ODP-333, this will be picked up by windows as normal via USB. Once connected go to Device and Printers you will see a POSPrinter appear which means this has successfully connected to the till. Next Stage will be installing the Software Drivers for the New ODP 333 Printer Click on the OLE POS Setup-2.71 (ODP333) this will open up the wizard below Go through the wizard below by selecting next - next until wizard finishes Once the wizard finishes click on the Installation Files - Click on the LS Toolbox this will open up the LS Nav Components Go To LS Nav 8.0 Client Components this needs to be run as it will open up a wizard box just click on next, next until the installation is complete this will configure LS POS to work with Aures ODP Printer and get the LS POS Once the LS 8.0 Client Components has completely run its course go to printers and devices and check if POS Printer is listed. Once all the installation has all been completed, Launch the POS & get the user to log in and run a Test a Print via (print last receipt) on the menu of LS NAV this will print out on the new Aures Printer.",
+    "category": "ARCHIVED",
+    "subcategory": "Wasabi",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103031230822/original/eri_AsDiejo-yP0iTZ8OPnCNBT-8vyJkGg.png?1687274887",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103031230832/original/LJx_XFzR1eqMUQr6dZbXrQOqQmIXWn4dBg.png?1687274889",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103031230802/original/DTK9VAk80BB7PnCgR9yZiyVq_0OUQHl8UA.png?1687274882",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103031230827/original/7Jxvpvem94QFbskiiWTdOzyh2rL4VUEKFw.png?1687274888",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103031230811/original/XxRoJeA--uUcTwuw63AMa5GxW_3qc9VUJw.png?1687274886",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103031230829/original/ST909xmQNjcQwUcMgpiZJ0CwxkS3BLuRqQ.png?1687274889",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103031230812/original/XvGKmm_m8qIgAnMIbllEnJpHc9J_bIaQ_g.png?1687274887",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103031230831/original/70U4Lr-BIG30RWIJgdwPqiHBB8UfLta-yQ.png?1687274889",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103031230830/original/K2fV5_KHnH9y2UI3G0ihY-vD2nMjY1kqjg.png?1687274889",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103031230828/original/RyYHEDz23yHfJxjURkZPhdVwCURmtbiPAQ.png?1687274888",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103031230826/original/Uyng1XVqNe6mdiWBrS8eHktxIuyALatUSg.png?1687274888"
+    ],
+    "has_images": true,
+    "image_count": 11,
+    "created_at": "2023-06-20T16:29:07+01:00",
+    "updated_at": "2023-06-22T09:30:41+01:00",
+    "id": 103000134120,
+    "tags": []
+  },
+  {
+    "title": "Wasabi Microsoft Dynamics NAV Error on K3 Payment",
+    "text": "",
+    "category": "ARCHIVED",
+    "subcategory": "Wasabi",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103031232925/original/zNfnA2qiUhVr78kWYbhDMag78HJ5cY8zuQ.png?1687275381"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2023-06-20T16:37:07+01:00",
+    "updated_at": "2023-06-22T09:30:51+01:00",
+    "id": 103000134223,
+    "tags": []
+  },
+  {
+    "title": "Wasabi Ticket Logging Process",
+    "text": "Wasabi - Ticket logging process 18 November 2022 10:06 This is a guide to logging and responding to incident requests from Wasabi. ALSO SEE Wasabi - What's Supported? Incident requests will come in via email from either IT@wasabi.uk.com or NAVSupport@wasabi.uk.com to the uk.support@k3btg.com mailbox The subject line containing the store name/ID – Subject – TicketID (this is Wasabi’s reference number) The email body text will contain the following information Hi K3 Support: Ticket Submitted by: #From# Wasabi Ref: #TicketID# Date: #Date# Ticket Message: #Body# Attachments: #Attachments# When requesting any additional information or closing of the incident must be done by replying to the original email. This ensures duplicate tickets aren’t created and we are providing Wasabi with correct information about call open times etc. From <https://d.docs.live.net/461c27c28087c9c8/Desktop/Wasabi%20ticket%20process.docx",
+    "category": "ARCHIVED",
+    "subcategory": "Wasabi",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103031370961/original/5yYpEquzlRPQEAfNy_YYk31rlvsboBaMqQ.png?1687339794"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2023-06-21T10:30:35+01:00",
+    "updated_at": "2023-06-22T09:31:10+01:00",
+    "id": 103000134465,
+    "tags": []
+  },
+  {
+    "title": "Wasabi What's Supported",
+    "text": "Wasabi - What's Supported? 05 January 2023 14:51 Below is a list of what types of issue are supported by K3 and what's not. Supported Items Till Issues Contact branch directly to troubleshoot PED Contact branch directly to troubleshoot Receipt Printer Contact branch directly to troubleshoot Cashier Drawer Contact branch directly to troubleshoot Display Screen Contact branch directly to troubleshoot Backoffice Contact branch directly to troubleshoot, liaise with Wasabi IT if further action required Phone Contact branch directly to troubleshoot, liaise with Wasabi IT if further action required PC Contact branch directly to troubleshoot, liaise with Wasabi IT if further action required Office Printer Direct branch to contact Apogee: Support@apogeecorp.com Label Printer If it’s allergen label printer, for replacement request, direct branch to use the internal printer request form in Branch Useful Link page Router Contact branch directly to troubleshoot, liaise with Wasabi IT if further action required. Device offline Contact branch directly to troubleshoot, liaise with Wasabi IT if further action required. Sales replication Contact branch directly to troubleshoot. Check whether if Till 1 is online and active public facing IP address. Till 1 offline Contact branch directly to troubleshoot. Primary/ Secondary IP If secondary IP is active, submit CCN to Node4 to update Host File CCN to Node4 If Secondary IP or Primary IP becomes active, submit CCN to Node4 to update host File P1’s Contact branch directly to troubleshoot, liaise with Wasabi IT if further action required Grey items above are those which were in the original agreement, but not supported by us now Non Supported Items Sales Order Recipe related Email Security Related Network Drive Access File recovery MS Applications: OneDrive, Outlook, PowerPoint, Teams, etc M365 Licenses PowerBI Reports Software request BistroHub Menu Items UberEat, JustEat, Deliveroo Password Resets: NAV, O365, email, AD, etc.",
+    "category": "ARCHIVED",
+    "subcategory": "Wasabi",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103031372112/original/H2BZDg_V8_ih3VQmHdJNkEqqL9RTm4yvMg.png?1687339993"
+    ],
+    "has_images": true,
+    "image_count": 1,
+    "created_at": "2023-06-21T10:33:31+01:00",
+    "updated_at": "2023-09-12T15:43:23+01:00",
+    "id": 103000134467,
+    "tags": []
+  },
+  {
+    "title": "Data Switch - What is  isn't contractually supported for Tray",
+    "text": "What to do if you investigate a Tray issue and get to the point where you think the work might be chargeable? If that happens, pass the details onto the Customer Success Manager as per Passing Sales Opportunities to CSMs In essence, if the customer can prove, or we think that an issue is caused by a fault in Tray (not config/how it's been used) or a fault in our cloud platform, then it's included/supported. If not, then the work should probably be chargeable. It's not always that simple, so more guidance below… What Is Supported If a customer has a subscription to use Data Switch and something does not work as expected, what will K3 investigate and help with as included in the subscription fees is listed below: Platform availability issues - note the Status Page once signed in: K3 Dataswitch Status Processing faults which are not thought to be due to data or configuration User Interface not working as expected/as per documentation Limited How-To - point people to the manual for how to do things (we don't provide training free of charge) What is not Supported (and what options are there for the customer) We may investigate something which looks like it's an issue which we do support, but as soon as we conclude that the work should be chargeable, then the customer must be informed, an effort estimate made, and the Opportunity passed to the CSM If we need Solution Delivery to investigate the issue to help determine the cause/solution, their time spent investigating will normally be chargeable (i.e. ad-hoc consulting) The ultimate aim should be to have the customer subscribe to an annual contract with us to maintain knowledge of their DSw configuration and help them out with items which are not supported under the product subscription. This is better for K3 than unpredictable one-off consulting requests, and better for the customer because they have an SLA with us for investigating and fixing these items (no SLA for change requests, but we do have a commitment to have the resource and knowledge available for them). What work we should notdo as part of their annual subscription to use Data Switch (unless they have a specific extra Order/SoW/contract for this) is below: Configuration changes e.g. for business logic changes or if a third party API changes Faults caused by invalid data (i.e. upstream or downstream systems) Faults caused by the customer changing the configuration Note that DataSwitch on-premise is supported by NexSys (was SysPro) i.e. they take 1st line and also maintain the code",
+    "category": "ARCHIVED",
+    "subcategory": "ARCHIVED INTERNAL ARTICLES",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [],
+    "has_images": false,
+    "image_count": 0,
+    "created_at": "2023-06-21T14:09:57+01:00",
+    "updated_at": "2024-07-16T12:12:18+01:00",
+    "id": 103000135014,
+    "tags": []
+  },
+  {
+    "title": "Wasabi User Configuration file Error",
+    "text": "Attached error message appers when Till not logging into Nav - The below instructions should be the first thing to try to get the till back into the Nav login status - Go to the following directory appearing in the error This will take you to the ClientUserSettings as above Rename the ClientUserSettings as below - Once the ClientUserSettings have been renamed, reboot the till and launch Nav this should create a new config file and start Nav",
+    "category": "ARCHIVED",
+    "subcategory": "Wasabi configuration File error",
+    "source": "Cowis Help Database",
+    "url": null,
+    "images": [
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103038406162/original/tesORLg1YH-YbyidzlV92vy70pRgh3KcCw.png?1690218459",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103038414250/original/Y-YBuvENoukmpH69KqkXNw4cYAX_Cl4hgA.png?1690224942",
+      "https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103038415135/original/VSsfzpvy-R2qzssyp0Rpvp4NeUKFX73qog.png?1690225555"
+    ],
+    "has_images": true,
+    "image_count": 3,
+    "created_at": "2023-07-24T20:10:47+01:00",
+    "updated_at": "2023-07-24T20:11:09+01:00",
+    "id": 103000168414,
+    "tags": []
+  }
+]
